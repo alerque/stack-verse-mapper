@@ -11,6 +11,7 @@ var posts = [
 
 var bcv_parser = require("bible-passage-reference-parser/js/en_bcv_parser").bcv_parser;
 var bcv = new bcv_parser;
+bcv.include_apocrypha(true);
 bcv.set_options({
   consecutive_combination_strategy: "separate",
   osis_compaction_strategy: "bcv",
