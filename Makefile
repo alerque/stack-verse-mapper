@@ -1,4 +1,4 @@
-SITES = hermeneutics.stackexchange.com christianity.stackexchange.com
+SITES = hermeneutics christianity
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 
 SHELL = bash
@@ -11,11 +11,13 @@ SHELL = bash
 all: $(SITES)
 
 clean:
-	rm -rf $(SITES)
+	rm -rf $(foreach SITE,$(SITES),$(SITE).stackexchange.com)
 
-%: %.7z
-	mkdir -p $@
-	cd $@ && 7z e "$(BASE)/$<"
+$(SITES): $$@.stackexchange.com/Posts.xml
+
+%.stackexchange.com/Posts.xml: | %.stackexchange.com.7z
+	mkdir -p $*.stackexchange.com
+	cd $*.stackexchange.com && 7z e -y "$(BASE)/$|"
 
 %.7z:
 	./bin/fetch_dump.bash $*

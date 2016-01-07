@@ -61,9 +61,9 @@ Download and extact the data dump for all enabled sites:
 
     make
 
-Or for just a specific site with the full site name:
+Or for just a specific site with the site name:
 
-    make hermeneutics.stackexchange.com
+    make hermeneutics
 
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
