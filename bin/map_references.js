@@ -9,6 +9,9 @@ var posts = [
   { post_id: 0, body: "test John 3:16 stuff Romans 3:23 more stuff" }
 ];
 
+var bcv_parser = require("bible-passage-reference-parser/js/en_bcv_parser").bcv_parser;
+var bcv = new bcv_parser;
+
 posts.forEach(function(post) {
   console.log(post);
 });

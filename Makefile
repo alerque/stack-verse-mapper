@@ -4,7 +4,7 @@ BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 SHELL = bash
 .ONESHELL:
 .SECONDEXPANSION:
-.PHONY: all clean setup
+.PHONY: all clean setup Makefile
 .SECONDARY:
 .PRECIOUS: %.7z
 
@@ -20,6 +20,7 @@ clean:
 
 %: %.stackexchange.com/Posts.xml
 	@echo "Building index for $@.stackexchange.com"
+	./bin/map_references.js $<
 
 %/Posts.xml: | %.7z
 	mkdir -p $*
