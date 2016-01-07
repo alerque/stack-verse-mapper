@@ -1,22 +1,22 @@
 # Stack Verse Mapper
 
 Index any and all references to Bible verses in Stack Exchange sites using the
-public data dumps and inject matches from this index into search results.
+public data dumps and inject matches from this index into search results for
+each site using a user-script.
 
-By default the [Biblical Hermeneutics][bh], [Christianity][cse], and
-[Judaism][miyodeya] sites will be supported, but other sites can be added
-manually if you build the index yourself.
-
-## The Idea
-
-While not the first time such a feature has been discussed, the impetus to
-start this project was [ScottS's meta post][meta].
+Support for [Biblical Hermeneutics][bh], [Christianity][cse], and
+[Judaism][miyodeya] is planned for the user-scipt out of the box, but you will
+be able to add other sides manually if you rebuild the index. Once the
+data-dump is processes and an index is generated, the index data will be saved
+locally by the browser so no third party site is involved.
 
 ## Status
 
-Programming work has only just begun. The concept is being mapped out from
-discussion on the [meta post][meta] and organized into [issues][issues].
-Overall status can be tracked from the [milestones][milestones] page.
+While not the first time such a feature has been discussed, the impetus to
+start this project was [this meta post][meta]. Programming work has only
+just begun. The concept is being mapped out and organized into
+[issues][issues]. Overall status can be tracked from the
+[milestones][milestones] page.
 
 ## Contributing
 
@@ -29,14 +29,14 @@ extend it as they are able.
 ## Usage
 
 So far the system is non-functional. If, as a programmer, you would like to
-play with the backend pieces as they come along, here is how they work.
+play with the backend pieces as they come along, read on…
 
 ### Requirements
 
 #### To use:
 
-* Web browser with userscript manager (Greasemonkey for FF, Tampermorkey for
-  Chrome, etc.)
+* Web browser with userscript manager ([Greasemonkey][gm] for Firefox,
+  [Tampermorkey][tm] for Chrome, etc.)
 
 #### To build, tinker, or regenerate the index:
 
@@ -76,3 +76,5 @@ Or for just a specific site with the site name:
  [bh]: http://hermeneutics.stackexchange.com
  [cse]: http://christianity.stackexchange.com/
  [miyodeya]: http://judaism.stackexchange.com/
+ [gm]: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+ [tm]: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
