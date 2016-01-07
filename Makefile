@@ -13,7 +13,8 @@ all: $(SITES)
 clean:
 	rm -rf $(foreach SITE,$(SITES),$(SITE).stackexchange.com)
 
-$(SITES): $$@.stackexchange.com/Posts.xml
+%: %.stackexchange.com/Posts.xml
+	@echo "Building index for $@.stackexchange.com"
 
 %/Posts.xml: | %.7z
 	mkdir -p $*
