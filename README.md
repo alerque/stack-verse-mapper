@@ -4,9 +4,10 @@ Index any and all references to Bible verses in Stack Exchange sites using the
 public data dumps and inject matches from this index into search results for
 each site using a user-script.
 
-Support for [Biblical Hermeneutics][bh], [Christianity][cse], and
-[Judaism][miyodeya] is planned for the user-scipt out of the box, but you will
-be able to add other sides manually if you rebuild the index. Once the
+Support for [Biblical Hermeneutics][bh], [Christianity][cse],
+[Judaism][miyodeya], [Islam][islam], [History][history], and
+[Skeptics][skeptics] is planned for the user-scipt out of the box, but you will
+be able to add other sites manually if you rebuild the index. Once the
 data-dump is processes and an index is generated, the index data will be saved
 locally by the browser so no third party site is involved.
 
@@ -85,5 +86,8 @@ before the .stackexchange.com in the URL), e.g.:
  [bh]: http://hermeneutics.stackexchange.com
  [cse]: http://christianity.stackexchange.com/
  [miyodeya]: http://judaism.stackexchange.com/
+ [islam]: http://islam.stackexchange.com/
+ [history]: http://history.stackexchange.com/
+ [skeptics]: http://skeptics.stackexchange.com/
  [gm]: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
  [tm]: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo

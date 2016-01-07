@@ -1,4 +1,4 @@
-SITES = hermeneutics christianity judaism
+SITES = hermeneutics christianity judaism islam history skeptics
 
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 SHELL = bash
