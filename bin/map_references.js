@@ -34,7 +34,11 @@ bcv.set_options({
 });
 
 posts.forEach(function(post) {
-  var p = bcv.parse(post.body);
-  console.log(post.id, p.osis());
+  var refs = bcv.parse(post.body);
+  refs.parsed_entities().forEach(function(ref) {
+    for (var i = ref.start.v; i <= ref.end.v; i++) {
+      console.log(post.id, ref.start.b + "." + ref.start.c + "." + i);
+    }
+  });
 });
 
