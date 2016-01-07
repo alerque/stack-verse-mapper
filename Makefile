@@ -20,7 +20,7 @@ clean:
 
 %: %.stackexchange.com/Posts.xml
 	@echo "Building index for $@.stackexchange.com"
-	./bin/map_references.js $<
+	./bin/map_references.js $< $*
 
 %/Posts.xml: | %.7z
 	mkdir -p $*
