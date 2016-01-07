@@ -1,6 +1,6 @@
 SITES = hermeneutics christianity
-BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 
+BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 SHELL = bash
 .ONESHELL:
 .SECONDEXPANSION:
@@ -15,9 +15,9 @@ clean:
 
 $(SITES): $$@.stackexchange.com/Posts.xml
 
-%.stackexchange.com/Posts.xml: | %.stackexchange.com.7z
-	mkdir -p $*.stackexchange.com
-	cd $*.stackexchange.com && 7z e -y "$(BASE)/$|"
+%/Posts.xml: | %.7z
+	mkdir -p $*
+	cd $* && 7z e -y "$(BASE)/$|"
 
 %.7z:
 	./bin/fetch_dump.bash $*
