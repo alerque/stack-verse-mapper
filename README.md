@@ -62,11 +62,14 @@ instalation away.
 
 Clone this repository (or your own fork of it if you plan to contribute)
 
-Download and extact the data dump for all enabled sites:
+Download and extract the data dump for all enabled sites:
 
-    make
+    make all
 
-Or for just a specific site with the site name:
+That will take a while because it has to download all the relevant data dumps,
+but it will ony happen once unless you delete the local data files. If you only
+want to download and process one site, specify the site prefix (the part
+before the .stackexchange.com in the URL), e.g.:
 
     make hermeneutics
 
