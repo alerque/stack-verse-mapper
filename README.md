@@ -1,6 +1,11 @@
 # Stack Verse Mapper
 
-Index Bible verse references in Stack Exchange data dumps.
+Index any and all references to Bible verses in Stack Exchange sites using the
+public data dumps and inject matches from this index into search results.
+
+By default the [Biblical Hermeneutics][bh], [Christianity][cse], and
+[Judaism][miyodeya] sites will be supported, but other sites can be added
+manually if you build the index yourself.
 
 ## The Idea
 
@@ -68,3 +73,6 @@ Or for just a specific site with the site name:
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
  [milestones]: https://github.com/alerque/stack-verse-mapper/milestones
+ [bh]: http://hermeneutics.stackexchange.com
+ [cse]: http://christianity.stackexchange.com/
+ [miyodeya]: http://judaism.stackexchange.com/
