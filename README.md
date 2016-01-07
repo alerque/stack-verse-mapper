@@ -52,16 +52,17 @@ dependencies will depend on who implements what. (See discussion in issue #5.)
 Eventually, the end user UI should just be a userscript or browser extention
 instalation away.
 
-### Development Setup
+### Development Setup & Usage
 
 Clone this repository (or your own fork of it if you plan to contribute)
 
-### Development Usage
+Download and extact the data dump for all enabled sites:
 
-Download and exctact the data dump for a site (e.g.
-hermeneutics.stackexchange.com)
+    make
 
-    ./init.bash <full_site_name>
+Or for just a specific site with the full site name:
+
+    make hermeneutics.stackexchange.com
 
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
