@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -e
 
 function flunk() {
@@ -22,9 +21,4 @@ case $1 in
         ;;
 esac
 
-# Download and extract the data dump
-dump="${site}.7z"
-curl -o "$dump" -C - --progress $dump_url
-mkdir -p $site
-cd $site
-7z e "../$dump"
+curl -o "${site}.7z" -C - --progress $dump_url
