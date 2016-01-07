@@ -1,13 +1,11 @@
 #!/usr/bin/env node
 
-var xml_file = process.argv[1];
+var xml_file = process.argv[2];
+var fs = require('fs');
+var posts_dump = fs.readFileSync(xml_file, { encoding: 'utf8' });
 
-// TODO: parse XML file and iterate through the posts instead of this dummy array
-var posts = [
-  { id: 0, body: "test Romans 10:4 stuff" },
-  { id: 1, body: "test Revalation 7:6-10 stuff" },
-  { id: 2, body: "test John 3:16 stuff Romans 3:23 more stuff" }
-];
+var xml_parser = require('xml2json');
+var posts = xml_parser.toJson(posts_dump, { object: true, coerce: true }).posts.row;
 
 var bcv_parser = require("bible-passage-reference-parser/js/en_bcv_parser").bcv_parser;
 var bcv = new bcv_parser;
@@ -35,11 +33,10 @@ bcv.set_options({
 });
 
 posts.forEach(function(post) {
-  var refs = bcv.parse(post.body);
+  var refs = bcv.parse(post.Body);
   refs.parsed_entities().forEach(function(ref) {
     for (var i = ref.start.v; i <= ref.end.v; i++) {
-      console.log(post.id, ref.start.b + "." + ref.start.c + "." + i);
+      console.log(post.Id, ref.start.b + "." + ref.start.c + "." + i);
     }
   });
 });
-
