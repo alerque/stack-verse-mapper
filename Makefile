@@ -18,12 +18,15 @@ node_modules:
 clean:
 	rm -rf $(foreach SITE,$(SITES),$(SITE).stackexchange.com)
 
-%: %.txt
+%: %.txt.gz
 	@echo "Finished $*"
 
 %.txt: %.stackexchange.com/Posts.xml
 	@echo "Rebuilding index for $@.stackexchange.com"
 	./bin/map_references.js $< $* > $@
+
+%.txt.gz: %.txt
+	gzip -k $<
 
 %/Posts.xml: | %.7z
 	mkdir -p $*
