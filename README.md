@@ -80,6 +80,16 @@ before the .stackexchange.com in the URL), e.g.:
 
     make hermeneutics
 
+Each site generated well build an index of verse references with post links in
+a text file. For now you can search for refereces in OSIS format with grep:
+
+    grep '^Gen.1.1 ' hermeneutics.txt
+
+If you are looking for _relevant_ posts try sorting the list by number of hits
+per post:
+
+    grep '^Gen.1.1 ' hermeneutics.txt | sort | uniq -c | sort -n
+
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
  [milestones]: https://github.com/alerque/stack-verse-mapper/milestones

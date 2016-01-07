@@ -18,9 +18,12 @@ node_modules:
 clean:
 	rm -rf $(foreach SITE,$(SITES),$(SITE).stackexchange.com)
 
-%: %.stackexchange.com/Posts.xml
-	@echo "Building index for $@.stackexchange.com"
-	./bin/map_references.js $< $*
+%: %.txt
+	@echo "Finished $*"
+
+%.txt: %.stackexchange.com/Posts.xml
+	@echo "Rebuilding index for $@.stackexchange.com"
+	./bin/map_references.js $< $* > $@
 
 %/Posts.xml: | %.7z
 	mkdir -p $*
