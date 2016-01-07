@@ -10,12 +10,12 @@ start this project was [ScottS's meta post][meta].
 ## Status
 
 Programming work has only just begun. The concept is being mapped out from
-posts on the meta site and organized into [issues][issues]. Overall status
-can be tracked from the [milestones][milestones] page.
+discussion on the [meta post][meta] and organized into [issues][issues].
+Overall status can be tracked from the [milestones][milestones] page.
 
 ## Contributing
 
-Anyone with ideas is invited to participate in the issue tracker adding how
+Anyone with ideas is invited to participate in the issue tracker—adding how
 they think it should work or discussing implementation details.
 
 Anyone that would like to contribute code is invited to fork this repo and
@@ -36,7 +36,8 @@ play with the backend pieces as they come along, here is how they work.
 #### To build, tinker, or regenerate the index:
 
 (These are projected as some of this isn't implemented yet and actual
-dependencies will depend on who implements what. (See discussion in issue #5.)
+dependencies will depend on who implements what. See the discussion in
+[issue #5](https://github.com/alerque/stack-verse-mapper/issues/5).)
 
 * make (to configure and build the system)
 * bash (to run various support scripts)
