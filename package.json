@@ -1,5 +1,6 @@
 {
   "dependencies": {
-	  "bible-passage-reference-parser": ">= 0.0.0"
+	  "bible-passage-reference-parser": ">= 0.0.0",
+	  "xml2json": ">= 0.9.0"
   }
 }
