@@ -4,11 +4,16 @@ BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 SHELL = bash
 .ONESHELL:
 .SECONDEXPANSION:
-.PHONY: all clean
+.PHONY: all clean setup
 .SECONDARY:
 .PRECIOUS: %.7z
 
-all: $(SITES)
+all: setup $(SITES)
+
+setup: node_modules
+
+node_modules:
+	npm install
 
 clean:
 	rm -rf $(foreach SITE,$(SITES),$(SITE).stackexchange.com)

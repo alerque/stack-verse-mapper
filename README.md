@@ -60,7 +60,13 @@ instalation away.
 
 ### Development Setup & Usage
 
-Clone this repository (or your own fork of it if you plan to contribute)
+Clone this repository (or your own fork of it if you plan to contribute).
+
+    git clone git@github.com:alerque/stack-verse-mapper.git
+
+Download and setup the dependencies:
+
+    make setup
 
 Download and extract the data dump for all enabled sites:
 
