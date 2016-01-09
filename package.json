@@ -1,6 +1,19 @@
 {
+  "name": "stack-verse-mapper",
+  "version": "0.1.0",
+  "license": "LGPL-3.0",
+  "description": "Index any and all references to Bible verses in Stack Exchange sites using the public data dumps and inject matches from this index into search results for each site using a user-script.",
+  "keywords": [
+    "stackexchange",
+    "bible"
+  ],
+  "repository": "alerque/stack-verse-mapper",
+  "bugs": {
+    "url": "https://github.com/alerque/stack-verse-mapper/issues"
+  },
+  "homepage": "https://github.com/alerque/stack-verse-mapper",
   "dependencies": {
-	  "bible-passage-reference-parser": "^1.0.0",
-	  "xml2json": "^0.9.0"
+    "bible-passage-reference-parser": "^1.0.0",
+    "xml2json": "^0.9.0"
   }
 }
