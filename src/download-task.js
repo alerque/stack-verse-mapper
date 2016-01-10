@@ -28,7 +28,7 @@ gulp.task( 'download', function()
 				{
 					if ( err )
 					{
-						console.log( 'Downloading ' + filename );
+						console.log( 'Downloading: ' + filename );
 						var downloader = new Download().get( 'https://archive.org/download/stackexchange/' + filename, 'data' );
 						resolve( Promise.promisify( downloader.run, { context: downloader } )() );
 					}
@@ -39,7 +39,7 @@ gulp.task( 'download', function()
 				});
 			}).then( function()
 			{
-				console.log( 'Unzipping ' + filename );
+				console.log( 'Unzipping: ' + filename );
 				return new Zip().extract( path, 'data/' + site );
 			});
 		});
