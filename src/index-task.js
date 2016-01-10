@@ -58,6 +58,10 @@ function create_index( file, callback )
 				{
 					post.title = bcv.parse( post.title ).osis();
 				}
+				if ( !post.body )
+				{
+					delete post.body;
+				}
 				if ( !post.title )
 				{
 					delete post.title;
@@ -72,10 +76,13 @@ function create_index( file, callback )
 			.map( function( post )
 			{
 				// Split the osis comma separated references
-				post.body = post.body.split( ',' );
+				if ( post.body )
+				{
+					post.body = _.uniq( post.body.split( ',' ) );
+				}
 				if ( post.title )
 				{
-					post.title = post.title.split( ',' );
+					post.title = _.uniq( post.title.split( ',' ) );
 				}
 				return post;
 			})

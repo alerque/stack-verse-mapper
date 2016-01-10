@@ -10,3 +10,12 @@ gulp.task( 'clean', function ()
 {
 	return del( ['data/**/*',] );
 });
+
+gulp.task( 'test', function ()
+{
+	var searcher = require( './src/search.js' );
+
+	var index = require( './data/hermeneutics/hermeneutics-index.json' );
+
+	console.log( searcher( 'matt 5', index.posts ) );
+});
