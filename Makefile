@@ -1,5 +1,4 @@
-SITES = hermeneutics christianity judaism islam history skeptics
-
+SITES = $(shell jq -r '.sites[]' -- config.json)
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 DATA := $(BASE)/data
 SHELL = bash
