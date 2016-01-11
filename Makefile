@@ -1,6 +1,7 @@
 SITES = hermeneutics christianity judaism islam history skeptics
 
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
+DATA := $(BASE)/data
 SHELL = bash
 .ONESHELL:
 .SECONDEXPANSION:
@@ -16,21 +17,22 @@ node_modules:
 	npm install
 
 clean:
-	rm -rf $(foreach SITE,$(SITES),$(SITE).stackexchange.com)
+	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
 
 %: %.txt.gz
 	@echo "Finished $*"
 
-%.txt: %.stackexchange.com/Posts.xml
-	@echo "Rebuilding index for $@.stackexchange.com"
+%.txt: $(DATA)/%/Posts.xml
+	@echo "Rebuilding index for $*.stackexchange.com"
 	./bin/map_references.js $< $* > $@
 
 %.txt.gz: %.txt
 	gzip -k $<
 
-%/Posts.xml: | %.7z
-	mkdir -p $*
-	cd $* && 7z e -y "$(BASE)/$|"
+$(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
+	mkdir -p $(DATA)/$*
+	cd $(DATA)/$* && 7z e -y "$|"
 
-%.7z:
+$(DATA)/%.7z:
+	mkdir -p $(DATA)
 	./bin/fetch_dump.bash $*
