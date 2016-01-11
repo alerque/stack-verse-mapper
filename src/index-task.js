@@ -1,4 +1,5 @@
 var _ = require( 'lodash' );
+var child_process = require( 'child_process' );
 var fs = require( 'fs' );
 var gulp = require( 'gulp' );
 var htmlToText = require( 'html-to-text' );
@@ -7,8 +8,48 @@ var through = require( 'through2' );
 var xmlFlow = require( 'xml-flow' );
 
 var bcv = require( './bcv_parser.js' ).bcv;
+var util = require ( './util.js' );
 
-gulp.task( 'index', [ 'download' ], function()
+gulp.task( 'index', [  ], function()
+{
+	return util.run_tasks({
+		sites: [ 'christianity', 'hermeneutics' ],
+		src: function( site ) { return './data/' + site + '/Posts.xml'; },
+		dest: function( site ) { return './data/' + site + '/' + site + '-index.json'; },
+		tasks: [ { path: './bin/parse_xml.js', label: 'parsing xml' }, ],
+	});
+});
+
+gulp.task( 'index-2', [  ], function()
+{
+	var streamHandler = through.obj( function( file, enc, callback )
+	{
+		file.label = file.path.replace( file.base, '' );
+		file.site = file.label.split( '/' )[0];
+		console.log( file.site, file.contents.length );
+
+		var child = child_process.fork( './bin/parse_xml.js', [], { silent: true } );
+
+		/*child.on( 'message', function( msg )
+		{
+			console.log( parseInt( msg.progress / file.contents.length * 100 ) + '%' );
+		});*/
+		file.pipe( child.stdin );
+
+		var writer = fs.createWriteStream( path.dirname( file.path ) + '/' + 'Posts.json' );
+		child.stdout.pipe( writer );
+		writer.on( 'finish', function()
+		{
+			console.log('write end');
+			callback();
+		});
+	});
+
+	return gulp.src( 'data/*/Posts.xml' )
+		.pipe( streamHandler );
+});
+
+gulp.task( 'index-old', [ 'download' ], function()
 {
 	var streamHandler = through.obj( function( file, enc, callback )
 	{
@@ -25,7 +66,7 @@ function create_index( file, callback )
 {
 	xmlParser( file, extract_post_data, function( data )
 	{
-		console.log( 'Parsing Verse references: ' + file.label );
+		/*console.log( 'Parsing Verse references: ' + file.label );
 		data = _( data )
 			.map( function( post )
 			{
@@ -68,7 +109,7 @@ function create_index( file, callback )
 		data = {
 			site: file.site,
 			posts: data,
-		};
+		};*/
 		fs.writeFile( path.dirname( file.path ) + '/' + file.site + '-index.json', JSON.stringify( data ), callback );
 	});
 }
