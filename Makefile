@@ -30,7 +30,7 @@ clean:
 
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
 	mkdir -p $(DATA)/$*
-	cd $(DATA)/$* && 7z e -y "$|"
+	cd $(DATA)/$* && 7z e -y "$|" Posts.xml
 
 $(DATA)/%.7z:
 	mkdir -p $(DATA)
