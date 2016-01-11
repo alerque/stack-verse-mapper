@@ -17,7 +17,7 @@ xmlStream.on( 'tag:row', function( data )
 
 xmlStream.on( 'end', function()
 {
-	process.stdout.end( '[' + results.slice( 1 ) + ']' );
+	process.stdout.write( '[' + results.slice( 1 ) + ']' );
 });
 
 function extract_post_data( data )

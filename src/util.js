@@ -44,27 +44,38 @@ module.exports.run_tasks = function( options )
 					// Create the src and dest streams, and call resolve when the dest stream has been written to
 					var src_stream = fs.createReadStream( options.src( site ) );
 					src_stream.size = err ? 0 : stats.size;
-					var dest_stream = fs.createWriteStream( options.dest( site ) );
-					dest_stream.on( 'finish', resolve );
 
 					// Pipe the src stream through each task
 					var final_stream = options.tasks.reduce( function( stream, task )
 					{
-						var bar = stack.push( site + ': ' + task.label, 'bar' );
 						var child = child_process.fork( task.path, [], { silent: true } );
+						child.stderr.pipe( process.stderr );
 						stream.pipe( child.stdin );
-						if ( stream.size )
+
+						// Set up a progress bar
+						var bar;
+						child.on( 'message', function( msg )
 						{
-							child.on( 'message', function( msg )
+							if ( !bar )
 							{
-								bar.percent( parseInt( msg.progress / stream.size * 100 ) );
-							});
-						}
+								bar = stack.push( site + ': ' + task.label, 'bar' );
+							}
+							if ( msg.total )
+							{
+								bar.percent( parseInt( msg.progress / msg.total * 100 ) );
+							}
+							else
+							{
+								bar.percent( parseInt( msg.progress / ( stream.size || 50000000 ) * 100 ) );
+							}
+						});
 						return child.stdout;
 					}, src_stream );
 
 					// And deliver it to the dest stream
+					var dest_stream = fs.createWriteStream( options.dest( site ) );
 					final_stream.pipe( dest_stream );
+					dest_stream.on( 'finish', resolve );
 				});
 			});
 		});
