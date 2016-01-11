@@ -1,3 +1,6 @@
 *~
 data
 node_modules
+*.txt
+*.gz
+*.7z
