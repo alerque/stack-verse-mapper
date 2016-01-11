@@ -40,7 +40,7 @@ gulp.task( 'download', function()
 			}).then( function()
 			{
 				console.log( 'Unzipping: ' + filename );
-				return new Zip().extract( path, 'data/' + site );
+				return new Zip().extract( path, 'data/' + site, { wildcards: [ 'Posts.xml' ] } );
 			});
 		});
 	} );
