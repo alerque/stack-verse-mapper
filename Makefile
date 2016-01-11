@@ -8,7 +8,7 @@ SHELL = bash
 .SECONDARY:
 .PRECIOUS: %.7z
 
-all: setup $(SITES)
+all: setup $(SITES) indexes
 
 setup: node_modules
 
@@ -17,6 +17,9 @@ node_modules:
 
 clean:
 	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
+
+indexes: $(SITES)
+	gulp index
 
 %: %.txt.gz
 	@echo "Finished $*"
