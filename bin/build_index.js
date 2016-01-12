@@ -12,20 +12,11 @@ util.stdin_reader( build_index );
 function build_index( data )
 {
 	data = JSON.parse( data );
-	var total = data.length, count = 0;
 	
 	var titles = {};
 	var title_references = {};
 	var posts = data.map( function( post )
 	{
-		// First send a progress message
-		if ( process.send && ( count++ % 100 ) === 0 )
-		{
-			process.send({
-				total: total,
-				progress: count,
-			});
-		}
 		// Parse the verse references
 		post.body = bcv.parse( post.body ).osis();
 		if ( post.title )
@@ -53,11 +44,13 @@ function build_index( data )
 		// Split the osis comma separated references
 		if ( post.body )
 		{
-			post.body = _.uniq( post.body.split( ',' ) );
+			post.body = _.uniq( post.body.split( ',' ) )
+				.map( util.parse_ref );
 		}
 		if ( post.title )
 		{
-			post.title = _.uniq( post.title.split( ',' ) );
+			post.title = _.uniq( post.title.split( ',' ) )
+				.map( util.parse_ref );
 		}
 		// Preserve the title of this post
 		title_references[ post.type === 'q' ? post.id : post.parent ] = true;

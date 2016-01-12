@@ -42,7 +42,7 @@ function extract_post_data( data )
 	if ( post.type === 'q' )
 	{
 		post.title = data.title;
-		post.tags = data.tags;
+		//post.tags = data.tags;
 	}
 	if ( post.type === 'a' )
 	{
