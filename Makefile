@@ -32,7 +32,7 @@ all: setup $(SITES)
 
 # Add demo target to show off a sample
 demo: setup hermeneutics
-	gulp demo
+	./bin/search.js hermeneutics "Rev 5:1"
 
 # Rule installing and configuring the local environment
 setup: node_modules
