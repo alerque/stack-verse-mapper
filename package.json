@@ -15,12 +15,13 @@
   "dependencies": {
     "bible-passage-reference-parser": "^1.0.0",
     "bluebird": "^3.1.1",
+    "clui": "^0.3.1",
     "del": "^2.2.0",
     "download": "^4.4.3",
     "gulp": "^3.9.0",
     "html-to-text": "^1.5.1",
     "lodash": "^3.10.1",
-    "multimeter-stack": "^0.2.0",
+    "log-update": "^1.0.2",
     "node-7z": "^0.4.0",
     "through2": "^2.0.0",
     "xml-flow": "^0.4.0"
