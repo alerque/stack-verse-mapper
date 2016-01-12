@@ -49,7 +49,7 @@ clean:
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
 # make that the dependency
-%: $(DATA)/%-index.json.gz
+%: $(DATA)/%-index.json
 	@echo "Finished $*"
 
 # Rule to build an index from a set of posts.
@@ -87,8 +87,11 @@ $(DATA)/%.7z:
 	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
 
 # Rule for generating static site
-gh-pages: all
+gh-pages: all $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
 	@echo "Building static site to host on Github Pages"
 	git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
 	cd gh-pages
 	echo '<html><body></body></html>' > index.html
+
+gh-pages/data/%: $(DATA)/%
+	cp $^ $@
