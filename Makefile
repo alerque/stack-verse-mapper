@@ -43,8 +43,8 @@ node_modules:
 
 # Rule to blow away our source data and start over
 clean:
-	-rm -r $(foreach SITE,$(SITES),$(DATA)/$(SITE))
-	-rm $(DATA)/*-{index,posts}.json{,.gz}
+	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
+	rm -f $(DATA)/*-{index,posts}.json{,.gz}
 
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
