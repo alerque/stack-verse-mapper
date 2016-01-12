@@ -31,13 +31,22 @@ function parse_xml( data )
 
 function extract_post_data( data )
 {
-	return {
+	var post = {
 		id: +data.id,
 		type: +data.posttypeid === 1 ? 'q' : 'a',
 		body: htmlToText.fromString( data.body, {
 			wordwrap: false,
 			ignoreHref: true,
 		}),
-		title: data.title,
 	};
+	if ( post.type === 'q' )
+	{
+		post.title = data.title;
+		post.tags = data.tags;
+	}
+	if ( post.type === 'a' )
+	{
+		post.parent = +data.parentid;
+	}
+	return post;
 }

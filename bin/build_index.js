@@ -13,9 +13,10 @@ function build_index( data )
 {
 	data = JSON.parse( data );
 	var total = data.length, count = 0;
-
-	data = _( data )
-	.map( function( post )
+	
+	var titles = {};
+	var title_references = {};
+	var posts = data.map( function( post )
 	{
 		// First send a progress message
 		if ( process.send && ( count++ % 100 ) === 0 )
@@ -29,6 +30,7 @@ function build_index( data )
 		post.body = bcv.parse( post.body ).osis();
 		if ( post.title )
 		{
+			titles[ post.id ] = post.title;
 			post.title = bcv.parse( post.title ).osis();
 		}
 		if ( !post.body )
@@ -57,9 +59,20 @@ function build_index( data )
 		{
 			post.title = _.uniq( post.title.split( ',' ) );
 		}
+		// Preserve the title of this post
+		title_references[ post.type === 'q' ? post.id : post.parent ] = true;
 		return post;
-	})
-	.value();
-
-	process.stdout.write( JSON.stringify( data ) );
+	});
+	
+	// Filter the list of titles
+	titles = _.pick( titles, function( title, id )
+	{
+		return title_references[ id ];
+	});
+	
+	var output = {
+		posts: posts,
+		titles: titles,
+	};
+	process.stdout.write( JSON.stringify( output ) );
 }
