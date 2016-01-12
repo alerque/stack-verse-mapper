@@ -22,7 +22,8 @@
     "html-to-text": "^1.5.1",
     "lodash": "^3.10.1",
     "log-update": "^1.0.2",
-    "node-7z": "^0.4.0",
+    "minimist": "^1.2.0",
+    "@curiousdannii/node-7z": "^0.4.1",
     "through2": "^2.0.0",
     "xml-flow": "^0.4.0"
   }

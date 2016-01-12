@@ -4,28 +4,14 @@
 
 var _ = require( 'lodash' );
 var bcv = require( '../src/bcv_parser.js' ).bcv;
+var util = require( '../src/util.js' );
 
-// First acquire the complete stdin buffer
-process.stdin.setEncoding('utf8');
-var data = '';
+util.stdin_reader( build_index );
 
-process.stdin.on( 'readable', function()
-{
-	var chunk = process.stdin.read();
-	if ( chunk !== null )
-	{
-		data += chunk;
-	}
-});
-
-process.stdin.on( 'end', function()
-{
-	build_index( JSON.parse( data ) );
-});
-
-// Now to build the index
+// Build the index
 function build_index( data )
 {
+	data = JSON.parse( data );
 	var total = data.length, count = 0;
 
 	data = _( data )
