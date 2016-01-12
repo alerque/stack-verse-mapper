@@ -2,23 +2,37 @@
 
 // Parse Posts.xml from a Stack Exchange site archive, extracting the information we need
 
+var fs = require( 'fs' );
 var htmlToText = require( 'html-to-text' );
+var minimist = require( 'minimist' );
 var xmlFlow = require( 'xml-flow' );
-var util = require ( '../src/util.js' );
+var util = require( '../src/util.js' );
 
-// Parse the xml file
-var xmlStream = xmlFlow( util.progress_stream( process.stdin ) );
-var results = '';
+var argv = minimist( process.argv );
 
-xmlStream.on( 'tag:row', function( data )
+// Start when the previous task ends
+util.stdin_reader( parse_xml );
+
+function parse_xml()
 {
-	results += ',' + JSON.stringify( extract_post_data( data ) );
-});
+	// Parse the xml file
+	fs.stat( argv.src, function( err, stats )
+	{
+		var src_stream = fs.createReadStream( argv.src );
+		var xmlStream = xmlFlow( util.progress_stream( src_stream, stats.size ) );
+		var results = '';
 
-xmlStream.on( 'end', function()
-{
-	process.stdout.end( '[' + results.slice( 1 ) + ']' );
-});
+		xmlStream.on( 'tag:row', function( data )
+		{
+			results += ',' + JSON.stringify( extract_post_data( data ) );
+		});
+
+		xmlStream.on( 'end', function()
+		{
+			process.stdout.write( '[' + results.slice( 1 ) + ']' );
+		});
+	});
+}
 
 function extract_post_data( data )
 {
