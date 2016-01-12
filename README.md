@@ -82,6 +82,11 @@ To get a quick and dirty sample of running a query, run
 
     make demo
 
+Once indexes are generated, you can search from the command line by passing a
+site and a query to the search script:
+
+    ./bin/search.js hermeneutics 'Rev 5:1'
+
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
  [milestones]: https://github.com/alerque/stack-verse-mapper/milestones
