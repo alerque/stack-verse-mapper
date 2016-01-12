@@ -8,7 +8,7 @@ bcv.include_apocrypha( true );
 bcv.set_options({
 	consecutive_combination_strategy: "separate",
 	osis_compaction_strategy: "bcv",
-	book_sequence_strategy: "include",
+	book_sequence_strategy: "ignore",
 	invalid_sequence_strategy: "ignore",
 	sequence_combination_strategy: "separate",
 	punctuation_strategy: "us",
