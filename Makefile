@@ -22,7 +22,7 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean setup Makefile
+.PHONY: all clean setup gh-pages Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
@@ -85,3 +85,10 @@ $(DATA)/%.7z:
 	mkdir -p $(DATA)
 	curl -o /dev/null -s -f -I $(call archive_url,$*)
 	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
+
+# Rule for generating static site
+gh-pages: all
+	@echo "Building static site to host on Github Pages"
+	git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
+	cd gh-pages
+	echo '<html><body></body></html>' > index.html
