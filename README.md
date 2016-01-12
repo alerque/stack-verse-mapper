@@ -59,30 +59,28 @@ Clone this repository (or your own fork of it if you plan to contribute).
 
     git clone git@github.com:alerque/stack-verse-mapper.git
 
-Download and setup the dependencies:
-
-    make setup
-
 Download and extract the data dump for all enabled sites:
 
     make all
 
-That will take a while because it has to download all the relevant data dumps,
-but it will ony happen once unless you delete the local data files. If you only
-want to download and process one site, specify the site prefix (the part
-before the .stackexchange.com in the URL), e.g.:
+That will take *long time* because it has to download all the relevant data
+dumps. The downloads will be preserved, so future index rebuilds will be
+faster. You can also speed up the process by building more than one index in
+parallel:
+
+    make -j 8 all
+
+If you'd like to build just one site, specify the site prefix (the part before
+the .stackexchange.com in the site's URL), e.g.:
 
     make hermeneutics
 
-Each site generated well build an index of verse references with post links in
-a text file. For now you can search for refereces in OSIS format with grep:
+Each site generated will produce a queryable index of posts with references
+in `<site>-index.json`.
 
-    grep '^Gen.1.1 ' hermeneutics.txt
+To get a quick and dirty sample of running a query, run
 
-If you are looking for _relevant_ posts try sorting the list by number of hits
-per post:
-
-    grep '^Gen.1.1 ' hermeneutics.txt | sort | uniq -c | sort -n
+    make demo
 
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
