@@ -71,7 +71,17 @@ $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
 	mkdir -p $(DATA)/$*
 	cd $(DATA)/$* && 7z e -y "$|" Posts.xml
 
-# Rule for fetching site specific data dumps
+# Find the mirror site and get the actual dump URL for a site. The permalink
+# redirects to an automatically chosen mirror, but the redirect does not return
+# a 404 error if the site doesn't exist. Besides this, we can't resume downloads
+# against a redirect URL anyway so we need to follow it and find the target.
+define archive_url
+$(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stackexchange/$(1).7z -o /dev/null)
+endef
+
+# Rule for fetching site specific data dumps. This checks if the site exists,
+# then attempts to update or resume downloading the dump file.
 $(DATA)/%.7z:
 	mkdir -p $(DATA)
-	./bin/fetch_dump.bash $*
+	curl -o /dev/null -s -f -I $(call archive_url,$*)
+	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
