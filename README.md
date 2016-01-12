@@ -45,14 +45,8 @@ play with the backend pieces as they come along, read on…
 dependencies will depend on who implements what. See the discussion in
 [issue #5](https://github.com/alerque/stack-verse-mapper/issues/5).)
 
-* make (to configure and build the system)
-* bash (to run various support scripts)
-* curl (for downloading)
-* 7z (to extract the data dumps)
-* nodejs (to run the verse parser) + modules…
-* python (to run scripts that parse the XML data dumps) + modules…
-* sqlite (for storing and manipulating the index)
-* ant (for generaating browser extentions from userscripts)
+* make, bash, curl, 7z, gzip, jq
+* nodejs, npm, gulp
 
 ### Instalation & Usage
 
