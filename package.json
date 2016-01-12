@@ -16,6 +16,7 @@
     "bible-passage-reference-parser": "^1.0.0",
     "bluebird": "^3.1.1",
     "clui": "^0.3.1",
+    "ttys": "^0.0.3",
     "del": "^2.2.0",
     "download": "^4.4.3",
     "gulp": "^3.9.0",
