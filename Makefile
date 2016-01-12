@@ -2,7 +2,7 @@
 # config.json file. The jq command parses this and gives us a text version.
 # This can  be overridden from the command line with:
 #     make SITES='site1 site2' [target]
-SITES = $(shell jq -r '.sites[]' -- config.json)
+SITES = $(shell jq -r '.sites | keys[]' -- config.json)
 
 # Location of the project so we don't cross-wire relative paths.
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)

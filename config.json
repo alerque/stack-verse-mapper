@@ -1,10 +1,22 @@
 {
-  "sites": [
-    "hermeneutics",
-    "christianity",
-    "judaism",
-    "islam",
-    "history",
-    "skeptics"
-  ]
+  "sites": {
+    "hermeneutics": {
+      "referral": 36
+    },
+    "christianity": {
+      "referral": 30
+    },
+    "judaism": {
+      "referral": 836
+    },
+    "islam": {
+      "referral": 75
+    },
+    "history": {
+      "referral": 177
+    },
+    "skeptics": {
+      "referral": 933
+    }
+  }
 }
