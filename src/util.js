@@ -5,11 +5,11 @@ var fs = require( 'fs' );
 var multimeter = require( 'multimeter-stack' );
 var Promise = require( 'bluebird' );
 var through = require( 'through2' );
+var config = require( '../config.json' );
 
 // Run a series of tasks in parallel for each site, returning a promise
 /*
 	options = {
-		sites: [ 'christianity', 'hermeneutics' ],
 		src: // function which takes a site name a returns a path for the source Posts.xml file
 		dest: // function which takes a site name a returns a path for the destination index.json file
 		tasks: [ { // An array of paths, which will be forked, and then piped together
@@ -35,7 +35,7 @@ module.exports.run_tasks = function( options )
 	})
 	.then( function()
 	{
-		return Promise.map( options.sites, function( site )
+		return Promise.map( config.sites, function( site )
 		{
 			return new Promise( function( resolve, reject )
 			{

@@ -6,6 +6,7 @@ var htmlToText = require( 'html-to-text' );
 var path = require( 'path' );
 var through = require( 'through2' );
 var xmlFlow = require( 'xml-flow' );
+var config = require( '../config.json' );
 
 var bcv = require( './bcv_parser.js' ).bcv;
 var util = require ( './util.js' );
@@ -13,7 +14,7 @@ var util = require ( './util.js' );
 gulp.task( 'index', [  ], function()
 {
 	return util.run_tasks({
-		sites: [ 'christianity', 'hermeneutics' ],
+		sites: config.sites,
 		src: function( site ) { return './data/' + site + '/Posts.xml'; },
 		dest: function( site ) { return './data/' + site + '/' + site + '-index.json'; },
 		tasks: [ { path: './bin/parse_xml.js', label: 'parsing xml' }, ],

@@ -1,5 +1,4 @@
-SITES = hermeneutics christianity judaism islam history skeptics
-
+SITES = $(shell jq -r '.sites[]' -- config.json)
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 DATA := $(BASE)/data
 SHELL = bash
@@ -9,7 +8,7 @@ SHELL = bash
 .SECONDARY:
 .PRECIOUS: %.7z
 
-all: setup $(SITES)
+all: setup $(SITES) indexes
 
 setup: node_modules
 
@@ -18,6 +17,9 @@ node_modules:
 
 clean:
 	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
+
+indexes: $(SITES)
+	gulp index
 
 %: %.txt.gz
 	@echo "Finished $*"
@@ -31,7 +33,7 @@ clean:
 
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
 	mkdir -p $(DATA)/$*
-	cd $(DATA)/$* && 7z e -y "$|"
+	cd $(DATA)/$* && 7z e -y "$|" Posts.xml
 
 $(DATA)/%.7z:
 	mkdir -p $(DATA)
