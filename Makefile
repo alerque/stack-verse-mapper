@@ -44,32 +44,32 @@ node_modules:
 # Rule to blow away our source data and start over
 clean:
 	-rm -r $(foreach SITE,$(SITES),$(DATA)/$(SITE))
-	-rm *-{index,posts}.json
+	-rm $(DATA)/*-{index,posts}.json{,.gz}
 
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
 # make that the dependency
-%: %-index.json.gz
+%: $(DATA)/%-index.json.gz
 	@echo "Finished $*"
 
 # Rule to build an index from a set of posts.
-%-index.json: %-posts.json
+$(DATA)/%-index.json: $(DATA)/%-posts.json
 	@echo "Rebuilding index for $*.stackexchange.com"
 	./bin/build_index.js < $< > $@
 
 # Rule to extract the source data and build a json version of the posts
-%-posts.json: $(DATA)/%/Posts.xml
+$(DATA)/%-posts.json: $(DATA)/%/Posts.xml
 	@echo "Converting XML to JSON for $*.stackexchange.com"
 	./bin/parse_xml.js --src=$< < $< > $@
-
-# Any compressed targets are just...compressed versions of their inputs
-%.gz: %
-	gzip -f -k $<
 
 # Rule for extracting the XML we need from the zips
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
 	mkdir -p $(DATA)/$*
 	cd $(DATA)/$* && 7z e -y "$|" Posts.xml
+
+# Rule for outputing compressed versions or any input
+%.gz: %
+	gzip -f -k $<
 
 # Find the mirror site and get the actual dump URL for a site. The permalink
 # redirects to an automatically chosen mirror, but the redirect does not return
