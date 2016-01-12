@@ -25,10 +25,14 @@ SHELL = bash
 .PHONY: all clean setup Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
-.PRECIOUS: %.7z
+.PRECIOUS: %.7z *-posts.json *-index.json
 
 # Default rule to start from scratch and build everything
-all: setup $(SITES) indexes
+all: setup $(SITES)
+
+# Add demo target to show off a sample
+demo: setup hermeneutics
+	gulp demo
 
 # Rule installing and configuring the local environment
 setup: node_modules
@@ -39,26 +43,28 @@ node_modules:
 
 # Rule to blow away our source data and start over
 clean:
-	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
-
-indexes: $(SITES)
-	gulp index
+	-rm -r $(foreach SITE,$(SITES),$(DATA)/$(SITE))
+	-rm *-{index,posts}.json
 
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
-# make that theh dependency
-%: %.txt.gz
+# make that the dependency
+%: %-index.json.gz
 	@echo "Finished $*"
 
-# Rule to build our text index. The dependency is the xml file and thats where
-# the data comes from
-%.txt: $(DATA)/%/Posts.xml
+# Rule to build an index from a set of posts.
+%-index.json: %-posts.json
 	@echo "Rebuilding index for $*.stackexchange.com"
-	./bin/map_references.js $< $* > $@
+	./bin/build_index.js < $< > $@
 
-# The compressed index is just buit from the text index
-%.txt.gz: %.txt
-	gzip -k $<
+# Rule to extract the source data and build a json version of the posts
+%-posts.json: $(DATA)/%/Posts.xml
+	@echo "Converting XML to JSON for $*.stackexchange.com"
+	./bin/parse_xml.js --src=$< < $< > $@
+
+# Any compressed targets are just...compressed versions of their inputs
+%.gz: %
+	gzip -f -k $<
 
 # Rule for extracting the XML we need from the zips
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
