@@ -23,6 +23,7 @@
     "multimeter-stack": "^0.2.0",
     "node-7z": "^0.4.0",
     "through2": "^2.0.0",
-    "xml-flow": "^0.4.0"
+    "xml-flow": "^0.4.0",
+    "xml2json": "^0.9.0"
   }
 }
