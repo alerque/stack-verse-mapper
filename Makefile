@@ -87,11 +87,20 @@ $(DATA)/%.7z:
 	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
 
 # Rule for generating static site
-gh-pages: all $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
+gh-pages: gh-pages/index.html $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
+
+gh-pages-init:
 	@echo "Building static site to host on Github Pages"
 	git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
-	cd gh-pages
-	echo '<html><body></body></html>' > index.html
+
+define raw_data_link
+	"<li><a href='data/$(1)-index.json'>$(1)-index.json</a></li>"
+endef
+
+gh-pages/index.html: gh-pages-init
+	echo "<html><body><h1>Stack Verse Mapper</h1><ul>" > $@
+	echo $(foreach SITE,$(SITES),$(call raw_data_link,$(SITE))) >> $@
+	echo "</ul></body></html>" >> $@
 
 gh-pages/data/%: $(DATA)/%
 	cp $^ $@
