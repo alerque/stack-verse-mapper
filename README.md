@@ -46,7 +46,7 @@ dependencies will depend on who implements what. See the discussion in
 [issue #5](https://github.com/alerque/stack-verse-mapper/issues/5).)
 
 * make, bash, curl, 7z, gzip, jq
-* nodejs, npm, gulp
+* nodejs, npm
 
 ### Instalation & Usage
 

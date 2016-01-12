@@ -1,10 +1,57 @@
 {
-  "sites": [
-    "hermeneutics",
-    "christianity",
-    "judaism",
-    "islam",
-    "history",
-    "skeptics"
-  ]
+  "sites": {
+    "hermeneutics": {
+      "include_apocrypha": true,
+      "include_chapters": true,
+      "referral": 36
+    },
+    "christianity": {
+      "include_apocrypha": true,
+      "include_chapters": true,
+      "referral": 30
+    },
+    "judaism": {
+      "include_apocrypha": true,
+      "include_chapters": true,
+      "referral": 836
+    },
+    "islam": {
+      "include_apocrypha": true,
+      "include_chapters": true,
+      "referral": 75
+    },
+    "history": {
+      "include_apocrypha": true,
+      "include_chapters": false,
+      "referral": 177
+    },
+    "skeptics": {
+      "include_apocrypha": true,
+      "include_chapters": false,
+      "referral": 933
+    }
+  },
+  "include_apocrypha": true,
+  "include_chapters": true,
+  "bcv_options": {
+    "consecutive_combination_strategy": "separate",
+    "osis_compaction_strategy": "bcv",
+    "book_sequence_strategy": "ignore",
+    "invalid_sequence_strategy": "ignore",
+    "sequence_combination_strategy": "separate",
+    "punctuation_strategy": "us",
+    "invalid_passage_strategy": "ignore",
+    "non_latin_digits_strategy": "ignore",
+    "passage_existence_strategy": "bcv",
+    "zero_chapter_strategy": "error",
+    "zero_verse_strategy": "allow",
+    "single_chapter_1_strategy": "verse",
+    "book_alone_strategy": "ignore",
+    "book_range_strategy": "ignore",
+    "captive_end_digits_strategy": "delete",
+    "end_range_digits_strategy": "verse",
+    "ps151_strategy": "c",
+    "versification_system": "default",
+    "case_sensitive": "none"
+  }
 }
