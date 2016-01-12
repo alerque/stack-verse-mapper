@@ -55,12 +55,12 @@ clean:
 # Rule to build an index from a set of posts.
 $(DATA)/%-index.json: $(DATA)/%-posts.json
 	@echo "Rebuilding index for $*.stackexchange.com"
-	./bin/build_index.js < $< > $@
+	./bin/build_index.js $< > $@
 
 # Rule to extract the source data and build a json version of the posts
 $(DATA)/%-posts.json: $(DATA)/%/Posts.xml
 	@echo "Converting XML to JSON for $*.stackexchange.com"
-	./bin/parse_xml.js --src=$< < $< > $@
+	./bin/parse_xml.js $< > $@
 
 # Rule for extracting the XML we need from the zips
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z

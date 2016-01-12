@@ -4,25 +4,28 @@ var fs = require( 'fs' );
 var minimist = require( 'minimist' );
 var through = require( 'through2' );
 
-var argv = minimist( process.argv );
+var argv = minimist( process.argv.slice( 2 ) );
 
 // A simple function to read all of stdin
 module.exports.stdin_reader = function( func )
 {
+	var path = argv['_'][0];
+	var stream = !path || path === '-' ? process.stdin : fs.createReadStream( path );
+
 	// First acquire the complete stdin buffer
-	process.stdin.setEncoding('utf8');
+	stream.setEncoding('utf8');
 	var data = '';
 
-	process.stdin.on( 'readable', function()
+	stream.on( 'readable', function()
 	{
-		var chunk = process.stdin.read();
+		var chunk = stream.read();
 		if ( chunk !== null )
 		{
 			data += chunk;
 		}
 	});
 
-	process.stdin.on( 'end', function()
+	stream.on( 'end', function()
 	{
 		func( data );
 	});
