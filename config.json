@@ -32,6 +32,7 @@
     }
   },
   "include_apocrypha": true,
+  "include_chapters": true,
   "bcv_options": {
     "consecutive_combination_strategy": "separate",
     "osis_compaction_strategy": "bcv",
