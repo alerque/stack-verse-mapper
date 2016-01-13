@@ -5,7 +5,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -18,7 +18,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -31,7 +31,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.4.1-Song.4.16",
+          "osis": "Song.4.1-Song.4.16",
           "book": "Song",
           "start": 46,
           "end": 61
@@ -44,7 +44,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -56,7 +56,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -68,7 +68,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.42.1-Isa.42.25",
+          "osis": "Isa.42.1-Isa.42.25",
           "book": "Isa",
           "start": 827,
           "end": 851
@@ -80,7 +80,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -93,7 +93,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -106,13 +106,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Col.4.1-Col.4.18",
+          "osis": "Col.4.1-Col.4.18",
           "book": "Col",
           "start": 78,
           "end": 95
@@ -125,7 +125,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.29.1-Isa.29.24",
+          "osis": "Isa.29.1-Isa.29.24",
           "book": "Isa",
           "start": 540,
           "end": 563
@@ -137,12 +137,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.29.1",
+          "osis": "Isa.29.1",
           "book": "Isa",
           "start": 540
         },
         {
-          "ref": "Isa.27.3",
+          "osis": "Isa.27.3",
           "book": "Isa",
           "start": 500
         }
@@ -154,7 +154,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -167,7 +167,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Deut.5.1-Deut.5.33",
+          "osis": "Deut.5.1-Deut.5.33",
           "book": "Deut",
           "start": 162,
           "end": 194
@@ -179,7 +179,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.14.1-Mark.14.72",
+          "osis": "Mark.14.1-Mark.14.72",
           "book": "Mark",
           "start": 540,
           "end": 611
@@ -192,7 +192,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.11.1-Mark.11.33",
+          "osis": "Mark.11.1-Mark.11.33",
           "book": "Mark",
           "start": 426,
           "end": 458
@@ -205,7 +205,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -217,7 +217,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -230,7 +230,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "2Pet.3.8",
+          "osis": "2Pet.3.8",
           "book": "2Pet",
           "start": 51
         }
@@ -242,7 +242,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -255,7 +255,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.7.1-Song.7.13",
+          "osis": "Song.7.1-Song.7.13",
           "book": "Song",
           "start": 91,
           "end": 103
@@ -268,13 +268,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
         },
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
@@ -287,48 +287,48 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Cor.15.1-1Cor.15.58",
+          "osis": "1Cor.15.1-1Cor.15.58",
           "book": "1Cor",
           "start": 356,
           "end": 413
         },
         {
-          "ref": "Matt.28.11-Matt.28.15",
+          "osis": "Matt.28.11-Matt.28.15",
           "book": "Matt",
           "start": 1062,
           "end": 1066
         },
         {
-          "ref": "Gal.1.1-Gal.1.24",
+          "osis": "Gal.1.1-Gal.1.24",
           "book": "Gal",
           "start": 1,
           "end": 24
         },
         {
-          "ref": "Acts.15.1-Acts.15.41",
+          "osis": "Acts.15.1-Acts.15.41",
           "book": "Acts",
           "start": 520,
           "end": 560
         },
         {
-          "ref": "Rom.1.1-Rom.8.39",
+          "osis": "Rom.1.1-Rom.8.39",
           "book": "Rom",
           "start": 1,
           "end": 225
         },
         {
-          "ref": "Rom.1.1-Rom.1.5",
+          "osis": "Rom.1.1-Rom.1.5",
           "book": "Rom",
           "start": 1,
           "end": 5
         },
         {
-          "ref": "Rom.3.25",
+          "osis": "Rom.3.25",
           "book": "Rom",
           "start": 86
         },
         {
-          "ref": "Rom.6.1-Rom.6.23",
+          "osis": "Rom.6.1-Rom.6.23",
           "book": "Rom",
           "start": 139,
           "end": 161
@@ -341,7 +341,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "1Kgs.5.1-1Kgs.5.18",
+          "osis": "1Kgs.5.1-1Kgs.5.18",
           "book": "1Kgs",
           "start": 162,
           "end": 179
@@ -353,19 +353,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.2.3-Matt.2.8",
+          "osis": "Matt.2.3-Matt.2.8",
           "book": "Matt",
           "start": 28,
           "end": 33
         },
         {
-          "ref": "Matt.2.1-Matt.2.23",
+          "osis": "Matt.2.1-Matt.2.23",
           "book": "Matt",
           "start": 26,
           "end": 48
         },
         {
-          "ref": "Luke.2.7",
+          "osis": "Luke.2.7",
           "book": "Luke",
           "start": 87
         }
@@ -377,7 +377,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.5.1-Num.5.31",
+          "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
           "end": 219
@@ -390,7 +390,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.6",
+          "osis": "Isa.6.6",
           "book": "Isa",
           "start": 121
         }
@@ -402,7 +402,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -415,13 +415,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
@@ -434,7 +434,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -447,7 +447,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.4.1-Song.4.16",
+          "osis": "Song.4.1-Song.4.16",
           "book": "Song",
           "start": 46,
           "end": 61
@@ -460,7 +460,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.35.1-Isa.35.10",
+          "osis": "Isa.35.1-Isa.35.10",
           "book": "Isa",
           "start": 667,
           "end": 676
@@ -473,7 +473,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -485,7 +485,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.33.1-Isa.33.24",
+          "osis": "Isa.33.1-Isa.33.24",
           "book": "Isa",
           "start": 626,
           "end": 649
@@ -497,7 +497,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Pet.4.1-1Pet.4.19",
+          "osis": "1Pet.4.1-1Pet.4.19",
           "book": "1Pet",
           "start": 73,
           "end": 91
@@ -510,7 +510,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -523,7 +523,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.10.34",
+          "osis": "Isa.5.1-Isa.10.34",
           "book": "Isa",
           "start": 86,
           "end": 230
@@ -535,7 +535,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -548,12 +548,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Deut.14.21",
+          "osis": "Deut.14.21",
           "book": "Deut",
           "start": 419
         },
         {
-          "ref": "Num.11.22",
+          "osis": "Num.11.22",
           "book": "Num",
           "start": 442
         }
@@ -565,19 +565,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
         },
         {
-          "ref": "Isa.2.16-Isa.2.22",
+          "osis": "Isa.2.16-Isa.2.22",
           "book": "Isa",
           "start": 47,
           "end": 53
         },
         {
-          "ref": "Isa.2.5",
+          "osis": "Isa.2.5",
           "book": "Isa",
           "start": 36
         }
@@ -589,7 +589,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -602,7 +602,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.3.1-Song.3.11",
+          "osis": "Song.3.1-Song.3.11",
           "book": "Song",
           "start": 35,
           "end": 45
@@ -615,7 +615,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -628,7 +628,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Acts.1.1-Acts.1.26",
+          "osis": "Acts.1.1-Acts.1.26",
           "book": "Acts",
           "start": 1,
           "end": 26
@@ -640,7 +640,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -653,7 +653,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.12.1-Isa.12.6",
+          "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
           "end": 252
@@ -666,7 +666,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.16.14",
+          "osis": "Isa.15.1-Isa.16.14",
           "book": "Isa",
           "start": 307,
           "end": 329
@@ -679,7 +679,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.1.1-Gen.1.31",
+          "osis": "Gen.1.1-Gen.1.31",
           "book": "Gen",
           "start": 1,
           "end": 31
@@ -692,7 +692,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.7.1-Isa.7.25",
+          "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
           "end": 153
@@ -705,7 +705,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -718,7 +718,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.5",
+          "osis": "Isa.8.5",
           "book": "Isa",
           "start": 158
         }
@@ -730,7 +730,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.9.11",
+          "osis": "Num.9.11",
           "book": "Num",
           "start": 372
         }
@@ -742,7 +742,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
@@ -754,7 +754,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.60.1-Isa.60.22",
+          "osis": "Isa.60.1-Isa.60.22",
           "book": "Isa",
           "start": 1168,
           "end": 1189
@@ -767,7 +767,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -780,18 +780,18 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
         },
         {
-          "ref": "Isa.32.0",
+          "osis": "Isa.32.0",
           "book": "Isa",
           "start": 605
         },
         {
-          "ref": "Isa.37.8",
+          "osis": "Isa.37.8",
           "book": "Isa",
           "start": 706
         }
@@ -803,7 +803,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -816,13 +816,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.3.1-Song.3.11",
+          "osis": "Song.3.1-Song.3.11",
           "book": "Song",
           "start": 35,
           "end": 45
         },
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -835,7 +835,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.13.1-Num.13.33",
+          "osis": "Num.13.1-Num.13.33",
           "book": "Num",
           "start": 472,
           "end": 504
@@ -847,7 +847,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.2",
+          "osis": "Isa.6.2",
           "book": "Isa",
           "start": 117
         }
@@ -859,7 +859,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -871,7 +871,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -883,7 +883,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -895,7 +895,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -908,7 +908,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -921,7 +921,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -934,7 +934,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -947,13 +947,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
         },
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -966,13 +966,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
         },
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -985,7 +985,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phil.1.1-Phil.1.30",
+          "osis": "Phil.1.1-Phil.1.30",
           "book": "Phil",
           "start": 1,
           "end": 30
@@ -998,7 +998,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Dan.4.1-Dan.4.37",
+          "osis": "Dan.4.1-Dan.4.37",
           "book": "Dan",
           "start": 101,
           "end": 137
@@ -1011,7 +1011,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.1.16",
+          "osis": "Gen.1.16",
           "book": "Gen",
           "start": 16
         }
@@ -1023,7 +1023,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1036,7 +1036,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -1049,7 +1049,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -1061,13 +1061,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.2.1-Mark.2.28",
+          "osis": "Mark.2.1-Mark.2.28",
           "book": "Mark",
           "start": 46,
           "end": 73
         },
         {
-          "ref": "Mark.6.1-Mark.6.56",
+          "osis": "Mark.6.1-Mark.6.56",
           "book": "Mark",
           "start": 193,
           "end": 248
@@ -1080,7 +1080,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -1092,7 +1092,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1105,13 +1105,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1124,7 +1124,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Macc.10.1-1Macc.10.89",
+          "osis": "1Macc.10.1-1Macc.10.89",
           "book": "1Macc",
           "start": 542,
           "end": 630
@@ -1137,7 +1137,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -1149,12 +1149,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Exod.2.3",
+          "osis": "Exod.2.3",
           "book": "Exod",
           "start": 25
         },
         {
-          "ref": "Exod.14.2-Exod.14.3",
+          "osis": "Exod.14.2-Exod.14.3",
           "book": "Exod",
           "start": 359,
           "end": 360
@@ -1167,7 +1167,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -1180,7 +1180,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1193,7 +1193,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1206,7 +1206,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.13.1-Isa.13.22",
+          "osis": "Isa.13.1-Isa.13.22",
           "book": "Isa",
           "start": 253,
           "end": 274
@@ -1219,7 +1219,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1232,13 +1232,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.1.1-Gen.1.31",
+          "osis": "Gen.1.1-Gen.1.31",
           "book": "Gen",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Gen.2.1-Gen.2.25",
+          "osis": "Gen.2.1-Gen.2.25",
           "book": "Gen",
           "start": 32,
           "end": 56
@@ -1251,7 +1251,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.9.1-Matt.9.38",
+          "osis": "Matt.9.1-Matt.9.38",
           "book": "Matt",
           "start": 236,
           "end": 273
@@ -1264,7 +1264,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -1277,7 +1277,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.62.1-Isa.62.12",
+          "osis": "Isa.62.1-Isa.62.12",
           "book": "Isa",
           "start": 1201,
           "end": 1212
@@ -1290,7 +1290,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1303,7 +1303,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.5",
+          "osis": "Num.1.5",
           "book": "Num",
           "start": 5
         }
@@ -1315,7 +1315,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.5",
+          "osis": "Isa.1.5",
           "book": "Isa",
           "start": 5
         }
@@ -1327,13 +1327,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.7.1-Isa.7.25",
+          "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
           "end": 153
         },
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -1346,7 +1346,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
@@ -1359,7 +1359,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.28.6",
+          "osis": "Isa.28.6",
           "book": "Isa",
           "start": 516
         }
@@ -1371,7 +1371,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1384,7 +1384,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.60.1-Isa.60.22",
+          "osis": "Isa.60.1-Isa.60.22",
           "book": "Isa",
           "start": 1168,
           "end": 1189
@@ -1397,7 +1397,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1410,7 +1410,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.1.28",
+          "osis": "Gen.1.28",
           "book": "Gen",
           "start": 28
         }
@@ -1422,7 +1422,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.38.9-Gen.38.10",
+          "osis": "Gen.38.9-Gen.38.10",
           "book": "Gen",
           "start": 1129,
           "end": 1130
@@ -1435,13 +1435,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.34.1-Isa.34.17",
+          "osis": "Isa.34.1-Isa.34.17",
           "book": "Isa",
           "start": 650,
           "end": 666
         },
         {
-          "ref": "Isa.51.1-Isa.51.23",
+          "osis": "Isa.51.1-Isa.51.23",
           "book": "Isa",
           "start": 1020,
           "end": 1042
@@ -1454,7 +1454,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.0",
+          "osis": "Isa.1.0",
           "book": "Isa",
           "start": 0
         }
@@ -1466,7 +1466,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1479,7 +1479,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.20.6",
+          "osis": "Isa.10.1-Isa.20.6",
           "book": "Isa",
           "start": 197,
           "end": 381
@@ -1492,7 +1492,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -1504,25 +1504,25 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.22.15-Isa.22.25",
+          "osis": "Isa.22.15-Isa.22.25",
           "book": "Isa",
           "start": 413,
           "end": 423
         },
         {
-          "ref": "Matt.16.13-Matt.16.20",
+          "osis": "Matt.16.13-Matt.16.20",
           "book": "Matt",
           "start": 541,
           "end": 548
         },
         {
-          "ref": "Matt.18.15-Matt.18.18",
+          "osis": "Matt.18.15-Matt.18.18",
           "book": "Matt",
           "start": 598,
           "end": 601
         },
         {
-          "ref": "1Tim.3.15",
+          "osis": "1Tim.3.15",
           "book": "1Tim",
           "start": 50
         }
@@ -1533,13 +1533,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
         },
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1552,19 +1552,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.66.24",
+          "osis": "Isa.50.1-Isa.66.24",
           "book": "Isa",
           "start": 1009,
           "end": 1292
         },
         {
-          "ref": "Isa.20.1-Isa.49.26",
+          "osis": "Isa.20.1-Isa.49.26",
           "book": "Isa",
           "start": 376,
           "end": 1008
         },
         {
-          "ref": "Isa.1.1-Isa.19.25",
+          "osis": "Isa.1.1-Isa.19.25",
           "book": "Isa",
           "start": 1,
           "end": 375
@@ -1577,55 +1577,55 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
         },
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
         },
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
         },
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
         },
         {
-          "ref": "Num.5.1-Num.5.31",
+          "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
           "end": 219
         },
         {
-          "ref": "Num.6.1-Num.6.27",
+          "osis": "Num.6.1-Num.6.27",
           "book": "Num",
           "start": 220,
           "end": 246
         },
         {
-          "ref": "Num.7.1-Num.7.89",
+          "osis": "Num.7.1-Num.7.89",
           "book": "Num",
           "start": 247,
           "end": 335
         },
         {
-          "ref": "Num.8.1-Num.8.26",
+          "osis": "Num.8.1-Num.8.26",
           "book": "Num",
           "start": 336,
           "end": 361
         },
         {
-          "ref": "Num.9.1-Num.9.23",
+          "osis": "Num.9.1-Num.9.23",
           "book": "Num",
           "start": 362,
           "end": 384
@@ -1637,13 +1637,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -1656,7 +1656,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -1669,7 +1669,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -1682,7 +1682,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.5.1-Num.5.31",
+          "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
           "end": 219
@@ -1695,7 +1695,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.7",
+          "osis": "Isa.6.7",
           "book": "Isa",
           "start": 122
         }
@@ -1707,7 +1707,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.57.1-Isa.57.21",
+          "osis": "Isa.57.1-Isa.57.21",
           "book": "Isa",
           "start": 1112,
           "end": 1132
@@ -1720,7 +1720,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.24.1-Isa.24.23",
+          "osis": "Isa.24.1-Isa.24.23",
           "book": "Isa",
           "start": 442,
           "end": 464
@@ -1733,7 +1733,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1746,7 +1746,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -1759,7 +1759,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -1772,7 +1772,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1785,7 +1785,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.2.1-Song.2.17",
+          "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
           "end": 34
@@ -1798,7 +1798,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -1811,7 +1811,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -1824,7 +1824,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1837,13 +1837,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.66.24",
+          "osis": "Isa.30.1-Isa.66.24",
           "book": "Isa",
           "start": 564,
           "end": 1292
         },
         {
-          "ref": "Isa.10.1-Isa.16.14",
+          "osis": "Isa.10.1-Isa.16.14",
           "book": "Isa",
           "start": 197,
           "end": 329
@@ -1856,7 +1856,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -1869,7 +1869,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -1882,7 +1882,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1895,7 +1895,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Deut.9.9",
+          "osis": "Deut.9.9",
           "book": "Deut",
           "start": 274
         }
@@ -1906,7 +1906,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1919,13 +1919,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Col.2.2",
+          "osis": "Col.2.2",
           "book": "Col",
           "start": 31
         }
@@ -1937,7 +1937,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1950,13 +1950,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
         },
         {
-          "ref": "Isa.5.5",
+          "osis": "Isa.5.5",
           "book": "Isa",
           "start": 90
         }
@@ -1968,7 +1968,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -1981,7 +1981,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -1994,7 +1994,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2007,7 +2007,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.25.1-Isa.25.12",
+          "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
           "end": 476
@@ -2020,7 +2020,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.62.1-Isa.62.12",
+          "osis": "Isa.62.1-Isa.62.12",
           "book": "Isa",
           "start": 1201,
           "end": 1212
@@ -2033,13 +2033,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "2Cor.3.1-2Cor.3.18",
+          "osis": "2Cor.3.1-2Cor.3.18",
           "book": "2Cor",
           "start": 42,
           "end": 59
@@ -2052,7 +2052,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.61.1-Isa.61.11",
+          "osis": "Isa.61.1-Isa.61.11",
           "book": "Isa",
           "start": 1190,
           "end": 1200
@@ -2065,7 +2065,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2078,7 +2078,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2091,13 +2091,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.12.1-Isa.12.6",
+          "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
           "end": 252
         },
         {
-          "ref": "Isa.32.1-Isa.32.20",
+          "osis": "Isa.32.1-Isa.32.20",
           "book": "Isa",
           "start": 606,
           "end": 625
@@ -2110,7 +2110,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2123,7 +2123,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -2136,7 +2136,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2149,13 +2149,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
         },
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -2168,12 +2168,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.5",
+          "osis": "Isa.1.5",
           "book": "Isa",
           "start": 5
         },
         {
-          "ref": "Isa.1.7",
+          "osis": "Isa.1.7",
           "book": "Isa",
           "start": 7
         }
@@ -2185,19 +2185,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
         },
         {
-          "ref": "Isa.60.1-Isa.60.22",
+          "osis": "Isa.60.1-Isa.60.22",
           "book": "Isa",
           "start": 1168,
           "end": 1189
@@ -2210,7 +2210,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phil.2.1-Phil.2.30",
+          "osis": "Phil.2.1-Phil.2.30",
           "book": "Phil",
           "start": 31,
           "end": 60
@@ -2223,19 +2223,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
         },
         {
-          "ref": "Acts.2.1-Acts.2.47",
+          "osis": "Acts.2.1-Acts.2.47",
           "book": "Acts",
           "start": 27,
           "end": 73
         },
         {
-          "ref": "Isa.24.1-Isa.24.23",
+          "osis": "Isa.24.1-Isa.24.23",
           "book": "Isa",
           "start": 442,
           "end": 464
@@ -2248,7 +2248,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2260,7 +2260,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2273,7 +2273,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2286,7 +2286,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.47.2",
+          "osis": "Isa.47.2",
           "book": "Isa",
           "start": 947
         }
@@ -2298,7 +2298,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.9",
+          "osis": "Isa.5.9",
           "book": "Isa",
           "start": 94
         }
@@ -2310,7 +2310,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2323,7 +2323,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2336,7 +2336,7 @@
       "type": "q",
       "title": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -2348,7 +2348,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.1.1-Gen.1.31",
+          "osis": "Gen.1.1-Gen.1.31",
           "book": "Gen",
           "start": 1,
           "end": 31
@@ -2361,19 +2361,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
         },
         {
-          "ref": "Gen.1.1-Gen.1.31",
+          "osis": "Gen.1.1-Gen.1.31",
           "book": "Gen",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
@@ -2386,7 +2386,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.55.1-Isa.55.13",
+          "osis": "Isa.55.1-Isa.55.13",
           "book": "Isa",
           "start": 1087,
           "end": 1099
@@ -2399,7 +2399,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -2412,7 +2412,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Ps.46.1-Ps.46.11",
+          "osis": "Ps.46.1-Ps.46.11",
           "book": "Ps",
           "start": 676,
           "end": 686
@@ -2424,7 +2424,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -2437,7 +2437,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -2450,7 +2450,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.4.5",
+          "osis": "Isa.4.5",
           "book": "Isa",
           "start": 84
         }
@@ -2462,7 +2462,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -2475,7 +2475,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Lev.16.1-Lev.16.34",
+          "osis": "Lev.16.1-Lev.16.34",
           "book": "Lev",
           "start": 457,
           "end": 490
@@ -2488,7 +2488,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Lev.9.1-Lev.9.24",
+          "osis": "Lev.9.1-Lev.9.24",
           "book": "Lev",
           "start": 209,
           "end": 232
@@ -2501,7 +2501,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -2514,7 +2514,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -2527,7 +2527,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -2540,13 +2540,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "2Kgs.18.1-2Kgs.19.37",
+          "osis": "2Kgs.18.1-2Kgs.19.37",
           "book": "2Kgs",
           "start": 492,
           "end": 565
         },
         {
-          "ref": "Isa.36.1-Isa.37.38",
+          "osis": "Isa.36.1-Isa.37.38",
           "book": "Isa",
           "start": 677,
           "end": 736
@@ -2559,7 +2559,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.5",
+          "osis": "Isa.1.5",
           "book": "Isa",
           "start": 5
         }
@@ -2571,7 +2571,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Rev.13.16-Rev.13.17",
+          "osis": "Rev.13.16-Rev.13.17",
           "book": "Rev",
           "start": 227,
           "end": 228
@@ -2579,7 +2579,7 @@
       ],
       "title": [
         {
-          "ref": "Rev.13.16-Rev.13.17",
+          "osis": "Rev.13.16-Rev.13.17",
           "book": "Rev",
           "start": 227,
           "end": 228
@@ -2591,13 +2591,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rev.13.16-Rev.13.17",
+          "osis": "Rev.13.16-Rev.13.17",
           "book": "Rev",
           "start": 227,
           "end": 228
         },
         {
-          "ref": "Rev.13.16",
+          "osis": "Rev.13.16",
           "book": "Rev",
           "start": 227
         }
@@ -2609,7 +2609,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.41.1-Isa.41.29",
+          "osis": "Isa.41.1-Isa.41.29",
           "book": "Isa",
           "start": 798,
           "end": 826
@@ -2622,18 +2622,18 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phil.3.2-Phil.3.3",
+          "osis": "Phil.3.2-Phil.3.3",
           "book": "Phil",
           "start": 62,
           "end": 63
         },
         {
-          "ref": "Phil.3.3",
+          "osis": "Phil.3.3",
           "book": "Phil",
           "start": 63
         },
         {
-          "ref": "Isa.10.1-Isa.20.6",
+          "osis": "Isa.10.1-Isa.20.6",
           "book": "Isa",
           "start": 197,
           "end": 381
@@ -2646,7 +2646,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -2659,7 +2659,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Exod.8.1-Exod.8.32",
+          "osis": "Exod.8.1-Exod.8.32",
           "book": "Exod",
           "start": 179,
           "end": 210
@@ -2672,7 +2672,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.3.1-Num.4.49",
+          "osis": "Num.3.1-Num.4.49",
           "book": "Num",
           "start": 89,
           "end": 188
@@ -2685,7 +2685,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -2698,7 +2698,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.17.1",
+          "osis": "Isa.17.1",
           "book": "Isa",
           "start": 330
         }
@@ -2709,7 +2709,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2721,7 +2721,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2734,7 +2734,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Bar.5.1-Bar.5.9",
+          "osis": "Bar.5.1-Bar.5.9",
           "book": "Bar",
           "start": 132,
           "end": 140
@@ -2747,7 +2747,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -2760,7 +2760,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2773,18 +2773,18 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.7",
+          "osis": "Isa.6.7",
           "book": "Isa",
           "start": 122
         },
         {
-          "ref": "Isa.7.1-Isa.7.25",
+          "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
           "end": 153
         },
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -2797,13 +2797,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.14.1-Mark.14.72",
+          "osis": "Mark.14.1-Mark.14.72",
           "book": "Mark",
           "start": 540,
           "end": 611
         },
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
@@ -2816,7 +2816,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.39.1-Isa.39.8",
+          "osis": "Isa.39.1-Isa.39.8",
           "book": "Isa",
           "start": 759,
           "end": 766
@@ -2829,7 +2829,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2841,7 +2841,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -2854,7 +2854,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.20.6",
+          "osis": "Isa.15.1-Isa.20.6",
           "book": "Isa",
           "start": 307,
           "end": 381
@@ -2867,7 +2867,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.7.1-Isa.7.25",
+          "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
           "end": 153
@@ -2879,7 +2879,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -2892,7 +2892,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.7.8",
+          "osis": "Isa.7.8",
           "book": "Isa",
           "start": 136
         }
@@ -2904,7 +2904,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -2917,7 +2917,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Prov.11.1-Prov.11.31",
+          "osis": "Prov.11.1-Prov.11.31",
           "book": "Prov",
           "start": 289,
           "end": 319
@@ -2929,7 +2929,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -2942,7 +2942,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -2955,7 +2955,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ruth.2.1-Ruth.2.23",
+          "osis": "Ruth.2.1-Ruth.2.23",
           "book": "Ruth",
           "start": 23,
           "end": 45
@@ -2968,7 +2968,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -2981,13 +2981,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.25.1-Isa.25.12",
+          "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
           "end": 476
         },
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
@@ -3000,7 +3000,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Gen.28.12",
+          "osis": "Gen.28.12",
           "book": "Gen",
           "start": 786
         }
@@ -3011,7 +3011,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -3024,7 +3024,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -3037,7 +3037,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -3050,36 +3050,36 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.2.1-Matt.2.23",
+          "osis": "Matt.2.1-Matt.2.23",
           "book": "Matt",
           "start": 26,
           "end": 48
         },
         {
-          "ref": "Matt.1.1-Matt.1.25",
+          "osis": "Matt.1.1-Matt.1.25",
           "book": "Matt",
           "start": 1,
           "end": 25
         },
         {
-          "ref": "Luke.1.1-Luke.1.80",
+          "osis": "Luke.1.1-Luke.1.80",
           "book": "Luke",
           "start": 1,
           "end": 80
         },
         {
-          "ref": "Luke.5.1-Luke.5.39",
+          "osis": "Luke.5.1-Luke.5.39",
           "book": "Luke",
           "start": 215,
           "end": 253
         },
         {
-          "ref": "Matt.1.1",
+          "osis": "Matt.1.1",
           "book": "Matt",
           "start": 1
         },
         {
-          "ref": "Luke.2.1-Luke.2.52",
+          "osis": "Luke.2.1-Luke.2.52",
           "book": "Luke",
           "start": 81,
           "end": 132
@@ -3092,7 +3092,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Acts.11.1-Acts.11.30",
+          "osis": "Acts.11.1-Acts.11.30",
           "book": "Acts",
           "start": 385,
           "end": 414
@@ -3104,7 +3104,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.6.5",
+          "osis": "Song.6.5",
           "book": "Song",
           "start": 82
         }
@@ -3116,7 +3116,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Prov.1.1-Prov.1.33",
+          "osis": "Prov.1.1-Prov.1.33",
           "book": "Prov",
           "start": 1,
           "end": 33
@@ -3128,7 +3128,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.25.1-Num.25.18",
+          "osis": "Num.25.1-Num.25.18",
           "book": "Num",
           "start": 868,
           "end": 885
@@ -3141,13 +3141,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.2.1-Song.2.17",
+          "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
           "end": 34
         },
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3160,7 +3160,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3172,7 +3172,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Exod.22.2-Exod.22.3",
+          "osis": "Exod.22.2-Exod.22.3",
           "book": "Exod",
           "start": 583,
           "end": 584
@@ -3185,7 +3185,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3197,7 +3197,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3210,7 +3210,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.35.1-Isa.35.10",
+          "osis": "Isa.35.1-Isa.35.10",
           "book": "Isa",
           "start": 667,
           "end": 676
@@ -3222,7 +3222,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3235,7 +3235,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.2.1-Mark.2.28",
+          "osis": "Mark.2.1-Mark.2.28",
           "book": "Mark",
           "start": 46,
           "end": 73
@@ -3248,7 +3248,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phlm.1.9",
+          "osis": "Phlm.1.9",
           "book": "Phlm",
           "start": 9
         }
@@ -3260,7 +3260,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -3273,7 +3273,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -3286,7 +3286,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.11.1-Isa.11.16",
+          "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
           "end": 246
@@ -3299,7 +3299,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -3312,7 +3312,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.137.1-Ps.137.9",
+          "osis": "Ps.137.1-Ps.137.9",
           "book": "Ps",
           "start": 2284,
           "end": 2292
@@ -3325,13 +3325,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.45.1-Isa.50.11",
+          "osis": "Isa.45.1-Isa.50.11",
           "book": "Isa",
           "start": 908,
           "end": 1019
         },
         {
-          "ref": "Isa.44.5",
+          "osis": "Isa.44.5",
           "book": "Isa",
           "start": 884
         }
@@ -3343,7 +3343,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.23.1-Num.23.30",
+          "osis": "Num.23.1-Num.23.30",
           "book": "Num",
           "start": 813,
           "end": 842
@@ -3355,27 +3355,27 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Sam.23.11",
+          "osis": "1Sam.23.11",
           "book": "1Sam",
           "start": 609
         },
         {
-          "ref": "Isa.46.9",
+          "osis": "Isa.46.9",
           "book": "Isa",
           "start": 941
         },
         {
-          "ref": "Rom.5.6",
+          "osis": "Rom.5.6",
           "book": "Rom",
           "start": 123
         },
         {
-          "ref": "1John.4.8",
+          "osis": "1John.4.8",
           "book": "1John",
           "start": 71
         },
         {
-          "ref": "1John.4.16",
+          "osis": "1John.4.16",
           "book": "1John",
           "start": 79
         }
@@ -3387,7 +3387,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -3400,44 +3400,44 @@
       "type": "a",
       "body": [
         {
-          "ref": "Jer.32.17",
+          "osis": "Jer.32.17",
           "book": "Jer",
           "start": 802
         },
         {
-          "ref": "Gen.17.1-Gen.17.2",
+          "osis": "Gen.17.1-Gen.17.2",
           "book": "Gen",
           "start": 399,
           "end": 400
         },
         {
-          "ref": "Gen.17.1",
+          "osis": "Gen.17.1",
           "book": "Gen",
           "start": 399
         },
         {
-          "ref": "Job.37.14-Job.37.18",
+          "osis": "Job.37.14-Job.37.18",
           "book": "Job",
           "start": 914,
           "end": 918
         },
         {
-          "ref": "Job.37.16",
+          "osis": "Job.37.16",
           "book": "Job",
           "start": 916
         },
         {
-          "ref": "Ps.33.13",
+          "osis": "Ps.33.13",
           "book": "Ps",
           "start": 440
         },
         {
-          "ref": "Ps.33.14",
+          "osis": "Ps.33.14",
           "book": "Ps",
           "start": 441
         },
         {
-          "ref": "Ps.145.1-Ps.149.9",
+          "osis": "Ps.145.1-Ps.149.9",
           "book": "Ps",
           "start": 2382,
           "end": 2455
@@ -3450,7 +3450,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3463,7 +3463,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.33.1-Num.33.56",
+          "osis": "Num.33.1-Num.33.56",
           "book": "Num",
           "start": 1157,
           "end": 1212
@@ -3475,43 +3475,43 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
         },
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
         },
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
         },
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
         },
         {
-          "ref": "Num.5.1-Num.5.31",
+          "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
           "end": 219
         },
         {
-          "ref": "Num.6.1-Num.6.27",
+          "osis": "Num.6.1-Num.6.27",
           "book": "Num",
           "start": 220,
           "end": 246
         },
         {
-          "ref": "Num.7.1-Num.7.89",
+          "osis": "Num.7.1-Num.7.89",
           "book": "Num",
           "start": 247,
           "end": 335
@@ -3524,7 +3524,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Song.5.16",
+          "osis": "Song.5.16",
           "book": "Song",
           "start": 77
         }
@@ -3535,7 +3535,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
@@ -3547,7 +3547,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phil.1.1-Phil.1.30",
+          "osis": "Phil.1.1-Phil.1.30",
           "book": "Phil",
           "start": 1,
           "end": 30
@@ -3560,7 +3560,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.38.1-Isa.38.22",
+          "osis": "Isa.38.1-Isa.38.22",
           "book": "Isa",
           "start": 737,
           "end": 758
@@ -3573,48 +3573,48 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.4.5-Isa.4.6",
+          "osis": "Isa.4.5-Isa.4.6",
           "book": "Isa",
           "start": 84,
           "end": 85
         },
         {
-          "ref": "Gen.5.1-Gen.5.32",
+          "osis": "Gen.5.1-Gen.5.32",
           "book": "Gen",
           "start": 107,
           "end": 138
         },
         {
-          "ref": "Gen.11.1-Gen.11.32",
+          "osis": "Gen.11.1-Gen.11.32",
           "book": "Gen",
           "start": 268,
           "end": 299
         },
         {
-          "ref": "Gen.7.6",
+          "osis": "Gen.7.6",
           "book": "Gen",
           "start": 166
         },
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
         },
         {
-          "ref": "Gen.11.26",
+          "osis": "Gen.11.26",
           "book": "Gen",
           "start": 293
         }
@@ -3626,13 +3626,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.9.1-Isa.9.21",
+          "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
           "end": 196
         },
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -3645,7 +3645,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -3658,7 +3658,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3671,7 +3671,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.21.1-Isa.21.17",
+          "osis": "Isa.21.1-Isa.21.17",
           "book": "Isa",
           "start": 382,
           "end": 398
@@ -3684,7 +3684,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mic.5.1-Mic.5.15",
+          "osis": "Mic.5.1-Mic.5.15",
           "book": "Mic",
           "start": 55,
           "end": 69
@@ -3697,7 +3697,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Prov.11.1-Prov.11.31",
+          "osis": "Prov.11.1-Prov.11.31",
           "book": "Prov",
           "start": 289,
           "end": 319
@@ -3710,7 +3710,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -3722,13 +3722,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.60.1-Isa.60.22",
+          "osis": "Isa.60.1-Isa.60.22",
           "book": "Isa",
           "start": 1168,
           "end": 1189
@@ -3740,7 +3740,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3752,7 +3752,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -3765,13 +3765,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
         },
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -3784,7 +3784,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -3796,7 +3796,7 @@
       "type": "q",
       "title": [
         {
-          "ref": "Isa.22.1-Isa.23.18",
+          "osis": "Isa.22.1-Isa.23.18",
           "book": "Isa",
           "start": 399,
           "end": 441
@@ -3808,7 +3808,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -3821,7 +3821,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.2.1-Ps.2.12",
+          "osis": "Ps.2.1-Ps.2.12",
           "book": "Ps",
           "start": 7,
           "end": 18
@@ -3834,13 +3834,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
         },
         {
-          "ref": "Isa.8.1-Isa.8.22",
+          "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
           "end": 175
@@ -3853,7 +3853,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -3866,13 +3866,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
         },
         {
-          "ref": "Num.12.1-Num.12.16",
+          "osis": "Num.12.1-Num.12.16",
           "book": "Num",
           "start": 456,
           "end": 471
@@ -3885,7 +3885,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Deut.22.28-Deut.22.29",
+          "osis": "Deut.22.28-Deut.22.29",
           "book": "Deut",
           "start": 606,
           "end": 607
@@ -3897,7 +3897,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Deut.28.1-Deut.28.68",
+          "osis": "Deut.28.1-Deut.28.68",
           "book": "Deut",
           "start": 720,
           "end": 787
@@ -3910,7 +3910,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Deut.22.28-Deut.22.29",
+          "osis": "Deut.22.28-Deut.22.29",
           "book": "Deut",
           "start": 606,
           "end": 607
@@ -3923,18 +3923,18 @@
       "type": "q",
       "body": [
         {
-          "ref": "Job.26.10",
+          "osis": "Job.26.10",
           "book": "Job",
           "start": 608
         },
         {
-          "ref": "Isa.40.21-Isa.40.22",
+          "osis": "Isa.40.21-Isa.40.22",
           "book": "Isa",
           "start": 787,
           "end": 788
         },
         {
-          "ref": "Isa.40.22",
+          "osis": "Isa.40.22",
           "book": "Isa",
           "start": 788
         }
@@ -3945,7 +3945,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.7.1-Isa.14.32",
+          "osis": "Isa.7.1-Isa.14.32",
           "book": "Isa",
           "start": 129,
           "end": 306
@@ -3957,7 +3957,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Luke.1.27",
+          "osis": "Luke.1.27",
           "book": "Luke",
           "start": 27
         }
@@ -3969,13 +3969,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.8.1-Matt.8.34",
+          "osis": "Matt.8.1-Matt.8.34",
           "book": "Matt",
           "start": 202,
           "end": 235
         },
         {
-          "ref": "Neh.2.1-Neh.2.20",
+          "osis": "Neh.2.1-Neh.2.20",
           "book": "Neh",
           "start": 12,
           "end": 31
@@ -3988,7 +3988,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -4001,7 +4001,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -4014,7 +4014,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.0",
+          "osis": "Isa.5.0",
           "book": "Isa",
           "start": 85
         }
@@ -4026,7 +4026,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -4039,7 +4039,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.23.1-Isa.23.18",
+          "osis": "Isa.23.1-Isa.23.18",
           "book": "Isa",
           "start": 424,
           "end": 441
@@ -4052,7 +4052,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.28.1-Isa.28.29",
+          "osis": "Isa.28.1-Isa.28.29",
           "book": "Isa",
           "start": 511,
           "end": 539
@@ -4065,7 +4065,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.9",
+          "osis": "Isa.3.9",
           "book": "Isa",
           "start": 62
         }
@@ -4077,7 +4077,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.5",
+          "osis": "Isa.3.5",
           "book": "Isa",
           "start": 58
         }
@@ -4089,7 +4089,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.11.1-Num.11.35",
+          "osis": "Num.11.1-Num.11.35",
           "book": "Num",
           "start": 421,
           "end": 455
@@ -4102,7 +4102,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -4115,7 +4115,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.36.1-Isa.36.22",
+          "osis": "Isa.36.1-Isa.36.22",
           "book": "Isa",
           "start": 677,
           "end": 698
@@ -4128,7 +4128,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Luke.2.1-Luke.2.52",
+          "osis": "Luke.2.1-Luke.2.52",
           "book": "Luke",
           "start": 81,
           "end": 132
@@ -4141,7 +4141,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Lev.11.6",
+          "osis": "Lev.11.6",
           "book": "Lev",
           "start": 258
         }
@@ -4152,7 +4152,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4165,7 +4165,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -4178,7 +4178,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mic.6.1-Mic.6.16",
+          "osis": "Mic.6.1-Mic.6.16",
           "book": "Mic",
           "start": 70,
           "end": 85
@@ -4191,7 +4191,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -4204,7 +4204,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4217,7 +4217,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4230,7 +4230,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Lev.3.1-Lev.3.17",
+          "osis": "Lev.3.1-Lev.3.17",
           "book": "Lev",
           "start": 34,
           "end": 50
@@ -4242,7 +4242,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -4255,7 +4255,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.7.8",
+          "osis": "Isa.7.8",
           "book": "Isa",
           "start": 136
         }
@@ -4267,7 +4267,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.65.1-Isa.66.24",
+          "osis": "Isa.65.1-Isa.66.24",
           "book": "Isa",
           "start": 1244,
           "end": 1292
@@ -4280,7 +4280,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4293,7 +4293,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -4306,7 +4306,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.5.1-Num.5.31",
+          "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
           "end": 219
@@ -4319,12 +4319,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.32.28",
+          "osis": "Gen.32.28",
           "book": "Gen",
           "start": 957
         },
         {
-          "ref": "Gen.32.1-Gen.32.32",
+          "osis": "Gen.32.1-Gen.32.32",
           "book": "Gen",
           "start": 930,
           "end": 961
@@ -4337,12 +4337,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.24.2",
+          "osis": "Isa.24.2",
           "book": "Isa",
           "start": 443
         },
         {
-          "ref": "Isa.7.1-Isa.8.22",
+          "osis": "Isa.7.1-Isa.8.22",
           "book": "Isa",
           "start": 129,
           "end": 175
@@ -4355,7 +4355,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -4368,7 +4368,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
@@ -4381,7 +4381,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4394,7 +4394,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -4407,7 +4407,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4419,13 +4419,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.25.1-Isa.33.24",
+          "osis": "Isa.25.1-Isa.33.24",
           "book": "Isa",
           "start": 465,
           "end": 649
         },
         {
-          "ref": "Song.2.1-Song.2.17",
+          "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
           "end": 34
@@ -4438,7 +4438,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -4450,13 +4450,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.39.1-Isa.39.8",
+          "osis": "Isa.39.1-Isa.39.8",
           "book": "Isa",
           "start": 759,
           "end": 766
         },
         {
-          "ref": "Isa.3.2",
+          "osis": "Isa.3.2",
           "book": "Isa",
           "start": 55
         }
@@ -4468,7 +4468,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Rev.5.1-Rev.5.14",
+          "osis": "Rev.5.1-Rev.5.14",
           "book": "Rev",
           "start": 83,
           "end": 96
@@ -4480,7 +4480,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.18.1-Isa.18.7",
+          "osis": "Isa.18.1-Isa.18.7",
           "book": "Isa",
           "start": 344,
           "end": 350
@@ -4493,7 +4493,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.3.1-Song.3.11",
+          "osis": "Song.3.1-Song.3.11",
           "book": "Song",
           "start": 35,
           "end": 45
@@ -4506,7 +4506,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.43.1-Isa.43.28",
+          "osis": "Isa.43.1-Isa.43.28",
           "book": "Isa",
           "start": 852,
           "end": 879
@@ -4519,25 +4519,25 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.22.15-Isa.22.25",
+          "osis": "Isa.22.15-Isa.22.25",
           "book": "Isa",
           "start": 413,
           "end": 423
         },
         {
-          "ref": "Matt.16.13-Matt.16.20",
+          "osis": "Matt.16.13-Matt.16.20",
           "book": "Matt",
           "start": 541,
           "end": 548
         },
         {
-          "ref": "Matt.18.15-Matt.18.18",
+          "osis": "Matt.18.15-Matt.18.18",
           "book": "Matt",
           "start": 598,
           "end": 601
         },
         {
-          "ref": "1Tim.3.15",
+          "osis": "1Tim.3.15",
           "book": "1Tim",
           "start": 50
         }
@@ -4549,12 +4549,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.9",
+          "osis": "Isa.2.9",
           "book": "Isa",
           "start": 40
         },
         {
-          "ref": "Isa.2.6",
+          "osis": "Isa.2.6",
           "book": "Isa",
           "start": 37
         }
@@ -4566,7 +4566,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.1-Isa.8.22",
+          "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
           "end": 175
@@ -4579,7 +4579,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -4592,7 +4592,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -4605,7 +4605,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -4617,7 +4617,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -4629,19 +4629,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.36.1-Isa.36.22",
+          "osis": "Isa.36.1-Isa.36.22",
           "book": "Isa",
           "start": 677,
           "end": 698
         },
         {
-          "ref": "Isa.19.1-Isa.19.25",
+          "osis": "Isa.19.1-Isa.19.25",
           "book": "Isa",
           "start": 351,
           "end": 375
@@ -4654,7 +4654,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.2",
+          "osis": "Isa.2.2",
           "book": "Isa",
           "start": 33
         }
@@ -4666,7 +4666,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Eph.3.1-Eph.3.21",
+          "osis": "Eph.3.1-Eph.3.21",
           "book": "Eph",
           "start": 46,
           "end": 66
@@ -4678,7 +4678,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Dan.12.1-Dan.12.13",
+          "osis": "Dan.12.1-Dan.12.13",
           "book": "Dan",
           "start": 345,
           "end": 357
@@ -4690,7 +4690,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phlm.1.1",
+          "osis": "Phlm.1.1",
           "book": "Phlm",
           "start": 1
         }
@@ -4702,13 +4702,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Mark.9.1-Mark.9.50",
+          "osis": "Mark.9.1-Mark.9.50",
           "book": "Mark",
           "start": 324,
           "end": 373
         },
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
@@ -4720,7 +4720,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -4733,7 +4733,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Sam.7.1-1Sam.7.17",
+          "osis": "1Sam.7.1-1Sam.7.17",
           "book": "1Sam",
           "start": 141,
           "end": 157
@@ -4746,7 +4746,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4759,7 +4759,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Acts.4.1-Acts.4.37",
+          "osis": "Acts.4.1-Acts.4.37",
           "book": "Acts",
           "start": 100,
           "end": 136
@@ -4772,13 +4772,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
         },
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -4791,7 +4791,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
@@ -4804,7 +4804,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.50.11",
+          "osis": "Isa.30.1-Isa.50.11",
           "book": "Isa",
           "start": 564,
           "end": 1019
@@ -4816,13 +4816,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.7.1-Num.7.89",
+          "osis": "Num.7.1-Num.7.89",
           "book": "Num",
           "start": 247,
           "end": 335
         },
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -4835,7 +4835,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -4848,7 +4848,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.1.1-Col.1.29",
+          "osis": "Col.1.1-Col.1.29",
           "book": "Col",
           "start": 1,
           "end": 29
@@ -4861,7 +4861,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.25.1-Isa.25.12",
+          "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
           "end": 476
@@ -4874,7 +4874,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.13.1-Isa.13.22",
+          "osis": "Isa.13.1-Isa.13.22",
           "book": "Isa",
           "start": 253,
           "end": 274
@@ -4887,7 +4887,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.16.1-Mark.16.20",
+          "osis": "Mark.16.1-Mark.16.20",
           "book": "Mark",
           "start": 659,
           "end": 678
@@ -4900,7 +4900,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
@@ -4912,7 +4912,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -4925,7 +4925,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.14.1-Isa.14.32",
+          "osis": "Isa.14.1-Isa.14.32",
           "book": "Isa",
           "start": 275,
           "end": 306
@@ -4938,7 +4938,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.9",
+          "osis": "Isa.3.9",
           "book": "Isa",
           "start": 62
         }
@@ -4950,12 +4950,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.13.6",
+          "osis": "Isa.13.6",
           "book": "Isa",
           "start": 258
         },
         {
-          "ref": "Isa.13.3",
+          "osis": "Isa.13.3",
           "book": "Isa",
           "start": 255
         }
@@ -4967,7 +4967,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -4979,19 +4979,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
         },
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -5004,13 +5004,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.1.1-Gen.1.31",
+          "osis": "Gen.1.1-Gen.1.31",
           "book": "Gen",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Gen.2.1-Gen.2.25",
+          "osis": "Gen.2.1-Gen.2.25",
           "book": "Gen",
           "start": 32,
           "end": 56
@@ -5023,7 +5023,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.7.25",
+          "osis": "Isa.5.1-Isa.7.25",
           "book": "Isa",
           "start": 86,
           "end": 153
@@ -5035,7 +5035,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.2.1-Song.2.17",
+          "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
           "end": 34
@@ -5048,7 +5048,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.3.1-Song.3.11",
+          "osis": "Song.3.1-Song.3.11",
           "book": "Song",
           "start": 35,
           "end": 45
@@ -5061,7 +5061,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -5074,7 +5074,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -5086,7 +5086,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -5099,7 +5099,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rev.5.1-Rev.5.14",
+          "osis": "Rev.5.1-Rev.5.14",
           "book": "Rev",
           "start": 83,
           "end": 96
@@ -5112,7 +5112,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.3.1-Song.3.11",
+          "osis": "Song.3.1-Song.3.11",
           "book": "Song",
           "start": 35,
           "end": 45
@@ -5125,19 +5125,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
         },
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -5150,7 +5150,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5163,7 +5163,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -5175,7 +5175,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -5188,7 +5188,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.11.1-Num.11.35",
+          "osis": "Num.11.1-Num.11.35",
           "book": "Num",
           "start": 421,
           "end": 455
@@ -5200,7 +5200,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -5213,7 +5213,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Acts.15.1-Acts.15.41",
+          "osis": "Acts.15.1-Acts.15.41",
           "book": "Acts",
           "start": 520,
           "end": 560
@@ -5226,7 +5226,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5239,27 +5239,27 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.5.16",
+          "osis": "Song.5.16",
           "book": "Song",
           "start": 77
         },
         {
-          "ref": "Song.2.16",
+          "osis": "Song.2.16",
           "book": "Song",
           "start": 33
         },
         {
-          "ref": "John.14.16",
+          "osis": "John.14.16",
           "book": "John",
           "start": 640
         },
         {
-          "ref": "John.15.26",
+          "osis": "John.15.26",
           "book": "John",
           "start": 681
         },
         {
-          "ref": "John.16.7",
+          "osis": "John.16.7",
           "book": "John",
           "start": 689
         }
@@ -5271,13 +5271,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.1-Isa.8.22",
+          "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
           "end": 175
         },
         {
-          "ref": "Isa.21.1-Isa.21.17",
+          "osis": "Isa.21.1-Isa.21.17",
           "book": "Isa",
           "start": 382,
           "end": 398
@@ -5290,12 +5290,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.6",
+          "osis": "Isa.3.6",
           "book": "Isa",
           "start": 59
         },
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -5308,7 +5308,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -5321,7 +5321,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5333,7 +5333,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -5346,7 +5346,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
@@ -5359,7 +5359,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.9.1-Isa.9.21",
+          "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
           "end": 196
@@ -5372,7 +5372,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5384,7 +5384,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5397,19 +5397,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.20.1-Num.20.29",
+          "osis": "Num.20.1-Num.20.29",
           "book": "Num",
           "start": 708,
           "end": 736
         },
         {
-          "ref": "Ruth.2.1-Ruth.2.23",
+          "osis": "Ruth.2.1-Ruth.2.23",
           "book": "Ruth",
           "start": 23,
           "end": 45
         },
         {
-          "ref": "Ruth.3.1-Ruth.3.18",
+          "osis": "Ruth.3.1-Ruth.3.18",
           "book": "Ruth",
           "start": 46,
           "end": 63
@@ -5422,13 +5422,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.18.1-Isa.18.7",
+          "osis": "Isa.18.1-Isa.18.7",
           "book": "Isa",
           "start": 344,
           "end": 350
         },
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -5440,7 +5440,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5453,7 +5453,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.2",
+          "osis": "Isa.2.2",
           "book": "Isa",
           "start": 33
         }
@@ -5465,7 +5465,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -5477,7 +5477,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5490,7 +5490,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -5503,13 +5503,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.1.5",
+          "osis": "Isa.1.5",
           "book": "Isa",
           "start": 5
         }
@@ -5521,7 +5521,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5534,7 +5534,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.8",
+          "osis": "Isa.2.8",
           "book": "Isa",
           "start": 39
         }
@@ -5546,13 +5546,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.26.1-Isa.26.21",
+          "osis": "Isa.26.1-Isa.26.21",
           "book": "Isa",
           "start": 477,
           "end": 497
         },
         {
-          "ref": "Isa.33.1-Isa.33.24",
+          "osis": "Isa.33.1-Isa.33.24",
           "book": "Isa",
           "start": 626,
           "end": 649
@@ -5564,18 +5564,18 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.2.1",
+          "osis": "Isa.2.1",
           "book": "Isa",
           "start": 32
         },
         {
-          "ref": "Song.1.6",
+          "osis": "Song.1.6",
           "book": "Song",
           "start": 6
         }
@@ -5587,13 +5587,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.23.1-Isa.23.18",
+          "osis": "Isa.23.1-Isa.23.18",
           "book": "Isa",
           "start": 424,
           "end": 441
         },
         {
-          "ref": "Isa.25.1-Isa.25.12",
+          "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
           "end": 476
@@ -5606,19 +5606,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.1-Isa.8.22",
+          "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
           "end": 175
         },
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -5631,7 +5631,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.9.1-Isa.9.21",
+          "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
           "end": 196
@@ -5644,7 +5644,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Gen.3.1",
+          "osis": "Gen.3.1",
           "book": "Gen",
           "start": 57
         }
@@ -5655,13 +5655,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
         },
         {
-          "ref": "Isa.11.1-Isa.11.16",
+          "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
           "end": 246
@@ -5674,7 +5674,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -5687,7 +5687,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.1.1-Matt.1.25",
+          "osis": "Matt.1.1-Matt.1.25",
           "book": "Matt",
           "start": 1,
           "end": 25
@@ -5700,7 +5700,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5712,7 +5712,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.23.1-Isa.23.18",
+          "osis": "Isa.23.1-Isa.23.18",
           "book": "Isa",
           "start": 424,
           "end": 441
@@ -5725,13 +5725,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.12.1-Isa.12.6",
+          "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
           "end": 252
         },
         {
-          "ref": "Isa.11.1-Isa.11.16",
+          "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
           "end": 246
@@ -5744,7 +5744,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.25.1-Isa.25.12",
+          "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
           "end": 476
@@ -5756,7 +5756,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5769,7 +5769,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
@@ -5781,7 +5781,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.12.7",
+          "osis": "Mark.12.7",
           "book": "Mark",
           "start": 465
         }
@@ -5793,7 +5793,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.0",
+          "osis": "Isa.1.0",
           "book": "Isa",
           "start": 0
         }
@@ -5805,7 +5805,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.25.1-Num.25.18",
+          "osis": "Num.25.1-Num.25.18",
           "book": "Num",
           "start": 868,
           "end": 885
@@ -5818,13 +5818,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -5836,7 +5836,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.14.7",
+          "osis": "Isa.14.7",
           "book": "Isa",
           "start": 281
         }
@@ -5848,7 +5848,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5860,7 +5860,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.36.1-Num.36.13",
+          "osis": "Num.36.1-Num.36.13",
           "book": "Num",
           "start": 1276,
           "end": 1288
@@ -5872,7 +5872,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
@@ -5885,7 +5885,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -5898,7 +5898,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5911,7 +5911,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5924,13 +5924,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.7.2-Gen.7.4",
+          "osis": "Gen.7.2-Gen.7.4",
           "book": "Gen",
           "start": 162,
           "end": 164
         },
         {
-          "ref": "Gen.7.11",
+          "osis": "Gen.7.11",
           "book": "Gen",
           "start": 171
         }
@@ -5942,13 +5942,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Cor.1.1-1Cor.1.31",
+          "osis": "1Cor.1.1-1Cor.1.31",
           "book": "1Cor",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "1Cor.1.17",
+          "osis": "1Cor.1.17",
           "book": "1Cor",
           "start": 17
         }
@@ -5960,7 +5960,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5973,7 +5973,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.14.1-Mark.14.72",
+          "osis": "Mark.14.1-Mark.14.72",
           "book": "Mark",
           "start": 540,
           "end": 611
@@ -5986,7 +5986,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -5999,7 +5999,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.7.1-Isa.10.5",
+          "osis": "Isa.7.1-Isa.10.5",
           "book": "Isa",
           "start": 129,
           "end": 201
@@ -6012,13 +6012,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Prov.4.1-Prov.4.27",
+          "osis": "Prov.4.1-Prov.4.27",
           "book": "Prov",
           "start": 91,
           "end": 117
         },
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -6031,7 +6031,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Matt.2.1-Matt.2.23",
+          "osis": "Matt.2.1-Matt.2.23",
           "book": "Matt",
           "start": 26,
           "end": 48
@@ -6043,7 +6043,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Mic.5.1-Mic.5.15",
+          "osis": "Mic.5.1-Mic.5.15",
           "book": "Mic",
           "start": 55,
           "end": 69
@@ -6055,7 +6055,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.0",
+          "osis": "Isa.2.0",
           "book": "Isa",
           "start": 31
         }
@@ -6067,7 +6067,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Jude.1.6",
+          "osis": "Jude.1.6",
           "book": "Jude",
           "start": 6
         }
@@ -6079,7 +6079,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6092,7 +6092,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Luke.6.1-Luke.6.49",
+          "osis": "Luke.6.1-Luke.6.49",
           "book": "Luke",
           "start": 254,
           "end": 302
@@ -6105,7 +6105,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6117,7 +6117,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6130,7 +6130,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -6143,7 +6143,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6156,7 +6156,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.13.1-Mark.13.37",
+          "osis": "Mark.13.1-Mark.13.37",
           "book": "Mark",
           "start": 503,
           "end": 539
@@ -6169,13 +6169,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
         },
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -6188,7 +6188,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -6200,7 +6200,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6212,7 +6212,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6225,7 +6225,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6238,13 +6238,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.3.26",
+          "osis": "Isa.2.1-Isa.3.26",
           "book": "Isa",
           "start": 32,
           "end": 79
         },
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6257,7 +6257,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.25.1-Isa.25.12",
+          "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
           "end": 476
@@ -6270,7 +6270,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
@@ -6283,7 +6283,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.5",
+          "osis": "Isa.6.5",
           "book": "Isa",
           "start": 120
         }
@@ -6295,7 +6295,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.40.31",
+          "osis": "Isa.30.1-Isa.40.31",
           "book": "Isa",
           "start": 564,
           "end": 797
@@ -6307,7 +6307,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -6319,7 +6319,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6332,7 +6332,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -6345,7 +6345,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.8",
+          "osis": "Isa.2.8",
           "book": "Isa",
           "start": 39
         }
@@ -6357,7 +6357,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -6369,13 +6369,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
         },
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -6388,7 +6388,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Acts.3.1-Acts.3.26",
+          "osis": "Acts.3.1-Acts.3.26",
           "book": "Acts",
           "start": 74,
           "end": 99
@@ -6401,27 +6401,27 @@
       "type": "a",
       "body": [
         {
-          "ref": "Luke.2.8",
+          "osis": "Luke.2.8",
           "book": "Luke",
           "start": 88
         },
         {
-          "ref": "1Chr.4.39",
+          "osis": "1Chr.4.39",
           "book": "1Chr",
           "start": 172
         },
         {
-          "ref": "Ps.79.13",
+          "osis": "Ps.79.13",
           "book": "Ps",
           "start": 1259
         },
         {
-          "ref": "Isa.40.11",
+          "osis": "Isa.40.11",
           "book": "Isa",
           "start": 777
         },
         {
-          "ref": "Mic.7.14",
+          "osis": "Mic.7.14",
           "book": "Mic",
           "start": 99
         }
@@ -6433,7 +6433,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.28.13",
+          "osis": "Matt.28.13",
           "book": "Matt",
           "start": 1064
         }
@@ -6445,13 +6445,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.6.1-Num.6.27",
+          "osis": "Num.6.1-Num.6.27",
           "book": "Num",
           "start": 220,
           "end": 246
         },
         {
-          "ref": "Num.5.1-Num.5.31",
+          "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
           "end": 219
@@ -6463,7 +6463,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -6476,13 +6476,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rev.18.1-Rev.18.24",
+          "osis": "Rev.18.1-Rev.18.24",
           "book": "Rev",
           "start": 297,
           "end": 320
         },
         {
-          "ref": "Rev.2.1-Rev.2.29",
+          "osis": "Rev.2.1-Rev.2.29",
           "book": "Rev",
           "start": 21,
           "end": 49
@@ -6495,13 +6495,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
         },
         {
-          "ref": "Isa.24.8",
+          "osis": "Isa.24.8",
           "book": "Isa",
           "start": 449
         }
@@ -6513,7 +6513,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rev.4.1-Rev.4.11",
+          "osis": "Rev.4.1-Rev.4.11",
           "book": "Rev",
           "start": 72,
           "end": 82
@@ -6526,7 +6526,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -6539,7 +6539,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.22.1",
+          "osis": "Ps.22.1",
           "book": "Ps",
           "start": 266
         }
@@ -6551,7 +6551,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.8.1-Song.8.14",
+          "osis": "Song.8.1-Song.8.14",
           "book": "Song",
           "start": 104,
           "end": 117
@@ -6564,7 +6564,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -6576,13 +6576,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
         },
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
@@ -6595,7 +6595,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -6608,12 +6608,12 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.5",
+          "osis": "Isa.1.5",
           "book": "Isa",
           "start": 5
         },
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -6625,7 +6625,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
@@ -6638,7 +6638,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6651,13 +6651,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "2Chr.2.1-2Chr.2.18",
+          "osis": "2Chr.2.1-2Chr.2.18",
           "book": "2Chr",
           "start": 18,
           "end": 35
         },
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6670,7 +6670,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -6683,7 +6683,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -6696,7 +6696,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6709,7 +6709,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6722,7 +6722,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -6735,7 +6735,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -6748,7 +6748,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -6760,7 +6760,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6773,7 +6773,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Phil.3.1-Phil.3.21",
+          "osis": "Phil.3.1-Phil.3.21",
           "book": "Phil",
           "start": 61,
           "end": 81
@@ -6785,7 +6785,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -6797,7 +6797,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6810,7 +6810,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6822,7 +6822,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6835,7 +6835,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.26.2",
+          "osis": "Isa.26.2",
           "book": "Isa",
           "start": 478
         }
@@ -6847,7 +6847,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Acts.3.1-Acts.3.26",
+          "osis": "Acts.3.1-Acts.3.26",
           "book": "Acts",
           "start": 74,
           "end": 99
@@ -6859,7 +6859,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -6871,7 +6871,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.23.6",
+          "osis": "Isa.23.6",
           "book": "Isa",
           "start": 429
         }
@@ -6883,7 +6883,7 @@
       "type": "q",
       "title": [
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -6895,7 +6895,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.14.1-Isa.14.32",
+          "osis": "Isa.14.1-Isa.14.32",
           "book": "Isa",
           "start": 275,
           "end": 306
@@ -6908,7 +6908,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6921,7 +6921,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Jude.1.5",
+          "osis": "Jude.1.5",
           "book": "Jude",
           "start": 5
         }
@@ -6933,7 +6933,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6946,7 +6946,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6958,7 +6958,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6971,7 +6971,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phil.4.0",
+          "osis": "Phil.4.0",
           "book": "Phil",
           "start": 81
         }
@@ -6983,7 +6983,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -6995,7 +6995,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.23",
+          "osis": "Isa.10.23",
           "book": "Isa",
           "start": 219
         }
@@ -7007,7 +7007,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.3.1-Ps.3.8",
+          "osis": "Ps.3.1-Ps.3.8",
           "book": "Ps",
           "start": 19,
           "end": 26
@@ -7020,7 +7020,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -7033,7 +7033,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7046,7 +7046,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7058,7 +7058,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Luke.5.1-Luke.5.39",
+          "osis": "Luke.5.1-Luke.5.39",
           "book": "Luke",
           "start": 215,
           "end": 253
@@ -7071,31 +7071,31 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.46.1-Ps.46.11",
+          "osis": "Ps.46.1-Ps.46.11",
           "book": "Ps",
           "start": 676,
           "end": 686
         },
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
         },
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
         },
         {
-          "ref": "Isa.11.1-Isa.11.16",
+          "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
           "end": 246
         },
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
@@ -7108,7 +7108,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7121,7 +7121,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7134,7 +7134,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Job.35.1-Job.35.16",
+          "osis": "Job.35.1-Job.35.16",
           "book": "Job",
           "start": 852,
           "end": 867
@@ -7147,7 +7147,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7160,13 +7160,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.6.1-Mark.6.56",
+          "osis": "Mark.6.1-Mark.6.56",
           "book": "Mark",
           "start": 193,
           "end": 248
         },
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7179,7 +7179,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.4.3",
+          "osis": "Isa.4.3",
           "book": "Isa",
           "start": 82
         }
@@ -7191,7 +7191,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.6.1-Mark.6.56",
+          "osis": "Mark.6.1-Mark.6.56",
           "book": "Mark",
           "start": 193,
           "end": 248
@@ -7204,7 +7204,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
@@ -7217,19 +7217,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.10.1-Mark.10.52",
+          "osis": "Mark.10.1-Mark.10.52",
           "book": "Mark",
           "start": 374,
           "end": 425
         },
         {
-          "ref": "Mark.2.1-Mark.2.28",
+          "osis": "Mark.2.1-Mark.2.28",
           "book": "Mark",
           "start": 46,
           "end": 73
         },
         {
-          "ref": "Mark.11.1-Mark.11.33",
+          "osis": "Mark.11.1-Mark.11.33",
           "book": "Mark",
           "start": 426,
           "end": 458
@@ -7242,7 +7242,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -7255,7 +7255,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7268,13 +7268,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Matt.13.31-Matt.13.32",
+          "osis": "Matt.13.31-Matt.13.32",
           "book": "Matt",
           "start": 426,
           "end": 427
         },
         {
-          "ref": "Matt.13.31",
+          "osis": "Matt.13.31",
           "book": "Matt",
           "start": 426
         }
@@ -7285,7 +7285,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -7297,7 +7297,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.13.31-Matt.13.32",
+          "osis": "Matt.13.31-Matt.13.32",
           "book": "Matt",
           "start": 426,
           "end": 427
@@ -7310,7 +7310,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.11.1-Mark.11.33",
+          "osis": "Mark.11.1-Mark.11.33",
           "book": "Mark",
           "start": 426,
           "end": 458
@@ -7323,13 +7323,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.10.1-Mark.10.52",
+          "osis": "Mark.10.1-Mark.10.52",
           "book": "Mark",
           "start": 374,
           "end": 425
         },
         {
-          "ref": "Mark.9.10",
+          "osis": "Mark.9.10",
           "book": "Mark",
           "start": 333
         }
@@ -7341,13 +7341,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
         },
         {
-          "ref": "Mark.4.2",
+          "osis": "Mark.4.2",
           "book": "Mark",
           "start": 110
         }
@@ -7359,7 +7359,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.12.1-Mark.12.44",
+          "osis": "Mark.12.1-Mark.12.44",
           "book": "Mark",
           "start": 459,
           "end": 502
@@ -7372,19 +7372,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.16.1-Mark.16.20",
+          "osis": "Mark.16.1-Mark.16.20",
           "book": "Mark",
           "start": 659,
           "end": 678
         },
         {
-          "ref": "Mark.2.1-Mark.2.28",
+          "osis": "Mark.2.1-Mark.2.28",
           "book": "Mark",
           "start": 46,
           "end": 73
         },
         {
-          "ref": "Mark.7.4",
+          "osis": "Mark.7.4",
           "book": "Mark",
           "start": 252
         }
@@ -7396,7 +7396,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7409,7 +7409,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7422,7 +7422,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7435,7 +7435,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.5.1-Mark.5.43",
+          "osis": "Mark.5.1-Mark.5.43",
           "book": "Mark",
           "start": 150,
           "end": 192
@@ -7448,7 +7448,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Kgs.2.1-1Kgs.2.46",
+          "osis": "1Kgs.2.1-1Kgs.2.46",
           "book": "1Kgs",
           "start": 54,
           "end": 99
@@ -7461,7 +7461,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.5-Isa.5.14",
+          "osis": "Isa.5.5-Isa.5.14",
           "book": "Isa",
           "start": 90,
           "end": 99
@@ -7474,7 +7474,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7486,7 +7486,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7498,7 +7498,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.1-Isa.8.22",
+          "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
           "end": 175
@@ -7511,7 +7511,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7523,7 +7523,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7536,7 +7536,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7549,7 +7549,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7562,19 +7562,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.14.1-Mark.14.72",
+          "osis": "Mark.14.1-Mark.14.72",
           "book": "Mark",
           "start": 540,
           "end": 611
         },
         {
-          "ref": "Mark.7.1-Mark.7.37",
+          "osis": "Mark.7.1-Mark.7.37",
           "book": "Mark",
           "start": 249,
           "end": 285
         },
         {
-          "ref": "Mark.2.1-Mark.2.28",
+          "osis": "Mark.2.1-Mark.2.28",
           "book": "Mark",
           "start": 46,
           "end": 73
@@ -7587,19 +7587,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.2.1-Mark.2.28",
+          "osis": "Mark.2.1-Mark.2.28",
           "book": "Mark",
           "start": 46,
           "end": 73
         },
         {
-          "ref": "Mark.13.1-Mark.13.37",
+          "osis": "Mark.13.1-Mark.13.37",
           "book": "Mark",
           "start": 503,
           "end": 539
         },
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -7612,7 +7612,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mic.2.1-Mic.2.13",
+          "osis": "Mic.2.1-Mic.2.13",
           "book": "Mic",
           "start": 17,
           "end": 29
@@ -7625,7 +7625,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7638,7 +7638,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7650,7 +7650,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7663,7 +7663,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -7676,7 +7676,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7689,7 +7689,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Jer.1.1-Jer.1.19",
+          "osis": "Jer.1.1-Jer.1.19",
           "book": "Jer",
           "start": 1,
           "end": 19
@@ -7702,19 +7702,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.11.1-Mark.11.33",
+          "osis": "Mark.11.1-Mark.11.33",
           "book": "Mark",
           "start": 426,
           "end": 458
         },
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
         },
         {
-          "ref": "Mark.4.1-Mark.4.41",
+          "osis": "Mark.4.1-Mark.4.41",
           "book": "Mark",
           "start": 109,
           "end": 149
@@ -7727,7 +7727,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -7740,13 +7740,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
         },
         {
-          "ref": "Mark.4.1-Mark.4.41",
+          "osis": "Mark.4.1-Mark.4.41",
           "book": "Mark",
           "start": 109,
           "end": 149
@@ -7759,7 +7759,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7772,17 +7772,17 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.26",
+          "osis": "Isa.1.26",
           "book": "Isa",
           "start": 26
         },
         {
-          "ref": "Isa.3.4",
+          "osis": "Isa.3.4",
           "book": "Isa",
           "start": 57
         },
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -7795,7 +7795,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.2.1-Gen.2.25",
+          "osis": "Gen.2.1-Gen.2.25",
           "book": "Gen",
           "start": 32,
           "end": 56
@@ -7808,7 +7808,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Lam.2.1-Lam.2.22",
+          "osis": "Lam.2.1-Lam.2.22",
           "book": "Lam",
           "start": 23,
           "end": 44
@@ -7821,7 +7821,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.4.1-Col.4.18",
+          "osis": "Col.4.1-Col.4.18",
           "book": "Col",
           "start": 78,
           "end": 95
@@ -7834,7 +7834,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.6",
+          "osis": "Isa.15.6",
           "book": "Isa",
           "start": 312
         }
@@ -7846,7 +7846,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Ps.4.1-Ps.4.8",
+          "osis": "Ps.4.1-Ps.4.8",
           "book": "Ps",
           "start": 27,
           "end": 34
@@ -7858,7 +7858,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rev.2.1-Rev.2.29",
+          "osis": "Rev.2.1-Rev.2.29",
           "book": "Rev",
           "start": 21,
           "end": 49
@@ -7871,7 +7871,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.24.1-Isa.50.11",
+          "osis": "Isa.24.1-Isa.50.11",
           "book": "Isa",
           "start": 442,
           "end": 1019
@@ -7884,7 +7884,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.5",
+          "osis": "Song.1.5",
           "book": "Song",
           "start": 5
         }
@@ -7896,7 +7896,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.6",
+          "osis": "Isa.2.1-Isa.2.6",
           "book": "Isa",
           "start": 32,
           "end": 37
@@ -7909,7 +7909,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Acts.1.1-Acts.1.26",
+          "osis": "Acts.1.1-Acts.1.26",
           "book": "Acts",
           "start": 1,
           "end": 26
@@ -7922,7 +7922,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -7935,7 +7935,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -7947,19 +7947,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
         },
         {
-          "ref": "Song.2.1-Song.2.17",
+          "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
           "end": 34
         },
         {
-          "ref": "Acts.6.1-Acts.6.15",
+          "osis": "Acts.6.1-Acts.6.15",
           "book": "Acts",
           "start": 179,
           "end": 193
@@ -7972,7 +7972,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Gal.2.1-Gal.2.21",
+          "osis": "Gal.2.1-Gal.2.21",
           "book": "Gal",
           "start": 25,
           "end": 45
@@ -7984,7 +7984,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.18.1-Isa.18.7",
+          "osis": "Isa.18.1-Isa.18.7",
           "book": "Isa",
           "start": 344,
           "end": 350
@@ -7997,13 +7997,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
         },
         {
-          "ref": "Isa.9.5",
+          "osis": "Isa.9.5",
           "book": "Isa",
           "start": 180
         }
@@ -8014,7 +8014,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.31.1-Ps.31.24",
+          "osis": "Ps.31.1-Ps.31.24",
           "book": "Ps",
           "start": 393,
           "end": 416
@@ -8027,7 +8027,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -8040,7 +8040,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -8053,7 +8053,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.10.1-Isa.10.34",
+          "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
           "end": 230
@@ -8066,7 +8066,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -8079,7 +8079,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.17.8",
+          "osis": "Isa.17.8",
           "book": "Isa",
           "start": 337
         }
@@ -8090,7 +8090,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.12.5",
+          "osis": "Isa.12.5",
           "book": "Isa",
           "start": 251
         }
@@ -8102,7 +8102,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.11.2",
+          "osis": "Isa.11.2",
           "book": "Isa",
           "start": 232
         }
@@ -8114,7 +8114,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.8.1-Num.8.26",
+          "osis": "Num.8.1-Num.8.26",
           "book": "Num",
           "start": 336,
           "end": 361
@@ -8127,7 +8127,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.36.1-Isa.36.22",
+          "osis": "Isa.36.1-Isa.36.22",
           "book": "Isa",
           "start": 677,
           "end": 698
@@ -8140,7 +8140,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.35.1-Isa.35.10",
+          "osis": "Isa.35.1-Isa.35.10",
           "book": "Isa",
           "start": 667,
           "end": 676
@@ -8153,7 +8153,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "2Kgs.8.1-2Kgs.8.29",
+          "osis": "2Kgs.8.1-2Kgs.8.29",
           "book": "2Kgs",
           "start": 195,
           "end": 223
@@ -8165,7 +8165,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -8178,7 +8178,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.7.1-Isa.7.25",
+          "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
           "end": 153
@@ -8191,7 +8191,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -8204,19 +8204,19 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.31.1-Isa.31.9",
+          "osis": "Isa.31.1-Isa.31.9",
           "book": "Isa",
           "start": 597,
           "end": 605
         },
         {
-          "ref": "Isa.8.1-Isa.8.22",
+          "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
           "end": 175
         },
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -8229,7 +8229,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.2",
+          "osis": "Col.2.2",
           "book": "Col",
           "start": 31
         }
@@ -8241,13 +8241,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.4.1-Song.4.16",
+          "osis": "Song.4.1-Song.4.16",
           "book": "Song",
           "start": 46,
           "end": 61
         },
         {
-          "ref": "Esth.8.1-Esth.8.17",
+          "osis": "Esth.8.1-Esth.8.17",
           "book": "Esth",
           "start": 116,
           "end": 132
@@ -8260,7 +8260,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.4.1-Num.4.49",
+          "osis": "Num.4.1-Num.4.49",
           "book": "Num",
           "start": 140,
           "end": 188
@@ -8272,7 +8272,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.14.1-Ps.14.7",
+          "osis": "Ps.14.1-Ps.14.7",
           "book": "Ps",
           "start": 142,
           "end": 148
@@ -8285,27 +8285,27 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.5.32",
+          "osis": "Gen.5.32",
           "book": "Gen",
           "start": 138
         },
         {
-          "ref": "Gen.6.10",
+          "osis": "Gen.6.10",
           "book": "Gen",
           "start": 148
         },
         {
-          "ref": "Gen.9.18",
+          "osis": "Gen.9.18",
           "book": "Gen",
           "start": 224
         },
         {
-          "ref": "Gen.10.1",
+          "osis": "Gen.10.1",
           "book": "Gen",
           "start": 236
         },
         {
-          "ref": "1Chr.1.4",
+          "osis": "1Chr.1.4",
           "book": "1Chr",
           "start": 4
         }
@@ -8317,7 +8317,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Prov.8.1-Prov.8.36",
+          "osis": "Prov.8.1-Prov.8.36",
           "book": "Prov",
           "start": 203,
           "end": 238
@@ -8330,7 +8330,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Eph.2.1-Eph.2.22",
+          "osis": "Eph.2.1-Eph.2.22",
           "book": "Eph",
           "start": 24,
           "end": 45
@@ -8343,12 +8343,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.15.38",
+          "osis": "Num.15.38",
           "book": "Num",
           "start": 587
         },
         {
-          "ref": "Exod.28.6",
+          "osis": "Exod.28.6",
           "book": "Exod",
           "start": 767
         }
@@ -8360,7 +8360,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.29.1-Isa.29.24",
+          "osis": "Isa.29.1-Isa.29.24",
           "book": "Isa",
           "start": 540,
           "end": 563
@@ -8373,7 +8373,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.10.34",
+          "osis": "Isa.5.1-Isa.10.34",
           "book": "Isa",
           "start": 86,
           "end": 230
@@ -8386,7 +8386,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -8394,7 +8394,7 @@
       ],
       "title": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -8406,7 +8406,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.12.1-Isa.12.6",
+          "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
           "end": 252
@@ -8419,7 +8419,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.14.1-Num.14.45",
+          "osis": "Num.14.1-Num.14.45",
           "book": "Num",
           "start": 505,
           "end": 549
@@ -8432,7 +8432,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.2.1-Num.2.34",
+          "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
           "end": 88
@@ -8445,7 +8445,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.7",
+          "osis": "Isa.2.7",
           "book": "Isa",
           "start": 38
         }
@@ -8457,13 +8457,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.6.1-Mark.6.56",
+          "osis": "Mark.6.1-Mark.6.56",
           "book": "Mark",
           "start": 193,
           "end": 248
         },
         {
-          "ref": "Mark.1.1-Mark.1.45",
+          "osis": "Mark.1.1-Mark.1.45",
           "book": "Mark",
           "start": 1,
           "end": 45
@@ -8476,7 +8476,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
@@ -8489,12 +8489,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "2Kgs.23.29",
+          "osis": "2Kgs.23.29",
           "book": "2Kgs",
           "start": 661
         },
         {
-          "ref": "Exod.15.1-Exod.15.18",
+          "osis": "Exod.15.1-Exod.15.18",
           "book": "Exod",
           "start": 389,
           "end": 406
@@ -8507,13 +8507,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Prov.24.1-Prov.24.34",
+          "osis": "Prov.24.1-Prov.24.34",
           "book": "Prov",
           "start": 680,
           "end": 713
         },
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -8526,7 +8526,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -8539,7 +8539,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.6.1-Isa.6.13",
+          "osis": "Isa.6.1-Isa.6.13",
           "book": "Isa",
           "start": 116,
           "end": 128
@@ -8552,7 +8552,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.35.1-Isa.35.10",
+          "osis": "Isa.35.1-Isa.35.10",
           "book": "Isa",
           "start": 667,
           "end": 676
@@ -8565,7 +8565,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gal.3.1-Gal.3.29",
+          "osis": "Gal.3.1-Gal.3.29",
           "book": "Gal",
           "start": 46,
           "end": 74
@@ -8578,7 +8578,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -8591,13 +8591,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mic.5.1-Mic.5.15",
+          "osis": "Mic.5.1-Mic.5.15",
           "book": "Mic",
           "start": 55,
           "end": 69
         },
         {
-          "ref": "Mic.6.1-Mic.6.16",
+          "osis": "Mic.6.1-Mic.6.16",
           "book": "Mic",
           "start": 70,
           "end": 85
@@ -8610,7 +8610,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Acts.5.1-Acts.5.42",
+          "osis": "Acts.5.1-Acts.5.42",
           "book": "Acts",
           "start": 137,
           "end": 178
@@ -8623,12 +8623,12 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.14.10",
+          "osis": "Isa.14.10",
           "book": "Isa",
           "start": 284
         },
         {
-          "ref": "Isa.16.10",
+          "osis": "Isa.16.10",
           "book": "Isa",
           "start": 325
         }
@@ -8639,7 +8639,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -8651,7 +8651,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
@@ -8664,7 +8664,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Josh.3.1-Josh.3.17",
+          "osis": "Josh.3.1-Josh.3.17",
           "book": "Josh",
           "start": 43,
           "end": 59
@@ -8677,13 +8677,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Ps.40.1-Ps.40.17",
+          "osis": "Ps.40.1-Ps.40.17",
           "book": "Ps",
           "start": 587,
           "end": 603
         },
         {
-          "ref": "Rev.3.1-Rev.3.22",
+          "osis": "Rev.3.1-Rev.3.22",
           "book": "Rev",
           "start": 50,
           "end": 71
@@ -8696,7 +8696,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -8708,7 +8708,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -8716,7 +8716,7 @@
       ],
       "title": [
         {
-          "ref": "Isa.30.1-Isa.30.33",
+          "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
           "end": 596
@@ -8728,7 +8728,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Luke.21.11",
+          "osis": "Luke.21.11",
           "book": "Luke",
           "start": 944
         }
@@ -8739,7 +8739,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -8752,12 +8752,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.6",
+          "osis": "Isa.2.6",
           "book": "Isa",
           "start": 37
         },
         {
-          "ref": "Isa.2.3",
+          "osis": "Isa.2.3",
           "book": "Isa",
           "start": 34
         }
@@ -8769,7 +8769,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "2Sam.13.1-2Sam.13.39",
+          "osis": "2Sam.13.1-2Sam.13.39",
           "book": "2Sam",
           "start": 296,
           "end": 334
@@ -8782,7 +8782,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -8795,7 +8795,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.19.1-Isa.19.25",
+          "osis": "Isa.19.1-Isa.19.25",
           "book": "Isa",
           "start": 351,
           "end": 375
@@ -8808,7 +8808,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "1Pet.2.1-1Pet.2.25",
+          "osis": "1Pet.2.1-1Pet.2.25",
           "book": "1Pet",
           "start": 26,
           "end": 50
@@ -8821,7 +8821,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.1",
+          "osis": "Isa.1.1",
           "book": "Isa",
           "start": 1
         }
@@ -8832,7 +8832,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.1-Isa.20.6",
+          "osis": "Isa.8.1-Isa.20.6",
           "book": "Isa",
           "start": 154,
           "end": 381
@@ -8845,7 +8845,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.8.1-Isa.20.6",
+          "osis": "Isa.8.1-Isa.20.6",
           "book": "Isa",
           "start": 154,
           "end": 381
@@ -8858,7 +8858,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.8.1-Song.8.14",
+          "osis": "Song.8.1-Song.8.14",
           "book": "Song",
           "start": 104,
           "end": 117
@@ -8871,7 +8871,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.35.1-Isa.35.10",
+          "osis": "Isa.35.1-Isa.35.10",
           "book": "Isa",
           "start": 667,
           "end": 676
@@ -8884,7 +8884,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.20.6",
+          "osis": "Isa.2.1-Isa.20.6",
           "book": "Isa",
           "start": 32,
           "end": 381
@@ -8897,7 +8897,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.43.1-Isa.43.28",
+          "osis": "Isa.43.1-Isa.43.28",
           "book": "Isa",
           "start": 852,
           "end": 879
@@ -8910,7 +8910,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Amos.1.1-Amos.1.15",
+          "osis": "Amos.1.1-Amos.1.15",
           "book": "Amos",
           "start": 1,
           "end": 15
@@ -8922,7 +8922,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.37.6",
+          "osis": "Isa.37.6",
           "book": "Isa",
           "start": 704
         }
@@ -8934,7 +8934,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Num.1.1-Num.1.54",
+          "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
           "end": 54
@@ -8947,7 +8947,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.31.1-Isa.31.9",
+          "osis": "Isa.31.1-Isa.31.9",
           "book": "Isa",
           "start": 597,
           "end": 605
@@ -8960,7 +8960,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -8973,13 +8973,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.9.1-Isa.9.21",
+          "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
           "end": 196
         },
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
@@ -8992,7 +8992,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.48.1-Isa.48.22",
+          "osis": "Isa.48.1-Isa.48.22",
           "book": "Isa",
           "start": 961,
           "end": 982
@@ -9005,13 +9005,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.38.1-Isa.38.22",
+          "osis": "Isa.38.1-Isa.38.22",
           "book": "Isa",
           "start": 737,
           "end": 758
         },
         {
-          "ref": "Num.3.1-Num.3.51",
+          "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
           "end": 139
@@ -9024,22 +9024,22 @@
       "type": "a",
       "body": [
         {
-          "ref": "Matt.1.1",
+          "osis": "Matt.1.1",
           "book": "Matt",
           "start": 1
         },
         {
-          "ref": "Luke.3.23",
+          "osis": "Luke.3.23",
           "book": "Luke",
           "start": 155
         },
         {
-          "ref": "Isa.7.14",
+          "osis": "Isa.7.14",
           "book": "Isa",
           "start": 142
         },
         {
-          "ref": "Matt.20.1-Matt.22.46",
+          "osis": "Matt.20.1-Matt.22.46",
           "book": "Matt",
           "start": 649,
           "end": 774
@@ -9052,13 +9052,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Luke.20.1-Luke.20.47",
+          "osis": "Luke.20.1-Luke.20.47",
           "book": "Luke",
           "start": 887,
           "end": 933
         },
         {
-          "ref": "John.19.1-John.19.42",
+          "osis": "John.19.1-John.19.42",
           "book": "John",
           "start": 782,
           "end": 823
@@ -9071,13 +9071,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Acts.15.1-Acts.15.41",
+          "osis": "Acts.15.1-Acts.15.41",
           "book": "Acts",
           "start": 520,
           "end": 560
         },
         {
-          "ref": "Gal.2.1-Gal.2.21",
+          "osis": "Gal.2.1-Gal.2.21",
           "book": "Gal",
           "start": 25,
           "end": 45
@@ -9090,131 +9090,131 @@
       "type": "a",
       "body": [
         {
-          "ref": "Deut.22.29",
+          "osis": "Deut.22.29",
           "book": "Deut",
           "start": 607
         },
         {
-          "ref": "Exod.22.16-Exod.22.17",
+          "osis": "Exod.22.16-Exod.22.17",
           "book": "Exod",
           "start": 597,
           "end": 598
         },
         {
-          "ref": "Deut.22.28",
+          "osis": "Deut.22.28",
           "book": "Deut",
           "start": 606
         },
         {
-          "ref": "Exod.22.16",
+          "osis": "Exod.22.16",
           "book": "Exod",
           "start": 597
         },
         {
-          "ref": "Deut.24.1",
+          "osis": "Deut.24.1",
           "book": "Deut",
           "start": 634
         },
         {
-          "ref": "Gen.34.1-Gen.34.31",
+          "osis": "Gen.34.1-Gen.34.31",
           "book": "Gen",
           "start": 982,
           "end": 1012
         },
         {
-          "ref": "2Sam.13.1-2Sam.13.39",
+          "osis": "2Sam.13.1-2Sam.13.39",
           "book": "2Sam",
           "start": 296,
           "end": 334
         },
         {
-          "ref": "Prov.31.1-Prov.31.31",
+          "osis": "Prov.31.1-Prov.31.31",
           "book": "Prov",
           "start": 885,
           "end": 915
         },
         {
-          "ref": "Deut.22.25",
+          "osis": "Deut.22.25",
           "book": "Deut",
           "start": 603
         },
         {
-          "ref": "Gen.4.21",
+          "osis": "Gen.4.21",
           "book": "Gen",
           "start": 101
         },
         {
-          "ref": "Ezek.21.11",
+          "osis": "Ezek.21.11",
           "book": "Ezek",
           "start": 491
         },
         {
-          "ref": "Ezek.30.21",
+          "osis": "Ezek.30.21",
           "book": "Ezek",
           "start": 761
         },
         {
-          "ref": "Jer.50.16",
+          "osis": "Jer.50.16",
           "book": "Jer",
           "start": 1236
         },
         {
-          "ref": "Jer.46.9",
+          "osis": "Jer.46.9",
           "book": "Jer",
           "start": 1108
         },
         {
-          "ref": "Ezek.27.29",
+          "osis": "Ezek.27.29",
           "book": "Ezek",
           "start": 686
         },
         {
-          "ref": "Amos.2.15",
+          "osis": "Amos.2.15",
           "book": "Amos",
           "start": 30
         },
         {
-          "ref": "Prov.30.9",
+          "osis": "Prov.30.9",
           "book": "Prov",
           "start": 860
         },
         {
-          "ref": "Jer.2.8",
+          "osis": "Jer.2.8",
           "book": "Jer",
           "start": 27
         },
         {
-          "ref": "Gen.39.12",
+          "osis": "Gen.39.12",
           "book": "Gen",
           "start": 1162
         },
         {
-          "ref": "1Kgs.11.30",
+          "osis": "1Kgs.11.30",
           "book": "1Kgs",
           "start": 421
         },
         {
-          "ref": "Deut.9.17",
+          "osis": "Deut.9.17",
           "book": "Deut",
           "start": 282
         },
         {
-          "ref": "1Kgs.20.18",
+          "osis": "1Kgs.20.18",
           "book": "1Kgs",
           "start": 709
         },
         {
-          "ref": "Deut.20.19",
+          "osis": "Deut.20.19",
           "book": "Deut",
           "start": 554
         },
         {
-          "ref": "Isa.36.1",
+          "osis": "Isa.36.1",
           "book": "Isa",
           "start": 677
         },
         {
-          "ref": "Num.5.13",
+          "osis": "Num.5.13",
           "book": "Num",
           "start": 201
         }
@@ -9226,7 +9226,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.60.1-Isa.60.22",
+          "osis": "Isa.60.1-Isa.60.22",
           "book": "Isa",
           "start": 1168,
           "end": 1189
@@ -9239,12 +9239,12 @@
       "type": "a",
       "body": [
         {
-          "ref": "Exod.14.1",
+          "osis": "Exod.14.1",
           "book": "Exod",
           "start": 358
         },
         {
-          "ref": "Exod.14.23",
+          "osis": "Exod.14.23",
           "book": "Exod",
           "start": 380
         }
@@ -9256,13 +9256,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Deut.22.28-Deut.22.29",
+          "osis": "Deut.22.28-Deut.22.29",
           "book": "Deut",
           "start": 606,
           "end": 607
         },
         {
-          "ref": "Exod.22.16-Exod.22.17",
+          "osis": "Exod.22.16-Exod.22.17",
           "book": "Exod",
           "start": 597,
           "end": 598
@@ -9275,7 +9275,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.50.1-Isa.50.11",
+          "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
           "end": 1019
@@ -9288,13 +9288,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Wis.1.1-Wis.1.16",
+          "osis": "Wis.1.1-Wis.1.16",
           "book": "Wis",
           "start": 1,
           "end": 16
         },
         {
-          "ref": "Matt.10.16",
+          "osis": "Matt.10.16",
           "book": "Matt",
           "start": 289
         }
@@ -9306,7 +9306,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.42.1-Isa.42.25",
+          "osis": "Isa.42.1-Isa.42.25",
           "book": "Isa",
           "start": 827,
           "end": 851
@@ -9319,7 +9319,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -9332,7 +9332,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.11.1-Isa.11.16",
+          "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
           "end": 246
@@ -9345,7 +9345,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.45.1-Isa.45.25",
+          "osis": "Isa.45.1-Isa.45.25",
           "book": "Isa",
           "start": 908,
           "end": 932
@@ -9357,7 +9357,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Jer.9.1-Jer.9.26",
+          "osis": "Jer.9.1-Jer.9.26",
           "book": "Jer",
           "start": 230,
           "end": 255
@@ -9369,13 +9369,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.10.1-Mark.10.52",
+          "osis": "Mark.10.1-Mark.10.52",
           "book": "Mark",
           "start": 374,
           "end": 425
         },
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -9388,17 +9388,17 @@
       "type": "a",
       "body": [
         {
-          "ref": "Gen.34.12",
+          "osis": "Gen.34.12",
           "book": "Gen",
           "start": 993
         },
         {
-          "ref": "Gen.24.53",
+          "osis": "Gen.24.53",
           "book": "Gen",
           "start": 645
         },
         {
-          "ref": "Exod.22.16-Exod.22.17",
+          "osis": "Exod.22.16-Exod.22.17",
           "book": "Exod",
           "start": 597,
           "end": 598
@@ -9411,12 +9411,12 @@
       "type": "q",
       "body": [
         {
-          "ref": "Num.2.5",
+          "osis": "Num.2.5",
           "book": "Num",
           "start": 59
         },
         {
-          "ref": "Song.2.5",
+          "osis": "Song.2.5",
           "book": "Song",
           "start": 22
         }
@@ -9427,7 +9427,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -9439,7 +9439,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.3.1-Isa.3.26",
+          "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
           "end": 79
@@ -9451,7 +9451,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.16.1-Isa.16.14",
+          "osis": "Isa.16.1-Isa.16.14",
           "book": "Isa",
           "start": 316,
           "end": 329
@@ -9463,7 +9463,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -9475,7 +9475,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Song.1.1-Song.1.17",
+          "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
           "end": 17
@@ -9487,13 +9487,13 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.20.1-Isa.20.6",
+          "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
           "end": 381
         },
         {
-          "ref": "Isa.20.1-Isa.50.11",
+          "osis": "Isa.20.1-Isa.50.11",
           "book": "Isa",
           "start": 376,
           "end": 1019
@@ -9505,7 +9505,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.1.24",
+          "osis": "Isa.1.24",
           "book": "Isa",
           "start": 24
         }
@@ -9516,7 +9516,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -9529,13 +9529,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.18.1-Isa.18.7",
+          "osis": "Isa.18.1-Isa.18.7",
           "book": "Isa",
           "start": 344,
           "end": 350
         },
         {
-          "ref": "Isa.11.1-Isa.11.16",
+          "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
           "end": 246
@@ -9548,7 +9548,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.40.1-Isa.40.31",
+          "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
           "end": 797
@@ -9561,13 +9561,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.4.1-Isa.4.6",
+          "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
           "end": 85
         },
         {
-          "ref": "Song.4.2",
+          "osis": "Song.4.2",
           "book": "Song",
           "start": 47
         }
@@ -9579,7 +9579,7 @@
       "type": "q",
       "title": [
         {
-          "ref": "Isa.2.4",
+          "osis": "Isa.2.4",
           "book": "Isa",
           "start": 35
         }
@@ -9590,7 +9590,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.15.1-Isa.15.9",
+          "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
           "end": 315
@@ -9603,7 +9603,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -9616,13 +9616,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.9-Isa.7.5",
+          "osis": "Isa.5.9-Isa.7.5",
           "book": "Isa",
           "start": 94,
           "end": 133
         },
         {
-          "ref": "Isa.5.1-Isa.9.21",
+          "osis": "Isa.5.1-Isa.9.21",
           "book": "Isa",
           "start": 86,
           "end": 196
@@ -9635,7 +9635,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Deut.4.1-Deut.4.49",
+          "osis": "Deut.4.1-Deut.4.49",
           "book": "Deut",
           "start": 113,
           "end": 161
@@ -9647,7 +9647,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rev.1.1",
+          "osis": "Rev.1.1",
           "book": "Rev",
           "start": 1
         }
@@ -9659,7 +9659,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Obad.1.2",
+          "osis": "Obad.1.2",
           "book": "Obad",
           "start": 2
         }
@@ -9670,7 +9670,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.7",
+          "osis": "Isa.1.7",
           "book": "Isa",
           "start": 7
         }
@@ -9682,7 +9682,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Mark.3.1-Mark.3.35",
+          "osis": "Mark.3.1-Mark.3.35",
           "book": "Mark",
           "start": 74,
           "end": 108
@@ -9695,7 +9695,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Dan.6.1-Dan.6.28",
+          "osis": "Dan.6.1-Dan.6.28",
           "book": "Dan",
           "start": 169,
           "end": 196
@@ -9707,13 +9707,13 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.1.1-Isa.1.31",
+          "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
           "end": 31
         },
         {
-          "ref": "Isa.2.1-Isa.2.22",
+          "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
           "end": 53
@@ -9726,7 +9726,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Rom.1.1-Rom.1.32",
+          "osis": "Rom.1.1-Rom.1.32",
           "book": "Rom",
           "start": 1,
           "end": 32
@@ -9739,7 +9739,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.5.1-Isa.5.30",
+          "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
           "end": 115
@@ -9752,7 +9752,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Isa.12.1-Isa.12.6",
+          "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
           "end": 252
@@ -9764,7 +9764,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "1Cor.13.9",
+          "osis": "1Cor.13.9",
           "book": "1Cor",
           "start": 311
         }
@@ -9775,7 +9775,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -9787,7 +9787,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.52.1",
+          "osis": "Isa.52.1",
           "book": "Isa",
           "start": 1043
         }
@@ -9799,17 +9799,17 @@
       "type": "a",
       "body": [
         {
-          "ref": "Lev.18.22",
+          "osis": "Lev.18.22",
           "book": "Lev",
           "start": 528
         },
         {
-          "ref": "Lev.20.13",
+          "osis": "Lev.20.13",
           "book": "Lev",
           "start": 586
         },
         {
-          "ref": "1Cor.6.9-1Cor.6.11",
+          "osis": "1Cor.6.9-1Cor.6.11",
           "book": "1Cor",
           "start": 113,
           "end": 115
@@ -9822,52 +9822,52 @@
       "type": "a",
       "body": [
         {
-          "ref": "Lev.20.13",
+          "osis": "Lev.20.13",
           "book": "Lev",
           "start": 586
         },
         {
-          "ref": "Lev.18.22",
+          "osis": "Lev.18.22",
           "book": "Lev",
           "start": 528
         },
         {
-          "ref": "1Tim.1.9-1Tim.1.10",
+          "osis": "1Tim.1.9-1Tim.1.10",
           "book": "1Tim",
           "start": 9,
           "end": 10
         },
         {
-          "ref": "1Cor.6.9-1Cor.6.10",
+          "osis": "1Cor.6.9-1Cor.6.10",
           "book": "1Cor",
           "start": 113,
           "end": 114
         },
         {
-          "ref": "Rom.1.26-Rom.1.28",
+          "osis": "Rom.1.26-Rom.1.28",
           "book": "Rom",
           "start": 26,
           "end": 28
         },
         {
-          "ref": "Gen.19.1-Gen.19.13",
+          "osis": "Gen.19.1-Gen.19.13",
           "book": "Gen",
           "start": 459,
           "end": 471
         },
         {
-          "ref": "Rom.1.26-Rom.1.27",
+          "osis": "Rom.1.26-Rom.1.27",
           "book": "Rom",
           "start": 26,
           "end": 27
         },
         {
-          "ref": "1Cor.6.9",
+          "osis": "1Cor.6.9",
           "book": "1Cor",
           "start": 113
         },
         {
-          "ref": "Jude.1.7",
+          "osis": "Jude.1.7",
           "book": "Jude",
           "start": 7
         }
@@ -9879,7 +9879,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Col.2.1-Col.2.23",
+          "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52
@@ -9892,7 +9892,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Song.1.4",
+          "osis": "Song.1.4",
           "book": "Song",
           "start": 4
         }
@@ -9904,7 +9904,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Phil.3.1-Phil.3.21",
+          "osis": "Phil.3.1-Phil.3.21",
           "book": "Phil",
           "start": 61,
           "end": 81
@@ -9917,7 +9917,7 @@
       "type": "a",
       "body": [
         {
-          "ref": "Isa.3.5",
+          "osis": "Isa.3.5",
           "book": "Isa",
           "start": 58
         }
@@ -9929,7 +9929,7 @@
       "type": "q",
       "body": [
         {
-          "ref": "Col.2.7",
+          "osis": "Col.2.7",
           "book": "Col",
           "start": 36
         }
