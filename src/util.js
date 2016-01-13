@@ -40,7 +40,7 @@ module.exports.parse_ref = function( ref )
 	var matches = ref_pattern.exec( ref );
 	var book = matches[1];
 	var result = {
-		ref: ref,
+		osis: ref,
 		book: book,
 		start: verse_in_book( book, +matches[2], +matches[3] ),
 	};
