@@ -3,109 +3,89 @@
 var _ = require( 'lodash' );
 
 var bcv = require( './bcv_parser.js' ).bcv;
+var util = require( '../src/util.js' );
 
 // Search for a Bible reference
-// NB. Currently only one reference is supported
+// NB. Currently only one verse reference query is supported
 
-// Rankings
-//   1: normal result (query overlaps with at least one reference)
-//   * 2: result in question
-//   * 3: result in question title
-//   * 5: exact match
-
-function run_search( query, index )
+function search( query, index )
 {
-	var query = bcv.parse( query ).osis();
+	query = bcv.parse( query ).osis();
 	if ( !query )
 	{
 		return [];
 	}
-	var parsed_query = parse_ref( query );
-
-	return _( index )
-		.map( function( post )
-		{
-			var found,
-			ranking = post.type === 'q' ? 2 : 1,
-			result;
-
-			if ( post.type === 'q' && post.title )
-			{
-				result = check_matches( parsed_query, post.title );
-				if ( result )
-				{
-					found = 1;
-					ranking = result * 3;
-				}
-			}
-			if ( !found && post.body )
-			{
-				result = check_matches( parsed_query, post.body );
-				if ( result )
-				{
-					found = 1;
-					ranking *= result;
-				}
-			}
-			if ( found )
-			{
-				return {
-					id: post.id,
-					type: post.type,
-					ranking: ranking,
-				};
-			}
-		})
-		.filter( function( post )
-		{
-			return post;
-		})
-		.sortByOrder( 'ranking', 'desc' )
-		.value();
-}
-
-// Check a query against a list of references
-function check_matches( query, references )
-{
-	var ranking = 0;
-	references.forEach( function( ref )
+	var parsed_query = util.parse_ref( query );
+	
+	// First filter for posts which have an overlapping reference
+	var results = filter( parsed_query, index.posts );
+	// Analyse the filtered posts
+	results = analyse( parsed_query, results );
+	results = results.map( function( post )
 	{
-		ref = parse_ref( ref );
-		// Exact match
-		if ( query.ref === ref.ref )
-		{
-			ranking = 5;
-			return;
-		}
-		// Check book
-		if ( query.book !== ref.book )
-		{
-			return;
-		}
-		// Check for non-overlapping references
-		if ( query.end < ref.start || ref.end < query.start )
-		{
-			return;
-		}
-		ranking = 1;
+		return {
+			id: post.id,
+			type: post.type,
+			title: index.titles[ post.type === 'q' ? post.id : post.parent ],
+			specificity: post.specificity,
+		};
 	});
-	return ranking;
+	return _.sortByOrder( results, 'specificity', 'asc' );
 }
 
-// Parse a reference
-function parse_ref( ref )
+// Filter to posts which overlap with the query
+function filter( parsed_query, posts )
 {
-	var pattern = /^(\w+)\.(\d+)\.(\d+)(-\w+\.(\d+)\.(\d+))?$/;
-	var start, end;
-	var matches = pattern.exec( ref );
-	start = +matches[2] + ( +matches[3] ) / 1000;
-	end = matches[4] ? +matches[5] + ( +matches[6] ) / 1000 : start;
-	return {
-		ref: ref,
-		book: matches[1],
-		start: start,
-		end: end,
-	};
+	return posts.filter( function( post )
+	{
+		var refs = ( post.title || [] ).concat( post.body || [] );
+		var i, q_start, q_end, r_start, r_end;
+		for ( i = 0; i < refs.length; i++ )
+		{
+			if ( parsed_query.book === refs[i].book )
+			{
+				q_start = parsed_query.start;
+				q_end = parsed_query.end || q_start;
+				r_start = refs[i].start;
+				r_end = refs[i].end || r_start;
+				if ( ( r_start >= q_start && r_start <= q_end ) || ( r_end >= q_start && r_end <= q_end ) )
+				{
+					return true;
+				}
+			}
+		}
+	});
 }
 
-module.exports = run_search;
+// Pre-compute some data that will be needed for sorting
+function analyse( parsed_query, posts )
+{
+	function specificity( ref )
+	{
+		return ( Math.abs( ref.start - parsed_query.start ) + Math.abs( ( ref.end || ref.start ) - ( parsed_query.end || parsed_query.start ) ) ) / 2;
+	}
+	function most_specific_ref( post )
+	{
+		var refs = ( post.title || [] ).concat( post.body || [] );
+		return refs.filter( function( ref )
+		{
+			return ref.book === parsed_query.book;
+		})
+		.reduce( function( a, b )
+		{
+			return specificity( a ) < specificity( b ) ? a : b;
+		});
+	}
+	return posts.map( function( post )
+	{
+		// Clone the post so that we don't contaminate the index
+		var result = _.clone( post );
+		result.most_specific_ref = most_specific_ref( post );
+		result.specificity = specificity( result.most_specific_ref );
+		return result;
+	});
+}
+
+module.exports.search = search;
+module.exports.filter = filter;
+module.exports.analyse = analyse;
