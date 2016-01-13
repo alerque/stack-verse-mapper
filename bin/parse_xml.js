@@ -15,7 +15,7 @@ function parse_xml( data )
 	var src_stream = new stream.Readable();
 	src_stream.push( data );
 	src_stream.push( null );
-	var xmlStream = xmlFlow( util.progress_stream( src_stream, data.length ) );
+	var xmlStream = xmlFlow( src_stream );
 	var results = '';
 
 	xmlStream.on( 'tag:row', function( data )

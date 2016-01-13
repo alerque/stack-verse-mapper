@@ -2,7 +2,6 @@
 
 var fs = require( 'fs' );
 var minimist = require( 'minimist' );
-var through = require( 'through2' );
 
 var bcv = require( './bcv_parser.js' ).bcv;
 
@@ -31,25 +30,6 @@ module.exports.stdin_reader = function( func )
 	{
 		func( data );
 	});
-};
-
-// Create a through stream which will send progress messages to the parent process
-module.exports.progress_stream = function( stream, total )
-{
-	var progress = 0;
-	var handler = through( function( chunk, encoding, callback )
-	{
-		if ( process.send )
-		{
-			progress += chunk.length;
-			process.send({
-				progress: progress,
-				total: total,
-			});
-		}
-		callback( null, chunk );
-	});
-	return stream.pipe( handler );
 };
 
 // Parse a reference into book and verse-in-book numbers

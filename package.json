@@ -14,18 +14,9 @@
   "homepage": "https://github.com/alerque/stack-verse-mapper",
   "dependencies": {
     "bible-passage-reference-parser": "^1.0.0",
-    "bluebird": "^3.1.1",
-    "clui": "^0.3.1",
-    "ttys": "^0.0.3",
-    "del": "^2.2.0",
-    "download": "^4.4.3",
     "html-to-text": "^1.5.1",
     "lodash": "^3.10.1",
-    "log-update": "^1.0.2",
     "minimist": "^1.2.0",
-    "@curiousdannii/node-7z": "^0.4.1",
-    "through2": "^2.0.0",
-    "xml-flow": "^0.4.0",
-    "xml2json": "^0.9.0"
+    "xml-flow": "^0.4.0"
   }
 }
