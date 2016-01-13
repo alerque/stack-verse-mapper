@@ -20,7 +20,12 @@ function parse_xml( data )
 
 	xmlStream.on( 'tag:row', function( data )
 	{
-		results += ',' + JSON.stringify( extract_post_data( data ) );
+		// Filter out tag wikis
+		var type = +data.posttypeid;
+		if ( type === 1 || type === 2 )
+		{
+			results += ',' + JSON.stringify( extract_post_data( data ) );
+		}
 	});
 
 	xmlStream.on( 'end', function()
@@ -31,13 +36,22 @@ function parse_xml( data )
 
 function extract_post_data( data )
 {
-	return {
+	var post = {
 		id: +data.id,
 		type: +data.posttypeid === 1 ? 'q' : 'a',
 		body: htmlToText.fromString( data.body, {
 			wordwrap: false,
 			ignoreHref: true,
 		}),
-		title: data.title,
 	};
+	if ( post.type === 'q' )
+	{
+		post.title = data.title;
+		//post.tags = data.tags;
+	}
+	if ( post.type === 'a' )
+	{
+		post.parent = +data.parentid;
+	}
+	return post;
 }

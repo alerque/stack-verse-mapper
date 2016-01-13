@@ -12,23 +12,16 @@ util.stdin_reader( build_index );
 function build_index( data )
 {
 	data = JSON.parse( data );
-	var total = data.length, count = 0;
-
-	data = _( data )
-	.map( function( post )
+	
+	var titles = {};
+	var title_references = {};
+	var posts = data.map( function( post )
 	{
-		// First send a progress message
-		if ( process.send && ( count++ % 100 ) === 0 )
-		{
-			process.send({
-				total: total,
-				progress: count,
-			});
-		}
 		// Parse the verse references
 		post.body = bcv.parse( post.body ).osis();
 		if ( post.title )
 		{
+			titles[ post.id ] = post.title;
 			post.title = bcv.parse( post.title ).osis();
 		}
 		if ( !post.body )
@@ -51,15 +44,28 @@ function build_index( data )
 		// Split the osis comma separated references
 		if ( post.body )
 		{
-			post.body = _.uniq( post.body.split( ',' ) );
+			post.body = _.uniq( post.body.split( ',' ) )
+				.map( util.parse_ref );
 		}
 		if ( post.title )
 		{
-			post.title = _.uniq( post.title.split( ',' ) );
+			post.title = _.uniq( post.title.split( ',' ) )
+				.map( util.parse_ref );
 		}
+		// Preserve the title of this post
+		title_references[ post.type === 'q' ? post.id : post.parent ] = true;
 		return post;
-	})
-	.value();
-
-	process.stdout.write( JSON.stringify( data ) );
+	});
+	
+	// Filter the list of titles
+	titles = _.pick( titles, function( title, id )
+	{
+		return title_references[ id ];
+	});
+	
+	var output = {
+		posts: posts,
+		titles: titles,
+	};
+	process.stdout.write( JSON.stringify( output ) );
 }
