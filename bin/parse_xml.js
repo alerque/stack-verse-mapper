@@ -20,7 +20,12 @@ function parse_xml( data )
 
 	xmlStream.on( 'tag:row', function( data )
 	{
-		results += ',' + JSON.stringify( extract_post_data( data ) );
+		// Filter out tag wikis
+		var type = +data.posttypeid;
+		if ( type === 1 || type === 2 )
+		{
+			results += ',' + JSON.stringify( extract_post_data( data ) );
+		}
 	});
 
 	xmlStream.on( 'end', function()
