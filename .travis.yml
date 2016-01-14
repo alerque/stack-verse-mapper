@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "5.4"
+addons:
+  apt:
+    packages:
+      - p7zip-full
+script:
+  - make travis

@@ -83,6 +83,8 @@ define archive_url
 $(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stackexchange/$(1).7z -o /dev/null)
 endef
 
+travis: setup
+
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
 $(DATA)/%.7z:
