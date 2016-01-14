@@ -87,10 +87,12 @@ endef
 # This is the target for Travis-CI to test
 travis: test
 
+# Shortcut to publish all the things
 deploy: gh-pages-publish
 	cd gh-pages
 	git push
 
+# Travis can push to the gh-pages branch using a private api tokien
 travis-deploy: gh-pages-publish
 	@(cd gh-pages && git push -q https://alerque:${DEPLOY_KEY}@github.com/${TRAVIS_REPO_SLUG} gh-pages 2&>/dev/null)
 
