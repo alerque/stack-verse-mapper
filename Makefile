@@ -22,7 +22,7 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean setup gh-pages-init Makefile
+.PHONY: all clean setup gh-pages-init gh-pages-publish travis travis-deploy deploy Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
@@ -39,6 +39,7 @@ demo: setup hermeneutics
 
 # Rule installing and configuring the local environment
 setup: node_modules
+	./bin/git-restore-mtime-bare
 
 # rule for how we come by the node_modules folder
 node_modules:
@@ -83,6 +84,23 @@ define archive_url
 $(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stackexchange/$(1).7z -o /dev/null)
 endef
 
+# This is the target for Travis-CI to test
+travis: test
+
+# Shortcut to publish all the things
+deploy: gh-pages-publish
+	cd gh-pages
+	git push
+
+# Travis can push to the gh-pages branch using a private api tokien
+travis-deploy: gh-pages-publish
+	@(cd gh-pages && git push -q https://alerque:${DEPLOY_KEY}@github.com/${TRAVIS_REPO_SLUG} gh-pages 2&>/dev/null)
+
+# Islam is a slightly smaller to download, but Hermeneutics gives us a more
+# options for testing actual results
+test: setup hermeneutics
+	./bin/search.js hermeneutics 'Rev 22:21' | grep -q 'a/13495'
+
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
 $(DATA)/%.7z:
@@ -93,12 +111,22 @@ $(DATA)/%.7z:
 # Rule for generating static site
 gh-pages: gh-pages-init gh-pages/index.html
 
+# For local copies, worktree is saner to work with but Travis's git is too old
+# so the clone route is to keep it happy.
 gh-pages-init:
-	@echo "Building static site to host on Github Pages"
-	git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
+	-test -d gh-pages && ( cd gh-pages && git pull )
+	-test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages
+	test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
+	( cd gh-pages && ../bin/git-restore-mtime-bare )
+
+gh-pages-publish: gh-pages
+	sha=$(shell git rev-parse --short HEAD)
+	cd $<
+	git add -u
+	git commit -m "Publish static site from $$sha" ||:
 
 gh-pages/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
 	handlebars <(jq --slurpfile config config.json < package.json '{package: ., config: $$config[]}') < $< > $@
 
 gh-pages/data/%: $(DATA)/%
-	cp $^ $@
+	cp $< $(BASE)/$@

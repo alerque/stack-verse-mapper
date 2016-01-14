@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "5.4"
+addons:
+  apt:
+    packages:
+      - p7zip-full
+cache:
+  directories:
+    - data
+script:
+  - make -j8 travis
+  - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
+       [[ $TRAVIS_BRANCH == master ]] &&
+       [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 all; fi
+after_success:
+  - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
+       [[ $TRAVIS_BRANCH == master ]] &&
+       [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 travis-deploy; fi
