@@ -22,10 +22,13 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean setup gh-pages Makefile
+.PHONY: all clean setup gh-pages-init Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
+
+# Add node modules to our path so we can call them from make
+PATH := $(shell npm bin):$(PATH)
 
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
@@ -39,6 +42,7 @@ setup: node_modules
 
 # rule for how we come by the node_modules folder
 node_modules:
+	npm prune
 	npm install
 
 # Rule to blow away our source data and start over
@@ -49,8 +53,8 @@ clean:
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
 # make that the dependency
-%: $(DATA)/%-index.json
-	@echo "Finished $*"
+$(SITES): $(DATA)/$$@-index.json
+	@echo "Finished $@"
 
 # Rule to build an index from a set of posts.
 $(DATA)/%-index.json: $(DATA)/%-posts.json bin/build_index.js src/util.js src/bcv_parser.js
@@ -87,20 +91,14 @@ $(DATA)/%.7z:
 	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
 
 # Rule for generating static site
-gh-pages: gh-pages/index.html $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
+gh-pages: gh-pages-init gh-pages/index.html
 
 gh-pages-init:
 	@echo "Building static site to host on Github Pages"
 	git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
 
-define raw_data_link
-	"<li><a href='data/$(1)-index.json'>$(1)-index.json</a></li>"
-endef
-
-gh-pages/index.html: gh-pages-init
-	echo "<html><body><h1>Stack Verse Mapper</h1><ul>" > $@
-	echo $(foreach SITE,$(SITES),$(call raw_data_link,$(SITE))) >> $@
-	echo "</ul></body></html>" >> $@
+gh-pages/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
+	handlebars <(jq --slurpfile config config.json < package.json '{package: ., config: $$config[]}') < $< > $@
 
 gh-pages/data/%: $(DATA)/%
 	cp $^ $@
