@@ -15,6 +15,7 @@
   "dependencies": {
     "bible-passage-reference-parser": "^1.0.0",
     "bootstrap": "^4.0.0-alpha.2",
+    "browserify": "^13.0.0",
     "html-to-text": "^1.5.1",
     "lodash": "^3.10.1",
     "minimist": "^1.2.0",
