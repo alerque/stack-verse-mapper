@@ -83,7 +83,7 @@ define archive_url
 $(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stackexchange/$(1).7z -o /dev/null)
 endef
 
-travis: setup
+travis: setup gh-pages
 
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
@@ -95,9 +95,11 @@ $(DATA)/%.7z:
 # Rule for generating static site
 gh-pages: gh-pages-init gh-pages/index.html
 
+# For local copies, worktree is saner to work with but Travis's git is too old
+# so the clone route is to keep it happy.
 gh-pages-init:
-	@echo "Building static site to host on Github Pages"
-	git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
+	-git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
+	test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
 
 gh-pages/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
 	handlebars <(jq --slurpfile config config.json < package.json '{package: ., config: $$config[]}') < $< > $@
