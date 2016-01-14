@@ -39,6 +39,7 @@ demo: setup hermeneutics
 
 # Rule installing and configuring the local environment
 setup: node_modules
+	./bin/git-restore-mtime-bare
 
 # rule for how we come by the node_modules folder
 node_modules:
