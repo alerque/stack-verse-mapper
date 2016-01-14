@@ -127,7 +127,9 @@ gh-pages-publish: gh-pages
 	git commit -m "Publish static site from $$sha" ||:
 
 gh-pages/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
-	handlebars <(jq --slurpfile config config.json < package.json '{package: ., config: $$config[]}') < $< > $@
+	handlebars <(jq --slurpfile config config.json < package.json \
+		'{package: ., config: $$config[], date: "$(shell date)", sha: "$(shell git rev-parse --short HEAD)" }') \
+		< $< > $@
 
 gh-pages/data/%: $(DATA)/%
 	cp $< $(BASE)/$@
