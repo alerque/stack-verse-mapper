@@ -18,16 +18,19 @@
     "islam": {
       "include_apocrypha": true,
       "include_chapters": true,
+      "tags": ["bible", "christianity", "comparative-religions", "judaism", "other-religions"],
       "referral": 75
     },
     "history": {
       "include_apocrypha": true,
       "include_chapters": false,
+      "tags": ["bible", "christianity", "judaism", "religion"],
       "referral": 177
     },
     "skeptics": {
       "include_apocrypha": true,
       "include_chapters": false,
+      "tags": ["bible", "christianity", "jesus-christ", "judaism", "religion"],
       "referral": 933
     }
   },
