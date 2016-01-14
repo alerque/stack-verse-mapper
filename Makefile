@@ -106,7 +106,7 @@ test: setup hermeneutics
 $(DATA)/%.7z:
 	mkdir -p $(DATA)
 	curl -o /dev/null -s -f -I $(call archive_url,$*)
-	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
+	curl -o "data/$*.7z" -s --continue - $(call archive_url,$*)
 
 # Rule for generating static site
 gh-pages: gh-pages-init gh-pages/index.html
