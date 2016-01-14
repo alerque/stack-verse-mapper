@@ -30,7 +30,7 @@ function search( query, index )
 			specificity: post.specificity,
 		};
 	});
-	return _.sortByOrder( results, 'specificity', 'asc' );
+	return _.sortBy( results, 'specificity' );
 }
 
 // Filter to posts which overlap with the query
