@@ -39,6 +39,7 @@ setup: node_modules
 
 # rule for how we come by the node_modules folder
 node_modules:
+	npm prune
 	npm install
 
 # Rule to blow away our source data and start over
