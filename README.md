@@ -50,10 +50,10 @@ dependencies will depend on who implements what. See the discussion in
 * make, bash, curl, 7z, gzip, jq
 * nodejs, npm
 
-### Instalation & Usage
+### Installation & Usage
 
 Eventually, the end user UI should just be a userscript or browser extention
-instalation away.
+installation away.
 
 ### Development Setup & Usage
 
@@ -65,7 +65,7 @@ Download and extract the data dump for all enabled sites:
 
     make all
 
-That will take *long time* because it has to download all the relevant data
+That will take a *long time* because it has to download all the relevant data
 dumps. The downloads will be preserved, so future index rebuilds will be
 faster. You can also speed up the process by building more than one index in
 parallel:
