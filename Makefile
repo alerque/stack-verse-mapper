@@ -22,7 +22,7 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean setup gh-pages gh-pages-init gh-pages-publish travis travis-deploy deploy Makefile
+.PHONY: all clean setup gh-pages-init gh-pages-publish travis travis-deploy deploy Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
@@ -112,15 +112,16 @@ gh-pages: gh-pages-init gh-pages/index.html
 # For local copies, worktree is saner to work with but Travis's git is too old
 # so the clone route is to keep it happy.
 gh-pages-init:
-	test -d gh-pages && ( cd gh-pages ; git pull ) && return
-	-git worktree list | grep -q '\[gh-pages\]$$' || git worktree add gh-pages gh-pages
+	-test -d gh-pages && ( cd gh-pages && git pull )
+	-test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages
 	test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
+	( cd gh-pages && ../bin/git-restore-mtime-bare )
 
 gh-pages-publish: gh-pages
 	sha=$(shell git rev-parse --short HEAD)
 	cd $<
 	git add -u
-	git commit -m "Publish static site from $$sha"
+	git commit -m "Publish static site from $$sha" ||:
 
 gh-pages/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
 	handlebars <(jq --slurpfile config config.json < package.json '{package: ., config: $$config[]}') < $< > $@
