@@ -1,5 +1,7 @@
 # Stack Verse Mapper
 
+[![Build Status](https://travis-ci.org/alerque/stack-verse-mapper.svg?branch=master)](https://travis-ci.org/alerque/stack-verse-mapper)
+
 Index any and all references to Bible verses in Stack Exchange sites using the
 public data dumps and inject matches from this index into search results for
 each site using a user-script.
