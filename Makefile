@@ -29,6 +29,7 @@ SHELL = bash
 
 # Add node modules to our path so we can call them from make
 PATH := $(shell npm bin):$(PATH)
+TRAVIS := false
 
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
@@ -115,8 +116,8 @@ gh-pages: gh-pages-init gh-pages/index.html
 # so the clone route is to keep it happy.
 gh-pages-init:
 	-test -d gh-pages && ( cd gh-pages && git pull )
-	-test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages
-	test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
+	$(TRAVIS) && test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages
+	$(TRAVIS) && test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
 	( cd gh-pages && ../bin/git-restore-mtime-bare )
 
 gh-pages-publish: gh-pages
