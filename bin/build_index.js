@@ -15,53 +15,65 @@ function build_index( data )
 	
 	var titles = {};
 	var title_references = {};
+	
+	// Parse the verse references of the body and title
 	var posts = data.map( function( post )
 	{
-		// Parse the verse references
-		post.body = bcv.parse( post.body ).osis();
+		post.refs = bcv.parse( post.body ).osis().split( ',' );
 		if ( post.title )
 		{
 			titles[ post.id ] = post.title;
-			post.title = bcv.parse( post.title ).osis();
+			var title_refs = bcv.parse( post.title ).osis().split( ',' );
+			post.refs = post.refs.concat( title_refs );
+			post.title = _.uniq( title_refs ).sort();
 		}
-		if ( !post.body )
+		// Filter out any blank strings
+		post.refs = post.refs.filter( _.identity );
+		if ( post.refs.length )
 		{
 			delete post.body;
+			return post;
 		}
-		if ( !post.title )
-		{
-			delete post.title;
-		}
-		return post;
 	})
-	.filter( function( post )
-	{
-		// Filter out posts without any references
-		return post.body || post.title;
-	})
+	// Filter posts without any references
+	.filter( _.identity )
 	.map( function( post )
 	{
-		// Split the osis comma separated references
-		if ( post.body )
+		// Count duplicate references
+		post.refs = _( post.refs ).countBy()
+		// Calculate book-in-verse numbers for the references
+		.map( function( count, ref )
 		{
-			post.body = _.uniq( post.body.split( ',' ) )
-				.map( util.parse_ref );
-		}
+			var ref = util.parse_ref( ref );
+			ref.count = count;
+			return ref;
+		})
+		.sortBy( 'osis' )
+		.value();
+		
+		// Store title references as indexes to refs
 		if ( post.title )
 		{
-			post.title = _.uniq( post.title.split( ',' ) )
-				.map( util.parse_ref );
+			post.title = _.without( post.title.map( function( ref )
+			{
+				return _.findIndex( post.refs, [ 'osis', ref ] );
+			}), -1 );
 		}
+		
 		// Preserve the title of this post
-		title_references[ post.type === 'q' ? post.id : post.parent ] = true;
+		title_references[ post.parent || post.id ] = true;
 		return post;
 	});
 	
 	// Filter the list of titles
-	titles = _.pick( titles, function( title, id )
+	// TODO: check if lodash ever adds a .pickBy() that passes the key
+	titles = _.pickBy( _.mapValues( titles, function( title, id )
 	{
-		return title_references[ id ];
-	});
+		if ( title_references[ id ] )
+		{
+			return title;
+		}
+	}) );
 	
 	var output = {
 		posts: posts,

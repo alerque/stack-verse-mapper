@@ -26,7 +26,7 @@ function search( query, index )
 		return {
 			id: post.id,
 			type: post.type,
-			title: index.titles[ post.type === 'q' ? post.id : post.parent ],
+			title: index.titles[ post.parent || post.id ],
 			specificity: post.specificity,
 		};
 	});
@@ -38,16 +38,15 @@ function filter( parsed_query, posts )
 {
 	return posts.filter( function( post )
 	{
-		var refs = ( post.title || [] ).concat( post.body || [] );
 		var i, q_start, q_end, r_start, r_end;
-		for ( i = 0; i < refs.length; i++ )
+		for ( i = 0; i < post.refs.length; i++ )
 		{
-			if ( parsed_query.book === refs[i].book )
+			if ( parsed_query.book === post.refs[i].book )
 			{
 				q_start = parsed_query.start;
 				q_end = parsed_query.end || q_start;
-				r_start = refs[i].start;
-				r_end = refs[i].end || r_start;
+				r_start = post.refs[i].start;
+				r_end = post.refs[i].end || r_start;
 				if ( ( r_start >= q_start && r_start <= q_end ) || ( r_end >= q_start && r_end <= q_end ) )
 				{
 					return true;
@@ -66,8 +65,7 @@ function analyse( parsed_query, posts )
 	}
 	function most_specific_ref( post )
 	{
-		var refs = ( post.title || [] ).concat( post.body || [] );
-		return refs.filter( function( ref )
+		return post.refs.filter( function( ref )
 		{
 			return ref.book === parsed_query.book;
 		})
