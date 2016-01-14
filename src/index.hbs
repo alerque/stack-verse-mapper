@@ -8,7 +8,14 @@
     <title>{{package.name}}</title>
   </head>
   <body>
-    <h1><a href="{{package.homepage}}">{{package.name}}</a></h1>
+    <nav class="navbar navbar-static-top navbar-dark bg-inverse">
+      <a class="navbar-brand" href="#">{{package.name}}</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active"><a class="nav-link" href="{{package.homepage}}">Github project</a></li>
+        {{#each config.sites}}
+          <li class="nav-item"><a class="nav-link" href="http://{{@key}}.stackexchange.com">{{@key}}</a></li>{{/each}}
+      </ul>
+    </nav>
     <p>{{package.description}}</p>
     <ul>{{#each config.sites}}
       <li><a href="data/{{@key}}-index.json">{{@key}}-index.json</a></li>{{/each}}
