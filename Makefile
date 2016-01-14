@@ -29,6 +29,7 @@ SHELL = bash
 
 # Add node modules to our path so we can call them from make
 PATH := $(shell npm bin):$(PATH)
+TRAVIS := false
 
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
@@ -106,7 +107,7 @@ test: setup hermeneutics
 $(DATA)/%.7z:
 	mkdir -p $(DATA)
 	curl -o /dev/null -s -f -I $(call archive_url,$*)
-	curl -o "data/$*.7z" --continue - --progress $(call archive_url,$*)
+	curl -o "data/$*.7z" -s --continue - $(call archive_url,$*)
 
 # Rule for generating static site
 gh-pages: gh-pages-init gh-pages/index.html
@@ -115,8 +116,8 @@ gh-pages: gh-pages-init gh-pages/index.html
 # so the clone route is to keep it happy.
 gh-pages-init:
 	-test -d gh-pages && ( cd gh-pages && git pull )
-	-test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages
-	test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
+	$(TRAVIS) && test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages
+	$(TRAVIS) && test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages
 	( cd gh-pages && ../bin/git-restore-mtime-bare )
 
 gh-pages-publish: gh-pages
@@ -126,7 +127,9 @@ gh-pages-publish: gh-pages
 	git commit -m "Publish static site from $$sha" ||:
 
 gh-pages/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
-	handlebars <(jq --slurpfile config config.json < package.json '{package: ., config: $$config[]}') < $< > $@
+	handlebars <(jq --slurpfile config config.json < package.json \
+		'{package: ., config: $$config[], date: "$(shell date)", sha: "$(shell git rev-parse --short HEAD)" }') \
+		< $< > $@
 
 gh-pages/data/%: $(DATA)/%
 	cp $< $(BASE)/$@

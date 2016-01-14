@@ -8,11 +8,12 @@
     <title>{{package.name}}</title>
   </head>
   <body>
-    <h1>{{package.name}}</h1>
+    <h1><a href="{{package.homepage}}">{{package.name}}</a></h1>
     <p>{{package.description}}</p>
     <ul>{{#each config.sites}}
       <li><a href="data/{{@key}}-index.json">{{@key}}-index.json</a></li>{{/each}}
     </ul>
+    <footer class="navbar navbar-fixed-bottom">Last updated {{date}} from git commit <a href="{{package.homepage}}/commit/{{sha}}">{{sha}}</a>.</footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
   </body>
 </html>
