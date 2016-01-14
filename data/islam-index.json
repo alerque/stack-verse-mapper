@@ -3,3450 +3,3818 @@
     {
       "id": 311,
       "type": "a",
-      "body": [
+      "parent": 298,
+      "refs": [
         {
           "osis": "Num.11.1-Num.11.35",
           "book": "Num",
           "start": 421,
-          "end": 455
+          "end": 455,
+          "count": 1
         },
         {
           "osis": "Num.20.1-Num.20.29",
           "book": "Num",
           "start": 708,
-          "end": 736
+          "end": 736,
+          "count": 1
         }
-      ],
-      "parent": 298
+      ]
     },
     {
       "id": 342,
       "type": "a",
-      "body": [
+      "parent": 63,
+      "refs": [
         {
           "osis": "Isa.29.1-Isa.29.24",
           "book": "Isa",
           "start": 540,
-          "end": 563
+          "end": 563,
+          "count": 1
         }
-      ],
-      "parent": 63
+      ]
     },
     {
       "id": 345,
       "type": "a",
-      "body": [
+      "parent": 331,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 331
+      ]
     },
     {
       "id": 448,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
-          "end": 88
+          "end": 88,
+          "count": 1
         }
       ]
     },
     {
       "id": 479,
       "type": "a",
-      "body": [
+      "parent": 476,
+      "refs": [
         {
           "osis": "Job.2.1-Job.2.13",
           "book": "Job",
           "start": 23,
-          "end": 35
+          "end": 35,
+          "count": 1
         },
         {
           "osis": "Job.3.1-Job.3.26",
           "book": "Job",
           "start": 36,
-          "end": 61
+          "end": 61,
+          "count": 1
         }
-      ],
-      "parent": 476
+      ]
     },
     {
       "id": 796,
       "type": "q",
-      "body": [
-        {
-          "osis": "Num.12.1-Num.12.16",
-          "book": "Num",
-          "start": 456,
-          "end": 471
-        }
-      ],
       "title": [
+        0
+      ],
+      "refs": [
         {
           "osis": "Num.12.1-Num.12.16",
           "book": "Num",
           "start": 456,
-          "end": 471
+          "end": 471,
+          "count": 4
         }
       ]
     },
     {
       "id": 894,
       "type": "a",
-      "body": [
+      "parent": 892,
+      "refs": [
         {
           "osis": "Isa.24.1-Isa.24.23",
           "book": "Isa",
           "start": 442,
-          "end": 464
+          "end": 464,
+          "count": 1
         }
-      ],
-      "parent": 892
+      ]
     },
     {
       "id": 1022,
       "type": "a",
-      "body": [
+      "parent": 796,
+      "refs": [
         {
           "osis": "Num.12.1-Num.12.16",
           "book": "Num",
           "start": 456,
-          "end": 471
+          "end": 471,
+          "count": 1
         }
-      ],
-      "parent": 796
+      ]
     },
     {
       "id": 1093,
       "type": "a",
-      "body": [
+      "parent": 1073,
+      "refs": [
         {
           "osis": "Hos.2.1-Hos.2.23",
           "book": "Hos",
           "start": 12,
-          "end": 34
+          "end": 34,
+          "count": 1
         }
-      ],
-      "parent": 1073
+      ]
     },
     {
       "id": 1138,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Num.12.1-Num.12.15",
           "book": "Num",
           "start": 456,
-          "end": 470
+          "end": 470,
+          "count": 1
         }
       ]
     },
     {
       "id": 1157,
       "type": "a",
-      "body": [
+      "parent": 1148,
+      "refs": [
         {
           "osis": "Exod.1.1-Exod.1.22",
           "book": "Exod",
           "start": 1,
-          "end": 22
+          "end": 22,
+          "count": 1
         },
         {
           "osis": "Exod.2.1-Exod.2.25",
           "book": "Exod",
           "start": 23,
-          "end": 47
+          "end": 47,
+          "count": 1
         }
-      ],
-      "parent": 1148
+      ]
     },
     {
       "id": 1222,
       "type": "a",
-      "body": [
+      "parent": 1218,
+      "refs": [
         {
           "osis": "Isa.27.1-Isa.27.13",
           "book": "Isa",
           "start": 498,
-          "end": 510
+          "end": 510,
+          "count": 1
         }
-      ],
-      "parent": 1218
+      ]
     },
     {
       "id": 1252,
       "type": "a",
-      "body": [
+      "parent": 1203,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 1203
+      ]
     },
     {
       "id": 1386,
       "type": "a",
-      "body": [
-        {
-          "osis": "Matt.12.28",
-          "book": "Matt",
-          "start": 373
-        },
+      "parent": 1361,
+      "refs": [
         {
           "osis": "Acts.2.22",
           "book": "Acts",
-          "start": 48
+          "start": 48,
+          "count": 1
+        },
+        {
+          "osis": "Matt.12.28",
+          "book": "Matt",
+          "start": 373,
+          "count": 1
         }
-      ],
-      "parent": 1361
+      ]
     },
     {
       "id": 1408,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 2
         },
         {
           "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
-          "end": 175
+          "end": 175,
+          "count": 2
         }
       ]
     },
     {
       "id": 1435,
       "type": "a",
-      "body": [
+      "parent": 1408,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         },
         {
           "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
-          "end": 85
+          "end": 85,
+          "count": 1
         }
-      ],
-      "parent": 1408
+      ]
     },
     {
       "id": 1564,
       "type": "a",
-      "body": [
+      "parent": 1559,
+      "refs": [
         {
           "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
-          "end": 85
+          "end": 85,
+          "count": 1
         }
-      ],
-      "parent": 1559
+      ]
     },
     {
       "id": 1775,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.18.1-Isa.18.7",
           "book": "Isa",
           "start": 344,
-          "end": 350
+          "end": 350,
+          "count": 1
         }
       ]
     },
     {
       "id": 1776,
       "type": "a",
-      "body": [
+      "parent": 1775,
+      "refs": [
         {
           "osis": "Isa.18.1-Isa.18.7",
           "book": "Isa",
           "start": 344,
-          "end": 350
+          "end": 350,
+          "count": 1
         }
-      ],
-      "parent": 1775
+      ]
     },
     {
       "id": 1812,
       "type": "a",
-      "body": [
+      "parent": 1808,
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         }
-      ],
-      "parent": 1808
+      ]
     },
     {
       "id": 1889,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
-          "end": 53
+          "end": 53,
+          "count": 1
         }
       ]
     },
     {
       "id": 1913,
       "type": "a",
-      "body": [
+      "parent": 1910,
+      "refs": [
         {
           "osis": "Isa.29.1-Isa.29.24",
           "book": "Isa",
           "start": 540,
-          "end": 563
+          "end": 563,
+          "count": 1
         }
-      ],
-      "parent": 1910
+      ]
     },
     {
       "id": 1914,
       "type": "a",
-      "body": [
+      "parent": 1910,
+      "refs": [
         {
           "osis": "Song.1.3",
           "book": "Song",
-          "start": 3
+          "start": 3,
+          "count": 1
         }
-      ],
-      "parent": 1910
+      ]
     },
     {
       "id": 1932,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Rev.6.1-Rev.6.17",
           "book": "Rev",
           "start": 97,
-          "end": 113
+          "end": 113,
+          "count": 1
         }
       ]
     },
     {
       "id": 2035,
       "type": "a",
-      "body": [
+      "parent": 2034,
+      "refs": [
         {
           "osis": "1Kgs.8.44",
           "book": "1Kgs",
-          "start": 312
+          "start": 312,
+          "count": 1
         }
-      ],
-      "parent": 2034
+      ]
     },
     {
       "id": 2052,
       "type": "a",
-      "body": [
+      "parent": 1905,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 1905
+      ]
     },
     {
       "id": 2392,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
-          "end": 85
+          "end": 85,
+          "count": 1
         }
       ]
     },
     {
       "id": 2420,
       "type": "a",
-      "body": [
+      "parent": 2125,
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         }
-      ],
-      "parent": 2125
+      ]
     },
     {
       "id": 2462,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Matt.5.38-Matt.5.40",
           "book": "Matt",
           "start": 128,
-          "end": 130
+          "end": 130,
+          "count": 1
         }
       ]
     },
     {
       "id": 2566,
       "type": "a",
-      "body": [
+      "parent": 2564,
+      "refs": [
         {
           "osis": "Amos.6.1-Amos.6.14",
           "book": "Amos",
           "start": 87,
-          "end": 100
+          "end": 100,
+          "count": 1
         }
-      ],
-      "parent": 2564
+      ]
     },
     {
       "id": 2570,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Luke.13.1-Luke.13.5",
           "book": "Luke",
           "start": 626,
-          "end": 630
+          "end": 630,
+          "count": 1
         }
       ]
     },
     {
       "id": 2794,
       "type": "a",
-      "body": [
+      "parent": 2705,
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         }
-      ],
-      "parent": 2705
+      ]
     },
     {
       "id": 2897,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Num.30.1-Num.30.16",
           "book": "Num",
           "start": 1045,
-          "end": 1060
+          "end": 1060,
+          "count": 1
         }
       ]
     },
     {
       "id": 2929,
       "type": "a",
-      "body": [
+      "parent": 287,
+      "refs": [
         {
           "osis": "Deut.33.2",
           "book": "Deut",
-          "start": 920
+          "start": 920,
+          "count": 1
         },
         {
           "osis": "Gen.3.7",
           "book": "Gen",
-          "start": 63
+          "start": 63,
+          "count": 1
         },
         {
           "osis": "Gen.8.11",
           "book": "Gen",
-          "start": 195
+          "start": 195,
+          "count": 1
         }
-      ],
-      "parent": 287
+      ]
     },
     {
       "id": 2947,
       "type": "a",
-      "body": [
+      "parent": 2944,
+      "refs": [
         {
           "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
-          "end": 153
+          "end": 153,
+          "count": 1
         }
-      ],
-      "parent": 2944
+      ]
     },
     {
       "id": 2950,
       "type": "a",
-      "body": [
+      "parent": 2949,
+      "refs": [
         {
           "osis": "Lev.24.16",
           "book": "Lev",
-          "start": 717
+          "start": 717,
+          "count": 1
         }
-      ],
-      "parent": 2949
+      ]
     },
     {
       "id": 3025,
       "type": "a",
-      "body": [
+      "parent": 3022,
+      "refs": [
         {
           "osis": "John.16.12",
           "book": "John",
-          "start": 694
+          "start": 694,
+          "count": 1
         }
-      ],
-      "parent": 3022
+      ]
     },
     {
       "id": 4260,
       "type": "a",
-      "body": [
+      "parent": 4254,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 3
         }
-      ],
-      "parent": 4254
+      ]
     },
     {
       "id": 5315,
       "type": "a",
-      "body": [
+      "parent": 5302,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         },
         {
           "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
-          "end": 381
+          "end": 381,
+          "count": 1
         }
-      ],
-      "parent": 5302
+      ]
     },
     {
       "id": 5316,
       "type": "a",
-      "body": [
+      "parent": 5310,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         },
         {
           "osis": "Isa.20.1-Isa.20.6",
           "book": "Isa",
           "start": 376,
-          "end": 381
+          "end": 381,
+          "count": 1
         }
-      ],
-      "parent": 5310
+      ]
     },
     {
       "id": 5332,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 5343,
       "type": "a",
-      "body": [
+      "parent": 5333,
+      "refs": [
         {
           "osis": "Jer.14.22",
           "book": "Jer",
-          "start": 369
+          "start": 369,
+          "count": 1
         }
-      ],
-      "parent": 5333
+      ]
     },
     {
       "id": 5385,
       "type": "a",
-      "body": [
+      "parent": 1174,
+      "refs": [
         {
           "osis": "Isa.14.5",
           "book": "Isa",
-          "start": 279
+          "start": 279,
+          "count": 1
         }
-      ],
-      "parent": 1174
+      ]
     },
     {
       "id": 5588,
       "type": "a",
-      "body": [
+      "parent": 2820,
+      "refs": [
         {
           "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
-          "end": 246
+          "end": 246,
+          "count": 1
         }
-      ],
-      "parent": 2820
+      ]
     },
     {
       "id": 5612,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Mark.7.14-Mark.7.23",
           "book": "Mark",
           "start": 262,
-          "end": 271
+          "end": 271,
+          "count": 1
         },
         {
           "osis": "Matt.5.21-Matt.5.22",
           "book": "Matt",
           "start": 111,
-          "end": 112
+          "end": 112,
+          "count": 1
         },
         {
           "osis": "Matt.5.43-Matt.5.48",
           "book": "Matt",
           "start": 133,
-          "end": 138
+          "end": 138,
+          "count": 1
         }
       ]
     },
     {
       "id": 5687,
       "type": "a",
-      "body": [
+      "parent": 5686,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 5686
+      ]
     },
     {
       "id": 5717,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
-          "end": 476
+          "end": 476,
+          "count": 1
         }
       ]
     },
     {
       "id": 5797,
       "type": "a",
-      "body": [
+      "parent": 5432,
+      "refs": [
         {
           "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
-          "end": 54
+          "end": 54,
+          "count": 1
         }
-      ],
-      "parent": 5432
+      ]
     },
     {
       "id": 5823,
       "type": "a",
-      "body": [
+      "parent": 54,
+      "refs": [
         {
           "osis": "Ps.1.1-Ps.1.6",
           "book": "Ps",
           "start": 1,
-          "end": 6
+          "end": 6,
+          "count": 1
         },
         {
           "osis": "Ps.2.1-Ps.2.12",
           "book": "Ps",
           "start": 7,
-          "end": 18
+          "end": 18,
+          "count": 1
         }
-      ],
-      "parent": 54
+      ]
     },
     {
       "id": 5858,
       "type": "a",
-      "body": [
+      "parent": 5841,
+      "refs": [
         {
           "osis": "Jas.3.1-Jas.3.18",
           "book": "Jas",
           "start": 54,
-          "end": 71
+          "end": 71,
+          "count": 1
         }
-      ],
-      "parent": 5841
+      ]
     },
     {
       "id": 5872,
       "type": "a",
-      "body": [
+      "parent": 5868,
+      "refs": [
         {
           "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
-          "end": 54
+          "end": 54,
+          "count": 3
         },
         {
           "osis": "Num.2.1-Num.2.34",
           "book": "Num",
           "start": 55,
-          "end": 88
+          "end": 88,
+          "count": 1
         }
-      ],
-      "parent": 5868
+      ]
     },
     {
       "id": 5874,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "2Tim.3.8",
           "book": "2Tim",
-          "start": 52
+          "start": 52,
+          "count": 1
         },
         {
           "osis": "Exod.7.11",
           "book": "Exod",
-          "start": 164
+          "start": 164,
+          "count": 1
         }
       ]
     },
     {
       "id": 5902,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
-          "end": 17
+          "end": 17,
+          "count": 1
         }
       ]
     },
     {
       "id": 5984,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Mic.7.1-Mic.7.20",
           "book": "Mic",
           "start": 86,
-          "end": 105
+          "end": 105,
+          "count": 1
         }
       ]
     },
     {
       "id": 5993,
       "type": "a",
-      "body": [
+      "parent": 816,
+      "refs": [
         {
           "osis": "Mic.7.1-Mic.7.20",
           "book": "Mic",
           "start": 86,
-          "end": 105
+          "end": 105,
+          "count": 1
         }
-      ],
-      "parent": 816
+      ]
     },
     {
       "id": 7009,
       "type": "a",
-      "body": [
+      "parent": 5945,
+      "refs": [
+        {
+          "osis": "Jas.3.1-Jas.3.18",
+          "book": "Jas",
+          "start": 54,
+          "end": 71,
+          "count": 1
+        },
         {
           "osis": "Matt.3.1-Matt.3.17",
           "book": "Matt",
           "start": 49,
-          "end": 65
-        },
-        {
-          "osis": "Jas.3.1-Jas.3.18",
-          "book": "Jas",
-          "start": 54,
-          "end": 71
+          "end": 65,
+          "count": 2
         }
-      ],
-      "parent": 5945
+      ]
     },
     {
       "id": 7075,
       "type": "a",
-      "body": [
+      "parent": 7062,
+      "refs": [
         {
           "osis": "1Sam.3.1-1Sam.3.21",
           "book": "1Sam",
           "start": 65,
-          "end": 85
+          "end": 85,
+          "count": 1
         }
-      ],
-      "parent": 7062
+      ]
     },
     {
       "id": 7100,
       "type": "a",
-      "body": [
+      "parent": 7090,
+      "refs": [
         {
           "osis": "Jas.3.1-Jas.3.18",
           "book": "Jas",
           "start": 54,
-          "end": 71
+          "end": 71,
+          "count": 1
         }
-      ],
-      "parent": 7090
+      ]
     },
     {
       "id": 7203,
       "type": "a",
-      "body": [
+      "parent": 5561,
+      "refs": [
         {
-          "osis": "Isa.1.1-Isa.1.31",
-          "book": "Isa",
-          "start": 1,
-          "end": 31
+          "osis": "Ezek.36.1-Ezek.36.38",
+          "book": "Ezek",
+          "start": 896,
+          "end": 933,
+          "count": 1
         },
         {
           "osis": "Gen.12.1-Gen.12.3",
           "book": "Gen",
           "start": 300,
-          "end": 302
+          "end": 302,
+          "count": 1
         },
         {
           "osis": "Gen.2.1-Gen.2.25",
           "book": "Gen",
           "start": 32,
-          "end": 56
+          "end": 56,
+          "count": 1
         },
         {
-          "osis": "Ezek.36.1-Ezek.36.38",
-          "book": "Ezek",
-          "start": 896,
-          "end": 933
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 5561
+      ]
     },
     {
       "id": 7302,
       "type": "a",
-      "body": [
+      "parent": 7292,
+      "refs": [
         {
           "osis": "Ps.1.1-Ps.1.6",
           "book": "Ps",
           "start": 1,
-          "end": 6
+          "end": 6,
+          "count": 1
         },
         {
           "osis": "Ps.2.1-Ps.2.12",
           "book": "Ps",
           "start": 7,
-          "end": 18
+          "end": 18,
+          "count": 1
         }
-      ],
-      "parent": 7292
+      ]
     },
     {
       "id": 7306,
       "type": "a",
-      "body": [
+      "parent": 7292,
+      "refs": [
         {
           "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
-          "end": 17
+          "end": 17,
+          "count": 1
         }
-      ],
-      "parent": 7292
+      ]
     },
     {
       "id": 7360,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Gen.16.1-Gen.16.16",
           "book": "Gen",
           "start": 383,
-          "end": 398
+          "end": 398,
+          "count": 1
         }
       ]
     },
     {
       "id": 7440,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Hag.2.1-Hag.2.23",
           "book": "Hag",
           "start": 16,
-          "end": 38
+          "end": 38,
+          "count": 1
         }
       ]
     },
     {
       "id": 7463,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
-          "end": 175
+          "end": 175,
+          "count": 2
         }
       ]
     },
     {
       "id": 7540,
       "type": "a",
-      "body": [
+      "parent": 5612,
+      "refs": [
         {
           "osis": "John.1.1",
           "book": "John",
-          "start": 1
+          "start": 1,
+          "count": 1
         }
-      ],
-      "parent": 5612
+      ]
     },
     {
       "id": 7556,
       "type": "a",
-      "body": [
+      "parent": 7550,
+      "refs": [
         {
           "osis": "Gen.16.16",
           "book": "Gen",
-          "start": 398
+          "start": 398,
+          "count": 1
         },
         {
           "osis": "Gen.21.5",
           "book": "Gen",
-          "start": 519
+          "start": 519,
+          "count": 1
         }
-      ],
-      "parent": 7550
+      ]
     },
     {
       "id": 7585,
       "type": "a",
-      "body": [
+      "parent": 7572,
+      "refs": [
         {
           "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 7572
+      ]
     },
     {
       "id": 7636,
       "type": "a",
-      "body": [
+      "parent": 7603,
+      "refs": [
         {
           "osis": "Rev.3.1-Rev.3.22",
           "book": "Rev",
           "start": 50,
-          "end": 71
+          "end": 71,
+          "count": 1
         }
-      ],
-      "parent": 7603
+      ]
     },
     {
       "id": 7838,
       "type": "a",
-      "body": [
-        {
-          "osis": "Song.4.1-Song.4.16",
-          "book": "Song",
-          "start": 46,
-          "end": 61
-        },
+      "parent": 7169,
+      "refs": [
         {
           "osis": "Dan.3.1-Dan.3.30",
           "book": "Dan",
           "start": 71,
-          "end": 100
+          "end": 100,
+          "count": 1
+        },
+        {
+          "osis": "Song.4.1-Song.4.16",
+          "book": "Song",
+          "start": 46,
+          "end": 61,
+          "count": 1
         }
-      ],
-      "parent": 7169
+      ]
     },
     {
       "id": 7850,
       "type": "a",
-      "body": [
+      "parent": 7478,
+      "refs": [
         {
           "osis": "Acts.9.1-Acts.9.43",
           "book": "Acts",
           "start": 294,
-          "end": 336
+          "end": 336,
+          "count": 1
         }
-      ],
-      "parent": 7478
+      ]
     },
     {
       "id": 7854,
       "type": "a",
-      "body": [
+      "parent": 7837,
+      "refs": [
         {
           "osis": "Num.12.1-Num.12.16",
           "book": "Num",
           "start": 456,
-          "end": 471
+          "end": 471,
+          "count": 1
         }
-      ],
-      "parent": 7837
+      ]
     },
     {
       "id": 7913,
       "type": "a",
-      "body": [
+      "parent": 7837,
+      "refs": [
         {
           "osis": "Song.2.2",
           "book": "Song",
-          "start": 19
+          "start": 19,
+          "count": 1
         }
-      ],
-      "parent": 7837
+      ]
     },
     {
       "id": 7936,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 8074,
       "type": "a",
-      "body": [
+      "parent": 7606,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 7606
+      ]
     },
     {
       "id": 8188,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
-          "end": 115
+          "end": 115,
+          "count": 1
         }
       ]
     },
     {
       "id": 8294,
       "type": "a",
-      "body": [
+      "parent": 8293,
+      "refs": [
         {
           "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
-          "end": 315
+          "end": 315,
+          "count": 1
         }
-      ],
-      "parent": 8293
+      ]
     },
     {
       "id": 8840,
       "type": "a",
-      "body": [
-        {
-          "osis": "Jer.17.1",
-          "book": "Jer",
-          "start": 412
-        },
+      "parent": 8832,
+      "refs": [
         {
           "osis": "2Cor.3.3",
           "book": "2Cor",
-          "start": 44
+          "start": 44,
+          "count": 1
+        },
+        {
+          "osis": "Jer.17.1",
+          "book": "Jer",
+          "start": 412,
+          "count": 1
         }
-      ],
-      "parent": 8832
+      ]
     },
     {
       "id": 8843,
       "type": "a",
-      "body": [
+      "parent": 2170,
+      "refs": [
         {
           "osis": "1Kgs.8.41-1Kgs.8.43",
           "book": "1Kgs",
           "start": 309,
-          "end": 311
+          "end": 311,
+          "count": 1
         }
-      ],
-      "parent": 2170
+      ]
     },
     {
       "id": 8845,
       "type": "a",
-      "body": [
+      "parent": 8564,
+      "refs": [
         {
           "osis": "Isa.45.1",
           "book": "Isa",
-          "start": 908
+          "start": 908,
+          "count": 1
         }
-      ],
-      "parent": 8564
+      ]
     },
     {
       "id": 8876,
       "type": "a",
-      "body": [
+      "parent": 8872,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 8872
+      ]
     },
     {
       "id": 8893,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.60.1-Isa.60.22",
           "book": "Isa",
           "start": 1168,
-          "end": 1189
+          "end": 1189,
+          "count": 2
         }
       ]
     },
     {
       "id": 8977,
       "type": "a",
-      "body": [
+      "parent": 8972,
+      "refs": [
         {
           "osis": "Rev.10.1-Rev.10.11",
           "book": "Rev",
           "start": 165,
-          "end": 175
+          "end": 175,
+          "count": 1
         },
         {
           "osis": "Rev.12.1-Rev.12.17",
           "book": "Rev",
           "start": 195,
-          "end": 211
+          "end": 211,
+          "count": 1
         },
         {
           "osis": "Rev.4.1-Rev.4.11",
           "book": "Rev",
           "start": 72,
-          "end": 82
+          "end": 82,
+          "count": 1
         }
-      ],
-      "parent": 8972
+      ]
     },
     {
       "id": 9131,
       "type": "a",
-      "body": [
+      "parent": 1932,
+      "refs": [
         {
           "osis": "2Kgs.18.4",
           "book": "2Kgs",
-          "start": 495
+          "start": 495,
+          "count": 1
         },
         {
           "osis": "Ezek.8.10",
           "book": "Ezek",
-          "start": 150
+          "start": 150,
+          "count": 1
         },
         {
           "osis": "John.3.14",
           "book": "John",
-          "start": 90
+          "start": 90,
+          "count": 1
         }
-      ],
-      "parent": 1932
+      ]
     },
     {
       "id": 9451,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 9653,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.30.1-Isa.30.33",
           "book": "Isa",
           "start": 564,
-          "end": 596
+          "end": 596,
+          "count": 1
         }
       ]
     },
     {
       "id": 9700,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
-          "end": 252
+          "end": 252,
+          "count": 1
         }
       ]
     },
     {
       "id": 9847,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 10151,
       "type": "a",
-      "body": [
+      "parent": 7463,
+      "refs": [
         {
           "osis": "Num.8.1-Num.8.26",
           "book": "Num",
           "start": 336,
-          "end": 361
+          "end": 361,
+          "count": 1
         }
-      ],
-      "parent": 7463
+      ]
     },
     {
       "id": 10170,
       "type": "a",
-      "body": [
+      "parent": 7261,
+      "refs": [
         {
           "osis": "Wis.9.1-Wis.9.18",
           "book": "Wis",
           "start": 179,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 7261
+      ]
     },
     {
       "id": 10202,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Song.6.1-Song.6.13",
           "book": "Song",
           "start": 78,
-          "end": 90
+          "end": 90,
+          "count": 1
         }
       ]
     },
     {
       "id": 10286,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.45.1-Isa.45.25",
           "book": "Isa",
           "start": 908,
-          "end": 932
+          "end": 932,
+          "count": 1
         }
       ]
     },
     {
       "id": 10334,
       "type": "a",
-      "body": [
-        {
-          "osis": "Isa.4.1-Isa.4.6",
-          "book": "Isa",
-          "start": 80,
-          "end": 85
-        },
+      "parent": 8293,
+      "refs": [
         {
           "osis": "Isa.12.1-Isa.12.6",
           "book": "Isa",
           "start": 247,
-          "end": 252
+          "end": 252,
+          "count": 1
         },
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
+        },
+        {
+          "osis": "Isa.4.1-Isa.4.6",
+          "book": "Isa",
+          "start": 80,
+          "end": 85,
+          "count": 1
         }
-      ],
-      "parent": 8293
+      ]
     },
     {
       "id": 10413,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Gen.41.45",
           "book": "Gen",
-          "start": 1241
+          "start": 1241,
+          "count": 1
         }
       ]
     },
     {
       "id": 10490,
       "type": "a",
-      "body": [
-        {
-          "osis": "Num.3.5",
-          "book": "Num",
-          "start": 93
-        },
-        {
-          "osis": "Num.3.21",
-          "book": "Num",
-          "start": 109
-        },
+      "parent": 10489,
+      "refs": [
         {
           "osis": "Num.3.17",
           "book": "Num",
-          "start": 105
+          "start": 105,
+          "count": 1
         },
         {
           "osis": "Num.3.18",
           "book": "Num",
-          "start": 106
+          "start": 106,
+          "count": 1
+        },
+        {
+          "osis": "Num.3.21",
+          "book": "Num",
+          "start": 109,
+          "count": 1
+        },
+        {
+          "osis": "Num.3.5",
+          "book": "Num",
+          "start": 93,
+          "count": 3
         }
-      ],
-      "parent": 10489
+      ]
     },
     {
       "id": 10564,
       "type": "a",
-      "body": [
+      "parent": 8917,
+      "refs": [
         {
           "osis": "Job.3.1-Job.3.26",
           "book": "Job",
           "start": 36,
-          "end": 61
+          "end": 61,
+          "count": 1
         }
-      ],
-      "parent": 8917
+      ]
     },
     {
       "id": 10578,
       "type": "a",
-      "body": [
+      "parent": 5566,
+      "refs": [
         {
           "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
-          "end": 54
+          "end": 54,
+          "count": 1
         }
-      ],
-      "parent": 5566
+      ]
     },
     {
       "id": 10604,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Deut.9.1-Deut.9.29",
           "book": "Deut",
           "start": 266,
-          "end": 294
+          "end": 294,
+          "count": 1
         }
       ]
     },
     {
       "id": 10817,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.6.1-Isa.7.25",
           "book": "Isa",
           "start": 116,
-          "end": 153
+          "end": 153,
+          "count": 1
         }
       ]
     },
     {
       "id": 10975,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.25.1-Isa.25.12",
           "book": "Isa",
           "start": 465,
-          "end": 476
+          "end": 476,
+          "count": 1
         },
         {
           "osis": "Isa.45.1-Isa.45.25",
           "book": "Isa",
           "start": 908,
-          "end": 932
+          "end": 932,
+          "count": 1
         }
       ]
     },
     {
       "id": 11197,
       "type": "a",
-      "body": [
+      "parent": 8472,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         },
         {
           "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
-          "end": 797
+          "end": 797,
+          "count": 1
         }
-      ],
-      "parent": 8472
+      ]
     },
     {
       "id": 11345,
       "type": "a",
-      "body": [
+      "parent": 11336,
+      "refs": [
         {
           "osis": "Acts.1.1-Acts.1.26",
           "book": "Acts",
           "start": 1,
-          "end": 26
+          "end": 26,
+          "count": 1
         }
-      ],
-      "parent": 11336
+      ]
     },
     {
       "id": 11551,
       "type": "a",
-      "body": [
+      "parent": 11372,
+      "refs": [
         {
           "osis": "Dan.3.1-Dan.3.30",
           "book": "Dan",
           "start": 71,
-          "end": 100
+          "end": 100,
+          "count": 1
         }
-      ],
-      "parent": 11372
+      ]
     },
     {
       "id": 11645,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.23.1-Isa.23.18",
           "book": "Isa",
           "start": 424,
-          "end": 441
+          "end": 441,
+          "count": 1
         }
       ]
     },
     {
       "id": 12122,
       "type": "a",
-      "body": [
+      "parent": 10879,
+      "refs": [
         {
           "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
-          "end": 175
+          "end": 175,
+          "count": 1
         },
         {
           "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 10879
+      ]
     },
     {
       "id": 12160,
       "type": "a",
-      "body": [
+      "parent": 12157,
+      "refs": [
         {
           "osis": "Gen.3.16",
           "book": "Gen",
-          "start": 72
+          "start": 72,
+          "count": 1
         }
-      ],
-      "parent": 12157
+      ]
     },
     {
       "id": 12601,
       "type": "a",
-      "body": [
+      "parent": 12599,
+      "refs": [
         {
           "osis": "Isa.27.1-Isa.27.13",
           "book": "Isa",
           "start": 498,
-          "end": 510
+          "end": 510,
+          "count": 1
         }
-      ],
-      "parent": 12599
+      ]
     },
     {
       "id": 12665,
       "type": "a",
-      "body": [
+      "parent": 12647,
+      "refs": [
         {
           "osis": "Job.3.1-Job.3.26",
           "book": "Job",
           "start": 36,
-          "end": 61
+          "end": 61,
+          "count": 1
         }
-      ],
-      "parent": 12647
+      ]
     },
     {
       "id": 13008,
       "type": "a",
-      "body": [
+      "parent": 13003,
+      "refs": [
         {
           "osis": "Isa.2.5",
           "book": "Isa",
-          "start": 36
+          "start": 36,
+          "count": 1
         }
-      ],
-      "parent": 13003
+      ]
     },
     {
       "id": 13099,
       "type": "a",
-      "body": [
+      "parent": 12630,
+      "refs": [
         {
           "osis": "Song.5.1-Song.5.16",
           "book": "Song",
           "start": 62,
-          "end": 77
+          "end": 77,
+          "count": 1
         }
-      ],
-      "parent": 12630
+      ]
     },
     {
       "id": 13180,
       "type": "q",
       "title": [
+        0
+      ],
+      "refs": [
         {
           "osis": "Num.10.1-Num.10.36",
           "book": "Num",
           "start": 385,
-          "end": 420
+          "end": 420,
+          "count": 1
         }
       ]
     },
     {
       "id": 13207,
       "type": "a",
-      "body": [
-        {
-          "osis": "Matt.5.17",
-          "book": "Matt",
-          "start": 107
-        },
+      "parent": 12884,
+      "refs": [
         {
           "osis": "Luke.16.16",
           "book": "Luke",
-          "start": 743
+          "start": 743,
+          "count": 1
+        },
+        {
+          "osis": "Matt.5.17",
+          "book": "Matt",
+          "start": 107,
+          "count": 1
         }
-      ],
-      "parent": 12884
+      ]
     },
     {
       "id": 13259,
       "type": "a",
-      "body": [
+      "parent": 13256,
+      "refs": [
         {
           "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
-          "end": 53
+          "end": 53,
+          "count": 1
         }
-      ],
-      "parent": 13256
+      ]
     },
     {
       "id": 14447,
       "type": "q",
-      "body": [
-        {
-          "osis": "Gen.8.15",
-          "book": "Gen",
-          "start": 199
-        },
-        {
-          "osis": "Gen.24.7",
-          "book": "Gen",
-          "start": 599
-        },
-        {
-          "osis": "Gen.31.11",
-          "book": "Gen",
-          "start": 885
-        },
-        {
-          "osis": "Exod.6.2",
-          "book": "Exod",
-          "start": 125
-        },
+      "title": [],
+      "refs": [
         {
           "osis": "1Sam.3.17",
           "book": "1Sam",
-          "start": 81
+          "start": 81,
+          "count": 1
         },
         {
           "osis": "2Sam.23.3",
           "book": "2Sam",
-          "start": 634
+          "start": 634,
+          "count": 1
+        },
+        {
+          "osis": "Exod.6.2",
+          "book": "Exod",
+          "start": 125,
+          "count": 1
+        },
+        {
+          "osis": "Gen.24.7",
+          "book": "Gen",
+          "start": 599,
+          "count": 1
+        },
+        {
+          "osis": "Gen.31.11",
+          "book": "Gen",
+          "start": 885,
+          "count": 1
+        },
+        {
+          "osis": "Gen.8.15",
+          "book": "Gen",
+          "start": 199,
+          "count": 1
         }
       ]
     },
     {
       "id": 14458,
       "type": "a",
-      "body": [
+      "parent": 14415,
+      "refs": [
         {
           "osis": "Mark.15.34",
           "book": "Mark",
-          "start": 645
+          "start": 645,
+          "count": 1
         }
-      ],
-      "parent": 14415
+      ]
     },
     {
       "id": 14464,
       "type": "a",
-      "body": [
+      "parent": 13399,
+      "refs": [
         {
           "osis": "Deut.22.28-Deut.22.29",
           "book": "Deut",
           "start": 606,
-          "end": 607
+          "end": 607,
+          "count": 1
         },
         {
           "osis": "Exod.22.16-Exod.22.17",
           "book": "Exod",
           "start": 597,
-          "end": 598
+          "end": 598,
+          "count": 1
         }
-      ],
-      "parent": 13399
+      ]
     },
     {
       "id": 14465,
       "type": "a",
-      "body": [
+      "parent": 1347,
+      "refs": [
         {
           "osis": "Lev.21.9",
           "book": "Lev",
-          "start": 609
+          "start": 609,
+          "count": 1
         }
-      ],
-      "parent": 1347
+      ]
     },
     {
       "id": 14497,
       "type": "a",
-      "body": [
+      "parent": 13139,
+      "refs": [
         {
           "osis": "1Tim.2.9",
           "book": "1Tim",
-          "start": 29
+          "start": 29,
+          "count": 1
         }
-      ],
-      "parent": 13139
+      ]
     },
     {
       "id": 14642,
       "type": "a",
-      "body": [
+      "parent": 14638,
+      "refs": [
         {
           "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
-          "end": 230
+          "end": 230,
+          "count": 1
         }
-      ],
-      "parent": 14638
+      ]
     },
     {
       "id": 14705,
       "type": "a",
-      "body": [
+      "parent": 14703,
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         }
-      ],
-      "parent": 14703
+      ]
     },
     {
       "id": 14787,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Amos.7.1-Amos.7.17",
           "book": "Amos",
           "start": 101,
-          "end": 117
+          "end": 117,
+          "count": 1
         }
       ]
     },
     {
       "id": 14882,
       "type": "a",
-      "body": [
+      "parent": 13210,
+      "refs": [
         {
           "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 13210
+      ]
     },
     {
       "id": 14883,
       "type": "a",
-      "body": [
+      "parent": 14874,
+      "refs": [
         {
           "osis": "Isa.2.5",
           "book": "Isa",
-          "start": 36
+          "start": 36,
+          "count": 1
         }
-      ],
-      "parent": 14874
+      ]
     },
     {
       "id": 14907,
       "type": "a",
-      "body": [
+      "parent": 14900,
+      "refs": [
         {
           "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 14900
+      ]
     },
     {
       "id": 15095,
       "type": "a",
-      "body": [
+      "parent": 15072,
+      "refs": [
         {
           "osis": "Dan.3.1-Dan.3.30",
           "book": "Dan",
           "start": 71,
-          "end": 100
+          "end": 100,
+          "count": 1
         }
-      ],
-      "parent": 15072
+      ]
     },
     {
       "id": 15109,
       "type": "a",
-      "body": [
+      "parent": 15069,
+      "refs": [
         {
           "osis": "Rev.22.18-Rev.22.19",
           "book": "Rev",
           "start": 401,
-          "end": 402
+          "end": 402,
+          "count": 1
         },
         {
           "osis": "Rev.22.3",
           "book": "Rev",
-          "start": 386
+          "start": 386,
+          "count": 1
         }
-      ],
-      "parent": 15069
+      ]
     },
     {
       "id": 16186,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Amos.5.1-Amos.5.27",
           "book": "Amos",
           "start": 60,
-          "end": 86
+          "end": 86,
+          "count": 1
         }
       ]
     },
     {
       "id": 16239,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.30",
           "book": "Isa",
-          "start": 30
+          "start": 30,
+          "count": 1
         }
       ]
     },
     {
       "id": 16605,
       "type": "a",
-      "body": [
+      "parent": 8102,
+      "refs": [
         {
           "osis": "Num.2.2",
           "book": "Num",
-          "start": 56
+          "start": 56,
+          "count": 1
         }
-      ],
-      "parent": 8102
+      ]
     },
     {
       "id": 16686,
       "type": "a",
-      "body": [
+      "parent": 10519,
+      "refs": [
         {
           "osis": "Song.1.1-Song.1.17",
           "book": "Song",
           "start": 1,
-          "end": 17
+          "end": 17,
+          "count": 1
         }
-      ],
-      "parent": 10519
+      ]
     },
     {
       "id": 16720,
       "type": "a",
-      "body": [
+      "parent": 16524,
+      "refs": [
         {
           "osis": "Isa.2.5",
           "book": "Isa",
-          "start": 36
+          "start": 36,
+          "count": 1
         },
         {
           "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
-          "end": 34
+          "end": 34,
+          "count": 1
         }
-      ],
-      "parent": 16524
+      ]
     },
     {
       "id": 16911,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 16956,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Acts.21.37-Acts.21.38",
           "book": "Acts",
           "start": 778,
-          "end": 779
+          "end": 779,
+          "count": 1
         },
         {
           "osis": "Exod.2.16-Exod.2.19",
           "book": "Exod",
           "start": 38,
-          "end": 41
+          "end": 41,
+          "count": 1
         }
       ]
     },
     {
       "id": 17231,
       "type": "a",
-      "body": [
+      "parent": 11424,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 11424
+      ]
     },
     {
       "id": 18104,
       "type": "a",
-      "body": [
+      "parent": 17637,
+      "refs": [
         {
           "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
-          "end": 246
+          "end": 246,
+          "count": 1
         }
-      ],
-      "parent": 17637
+      ]
     },
     {
       "id": 18184,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Matt.10.39",
           "book": "Matt",
-          "start": 312
+          "start": 312,
+          "count": 1
         }
       ]
     },
     {
       "id": 18189,
       "type": "q",
-      "body": [
-        {
-          "osis": "Isa.18.1-Isa.18.7",
-          "book": "Isa",
-          "start": 344,
-          "end": 350
-        },
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.14.1-Isa.14.32",
           "book": "Isa",
           "start": 275,
-          "end": 306
+          "end": 306,
+          "count": 1
+        },
+        {
+          "osis": "Isa.18.1-Isa.18.7",
+          "book": "Isa",
+          "start": 344,
+          "end": 350,
+          "count": 1
         }
       ]
     },
     {
       "id": 18326,
       "type": "a",
-      "body": [
+      "parent": 18262,
+      "refs": [
         {
           "osis": "Gen.5.5",
           "book": "Gen",
-          "start": 111
+          "start": 111,
+          "count": 1
         }
-      ],
-      "parent": 18262
+      ]
     },
     {
       "id": 18333,
       "type": "a",
-      "body": [
+      "parent": 18262,
+      "refs": [
+        {
+          "osis": "Isa.7.0",
+          "book": "Isa",
+          "start": 128,
+          "count": 1
+        },
         {
           "osis": "Isa.7.1-Isa.7.25",
           "book": "Isa",
           "start": 129,
-          "end": 153
-        },
-        {
-          "osis": "Isa.7.0",
-          "book": "Isa",
-          "start": 128
+          "end": 153,
+          "count": 1
         }
-      ],
-      "parent": 18262
+      ]
     },
     {
       "id": 18701,
       "type": "a",
-      "body": [
+      "parent": 18695,
+      "refs": [
         {
           "osis": "John.14.6",
           "book": "John",
-          "start": 630
+          "start": 630,
+          "count": 1
         }
-      ],
-      "parent": 18695
+      ]
     },
     {
       "id": 18799,
       "type": "a",
-      "body": [
+      "parent": 1320,
+      "refs": [
         {
           "osis": "Isa.50.0",
           "book": "Isa",
-          "start": 1008
+          "start": 1008,
+          "count": 1
         }
-      ],
-      "parent": 1320
+      ]
     },
     {
       "id": 18826,
       "type": "a",
-      "body": [
+      "parent": 18464,
+      "refs": [
         {
           "osis": "Isa.7.0",
           "book": "Isa",
-          "start": 128
+          "start": 128,
+          "count": 1
         }
-      ],
-      "parent": 18464
+      ]
     },
     {
       "id": 20035,
       "type": "a",
-      "body": [
-        {
-          "osis": "John.4.26",
-          "book": "John",
-          "start": 138
-        },
-        {
-          "osis": "John.1.1",
-          "book": "John",
-          "start": 1
-        },
-        {
-          "osis": "Matt.26.63-Matt.26.64",
-          "book": "Matt",
-          "start": 973,
-          "end": 974
-        },
+      "parent": 18695,
+      "refs": [
         {
           "osis": "Dan.7.13-Dan.7.14",
           "book": "Dan",
           "start": 209,
-          "end": 210
+          "end": 210,
+          "count": 1
         },
         {
-          "osis": "Matt.13.37",
-          "book": "Matt",
-          "start": 432
+          "osis": "John.1.1",
+          "book": "John",
+          "start": 1,
+          "count": 1
         },
         {
-          "osis": "Mark.4.26",
-          "book": "Mark",
-          "start": 134
-        },
-        {
-          "osis": "Luke.8.11",
-          "book": "Luke",
-          "start": 363
-        },
-        {
-          "osis": "Mark.12.29-Mark.12.30",
-          "book": "Mark",
-          "start": 487,
-          "end": 488
-        },
-        {
-          "osis": "Mark.15.2",
-          "book": "Mark",
-          "start": 613
+          "osis": "John.4.26",
+          "book": "John",
+          "start": 138,
+          "count": 1
         },
         {
           "osis": "Luke.7.6-Luke.7.9",
           "book": "Luke",
           "start": 308,
-          "end": 311
+          "end": 311,
+          "count": 1
+        },
+        {
+          "osis": "Luke.8.11",
+          "book": "Luke",
+          "start": 363,
+          "count": 1
+        },
+        {
+          "osis": "Mark.12.29-Mark.12.30",
+          "book": "Mark",
+          "start": 487,
+          "end": 488,
+          "count": 1
+        },
+        {
+          "osis": "Mark.15.2",
+          "book": "Mark",
+          "start": 613,
+          "count": 1
+        },
+        {
+          "osis": "Mark.4.26",
+          "book": "Mark",
+          "start": 134,
+          "count": 1
+        },
+        {
+          "osis": "Matt.13.37",
+          "book": "Matt",
+          "start": 432,
+          "count": 1
+        },
+        {
+          "osis": "Matt.26.63-Matt.26.64",
+          "book": "Matt",
+          "start": 973,
+          "end": 974,
+          "count": 1
         }
-      ],
-      "parent": 18695
+      ]
     },
     {
       "id": 20087,
       "type": "a",
-      "body": [
+      "parent": 1932,
+      "refs": [
         {
-          "osis": "Gen.31.30",
-          "book": "Gen",
-          "start": 904
-        },
-        {
-          "osis": "Gen.35.2",
-          "book": "Gen",
-          "start": 1014
-        },
-        {
-          "osis": "Gen.35.4",
-          "book": "Gen",
-          "start": 1016
+          "osis": "Exod.20.3",
+          "book": "Exod",
+          "start": 522,
+          "count": 1
         },
         {
           "osis": "Gen.1.1",
           "book": "Gen",
-          "start": 1
+          "start": 1,
+          "count": 1
         },
         {
           "osis": "Gen.1.3",
           "book": "Gen",
-          "start": 3
+          "start": 3,
+          "count": 1
         },
         {
-          "osis": "Exod.20.3",
-          "book": "Exod",
-          "start": 522
+          "osis": "Gen.31.30",
+          "book": "Gen",
+          "start": 904,
+          "count": 1
+        },
+        {
+          "osis": "Gen.35.2",
+          "book": "Gen",
+          "start": 1014,
+          "count": 1
+        },
+        {
+          "osis": "Gen.35.4",
+          "book": "Gen",
+          "start": 1016,
+          "count": 1
         },
         {
           "osis": "Matt.6.33",
           "book": "Matt",
-          "start": 171
+          "start": 171,
+          "count": 1
         }
-      ],
-      "parent": 1932
+      ]
     },
     {
       "id": 20092,
       "type": "a",
-      "body": [
+      "parent": 18308,
+      "refs": [
         {
           "osis": "Eccl.1.5",
           "book": "Eccl",
-          "start": 5
+          "start": 5,
+          "count": 1
         }
-      ],
-      "parent": 18308
+      ]
     },
     {
       "id": 20240,
       "type": "a",
-      "body": [
+      "parent": 17080,
+      "refs": [
         {
           "osis": "Isa.9.5",
           "book": "Isa",
-          "start": 180
+          "start": 180,
+          "count": 1
         }
-      ],
-      "parent": 17080
+      ]
     },
     {
       "id": 20266,
       "type": "a",
-      "body": [
+      "parent": 20259,
+      "refs": [
         {
           "osis": "Deut.20.10-Deut.20.14",
           "book": "Deut",
           "start": 545,
-          "end": 549
+          "end": 549,
+          "count": 1
         }
-      ],
-      "parent": 20259
+      ]
     },
     {
       "id": 20309,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Esth.6.1-Esth.6.14",
           "book": "Esth",
           "start": 92,
-          "end": 105
+          "end": 105,
+          "count": 1
         }
       ]
     },
     {
       "id": 20315,
       "type": "a",
-      "body": [
+      "parent": 9724,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 9724
+      ]
     },
     {
       "id": 20345,
       "type": "a",
-      "body": [
+      "parent": 20303,
+      "refs": [
         {
           "osis": "Deut.20.12-Deut.20.14",
           "book": "Deut",
           "start": 547,
-          "end": 549
+          "end": 549,
+          "count": 1
         }
-      ],
-      "parent": 20303
+      ]
     },
     {
       "id": 22988,
       "type": "q",
-      "body": [
-        {
-          "osis": "Isa.4.1-Isa.4.6",
-          "book": "Isa",
-          "start": 80,
-          "end": 85
-        }
-      ],
       "title": [
+        0
+      ],
+      "refs": [
         {
           "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
-          "end": 85
+          "end": 85,
+          "count": 2
         }
       ]
     },
     {
       "id": 23028,
       "type": "a",
-      "body": [
+      "parent": 22975,
+      "refs": [
         {
           "osis": "Heb.9.28",
           "book": "Heb",
-          "start": 170
+          "start": 170,
+          "count": 1
         }
-      ],
-      "parent": 22975
+      ]
     },
     {
       "id": 23063,
       "type": "a",
-      "body": [
+      "parent": 23061,
+      "refs": [
         {
           "osis": "Isa.29.1-Isa.29.24",
           "book": "Isa",
           "start": 540,
-          "end": 563
+          "end": 563,
+          "count": 1
         }
-      ],
-      "parent": 23061
+      ]
     },
     {
       "id": 23112,
       "type": "a",
-      "body": [
+      "parent": 22988,
+      "refs": [
         {
           "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
-          "end": 85
+          "end": 85,
+          "count": 1
         }
-      ],
-      "parent": 22988
+      ]
     },
     {
       "id": 23145,
       "type": "a",
-      "body": [
+      "parent": 23142,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 23142
+      ]
     },
     {
       "id": 23232,
       "type": "a",
-      "body": [
+      "parent": 23219,
+      "refs": [
         {
           "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
-          "end": 54
+          "end": 54,
+          "count": 1
         }
-      ],
-      "parent": 23219
+      ]
     },
     {
       "id": 23264,
       "type": "a",
-      "body": [
+      "parent": 2614,
+      "refs": [
         {
           "osis": "Num.5.1-Num.5.31",
           "book": "Num",
           "start": 189,
-          "end": 219
+          "end": 219,
+          "count": 1
         }
-      ],
-      "parent": 2614
+      ]
     },
     {
       "id": 23408,
       "type": "a",
-      "body": [
-        {
-          "osis": "1Cor.9.1-1Cor.9.27",
-          "book": "1Cor",
-          "start": 178,
-          "end": 204
-        },
+      "parent": 5648,
+      "refs": [
         {
           "osis": "1Cor.2.1-1Cor.2.16",
           "book": "1Cor",
           "start": 32,
-          "end": 47
+          "end": 47,
+          "count": 1
+        },
+        {
+          "osis": "1Cor.9.1-1Cor.9.27",
+          "book": "1Cor",
+          "start": 178,
+          "end": 204,
+          "count": 1
         }
-      ],
-      "parent": 5648
+      ]
     },
     {
       "id": 23427,
       "type": "a",
-      "body": [
+      "parent": 23416,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 23416
+      ]
     },
     {
       "id": 23472,
       "type": "a",
-      "body": [
+      "parent": 23467,
+      "refs": [
         {
           "osis": "Ps.9.1-Ps.9.20",
           "book": "Ps",
           "start": 83,
-          "end": 102
+          "end": 102,
+          "count": 1
         }
-      ],
-      "parent": 23467
+      ]
     },
     {
       "id": 23473,
       "type": "a",
-      "body": [
+      "parent": 22982,
+      "refs": [
         {
           "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 22982
+      ]
     },
     {
       "id": 23575,
       "type": "a",
-      "body": [
-        {
-          "osis": "Num.6.1-Num.6.27",
-          "book": "Num",
-          "start": 220,
-          "end": 246
-        },
+      "parent": 796,
+      "refs": [
         {
           "osis": "Isa.11.1-Isa.11.16",
           "book": "Isa",
           "start": 231,
-          "end": 246
+          "end": 246,
+          "count": 1
+        },
+        {
+          "osis": "Num.6.1-Num.6.27",
+          "book": "Num",
+          "start": 220,
+          "end": 246,
+          "count": 2
         }
-      ],
-      "parent": 796
+      ]
     },
     {
       "id": 23582,
       "type": "q",
-      "body": [
-        {
-          "osis": "Num.3.1-Num.3.51",
-          "book": "Num",
-          "start": 89,
-          "end": 139
-        }
-      ],
       "title": [
+        0
+      ],
+      "refs": [
         {
           "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
-          "end": 139
+          "end": 139,
+          "count": 2
         }
       ]
     },
     {
       "id": 23644,
       "type": "a",
-      "body": [
+      "parent": 12418,
+      "refs": [
         {
           "osis": "Num.10.1-Num.10.36",
           "book": "Num",
           "start": 385,
-          "end": 420
+          "end": 420,
+          "count": 1
         }
-      ],
-      "parent": 12418
+      ]
     },
     {
       "id": 23677,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "John.20.1-John.20.31",
           "book": "John",
           "start": 824,
-          "end": 854
+          "end": 854,
+          "count": 2
         },
         {
           "osis": "John.20.28",
           "book": "John",
-          "start": 851
+          "start": 851,
+          "count": 1
         }
       ]
     },
     {
       "id": 23684,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Num.13.1-Num.13.33",
           "book": "Num",
           "start": 472,
-          "end": 504
+          "end": 504,
+          "count": 1
         }
       ]
     },
     {
       "id": 23685,
       "type": "a",
-      "body": [
+      "parent": 23684,
+      "refs": [
         {
           "osis": "Num.13.1-Num.13.33",
           "book": "Num",
           "start": 472,
-          "end": 504
+          "end": 504,
+          "count": 1
         }
-      ],
-      "parent": 23684
+      ]
     },
     {
       "id": 23699,
       "type": "a",
-      "body": [
+      "parent": 21796,
+      "refs": [
         {
           "osis": "Matt.10.6",
           "book": "Matt",
-          "start": 279
+          "start": 279,
+          "count": 1
         }
-      ],
-      "parent": 21796
+      ]
     },
     {
       "id": 23723,
       "type": "a",
-      "body": [
+      "parent": 18695,
+      "refs": [
         {
           "osis": "Exod.4.22",
           "book": "Exod",
-          "start": 91
+          "start": 91,
+          "count": 1
         },
         {
           "osis": "Jer.3.19",
           "book": "Jer",
-          "start": 75
+          "start": 75,
+          "count": 1
         }
-      ],
-      "parent": 18695
+      ]
     },
     {
       "id": 23747,
       "type": "a",
-      "body": [
+      "parent": 18695,
+      "refs": [
         {
           "osis": "Matt.10.1-Matt.10.42",
           "book": "Matt",
           "start": 274,
-          "end": 315
+          "end": 315,
+          "count": 1
         }
-      ],
-      "parent": 18695
+      ]
     },
     {
       "id": 23791,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Num.9.1-Num.9.23",
           "book": "Num",
           "start": 362,
-          "end": 384
+          "end": 384,
+          "count": 1
         }
       ]
     },
     {
       "id": 23976,
       "type": "a",
-      "body": [
+      "parent": 23963,
+      "refs": [
         {
           "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
-          "end": 115
+          "end": 115,
+          "count": 1
         }
-      ],
-      "parent": 23963
+      ]
     },
     {
       "id": 23990,
       "type": "a",
-      "body": [
+      "parent": 23964,
+      "refs": [
+        {
+          "osis": "Deut.18.18",
+          "book": "Deut",
+          "start": 510,
+          "count": 2
+        },
         {
           "osis": "Deut.5.1-Deut.5.33",
           "book": "Deut",
           "start": 162,
-          "end": 194
-        },
-        {
-          "osis": "Deut.18.18",
-          "book": "Deut",
-          "start": 510
+          "end": 194,
+          "count": 1
         }
-      ],
-      "parent": 23964
+      ]
     },
     {
       "id": 24126,
       "type": "a",
-      "body": [
-        {
-          "osis": "Matt.22.1-Matt.22.46",
-          "book": "Matt",
-          "start": 729,
-          "end": 774
-        },
+      "parent": 24078,
+      "refs": [
         {
           "osis": "John.3.16-John.3.18",
           "book": "John",
           "start": 92,
-          "end": 94
+          "end": 94,
+          "count": 1
+        },
+        {
+          "osis": "Matt.22.1-Matt.22.46",
+          "book": "Matt",
+          "start": 729,
+          "end": 774,
+          "count": 1
         }
-      ],
-      "parent": 24078
+      ]
     },
     {
       "id": 24192,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Amos.1.1-Amos.1.15",
           "book": "Amos",
           "start": 1,
-          "end": 15
+          "end": 15,
+          "count": 1
         }
       ]
     },
     {
       "id": 24203,
       "type": "a",
-      "body": [
+      "parent": 11415,
+      "refs": [
         {
           "osis": "John.9.6",
           "book": "John",
-          "start": 402
+          "start": 402,
+          "count": 1
         }
-      ],
-      "parent": 11415
+      ]
     },
     {
       "id": 24325,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.45.1-Isa.45.25",
           "book": "Isa",
           "start": 908,
-          "end": 932
+          "end": 932,
+          "count": 1
         }
       ]
     },
     {
       "id": 24442,
       "type": "a",
-      "body": [
+      "parent": 5894,
+      "refs": [
         {
           "osis": "Matt.24.1-Matt.24.51",
           "book": "Matt",
           "start": 814,
-          "end": 864
+          "end": 864,
+          "count": 1
         }
-      ],
-      "parent": 5894
+      ]
     },
     {
       "id": 24520,
       "type": "a",
-      "body": [
+      "parent": 24463,
+      "refs": [
         {
           "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
-          "end": 139
+          "end": 139,
+          "count": 4
         },
         {
           "osis": "Num.7.1-Num.7.89",
           "book": "Num",
           "start": 247,
-          "end": 335
+          "end": 335,
+          "count": 1
         }
-      ],
-      "parent": 24463
+      ]
     },
     {
       "id": 24616,
       "type": "a",
-      "body": [
+      "parent": 12945,
+      "refs": [
         {
           "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
-          "end": 53
+          "end": 53,
+          "count": 1
         }
-      ],
-      "parent": 12945
+      ]
     },
     {
       "id": 24621,
       "type": "a",
-      "body": [
+      "parent": 16329,
+      "refs": [
         {
           "osis": "Isa.2.5",
           "book": "Isa",
-          "start": 36
+          "start": 36,
+          "count": 1
         }
-      ],
-      "parent": 16329
+      ]
     },
     {
       "id": 24660,
       "type": "a",
-      "body": [
+      "parent": 24659,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 24659
+      ]
     },
     {
       "id": 24680,
       "type": "a",
-      "body": [
+      "parent": 24671,
+      "refs": [
         {
           "osis": "Amos.9.11",
           "book": "Amos",
-          "start": 142
+          "start": 142,
+          "count": 1
         }
-      ],
-      "parent": 24671
+      ]
     },
     {
       "id": 24801,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Amos.4.1-Amos.4.13",
           "book": "Amos",
           "start": 47,
-          "end": 59
+          "end": 59,
+          "count": 1
         }
       ]
     },
     {
       "id": 24850,
       "type": "a",
-      "body": [
+      "parent": 24846,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 24846
+      ]
     },
     {
       "id": 24894,
       "type": "a",
-      "body": [
+      "parent": 8598,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 8598
+      ]
     },
     {
       "id": 25034,
       "type": "a",
-      "body": [
+      "parent": 24978,
+      "refs": [
         {
           "osis": "Isa.4.1-Isa.4.6",
           "book": "Isa",
           "start": 80,
-          "end": 85
+          "end": 85,
+          "count": 1
         }
-      ],
-      "parent": 24978
+      ]
     },
     {
       "id": 25046,
       "type": "a",
-      "body": [
+      "parent": 25042,
+      "refs": [
         {
           "osis": "Isa.9.1-Isa.9.21",
           "book": "Isa",
           "start": 176,
-          "end": 196
+          "end": 196,
+          "count": 1
         }
-      ],
-      "parent": 25042
+      ]
     },
     {
       "id": 25117,
       "type": "a",
-      "body": [
+      "parent": 5745,
+      "refs": [
         {
           "osis": "John.16.13-John.16.15",
           "book": "John",
           "start": 695,
-          "end": 697
+          "end": 697,
+          "count": 1
         }
-      ],
-      "parent": 5745
+      ]
     },
     {
       "id": 25198,
       "type": "a",
-      "body": [
+      "parent": 25196,
+      "refs": [
         {
           "osis": "Isa.27.1-Isa.27.13",
           "book": "Isa",
           "start": 498,
-          "end": 510
+          "end": 510,
+          "count": 1
         }
-      ],
-      "parent": 25196
+      ]
     },
     {
       "id": 25331,
       "type": "a",
-      "body": [
+      "parent": 23316,
+      "refs": [
         {
           "osis": "Song.2.1-Song.2.17",
           "book": "Song",
           "start": 18,
-          "end": 34
+          "end": 34,
+          "count": 1
         }
-      ],
-      "parent": 23316
+      ]
     },
     {
       "id": 25344,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.50.1-Isa.50.11",
           "book": "Isa",
           "start": 1009,
-          "end": 1019
+          "end": 1019,
+          "count": 1
         }
       ]
     },
     {
       "id": 25402,
       "type": "q",
-      "body": [
-        {
-          "osis": "Num.3.1-Num.3.51",
-          "book": "Num",
-          "start": 89,
-          "end": 139
-        }
-      ],
       "title": [
+        0
+      ],
+      "refs": [
         {
           "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
-          "end": 139
+          "end": 139,
+          "count": 2
         }
       ]
     },
     {
       "id": 25457,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 25464,
       "type": "a",
-      "body": [
+      "parent": 25452,
+      "refs": [
         {
           "osis": "Song.4.1-Song.4.16",
           "book": "Song",
           "start": 46,
-          "end": 61
+          "end": 61,
+          "count": 2
         },
         {
           "osis": "Song.5.1-Song.5.16",
           "book": "Song",
           "start": 62,
-          "end": 77
+          "end": 77,
+          "count": 1
         }
-      ],
-      "parent": 25452
+      ]
     },
     {
       "id": 25490,
       "type": "a",
-      "body": [
+      "parent": 25431,
+      "refs": [
         {
           "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
-          "end": 230
+          "end": 230,
+          "count": 1
         }
-      ],
-      "parent": 25431
+      ]
     },
     {
       "id": 25495,
       "type": "a",
-      "body": [
+      "parent": 25450,
+      "refs": [
         {
           "osis": "Isa.2.1-Isa.2.22",
           "book": "Isa",
           "start": 32,
-          "end": 53
+          "end": 53,
+          "count": 1
         }
-      ],
-      "parent": 25450
+      ]
     },
     {
       "id": 25531,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.2.0",
           "book": "Isa",
-          "start": 31
+          "start": 31,
+          "count": 1
         }
       ]
     },
     {
       "id": 25544,
       "type": "a",
-      "body": [
+      "parent": 23856,
+      "refs": [
         {
           "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
-          "end": 54
+          "end": 54,
+          "count": 1
         }
-      ],
-      "parent": 23856
+      ]
     },
     {
       "id": 25560,
       "type": "a",
-      "body": [
+      "parent": 25553,
+      "refs": [
         {
           "osis": "Mark.6.1-Mark.6.56",
           "book": "Mark",
           "start": 193,
-          "end": 248
+          "end": 248,
+          "count": 1
         }
-      ],
-      "parent": 25553
+      ]
     },
     {
       "id": 25632,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Deut.23.19-Deut.23.20",
           "book": "Deut",
           "start": 627,
-          "end": 628
+          "end": 628,
+          "count": 1
         },
         {
           "osis": "Exod.22.25",
           "book": "Exod",
-          "start": 606
+          "start": 606,
+          "count": 1
         },
         {
           "osis": "Lev.25.35-Lev.25.37",
           "book": "Lev",
           "start": 759,
-          "end": 761
+          "end": 761,
+          "count": 1
         }
       ]
     },
     {
       "id": 25819,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.62.1-Isa.62.12",
           "book": "Isa",
           "start": 1201,
-          "end": 1212
+          "end": 1212,
+          "count": 1
         }
       ]
     },
     {
       "id": 26141,
       "type": "a",
-      "body": [
+      "parent": 26139,
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         }
-      ],
-      "parent": 26139
+      ]
     },
     {
       "id": 26160,
       "type": "a",
-      "body": [
+      "parent": 26042,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 26042
+      ]
     },
     {
       "id": 26410,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.46.1-Isa.46.13",
           "book": "Isa",
           "start": 933,
-          "end": 945
+          "end": 945,
+          "count": 1
         }
       ]
     },
     {
       "id": 27555,
       "type": "q",
-      "body": [
-        {
-          "osis": "Isa.8.1-Isa.8.22",
-          "book": "Isa",
-          "start": 154,
-          "end": 175
-        }
-      ],
       "title": [
+        0
+      ],
+      "refs": [
         {
           "osis": "Isa.8.1-Isa.8.22",
           "book": "Isa",
           "start": 154,
-          "end": 175
+          "end": 175,
+          "count": 2
         }
       ]
     },
     {
       "id": 27612,
       "type": "a",
-      "body": [
+      "parent": 27608,
+      "refs": [
         {
           "osis": "Isa.55.1-Isa.55.13",
           "book": "Isa",
           "start": 1087,
-          "end": 1099
+          "end": 1099,
+          "count": 1
         }
-      ],
-      "parent": 27608
+      ]
     },
     {
       "id": 27825,
       "type": "a",
-      "body": [
+      "parent": 7864,
+      "refs": [
         {
           "osis": "Isa.10.1-Isa.10.34",
           "book": "Isa",
           "start": 197,
-          "end": 230
+          "end": 230,
+          "count": 1
         }
-      ],
-      "parent": 7864
+      ]
     },
     {
       "id": 27991,
       "type": "a",
-      "body": [
+      "parent": 27970,
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         }
-      ],
-      "parent": 27970
+      ]
     },
     {
       "id": 28005,
       "type": "a",
-      "body": [
+      "parent": 28004,
+      "refs": [
         {
           "osis": "Num.3.1-Num.3.51",
           "book": "Num",
           "start": 89,
-          "end": 139
+          "end": 139,
+          "count": 1
         },
         {
           "osis": "Num.6.1-Num.6.27",
           "book": "Num",
           "start": 220,
-          "end": 246
+          "end": 246,
+          "count": 1
         }
-      ],
-      "parent": 28004
+      ]
     },
     {
       "id": 28036,
       "type": "a",
-      "body": [
+      "parent": 28032,
+      "refs": [
         {
           "osis": "Num.26.1-Num.26.65",
           "book": "Num",
           "start": 886,
-          "end": 950
+          "end": 950,
+          "count": 1
         }
-      ],
-      "parent": 28032
+      ]
     },
     {
       "id": 28040,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Deut.4.2",
           "book": "Deut",
-          "start": 114
+          "start": 114,
+          "count": 1
         },
         {
           "osis": "Prov.30.6",
           "book": "Prov",
-          "start": 857
+          "start": 857,
+          "count": 1
         }
       ]
     },
     {
       "id": 28048,
       "type": "a",
-      "body": [
+      "parent": 28040,
+      "refs": [
+        {
+          "osis": "Deut.13.1",
+          "book": "Deut",
+          "start": 381,
+          "count": 1
+        },
         {
           "osis": "Deut.18.15",
           "book": "Deut",
-          "start": 507
+          "start": 507,
+          "count": 1
         },
         {
           "osis": "Deut.18.18",
           "book": "Deut",
-          "start": 510
-        },
-        {
-          "osis": "Deut.13.1",
-          "book": "Deut",
-          "start": 381
+          "start": 510,
+          "count": 2
         }
-      ],
-      "parent": 28040
+      ]
     },
     {
       "id": 28059,
       "type": "a",
-      "body": [
+      "parent": 28041,
+      "refs": [
         {
           "osis": "Isa.15.1-Isa.15.9",
           "book": "Isa",
           "start": 307,
-          "end": 315
+          "end": 315,
+          "count": 1
         }
-      ],
-      "parent": 28041
+      ]
     },
     {
       "id": 28066,
       "type": "a",
-      "body": [
+      "parent": 23964,
+      "refs": [
         {
           "osis": "Deut.4.9-Deut.4.13",
           "book": "Deut",
           "start": 121,
-          "end": 125
+          "end": 125,
+          "count": 1
         }
-      ],
-      "parent": 23964
+      ]
     },
     {
       "id": 28302,
       "type": "a",
-      "body": [
+      "parent": 28297,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 28297
+      ]
     },
     {
       "id": 28516,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Ps.4.1-Ps.4.8",
           "book": "Ps",
           "start": 27,
-          "end": 34
+          "end": 34,
+          "count": 1
         }
       ]
     },
     {
       "id": 28564,
       "type": "a",
-      "body": [
+      "parent": 28459,
+      "refs": [
         {
           "osis": "Num.6.1-Num.6.27",
           "book": "Num",
           "start": 220,
-          "end": 246
+          "end": 246,
+          "count": 1
         }
-      ],
-      "parent": 28459
+      ]
     },
     {
       "id": 28570,
       "type": "a",
-      "body": [
+      "parent": 25576,
+      "refs": [
         {
           "osis": "Num.21.1-Num.21.35",
           "book": "Num",
           "start": 737,
-          "end": 771
+          "end": 771,
+          "count": 1
         },
         {
           "osis": "Num.30.1-Num.30.16",
           "book": "Num",
           "start": 1045,
-          "end": 1060
+          "end": 1060,
+          "count": 1
         }
-      ],
-      "parent": 25576
+      ]
     },
     {
       "id": 28725,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.66.1-Isa.66.24",
           "book": "Isa",
           "start": 1269,
-          "end": 1292
+          "end": 1292,
+          "count": 1
         }
       ]
     },
     {
       "id": 28847,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.3.1-Isa.3.26",
           "book": "Isa",
           "start": 54,
-          "end": 79
+          "end": 79,
+          "count": 1
         },
         {
           "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
-          "end": 115
+          "end": 115,
+          "count": 1
         }
       ]
     },
     {
       "id": 28852,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.40.1-Isa.40.31",
           "book": "Isa",
           "start": 767,
-          "end": 797
+          "end": 797,
+          "count": 1
         }
       ]
     },
     {
       "id": 28914,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.28.1-Isa.28.29",
           "book": "Isa",
           "start": 511,
-          "end": 539
+          "end": 539,
+          "count": 1
         }
       ]
     },
     {
       "id": 28967,
       "type": "a",
-      "body": [
-        {
-          "osis": "Luke.2.40",
-          "book": "Luke",
-          "start": 120
-        },
+      "parent": 28955,
+      "refs": [
         {
           "osis": "Gal.5.4",
           "book": "Gal",
-          "start": 109
+          "start": 109,
+          "count": 1
         },
         {
           "osis": "Jas.4.6",
           "book": "Jas",
-          "start": 77
+          "start": 77,
+          "count": 1
+        },
+        {
+          "osis": "Luke.2.40",
+          "book": "Luke",
+          "start": 120,
+          "count": 2
         }
-      ],
-      "parent": 28955
+      ]
     },
     {
       "id": 28986,
       "type": "a",
-      "body": [
+      "parent": 2944,
+      "refs": [
         {
           "osis": "Num.7.1-Num.7.89",
           "book": "Num",
           "start": 247,
-          "end": 335
+          "end": 335,
+          "count": 1
         }
-      ],
-      "parent": 2944
+      ]
     },
     {
       "id": 29019,
       "type": "a",
-      "body": [
+      "parent": 29006,
+      "refs": [
         {
-          "osis": "Gen.16.1",
-          "book": "Gen",
-          "start": 383
-        },
-        {
-          "osis": "Gen.16.3",
-          "book": "Gen",
-          "start": 385
-        },
-        {
-          "osis": "Gen.25.1",
-          "book": "Gen",
-          "start": 660
-        },
-        {
-          "osis": "Exod.2.21",
-          "book": "Exod",
-          "start": 43
-        },
-        {
-          "osis": "Exod.18.1-Exod.18.6",
-          "book": "Exod",
-          "start": 468,
-          "end": 473
-        },
-        {
-          "osis": "Num.12.1",
-          "book": "Num",
-          "start": 456
-        },
-        {
-          "osis": "Gen.29.23",
-          "book": "Gen",
-          "start": 819
-        },
-        {
-          "osis": "Gen.29.28",
-          "book": "Gen",
-          "start": 824
-        },
-        {
-          "osis": "Gen.30.4",
-          "book": "Gen",
-          "start": 835
-        },
-        {
-          "osis": "Gen.30.9",
-          "book": "Gen",
-          "start": 840
+          "osis": "1Kgs.11.3",
+          "book": "1Kgs",
+          "start": 394,
+          "count": 1
         },
         {
           "osis": "1Sam.18.27",
           "book": "1Sam",
-          "start": 491
+          "start": 491,
+          "count": 1
         },
         {
           "osis": "1Sam.25.39-1Sam.25.44",
           "book": "1Sam",
           "start": 688,
-          "end": 693
+          "end": 693,
+          "count": 1
         },
         {
-          "osis": "2Sam.3.3",
+          "osis": "2Sam.12.24",
           "book": "2Sam",
-          "start": 62
-        },
-        {
-          "osis": "2Sam.3.4-2Sam.3.5",
-          "book": "2Sam",
-          "start": 63,
-          "end": 64
-        },
-        {
-          "osis": "2Sam.5.13",
-          "book": "2Sam",
-          "start": 123
+          "start": 288,
+          "count": 1
         },
         {
           "osis": "2Sam.12.7-2Sam.12.8",
           "book": "2Sam",
           "start": 271,
-          "end": 272
-        },
-        {
-          "osis": "2Sam.12.24",
-          "book": "2Sam",
-          "start": 288
+          "end": 272,
+          "count": 1
         },
         {
           "osis": "2Sam.16.21-2Sam.16.23",
           "book": "2Sam",
           "start": 425,
-          "end": 427
+          "end": 427,
+          "count": 1
         },
         {
-          "osis": "1Kgs.11.3",
-          "book": "1Kgs",
-          "start": 394
+          "osis": "2Sam.3.3",
+          "book": "2Sam",
+          "start": 62,
+          "count": 1
+        },
+        {
+          "osis": "2Sam.3.4-2Sam.3.5",
+          "book": "2Sam",
+          "start": 63,
+          "end": 64,
+          "count": 1
+        },
+        {
+          "osis": "2Sam.5.13",
+          "book": "2Sam",
+          "start": 123,
+          "count": 1
+        },
+        {
+          "osis": "Exod.18.1-Exod.18.6",
+          "book": "Exod",
+          "start": 468,
+          "end": 473,
+          "count": 1
+        },
+        {
+          "osis": "Exod.2.21",
+          "book": "Exod",
+          "start": 43,
+          "count": 1
+        },
+        {
+          "osis": "Gen.16.1",
+          "book": "Gen",
+          "start": 383,
+          "count": 1
+        },
+        {
+          "osis": "Gen.16.3",
+          "book": "Gen",
+          "start": 385,
+          "count": 1
+        },
+        {
+          "osis": "Gen.25.1",
+          "book": "Gen",
+          "start": 660,
+          "count": 1
+        },
+        {
+          "osis": "Gen.29.23",
+          "book": "Gen",
+          "start": 819,
+          "count": 1
+        },
+        {
+          "osis": "Gen.29.28",
+          "book": "Gen",
+          "start": 824,
+          "count": 1
+        },
+        {
+          "osis": "Gen.30.4",
+          "book": "Gen",
+          "start": 835,
+          "count": 1
+        },
+        {
+          "osis": "Gen.30.9",
+          "book": "Gen",
+          "start": 840,
+          "count": 1
         },
         {
           "osis": "Num.1.1-Num.1.54",
           "book": "Num",
           "start": 1,
-          "end": 54
+          "end": 54,
+          "count": 1
+        },
+        {
+          "osis": "Num.12.1",
+          "book": "Num",
+          "start": 456,
+          "count": 1
         }
-      ],
-      "parent": 29006
+      ]
     },
     {
       "id": 29063,
       "type": "a",
-      "body": [
+      "parent": 20167,
+      "refs": [
         {
           "osis": "Job.2.1-Job.2.13",
           "book": "Job",
           "start": 23,
-          "end": 35
+          "end": 35,
+          "count": 1
         }
-      ],
-      "parent": 20167
+      ]
     },
     {
       "id": 29133,
       "type": "a",
-      "body": [
+      "parent": 25695,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         }
-      ],
-      "parent": 25695
+      ]
     },
     {
       "id": 29192,
       "type": "a",
-      "body": [
+      "parent": 29162,
+      "refs": [
         {
           "osis": "Isa.1.1-Isa.1.31",
           "book": "Isa",
           "start": 1,
-          "end": 31
+          "end": 31,
+          "count": 1
         },
         {
           "osis": "Isa.66.1-Isa.66.24",
           "book": "Isa",
           "start": 1269,
-          "end": 1292
+          "end": 1292,
+          "count": 2
         }
-      ],
-      "parent": 29162
+      ]
     },
     {
       "id": 29229,
       "type": "q",
-      "body": [
+      "title": [],
+      "refs": [
         {
           "osis": "Isa.28.1-Isa.28.29",
           "book": "Isa",
           "start": 511,
-          "end": 539
+          "end": 539,
+          "count": 1
         }
       ]
     }
