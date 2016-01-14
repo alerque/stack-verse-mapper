@@ -83,7 +83,13 @@ define archive_url
 $(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stackexchange/$(1).7z -o /dev/null)
 endef
 
-travis: setup gh-pages
+# This is the target for Travis-CI to test
+travis: test
+
+# Islam is a slightly smaller to download, but Hermeneutics gives us a more
+# options for testing actual results
+test: setup hermeneutics
+	./bin/search.js hermeneutics 'Rev 22:21' | grep -q 'a/13495'
 
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
