@@ -5,5 +5,8 @@ addons:
   apt:
     packages:
       - p7zip-full
+cache:
+  directories:
+    - data
 script:
   - make travis
