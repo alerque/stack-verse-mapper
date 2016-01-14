@@ -9,4 +9,9 @@ cache:
   directories:
     - data
 script:
-  - make travis
+  - make -j8 travis
+after_success:
+  - if [[ $TRAVIS_REPO_SLUG != alerque/stack-verse-mapper ]]; then exit; fi
+  - if [[ $TRAVIS_BRANCH != travis ]]; then exit; fi
+  - if [[ $TRAVIS_PULL_REQUEST != false ]]; then exit; fi
+  - make -j8 travis-deploy
