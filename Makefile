@@ -27,6 +27,9 @@ SHELL = bash
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
 
+# Add node modules to our path so we can call them from make
+PATH := $(shell npm bin):$(PATH)
+
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
 
