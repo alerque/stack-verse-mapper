@@ -36,7 +36,7 @@ all: setup $(SITES)
 
 # Add demo target to show off a sample
 demo: setup hermeneutics
-	./bin/search.js hermeneutics "Rev 5:1"
+	./bin/search hermeneutics "Rev 5:1"
 
 # Rule installing and configuring the local environment
 setup: node_modules
@@ -59,14 +59,14 @@ $(SITES): $(DATA)/$$@-index.json
 	@echo "Finished $@"
 
 # Rule to build an index from a set of posts.
-$(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index.js src/bcv_parser.js src/tags.json src/util.js
+$(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index src/bcv_parser.js src/tags.json src/util.js
 	@echo "Rebuilding index for $*.stackexchange.com"
-	./bin/build_index.js $< | jq . > $@
+	./bin/build_index $< | jq . > $@
 
 # Rule to extract the source data and build a json version of the posts
-$(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml.js
+$(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml
 	@echo "Converting XML to JSON for $*.stackexchange.com"
-	./bin/parse_xml.js $< | jq . > $@
+	./bin/parse_xml $< | jq . > $@
 
 # Rule for extracting the XML we need from the zips
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
@@ -100,7 +100,7 @@ travis-deploy: gh-pages-publish
 # Islam is a slightly smaller to download, but Hermeneutics gives us a more
 # options for testing actual results
 test: setup hermeneutics
-	./bin/search.js hermeneutics 'Rev 22:21' | grep -q 'a/13495'
+	./bin/search hermeneutics 'Rev 22:21' | grep -q 'a/13495'
 
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
