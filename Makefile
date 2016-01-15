@@ -124,7 +124,8 @@ gh-pages-publish: gh-pages
 	sha=$(shell git rev-parse --short HEAD)
 	cd $<
 	git add -u
-	git commit -m "Publish static site from $$sha" ||:
+	git commit -C $$sha && \
+		git commit --amend -m "Publish static site from $$sha" ||:
 
 gh-pages/index.html: src/index.hbs package.json config.json | gh-pages-init
 	handlebars <(jq --slurpfile config config.json < package.json \
