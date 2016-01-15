@@ -43,7 +43,7 @@ setup: node_modules
 	./bin/git-restore-mtime-bare
 
 # rule for how we come by the node_modules folder
-node_modules:
+node_modules: package.json
 	npm prune
 	npm install
 
@@ -64,7 +64,7 @@ $(DATA)/%-index.json: $(DATA)/%-posts.json bin/build_index.js src/util.js src/bc
 	./bin/build_index.js $< | jq . > $@
 
 # Rule to extract the source data and build a json version of the posts
-$(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml.js src/util.js
+$(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml.js
 	@echo "Converting XML to JSON for $*.stackexchange.com"
 	./bin/parse_xml.js $< | jq . > $@
 
