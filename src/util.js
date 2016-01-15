@@ -75,14 +75,14 @@ tag_map = _.mapKeys( tag_map, function( value, key )
 module.exports.parse_tags = function( tags )
 {
 	tags = tags.split( /[<>]/ );
-	var results =  tags.map( function( tag )
+	var results =  _.flatMap( tags, function( tag )
 	{
 		return tag_map[ tag.replace( tag_cleanup_pattern, '' ) ];
 	})
 	.filter( _.identity );
 	if ( results.length )
 	{
-		return results.sort();
+		return _.uniq( results ).sort();
 	}
 	// Check for site defined general tags like bible, christianity or judaism
 	if ( config.sites[ site ] && config.sites[ site ].tags )
