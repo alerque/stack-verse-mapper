@@ -130,8 +130,8 @@ gh-pages-publish: gh-pages
 
 gh-pages/index.html: src/index.hbs package.json config.json | gh-pages-init
 	handlebars <(jq --slurpfile config config.json < package.json \
-		'{package: ., config: $$config[], date: "$(shell date)", sha: "$(shell git rev-parse --short HEAD)" }') \
-		< $< > $@
+		'{package: ., config: $$config[], date: "$(shell date)", sha: "$(shell git rev-parse --short HEAD)" }' \
+		) < $< > $@
 
 gh-pages/data/%: $(DATA)/% | gh-pages-init
 	cp $< $(BASE)/$@
