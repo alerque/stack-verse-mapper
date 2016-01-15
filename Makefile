@@ -29,7 +29,7 @@ SHELL = bash
 
 # Add node modules to our path so we can call them from make
 PATH := $(shell npm bin):$(PATH)
-TRAVIS := false
+TRAVIS ?= false
 
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
@@ -100,7 +100,7 @@ travis-deploy: gh-pages-publish
 # Islam is a slightly smaller to download, but Hermeneutics gives us a more
 # options for testing actual results
 test: setup hermeneutics
-	./bin/search hermeneutics 'Rev 22:21' | grep -q 'a/13495'
+	./bin/search hermeneutics 'Rev 22:21' | tee /dev/null | grep -q 'a/13495'
 
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
