@@ -61,7 +61,11 @@ Clone this repository (or your own fork of it if you plan to contribute).
 
     git clone git@github.com:alerque/stack-verse-mapper.git
 
-Download and extract the data dump for all enabled sites:
+To get a quick and dirty sample of running a query, run
+
+    make demo
+
+To download the data dumps and build indexes for all enabled sites:
 
     make all
 
@@ -70,7 +74,7 @@ dumps. The downloads will be preserved, so future index rebuilds will be
 faster. You can also speed up the process by building more than one index in
 parallel:
 
-    make -j 8 all
+    make -j8 all
 
 If you'd like to build just one site, specify the site prefix (the part before
 the .stackexchange.com in the site's URL), e.g.:
@@ -80,14 +84,10 @@ the .stackexchange.com in the site's URL), e.g.:
 Each site generated will produce a queryable index of posts with references
 in `<site>-index.json`.
 
-To get a quick and dirty sample of running a query, run
-
-    make demo
-
 Once indexes are generated, you can search from the command line by passing a
 site and a query to the search script:
 
-    ./bin/search.js hermeneutics 'Rev 5:1'
+    ./bin/search hermeneutics 'Rev 5:1'
 
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues
