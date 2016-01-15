@@ -59,7 +59,7 @@ $(SITES): $(DATA)/$$@-index.json
 	@echo "Finished $@"
 
 # Rule to build an index from a set of posts.
-$(DATA)/%-index.json: $(DATA)/%-posts.json bin/build_index.js src/util.js src/bcv_parser.js
+$(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index.js src/bcv_parser.js src/tags.json src/util.js
 	@echo "Rebuilding index for $*.stackexchange.com"
 	./bin/build_index.js $< | jq . > $@
 

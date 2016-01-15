@@ -13,25 +13,37 @@ function build_index( data )
 {
 	data = JSON.parse( data );
 	
-	var titles = {};
-	var title_references = {};
+	var questions = {};
+	var questions_references = {};
 	
 	// Parse the verse references of the body and title
 	var posts = data.map( function( post )
 	{
 		post.refs = bcv.parse( post.body ).osis().split( ',' );
-		if ( post.title )
+		if ( post.type === 'q' )
 		{
-			titles[ post.id ] = post.title;
+			questions[ post.id ] = { title: post.title };
 			var title_refs = bcv.parse( post.title ).osis().split( ',' );
 			post.refs = post.refs.concat( title_refs );
 			post.title = _.uniq( title_refs ).sort();
+			
+			// Process tags
+			var tags = util.parse_tags( post.tags );
+			if ( _.isArray( tags ) )
+			{
+				questions[ post.id ].tags = tags;
+			}
+			else if ( tags )
+			{
+				questions[ post.id ].general_tag = 1;
+			}
 		}
 		// Filter out any blank strings
 		post.refs = post.refs.filter( _.identity );
 		if ( post.refs.length )
 		{
 			delete post.body;
+			delete post.tags;
 			return post;
 		}
 	})
@@ -61,23 +73,23 @@ function build_index( data )
 		}
 		
 		// Preserve the title of this post
-		title_references[ post.parent || post.id ] = true;
+		questions_references[ post.parent || post.id ] = true;
 		return post;
 	});
 	
 	// Filter the list of titles
 	// TODO: check if lodash ever adds a .pickBy() that passes the key
-	titles = _.pickBy( _.mapValues( titles, function( title, id )
+	questions = _.pickBy( _.mapValues( questions, function( questions, id )
 	{
-		if ( title_references[ id ] )
+		if ( questions_references[ id ] )
 		{
-			return title;
+			return questions;
 		}
 	}) );
 	
 	var output = {
 		posts: posts,
-		titles: titles,
+		questions: questions,
 	};
 	process.stdout.write( JSON.stringify( output ) );
 }
