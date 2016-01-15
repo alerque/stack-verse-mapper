@@ -1,4 +1,4 @@
-# The list of sites that we should build extentions for is maintained in  
+# The list of sites that we should build extentions for is maintained in
 # config.json file. The jq command parses this and gives us a text version.
 # This can  be overridden from the command line with:
 #     make SITES='site1 site2' [target]
@@ -56,16 +56,13 @@ clean:
 # to be a site name. For each site we want to end up with a completed index, so
 # make that the dependency
 $(SITES): $(DATA)/$$@-index.json
-	@echo "Finished $@"
 
 # Rule to build an index from a set of posts.
 $(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index src/bcv_parser.js src/tags.json src/util.js
-	@echo "Rebuilding index for $*.stackexchange.com"
 	./bin/build_index $< | jq . > $@
 
 # Rule to extract the source data and build a json version of the posts
 $(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml
-	@echo "Converting XML to JSON for $*.stackexchange.com"
 	./bin/parse_xml $< | jq . > $@
 
 # Rule for extracting the XML we need from the zips
@@ -95,7 +92,9 @@ deploy: gh-pages-publish
 
 # Travis can push to the gh-pages branch using a private api tokien
 travis-deploy: gh-pages-publish
-	@(cd gh-pages && git push -q https://alerque:${DEPLOY_KEY}@github.com/${TRAVIS_REPO_SLUG} gh-pages 2&>/dev/null)
+	@: # Suppress echoing to keep our deploy key private
+	cd gh-pages
+	echo git push -q https://alerque:${DEPLOY_KEY}@github.com/${TRAVIS_REPO_SLUG} gh-pages 2&>/dev/null
 
 # Islam is a slightly smaller to download, but Hermeneutics gives us a more
 # options for testing actual results
@@ -115,16 +114,16 @@ gh-pages: gh-pages-init gh-pages/index.html $(foreach SITE,$(SITES),gh-pages/dat
 # For local copies, worktree is saner to work with but Travis's git is too old
 # so the clone route is to keep it happy.
 gh-pages-init:
-	-test -d gh-pages && ( cd gh-pages && git pull )
-	-$(TRAVIS) || ( test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages )
-	-$(TRAVIS) && ( test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages )
+	test -d gh-pages && ( cd gh-pages && git pull ) ||:
+	$(TRAVIS) || ( test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages ) ||:
+	$(TRAVIS) && ( test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages ) ||:
 	cd gh-pages && $(BASE)/bin/git-restore-mtime-bare
 
 gh-pages-publish: gh-pages
 	sha=$(shell git rev-parse --short HEAD)
 	cd $<
 	git add -u
-	git commit -C $$sha && \
+	git commit -C "$$sha" && \
 		git commit --amend -m "Publish static site from $$sha" ||:
 
 gh-pages/index.html: src/index.hbs package.json config.json $(wildcard gh-pages/data/*json) | gh-pages-init
