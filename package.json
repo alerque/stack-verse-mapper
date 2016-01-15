@@ -20,7 +20,6 @@
     "handlebars-cmd": "^0.1.4",
     "html-to-text": "^1.5.1",
     "lodash": "^4.0.0",
-    "minimist": "^1.2.0",
     "xml-flow": "^0.4.0"
   }
 }

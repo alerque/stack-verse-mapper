@@ -1,16 +1,13 @@
 // Utilities
 
 var fs = require( 'fs' );
-var minimist = require( 'minimist' );
 
 var bcv = require( './bcv_parser.js' ).bcv;
-
-var argv = minimist( process.argv.slice( 2 ) );
 
 // A simple function to read all of stdin
 module.exports.stdin_reader = function( func )
 {
-	var path = argv['_'][0];
+	var path = process.argv[2];
 	var stream = !path || path === '-' ? process.stdin : fs.createReadStream( path );
 
 	// First acquire the complete stdin buffer
