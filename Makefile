@@ -92,9 +92,10 @@ deploy: gh-pages-publish
 
 # Travis can push to the gh-pages branch using a private api tokien
 travis-deploy: gh-pages-publish
-	@: # Suppress echoing to keep our deploy key private
+	eval $(ssh-agent -s)
+	ssh-agent add .travis/id_rsa
 	cd gh-pages
-	echo git push -q https://alerque:${DEPLOY_KEY}@github.com/${TRAVIS_REPO_SLUG} gh-pages 2&>/dev/null
+	echo git push -q git@github.com/${TRAVIS_REPO_SLUG} gh-pages
 
 # Islam is a slightly smaller to download, but Hermeneutics gives us a more
 # options for testing actual results

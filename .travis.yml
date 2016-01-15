@@ -17,6 +17,8 @@ script:
        [[ $TRAVIS_BRANCH == master ]] &&
        [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 all; fi
 after_success:
+  - openssl aes-256-cbc -K $encrypted_3093e3e9e466_key -iv $encrypted_3093e3e9e466_iv -in .travis/id_rsa.enc -out .travis/id_rsa -d
+  - chmod 600 .travis/id_rsa
   - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
        [[ $TRAVIS_BRANCH == master ]] &&
        [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 travis-deploy; fi
