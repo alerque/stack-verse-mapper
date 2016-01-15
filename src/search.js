@@ -26,7 +26,7 @@ function search( query, index )
 		return {
 			id: post.id,
 			type: post.type,
-			title: index.titles[ post.parent || post.id ],
+			title: index.questions[ post.parent || post.id ].title,
 			specificity: post.specificity,
 		};
 	});
