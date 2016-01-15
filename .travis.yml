@@ -10,6 +10,7 @@ addons:
 cache:
   directories:
     - data
+    - node_modules
 script:
   - make -j8 travis
   - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
