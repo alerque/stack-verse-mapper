@@ -29,7 +29,7 @@ SHELL = bash
 
 # Add node modules to our path so we can call them from make
 PATH := $(shell npm bin):$(PATH)
-TRAVIS := false
+TRAVIS ?= false
 
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
