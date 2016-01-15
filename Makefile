@@ -1,4 +1,4 @@
-# The list of sites that we should build extentions for is maintained in  
+# The list of sites that we should build extentions for is maintained in
 # config.json file. The jq command parses this and gives us a text version.
 # This can  be overridden from the command line with:
 #     make SITES='site1 site2' [target]
@@ -10,6 +10,7 @@ BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 # Directory to store data. This can be overridden with an environment variable
 # in the event you want to play with multiple data sets without deleting them.
 DATA := $(BASE)/data
+STATIC := $(BASE)/gh-pages
 
 # Use bash instead of SH for fancier shell syntax and run each successive line
 # in the same shell so that environment variables carry over.
@@ -29,7 +30,13 @@ SHELL = bash
 
 # Add node modules to our path so we can call them from make
 PATH := $(shell npm bin):$(PATH)
+
+# Travis sets this to true, so we can use /bin/true and /bin/false for quick tests
 TRAVIS ?= false
+SHA = $(shell git rev-parse --short HEAD)
+
+# We use the SHA of the current commit to republish
+SHA = $(shell git rev-parse --short HEAD)
 
 # Default rule to start from scratch and build everything
 all: setup $(SITES)
@@ -56,16 +63,13 @@ clean:
 # to be a site name. For each site we want to end up with a completed index, so
 # make that the dependency
 $(SITES): $(DATA)/$$@-index.json
-	@echo "Finished $@"
 
 # Rule to build an index from a set of posts.
 $(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index src/bcv_parser.js src/tags.json src/util.js
-	@echo "Rebuilding index for $*.stackexchange.com"
 	./bin/build_index $< | jq . > $@
 
 # Rule to extract the source data and build a json version of the posts
 $(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml
-	@echo "Converting XML to JSON for $*.stackexchange.com"
 	./bin/parse_xml $< | jq . > $@
 
 # Rule for extracting the XML we need from the zips
@@ -90,12 +94,7 @@ travis: test
 
 # Shortcut to publish all the things
 deploy: gh-pages-publish
-	cd gh-pages
-	git push
-
-# Travis can push to the gh-pages branch using a private api tokien
-travis-deploy: gh-pages-publish
-	@(cd gh-pages && git push -q https://alerque:${DEPLOY_KEY}@github.com/${TRAVIS_REPO_SLUG} gh-pages 2&>/dev/null)
+	cd $(STATIC) && git push origin HEAD:gh-pages
 
 # Islam is a slightly smaller to download, but Hermeneutics gives us a more
 # options for testing actual results
@@ -110,27 +109,35 @@ $(DATA)/%.7z:
 	curl -o "data/$*.7z" -s --continue - $(call archive_url,$*)
 
 # Rule for generating static site
-gh-pages: gh-pages-init gh-pages/index.html $(foreach SITE,$(SITES),gh-pages/data/$(SITE)-index.json)
+gh-pages: gh-pages-init $(STATIC)/index.html $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json)
 
 # For local copies, worktree is saner to work with but Travis's git is too old
 # so the clone route is to keep it happy.
 gh-pages-init:
-	-test -d gh-pages && ( cd gh-pages && git pull )
-	-$(TRAVIS) || ( test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages )
-	-$(TRAVIS) && ( test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages )
-	cd gh-pages && $(BASE)/bin/git-restore-mtime-bare
+	test -d $(STATIC) && ( cd $(STATIC) && git pull ) ||:
+	$(TRAVIS) || ( test -d $(STATIC) || ( \
+		git worktree prune ;\
+		git worktree add $(STATIC) gh-pages ;\
+		)) ||:
+	$(TRAVIS) && ( test -d $(STATIC) || ( \
+		git clone --branch=gh-pages git@github.com:${TRAVIS_REPO_SLUG}.git $(STATIC) ;\
+		cd $(STATIC) ;\
+		git checkout gh-pages ;\
+		git remote add parent $(BASE) ;\
+		git fetch --all ;\
+		)) ||:
+	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare
 
 gh-pages-publish: gh-pages
-	sha=$(shell git rev-parse --short HEAD)
-	cd $<
-	git add -u
-	git commit -C $$sha && \
-		git commit --amend -m "Publish static site from $$sha" ||:
+	( cd $(STATIC) ;\
+		git add -u ;\
+		git commit -C "$(SHA)" && \
+			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
-gh-pages/index.html: src/index.hbs package.json config.json $(wildcard gh-pages/data/*json) | gh-pages-init
-	handlebars <(jq --slurpfile config config.json < package.json \
-		'{package: ., config: $$config[], date: "$(shell date)", sha: "$(shell git rev-parse --short HEAD)" }' \
-		) < $< > $@
+$(STATIC)/index.html: src/index.hbs package.json config.json $(wildcard $(STATIC)/data/*json) | gh-pages-init
+	handlebars <(jq -s \
+		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
+		package.json config.json) < $< > $@
 
-gh-pages/data/%: $(DATA)/% | gh-pages-init
-	cp $< $(BASE)/$@
+$(STATIC)/data/%: $(DATA)/% | gh-pages-init
+	cp $< $@

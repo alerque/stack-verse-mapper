@@ -11,12 +11,21 @@ cache:
   directories:
     - data
     - node_modules
+before_install:
+  - git config --global push.default simple
+  - git config --global user.name "Travis CI"
+  - git config --global user.email "caleb@alerque.com"
+before_script:
+  - git fetch --unshallow --all
 script:
   - make -j8 travis
   - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
        [[ $TRAVIS_BRANCH == master ]] &&
        [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 all; fi
 after_success:
+  - openssl aes-256-cbc -K $encrypted_3093e3e9e466_key -iv $encrypted_3093e3e9e466_iv -in .travis/id_rsa.enc -out .travis/id_rsa -d
+  - chmod 600 .travis/id_rsa
+  - eval $(ssh-agent -s) && ssh-add .travis/id_rsa
   - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
        [[ $TRAVIS_BRANCH == master ]] &&
-       [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 travis-deploy; fi
+       [[ $TRAVIS_PULL_REQUEST == false ]]; then make -j8 deploy; fi

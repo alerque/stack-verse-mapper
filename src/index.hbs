@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <title>{{package.name}}</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-static-top navbar-dark bg-inverse">
-      <div class="container">
-        <a class="navbar-brand" href="#">{{package.name}}</a>
-        <ul class="nav navbar-nav">
-          <li class="nav-item active"><a class="nav-link" href="{{package.homepage}}">github</a></li>
-          {{#each config.sites}}
-          <li class="nav-item"><a class="nav-link" href="http://{{@key}}.stackexchange.com">{{@key}}</a></li>{{/each}}
-        </ul>
-        <form class="form-inline pull-xs-right">
-          <input class="form-control" type="text" placeholder="Search">
-        </form>
-      </div>
-    </nav>
-    <div class="jombotron">
-      <div class="container">
-        <p>{{package.description}}</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Raw index data</h2>
-          <ul>{{#each config.sites}}
-            <li><a href="data/{{@key}}-index.json">{{@key}}-index.json</a></li>{{/each}}
-          </ul>
-          <p><a href="{{package.homepage}}/wiki/Index-structure">Read the index structure specification</a>
-        </div>
-      </div>
-    </div>
-    <footer class="navbar navbar-fixed-bottom">Last updated {{date}} from git commit <a href="{{package.homepage}}/commit/{{sha}}">{{sha}}</a>.</footer>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<title>{{package.name}}</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-static-top navbar-dark bg-inverse">
+			<div class="container">
+				<a class="navbar-brand" href="#">{{package.name}}</a>
+				<ul class="nav navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="{{package.homepage}}">github</a>
+					</li>
+					{{#each config.sites}}
+					<li class="nav-item"><a class="nav-link" href="http://{{@key}}.stackexchange.com">{{@key}}</a></li>{{/each}}
+				</ul>
+				<form class="form-inline pull-xs-right">
+					<input class="form-control" type="text" placeholder="Search">
+				</form>
+			</div>
+		</nav>
+		<div class="jombotron">
+			<div class="container">
+				<p>{{package.description}}</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Raw index data</h2>
+					<ul>{{#each config.sites}}
+						<li><a href="data/{{@key}}-index.json">{{@key}}-index.json</a></li>{{/each}}
+					</ul>
+					<p>
+						<a href="{{package.homepage}}/wiki/Index-structure">Read the index structure specification</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<footer class="navbar navbar-fixed-bottom">Last updated {{date}} from git commit <a href="{{package.homepage}}/commit/{{sha}}">{{sha}}</a>.</footer>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+	</body>
 </html>
