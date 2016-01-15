@@ -118,8 +118,7 @@ gh-pages-init:
 	-test -d gh-pages && ( cd gh-pages && git pull )
 	-$(TRAVIS) || ( test -d gh-pages || git worktree prune && git worktree add gh-pages gh-pages )
 	-$(TRAVIS) && ( test -d gh-pages || git clone --branch=gh-pages $(shell git remote -v | head -n1 | awk '{print $$2}') gh-pages )
-	cd gh-pages
-	../bin/git-restore-mtime-bare
+	cd gh-pages && $(BASE)/bin/git-restore-mtime-bare
 
 gh-pages-publish: gh-pages
 	sha=$(shell git rev-parse --short HEAD)
