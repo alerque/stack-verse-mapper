@@ -4018,221 +4018,686 @@
       ]
     }
   ],
-  "titles": {
-    "61": "How did people travel to remote islands like Easter Island?",
-    "101": "What new technology/tactics allowed the breakthrough of the trenches in WW I western front?",
-    "207": "Why did Huldrych Zwingli and Martin Luther stand for clerical marriage?",
-    "215": "Has Britain's 1940 invasion of Iceland been downplayed by historians?",
-    "374": "Why wasn't the Republic of Ireland invaded (by either side) in WW2?",
-    "403": "Even though Spain and Portugal had many colonies (15th/16th C), what factors permitted UK/France to become world powers later (18th/19th C)?",
-    "460": "What cultures did, or do, perform human sacrifice on a regular basis?",
-    "491": "What was the first spy agency?",
-    "630": "Why were the Prague Spring leaders treated more leniently than Nagy and his colleagues?",
-    "633": "What is the basis for the claims that the word \"Israel\" means \"Exiled for their sins\"?",
-    "685": "Is there any corroborating evidence for the story of Sadrach, Meshach, and Abednego?",
-    "732": "Which came first: polytheism or monotheism?",
-    "810": "Are there any independent historical records of ancient Persia allowing freedom of worship for the Jews?",
-    "819": "About Naval Formations?",
-    "1004": "Which war games did Napoleon practice with his generals?",
-    "1017": "What was the first battle in history fought by vast-majority-% \"distance-shooting\" non-mechanized force?",
-    "1085": "Why is the Qing Dynasty in China considered Feudalistic?",
-    "1087": "Does the number of legs in the air of a horse statue indicate how its rider died?",
-    "1163": "Who first in human history has promoted equality rights of all people?",
-    "1239": "What was the ratio of German to Soviet losses on eastern front during different stages of the war?",
-    "1324": "Are there any communist leaders without a record of acts we consider as a crime (against humanity)?",
-    "1359": "How does a country give \"aid\" to another?",
-    "1382": "Did The Soviet Union Need Both Prongs to Succeed At the Battle of Stalingrad?",
-    "1515": "\"Musketeer\" beard, mustache and hairdress - where did they originate?",
-    "1683": "Are there any theories about what health problems would a man of the past suffer in the current age?",
-    "1722": "Economic effects of the Cuban Revolution",
-    "1812": "Why Europe became more developed although metal was first discovered and used in Asia/Africa?",
-    "1933": "Languages spoken by Josephus?",
-    "1990": "How Likely Was a French Alliance with Italy or Japan in World War I?",
-    "2162": "What is a common reason that Empires fall or collapse and can they be corrected?",
-    "2223": "What was the world population around 970 BC? Does it fit the biblical narrative?",
-    "2275": "What was the estimated population living in Egypt around 1446 BC?",
-    "2378": "What coin denominations were used in the US before Dollars and Cents?",
-    "2383": "If the nazi is a far-right party, why is it socialist?",
-    "2489": "Was the transition from the Bronze Age to the Iron Age violent?",
-    "2543": "How accurately could ancient astronomers find latitude and longitude?",
-    "2640": "Literacy in the classical world",
-    "2677": "When was Silver ever more valuable than Gold?",
-    "2702": "Why some monarchs are sent to exile after a country is declared a republic?",
-    "2892": "Why was Khomeini in France? Who allowed him to leave and why?",
-    "3018": "What caused the Iranian 1979 revolution to become Islamic?",
-    "3102": "Why did some people need to pay a bond in the 1700s in order to get married?",
-    "4312": "What laws of war existed before the modern international treaties and conventions?",
-    "4336": "Why China was able to unify and not Europe",
-    "4464": "Natural born citizen",
-    "5519": "Was Napoleon as short as \"common knowledge\" states?",
-    "5713": "What are the safeguards in the German constitution of 1949 against dictatorship?",
-    "5761": "What are the problems archaeologists face in deciphering Indus Valley writing?",
-    "5813": "Was the Bosnian Crisis the trigger to WWI and not the assassination?",
-    "5992": "What is the origin of the \"wheat and chessboard\" legend?",
-    "5999": "When was \"diablo\" first used to refer to the Devil?",
-    "6014": "Where does the tradition of Christmas gifts comes from?",
-    "7278": "Are modern Greeks related to the ancient Greeks?",
-    "7448": "Is there a link between national debt/trade deficit and starting a war?",
-    "7502": "in what form did William the Conqueror write the date of his own coronation?",
-    "7524": "Umar ibn Khattab and Omar as a Western given name",
-    "7587": "Was the ancient Roman King ( i.e. rex) elected for eight years?",
-    "7634": "Why did Greeks and Romans dilute their wine?",
-    "7812": "Why have officers in the U.S. army tended to \"top out\" at the level of Major?",
-    "7845": "What does \"the anointed of the Lord\" mean?",
-    "7904": "Date of Transatlantic crossing postcard",
-    "7907": "Can the new testament be a valid historical record on the real life of Jesus?",
-    "8000": "What was Lenin's \"New Economic Policy\" and what complications did it have?",
-    "8006": "It wasn't thought that Jesus was Jewish until the Renaissance?",
-    "8125": "How was money transferred before digital transactions?",
-    "8131": "Why were there no Internment camps for German-American Citizens in USA during WW2?",
-    "8139": "The destruction of the mycenaean palaces and the sea-peoples",
-    "8199": "Has the American Civil War led to any significant innovations in 19th-century warfare?",
-    "8210": "Are there any good sources on the history of the name for Kazakhstan?",
-    "8311": "Viking culture: unhygienic use of water bowl",
-    "8334": "Why are the Portuguese so obsessed with salted codfish?",
-    "8369": "When did retailers stop wrapping purchases in paper and twine?",
-    "8389": "Why did the scutum fall out of use?",
-    "8415": "Why was China not colonized by any country?",
-    "8516": "Was the State of Indiana's legislation changed to fix the value of Pi?",
-    "8522": "Why didn't United States replace Mohamad Rezā Shāh with another king during the 1979 revolution?",
-    "8561": "Did the Germans lose the U-Boat war in World war II because of a shortage of quality, rather than quantity?",
-    "8662": "How was Hitler able to rearm?",
-    "8747": "Origin of land-lottery system",
-    "8807": "How much did the Chinese Summer Palace cost to build?",
-    "8937": "Were there many \"co-headed\" commands where the senior member was younger than the junior?",
-    "8944": "What did Mesopotamian beehives look like?",
-    "9059": "How true is the statement \"Soviet troops got into Berlin riding American trucks, walking in American boots and using American trains\"?",
-    "9149": "What did contemporary countries in Europe call the Ottoman Empire?",
-    "9160": "Why did people in classicism use wigs?",
-    "9180": "Were the problems Fibonacci solved in his work \"Flos\" posed specifically for him?",
-    "9250": "Pigs in ancient Israel",
-    "9254": "During 1790-1800, was it legal to pay workers using whiskey?",
-    "9326": "When did people understand where children come from?",
-    "9349": "Is there any possible way to count provinces of the Achaemenid Empire to be 127?",
-    "9391": "Why was the 1944 surrender of 20,000 Germans on the Western Front remarkable?",
-    "9440": "Do there exist busts/statues of all the roman emperors until the fall of the West?",
-    "9456": "Were Puritans Prudes or Progressive?",
-    "9461": "When did Rome recognize the Christian church as a judical person?",
-    "9499": "How did ancient mystery religions impact Christianity?",
-    "9557": "In the context of Ancient Egypt, what could \"Priest of On\" mean?",
-    "9732": "Ancient Christianity",
-    "9789": "Did Josephus question the date of the destruction of the First or Second Temple?",
-    "9931": "When did we figure out that Venus was too hot for humans?",
-    "9956": "What steps did President Herbert Hoover take to reduce unemployment during the Great Depression?",
-    "9972": "Was it common practice in Victorian London or other Western European cities to name locations as places where fictional characters lived and acted?",
-    "9974": "What evidence is there that Jesus went to India?",
-    "9985": "Did Ancient Roman insulae reach more than 10 storeys?",
-    "10051": "Why was the bald eagle chosen as the national bird of the United States?",
-    "10061": "How did the Falasha make contact with Jews outside Ethiopia?",
-    "10162": "Are the Samaritans descendants of Israel's lost tribes, and so rightfully considered Israelites?",
-    "10206": "When was Jerusalem destroyed by the Babylonians?",
-    "10255": "What is \"Mary's Part\"?",
-    "10265": "Who believed the earth was flat?",
-    "10276": "Is there any evidence that the book of Isaiah was written before Cyrus?",
-    "10315": "Why is such big density of churches in medieval towns?",
-    "10328": "How rich were carpenters in the Roman province of Iudaea in the 1st century AD?",
-    "10361": "Is Kemal Atatürk responsible for Armenian Genocide?",
-    "10406": "How did the Catholic Pope manage to become more powerful than Kings in old Europe?",
-    "10409": "What strategic value did Christianity hold for Constantine that made him convert to Christianity?",
-    "10557": "How did the Egyptian engineers of the Third and Fourth Dynasty construct the Pyramids and Sphinx without modern science and mathematics?",
-    "10560": "What were the factors that caused the world to move away from the Gold Standard in the 20th century?",
-    "10852": "Historically, how come we have 7 days in a week?",
-    "10933": "Has there ever been a truly multi-sided war?",
-    "11175": "Why is such a large percentage of Jewish population worldwide in USA",
-    "11327": "Did any armies systemically favor axes/hammers over swords?",
-    "11383": "How much food value is a horse to a cavalryman?",
-    "11471": "What is the origin/history of the practice of standing up if an elder or respectable is approaching?",
-    "11547": "What is known about early history of Judaism?",
-    "11590": "Why was the the sack of cities acceptable?",
-    "11662": "At what point did Soviet armored units have qualitative parity with Wehrmacht armored units?",
-    "11700": "What are some indicators that distinguish pseudo-history from actual history?",
-    "11840": "How did an input of resources in 16th century Spain contribute to inflation?",
-    "12035": "Has there been other settlements in occupied territories in recent history?",
-    "12181": "The greek 'daktylos'",
-    "12200": "How historically correct is the Maharana Pratap serial?",
-    "12222": "What are the cultural roots of the Lamp of the Genie?",
-    "12233": "U.S. biplane Identification",
-    "12264": "During the Great Depression, roughly what proportion of Americans lived below the World Bank PPP $1.25/day poverty line?",
-    "12280": "Invention of Planned Obsolescence",
-    "12416": "How did the United States penal system evolve?",
-    "12554": "Why were Albanians the only nation in the Balkans who converted to Islam during the Ottoman occupation?",
-    "12564": "Did the German Enigma machine use multiple encryption keys?",
-    "12796": "Josephus' writings about Kafr Yasif",
-    "12882": "Was it Bismarck who said: \"He who is master of Bohemia is master of Europe\"?",
-    "14178": "Meaning of samurai crest / symbol",
-    "14364": "did relic sellers have a specific name or term for their profession?",
-    "14710": "Why did Nebuchadnezzar keep King Jeconiah alive?",
-    "14731": "Which attempts to create or revise states resulted in action?",
-    "14976": "What is the origin of the Flower of Life symbol?",
-    "15105": "What is the history of the anthropological \"Negroid, Mongoloid, Caucasoid\" distinction of the races?",
-    "15144": "What were the causes of decline of Babylonian numeric system?",
-    "15181": "What is the proper term for the \"year 0\"?",
-    "15363": "Are there any records of ancient people looking for the misdirect in a prophecy?",
-    "15439": "Why didn't Tiberius Gracchus seek the consulship?",
-    "15546": "Is it fair to say that the USSR has technical parity over NATO on land and air over much of the cold war?",
-    "15572": "How much firepower did the British navy represent in 1940?",
-    "16770": "The land of gold described in Genesis",
-    "16808": "Why didn't Gengis Khan invade India?",
-    "17150": "When was flat glass invented?",
-    "17299": "Why did the offices of Shogun and Emperor never merge?",
-    "17398": "Is it true that Proto-Ukrainians conquered Europe and India?",
-    "17453": "What was the death toll of Plague of Justinian?",
-    "17488": "How did the Allies communicate during World War II?",
-    "17517": "In the USSR, did they ever stop 'officially' believing in the future Communist utopia?",
-    "17704": "Why travel to one's birthplace for a Roman census?",
-    "17711": "Jewish Slave Owners in the United States",
-    "17754": "What percentage of men, ages 18 to 35, from the northern states served in the Union Army?",
-    "17764": "Why has there only been one dynasty in the history of Japan?",
-    "18881": "How tall were the Jerusalem temples?",
-    "18900": "Why is the name of King Lucifer used by Christians as that of Devil?",
-    "19030": "Why was the Halifax death penalty reserved for thefts of at least 13½ pence?",
-    "19078": "Who said, \"Watch your thoughts, they become your words\"?",
-    "19125": "Why is the snake or asp the primary logo of medicinal organisations?",
-    "19305": "What caused scientific and cultural decline of East Roman (Byzantine) Empire?",
-    "20610": "Is there a painting from before the colonization of the Americas depicting travelers from far away visiting European nobles?",
-    "20809": "Did the biblical apostle James visit Ireland?",
-    "21108": "What is the source of the claim that Enigma codebreaking efforts shortened the Second World War by years and saved millions of lives?",
-    "21332": "How long did it take to build earth dikes with low-tech tools?",
-    "21473": "Need help interpreting \"silver\" hallmark - 1706?",
-    "21489": "When and why did having long hair become associated with women, and short hair with men?",
-    "21529": "Borisov aktion of 23 July , 1941",
-    "22873": "How were the holes for the guns in battleships' turrets protected?",
-    "22883": "What was the political consciousness of a 15th century English peasant?",
-    "22895": "Estimating gross domestic product in ancient times",
-    "23027": "What are the major religious 'families' which formed independently of other families?",
-    "23188": "Did Japan make a contribution to World War II way out of proportion to its nominal relative GDP?",
-    "23204": "What's the birthdate of Jesus of Nazareth, assuming he existed?",
-    "23239": "Where and when was the shortest calendar day in history, due to DST and calendar changes, etc?",
-    "23271": "Why was decimal time unsuccessful?",
-    "23300": "What was the general attitude of people in states without anti-miscegenation laws toward interracial marriage?",
-    "23331": "Origin of the idea of a series of books",
-    "23345": "King associated with the number four",
-    "23480": "Did contemporary scholars draw a connection between Great Schism and Crab Nebula Supernova (1054 A.D.)?",
-    "23523": "Why was the spread of Christianity scattered compared to other major religions?",
-    "23733": "What was the average size of French families during the Middle Ages?",
-    "23874": "What does the inscription on this sword mean?",
-    "23892": "What are the capabilities of a warhorse?",
-    "23955": "What documentary evidence is there that Roman crucifixion victims were completely nude?",
-    "24007": "Ancient Israelite contact with Indo-Europeans?",
-    "24027": "Did a Kamikaze ever impact the hull of a ship, as opposed to the deck?",
-    "24048": "Differences between the Dead Sea Scrolls and the books of Moses",
-    "24088": "What benefits were there to the USA of developing both Uranium and Plutonium bombs in World War 2?",
-    "24203": "Has a government ever been elected with the full 100% of the votes?",
-    "24239": "At what point in time did Judaism become popular? [Pre Christianity]",
-    "25397": "What caused the imposition of strict celibacy for Catholic priests during the 11th century?",
-    "25426": "From how far away could an experienced and skilled archer hit a man?",
-    "25683": "In what ways were the creators of the USA's system of government inspired by Roman government?",
-    "25713": "Why is a month so different from a year or a day?",
-    "25758": "How common was cavalry in medieval Brittany?",
-    "25835": "Why did the Phoenicians let the Hebrews (Jews) settle in Canaan?",
-    "25899": "Looking for Cato quotes/anecdotes",
-    "26231": "What was the equivalent of \"Shoulder Arms, Fire!\" for archers in Ancient Rome?",
-    "26283": "What's the best way to convert sailing-era burden to modern displacement?",
-    "26361": "Effects of the Berlin Wall on modern-day Germany",
-    "26627": "Why did Japan take so long to attack Wuhan?",
-    "26835": "Decyphering Versal in Book of Kells",
-    "26901": "What were the effects of Bushido on Japan after the Meiji Restoration?",
-    "26974": "Were Americans concerned about \"Overlord\" code words in Daily Telegraph crosswords?",
-    "27009": "Why was Niels Abel below the class average in all subjects besides maths?"
+  "questions": {
+    "61": {
+      "title": "How did people travel to remote islands like Easter Island?"
+    },
+    "101": {
+      "title": "What new technology/tactics allowed the breakthrough of the trenches in WW I western front?"
+    },
+    "207": {
+      "title": "Why did Huldrych Zwingli and Martin Luther stand for clerical marriage?",
+      "general_tag": 1
+    },
+    "215": {
+      "title": "Has Britain's 1940 invasion of Iceland been downplayed by historians?"
+    },
+    "374": {
+      "title": "Why wasn't the Republic of Ireland invaded (by either side) in WW2?"
+    },
+    "403": {
+      "title": "Even though Spain and Portugal had many colonies (15th/16th C), what factors permitted UK/France to become world powers later (18th/19th C)?"
+    },
+    "460": {
+      "title": "What cultures did, or do, perform human sacrifice on a regular basis?",
+      "general_tag": 1
+    },
+    "491": {
+      "title": "What was the first spy agency?"
+    },
+    "630": {
+      "title": "Why were the Prague Spring leaders treated more leniently than Nagy and his colleagues?"
+    },
+    "633": {
+      "title": "What is the basis for the claims that the word \"Israel\" means \"Exiled for their sins\"?"
+    },
+    "685": {
+      "title": "Is there any corroborating evidence for the story of Sadrach, Meshach, and Abednego?",
+      "general_tag": 1
+    },
+    "732": {
+      "title": "Which came first: polytheism or monotheism?",
+      "general_tag": 1
+    },
+    "810": {
+      "title": "Are there any independent historical records of ancient Persia allowing freedom of worship for the Jews?"
+    },
+    "819": {
+      "title": "About Naval Formations?"
+    },
+    "1004": {
+      "title": "Which war games did Napoleon practice with his generals?"
+    },
+    "1017": {
+      "title": "What was the first battle in history fought by vast-majority-% \"distance-shooting\" non-mechanized force?"
+    },
+    "1085": {
+      "title": "Why is the Qing Dynasty in China considered Feudalistic?"
+    },
+    "1087": {
+      "title": "Does the number of legs in the air of a horse statue indicate how its rider died?"
+    },
+    "1163": {
+      "title": "Who first in human history has promoted equality rights of all people?"
+    },
+    "1239": {
+      "title": "What was the ratio of German to Soviet losses on eastern front during different stages of the war?"
+    },
+    "1324": {
+      "title": "Are there any communist leaders without a record of acts we consider as a crime (against humanity)?"
+    },
+    "1359": {
+      "title": "How does a country give \"aid\" to another?"
+    },
+    "1382": {
+      "title": "Did The Soviet Union Need Both Prongs to Succeed At the Battle of Stalingrad?"
+    },
+    "1515": {
+      "title": "\"Musketeer\" beard, mustache and hairdress - where did they originate?"
+    },
+    "1683": {
+      "title": "Are there any theories about what health problems would a man of the past suffer in the current age?"
+    },
+    "1722": {
+      "title": "Economic effects of the Cuban Revolution"
+    },
+    "1812": {
+      "title": "Why Europe became more developed although metal was first discovered and used in Asia/Africa?"
+    },
+    "1933": {
+      "title": "Languages spoken by Josephus?"
+    },
+    "1990": {
+      "title": "How Likely Was a French Alliance with Italy or Japan in World War I?"
+    },
+    "2162": {
+      "title": "What is a common reason that Empires fall or collapse and can they be corrected?"
+    },
+    "2223": {
+      "title": "What was the world population around 970 BC? Does it fit the biblical narrative?",
+      "general_tag": 1
+    },
+    "2275": {
+      "title": "What was the estimated population living in Egypt around 1446 BC?",
+      "general_tag": 1
+    },
+    "2378": {
+      "title": "What coin denominations were used in the US before Dollars and Cents?"
+    },
+    "2383": {
+      "title": "If the nazi is a far-right party, why is it socialist?"
+    },
+    "2489": {
+      "title": "Was the transition from the Bronze Age to the Iron Age violent?"
+    },
+    "2543": {
+      "title": "How accurately could ancient astronomers find latitude and longitude?"
+    },
+    "2640": {
+      "title": "Literacy in the classical world"
+    },
+    "2677": {
+      "title": "When was Silver ever more valuable than Gold?"
+    },
+    "2702": {
+      "title": "Why some monarchs are sent to exile after a country is declared a republic?"
+    },
+    "2892": {
+      "title": "Why was Khomeini in France? Who allowed him to leave and why?"
+    },
+    "3018": {
+      "title": "What caused the Iranian 1979 revolution to become Islamic?"
+    },
+    "3102": {
+      "title": "Why did some people need to pay a bond in the 1700s in order to get married?"
+    },
+    "4312": {
+      "title": "What laws of war existed before the modern international treaties and conventions?"
+    },
+    "4336": {
+      "title": "Why China was able to unify and not Europe"
+    },
+    "4464": {
+      "title": "Natural born citizen"
+    },
+    "5519": {
+      "title": "Was Napoleon as short as \"common knowledge\" states?"
+    },
+    "5713": {
+      "title": "What are the safeguards in the German constitution of 1949 against dictatorship?"
+    },
+    "5761": {
+      "title": "What are the problems archaeologists face in deciphering Indus Valley writing?"
+    },
+    "5813": {
+      "title": "Was the Bosnian Crisis the trigger to WWI and not the assassination?"
+    },
+    "5992": {
+      "title": "What is the origin of the \"wheat and chessboard\" legend?"
+    },
+    "5999": {
+      "title": "When was \"diablo\" first used to refer to the Devil?",
+      "general_tag": 1
+    },
+    "6014": {
+      "title": "Where does the tradition of Christmas gifts comes from?",
+      "general_tag": 1
+    },
+    "7278": {
+      "title": "Are modern Greeks related to the ancient Greeks?"
+    },
+    "7448": {
+      "title": "Is there a link between national debt/trade deficit and starting a war?"
+    },
+    "7502": {
+      "title": "in what form did William the Conqueror write the date of his own coronation?"
+    },
+    "7524": {
+      "title": "Umar ibn Khattab and Omar as a Western given name"
+    },
+    "7587": {
+      "title": "Was the ancient Roman King ( i.e. rex) elected for eight years?"
+    },
+    "7634": {
+      "title": "Why did Greeks and Romans dilute their wine?"
+    },
+    "7812": {
+      "title": "Why have officers in the U.S. army tended to \"top out\" at the level of Major?"
+    },
+    "7845": {
+      "title": "What does \"the anointed of the Lord\" mean?"
+    },
+    "7904": {
+      "title": "Date of Transatlantic crossing postcard"
+    },
+    "7907": {
+      "title": "Can the new testament be a valid historical record on the real life of Jesus?",
+      "general_tag": 1
+    },
+    "8000": {
+      "title": "What was Lenin's \"New Economic Policy\" and what complications did it have?"
+    },
+    "8006": {
+      "title": "It wasn't thought that Jesus was Jewish until the Renaissance?",
+      "general_tag": 1
+    },
+    "8125": {
+      "title": "How was money transferred before digital transactions?"
+    },
+    "8131": {
+      "title": "Why were there no Internment camps for German-American Citizens in USA during WW2?"
+    },
+    "8139": {
+      "title": "The destruction of the mycenaean palaces and the sea-peoples"
+    },
+    "8199": {
+      "title": "Has the American Civil War led to any significant innovations in 19th-century warfare?"
+    },
+    "8210": {
+      "title": "Are there any good sources on the history of the name for Kazakhstan?"
+    },
+    "8311": {
+      "title": "Viking culture: unhygienic use of water bowl"
+    },
+    "8334": {
+      "title": "Why are the Portuguese so obsessed with salted codfish?"
+    },
+    "8369": {
+      "title": "When did retailers stop wrapping purchases in paper and twine?"
+    },
+    "8389": {
+      "title": "Why did the scutum fall out of use?"
+    },
+    "8415": {
+      "title": "Why was China not colonized by any country?"
+    },
+    "8516": {
+      "title": "Was the State of Indiana's legislation changed to fix the value of Pi?"
+    },
+    "8522": {
+      "title": "Why didn't United States replace Mohamad Rezā Shāh with another king during the 1979 revolution?"
+    },
+    "8561": {
+      "title": "Did the Germans lose the U-Boat war in World war II because of a shortage of quality, rather than quantity?"
+    },
+    "8662": {
+      "title": "How was Hitler able to rearm?"
+    },
+    "8747": {
+      "title": "Origin of land-lottery system"
+    },
+    "8807": {
+      "title": "How much did the Chinese Summer Palace cost to build?"
+    },
+    "8937": {
+      "title": "Were there many \"co-headed\" commands where the senior member was younger than the junior?"
+    },
+    "8944": {
+      "title": "What did Mesopotamian beehives look like?"
+    },
+    "9059": {
+      "title": "How true is the statement \"Soviet troops got into Berlin riding American trucks, walking in American boots and using American trains\"?"
+    },
+    "9149": {
+      "title": "What did contemporary countries in Europe call the Ottoman Empire?"
+    },
+    "9160": {
+      "title": "Why did people in classicism use wigs?"
+    },
+    "9180": {
+      "title": "Were the problems Fibonacci solved in his work \"Flos\" posed specifically for him?"
+    },
+    "9250": {
+      "title": "Pigs in ancient Israel",
+      "general_tag": 1
+    },
+    "9254": {
+      "title": "During 1790-1800, was it legal to pay workers using whiskey?"
+    },
+    "9326": {
+      "title": "When did people understand where children come from?"
+    },
+    "9349": {
+      "title": "Is there any possible way to count provinces of the Achaemenid Empire to be 127?",
+      "general_tag": 1
+    },
+    "9391": {
+      "title": "Why was the 1944 surrender of 20,000 Germans on the Western Front remarkable?"
+    },
+    "9440": {
+      "title": "Do there exist busts/statues of all the roman emperors until the fall of the West?"
+    },
+    "9456": {
+      "title": "Were Puritans Prudes or Progressive?",
+      "general_tag": 1
+    },
+    "9461": {
+      "title": "When did Rome recognize the Christian church as a judical person?",
+      "general_tag": 1
+    },
+    "9499": {
+      "title": "How did ancient mystery religions impact Christianity?",
+      "general_tag": 1
+    },
+    "9557": {
+      "title": "In the context of Ancient Egypt, what could \"Priest of On\" mean?",
+      "general_tag": 1
+    },
+    "9732": {
+      "title": "Ancient Christianity",
+      "general_tag": 1
+    },
+    "9789": {
+      "title": "Did Josephus question the date of the destruction of the First or Second Temple?",
+      "general_tag": 1
+    },
+    "9931": {
+      "title": "When did we figure out that Venus was too hot for humans?"
+    },
+    "9956": {
+      "title": "What steps did President Herbert Hoover take to reduce unemployment during the Great Depression?"
+    },
+    "9972": {
+      "title": "Was it common practice in Victorian London or other Western European cities to name locations as places where fictional characters lived and acted?"
+    },
+    "9974": {
+      "title": "What evidence is there that Jesus went to India?"
+    },
+    "9985": {
+      "title": "Did Ancient Roman insulae reach more than 10 storeys?"
+    },
+    "10051": {
+      "title": "Why was the bald eagle chosen as the national bird of the United States?"
+    },
+    "10061": {
+      "title": "How did the Falasha make contact with Jews outside Ethiopia?"
+    },
+    "10162": {
+      "title": "Are the Samaritans descendants of Israel's lost tribes, and so rightfully considered Israelites?"
+    },
+    "10206": {
+      "title": "When was Jerusalem destroyed by the Babylonians?"
+    },
+    "10255": {
+      "title": "What is \"Mary's Part\"?",
+      "general_tag": 1
+    },
+    "10265": {
+      "title": "Who believed the earth was flat?",
+      "general_tag": 1
+    },
+    "10276": {
+      "title": "Is there any evidence that the book of Isaiah was written before Cyrus?"
+    },
+    "10315": {
+      "title": "Why is such big density of churches in medieval towns?",
+      "general_tag": 1
+    },
+    "10328": {
+      "title": "How rich were carpenters in the Roman province of Iudaea in the 1st century AD?"
+    },
+    "10361": {
+      "title": "Is Kemal Atatürk responsible for Armenian Genocide?"
+    },
+    "10406": {
+      "title": "How did the Catholic Pope manage to become more powerful than Kings in old Europe?",
+      "general_tag": 1
+    },
+    "10409": {
+      "title": "What strategic value did Christianity hold for Constantine that made him convert to Christianity?",
+      "general_tag": 1
+    },
+    "10557": {
+      "title": "How did the Egyptian engineers of the Third and Fourth Dynasty construct the Pyramids and Sphinx without modern science and mathematics?"
+    },
+    "10560": {
+      "title": "What were the factors that caused the world to move away from the Gold Standard in the 20th century?"
+    },
+    "10852": {
+      "title": "Historically, how come we have 7 days in a week?"
+    },
+    "10933": {
+      "title": "Has there ever been a truly multi-sided war?"
+    },
+    "11175": {
+      "title": "Why is such a large percentage of Jewish population worldwide in USA"
+    },
+    "11327": {
+      "title": "Did any armies systemically favor axes/hammers over swords?"
+    },
+    "11383": {
+      "title": "How much food value is a horse to a cavalryman?"
+    },
+    "11471": {
+      "title": "What is the origin/history of the practice of standing up if an elder or respectable is approaching?"
+    },
+    "11547": {
+      "title": "What is known about early history of Judaism?",
+      "general_tag": 1
+    },
+    "11590": {
+      "title": "Why was the the sack of cities acceptable?"
+    },
+    "11662": {
+      "title": "At what point did Soviet armored units have qualitative parity with Wehrmacht armored units?"
+    },
+    "11700": {
+      "title": "What are some indicators that distinguish pseudo-history from actual history?"
+    },
+    "11840": {
+      "title": "How did an input of resources in 16th century Spain contribute to inflation?"
+    },
+    "12035": {
+      "title": "Has there been other settlements in occupied territories in recent history?"
+    },
+    "12181": {
+      "title": "The greek 'daktylos'"
+    },
+    "12200": {
+      "title": "How historically correct is the Maharana Pratap serial?"
+    },
+    "12222": {
+      "title": "What are the cultural roots of the Lamp of the Genie?"
+    },
+    "12233": {
+      "title": "U.S. biplane Identification"
+    },
+    "12264": {
+      "title": "During the Great Depression, roughly what proportion of Americans lived below the World Bank PPP $1.25/day poverty line?"
+    },
+    "12280": {
+      "title": "Invention of Planned Obsolescence"
+    },
+    "12416": {
+      "title": "How did the United States penal system evolve?"
+    },
+    "12554": {
+      "title": "Why were Albanians the only nation in the Balkans who converted to Islam during the Ottoman occupation?",
+      "general_tag": 1
+    },
+    "12564": {
+      "title": "Did the German Enigma machine use multiple encryption keys?"
+    },
+    "12796": {
+      "title": "Josephus' writings about Kafr Yasif"
+    },
+    "12882": {
+      "title": "Was it Bismarck who said: \"He who is master of Bohemia is master of Europe\"?"
+    },
+    "14178": {
+      "title": "Meaning of samurai crest / symbol"
+    },
+    "14364": {
+      "title": "did relic sellers have a specific name or term for their profession?",
+      "general_tag": 1
+    },
+    "14710": {
+      "title": "Why did Nebuchadnezzar keep King Jeconiah alive?"
+    },
+    "14731": {
+      "title": "Which attempts to create or revise states resulted in action?"
+    },
+    "14976": {
+      "title": "What is the origin of the Flower of Life symbol?"
+    },
+    "15105": {
+      "title": "What is the history of the anthropological \"Negroid, Mongoloid, Caucasoid\" distinction of the races?",
+      "general_tag": 1
+    },
+    "15144": {
+      "title": "What were the causes of decline of Babylonian numeric system?"
+    },
+    "15181": {
+      "title": "What is the proper term for the \"year 0\"?"
+    },
+    "15363": {
+      "title": "Are there any records of ancient people looking for the misdirect in a prophecy?"
+    },
+    "15439": {
+      "title": "Why didn't Tiberius Gracchus seek the consulship?"
+    },
+    "15546": {
+      "title": "Is it fair to say that the USSR has technical parity over NATO on land and air over much of the cold war?"
+    },
+    "15572": {
+      "title": "How much firepower did the British navy represent in 1940?"
+    },
+    "16770": {
+      "title": "The land of gold described in Genesis",
+      "general_tag": 1
+    },
+    "16808": {
+      "title": "Why didn't Gengis Khan invade India?"
+    },
+    "17150": {
+      "title": "When was flat glass invented?"
+    },
+    "17299": {
+      "title": "Why did the offices of Shogun and Emperor never merge?"
+    },
+    "17398": {
+      "title": "Is it true that Proto-Ukrainians conquered Europe and India?"
+    },
+    "17453": {
+      "title": "What was the death toll of Plague of Justinian?"
+    },
+    "17488": {
+      "title": "How did the Allies communicate during World War II?"
+    },
+    "17517": {
+      "title": "In the USSR, did they ever stop 'officially' believing in the future Communist utopia?"
+    },
+    "17704": {
+      "title": "Why travel to one's birthplace for a Roman census?"
+    },
+    "17711": {
+      "title": "Jewish Slave Owners in the United States"
+    },
+    "17754": {
+      "title": "What percentage of men, ages 18 to 35, from the northern states served in the Union Army?"
+    },
+    "17764": {
+      "title": "Why has there only been one dynasty in the history of Japan?"
+    },
+    "18881": {
+      "title": "How tall were the Jerusalem temples?"
+    },
+    "18900": {
+      "title": "Why is the name of King Lucifer used by Christians as that of Devil?"
+    },
+    "19030": {
+      "title": "Why was the Halifax death penalty reserved for thefts of at least 13½ pence?"
+    },
+    "19078": {
+      "title": "Who said, \"Watch your thoughts, they become your words\"?"
+    },
+    "19125": {
+      "title": "Why is the snake or asp the primary logo of medicinal organisations?"
+    },
+    "19305": {
+      "title": "What caused scientific and cultural decline of East Roman (Byzantine) Empire?"
+    },
+    "20610": {
+      "title": "Is there a painting from before the colonization of the Americas depicting travelers from far away visiting European nobles?"
+    },
+    "20809": {
+      "title": "Did the biblical apostle James visit Ireland?",
+      "general_tag": 1
+    },
+    "21108": {
+      "title": "What is the source of the claim that Enigma codebreaking efforts shortened the Second World War by years and saved millions of lives?"
+    },
+    "21332": {
+      "title": "How long did it take to build earth dikes with low-tech tools?"
+    },
+    "21473": {
+      "title": "Need help interpreting \"silver\" hallmark - 1706?"
+    },
+    "21489": {
+      "title": "When and why did having long hair become associated with women, and short hair with men?"
+    },
+    "21529": {
+      "title": "Borisov aktion of 23 July , 1941"
+    },
+    "22873": {
+      "title": "How were the holes for the guns in battleships' turrets protected?"
+    },
+    "22883": {
+      "title": "What was the political consciousness of a 15th century English peasant?"
+    },
+    "22895": {
+      "title": "Estimating gross domestic product in ancient times"
+    },
+    "23027": {
+      "title": "What are the major religious 'families' which formed independently of other families?",
+      "general_tag": 1
+    },
+    "23188": {
+      "title": "Did Japan make a contribution to World War II way out of proportion to its nominal relative GDP?"
+    },
+    "23204": {
+      "title": "What's the birthdate of Jesus of Nazareth, assuming he existed?"
+    },
+    "23239": {
+      "title": "Where and when was the shortest calendar day in history, due to DST and calendar changes, etc?"
+    },
+    "23271": {
+      "title": "Why was decimal time unsuccessful?"
+    },
+    "23300": {
+      "title": "What was the general attitude of people in states without anti-miscegenation laws toward interracial marriage?"
+    },
+    "23331": {
+      "title": "Origin of the idea of a series of books"
+    },
+    "23345": {
+      "title": "King associated with the number four"
+    },
+    "23480": {
+      "title": "Did contemporary scholars draw a connection between Great Schism and Crab Nebula Supernova (1054 A.D.)?",
+      "general_tag": 1
+    },
+    "23523": {
+      "title": "Why was the spread of Christianity scattered compared to other major religions?",
+      "general_tag": 1
+    },
+    "23733": {
+      "title": "What was the average size of French families during the Middle Ages?"
+    },
+    "23874": {
+      "title": "What does the inscription on this sword mean?"
+    },
+    "23892": {
+      "title": "What are the capabilities of a warhorse?"
+    },
+    "23955": {
+      "title": "What documentary evidence is there that Roman crucifixion victims were completely nude?"
+    },
+    "24007": {
+      "title": "Ancient Israelite contact with Indo-Europeans?"
+    },
+    "24027": {
+      "title": "Did a Kamikaze ever impact the hull of a ship, as opposed to the deck?"
+    },
+    "24048": {
+      "title": "Differences between the Dead Sea Scrolls and the books of Moses",
+      "general_tag": 1
+    },
+    "24088": {
+      "title": "What benefits were there to the USA of developing both Uranium and Plutonium bombs in World War 2?"
+    },
+    "24203": {
+      "title": "Has a government ever been elected with the full 100% of the votes?"
+    },
+    "24239": {
+      "title": "At what point in time did Judaism become popular? [Pre Christianity]",
+      "general_tag": 1
+    },
+    "25397": {
+      "title": "What caused the imposition of strict celibacy for Catholic priests during the 11th century?",
+      "general_tag": 1
+    },
+    "25426": {
+      "title": "From how far away could an experienced and skilled archer hit a man?"
+    },
+    "25683": {
+      "title": "In what ways were the creators of the USA's system of government inspired by Roman government?"
+    },
+    "25713": {
+      "title": "Why is a month so different from a year or a day?"
+    },
+    "25758": {
+      "title": "How common was cavalry in medieval Brittany?"
+    },
+    "25835": {
+      "title": "Why did the Phoenicians let the Hebrews (Jews) settle in Canaan?"
+    },
+    "25899": {
+      "title": "Looking for Cato quotes/anecdotes"
+    },
+    "26231": {
+      "title": "What was the equivalent of \"Shoulder Arms, Fire!\" for archers in Ancient Rome?"
+    },
+    "26283": {
+      "title": "What's the best way to convert sailing-era burden to modern displacement?"
+    },
+    "26361": {
+      "title": "Effects of the Berlin Wall on modern-day Germany"
+    },
+    "26627": {
+      "title": "Why did Japan take so long to attack Wuhan?"
+    },
+    "26835": {
+      "title": "Decyphering Versal in Book of Kells"
+    },
+    "26901": {
+      "title": "What were the effects of Bushido on Japan after the Meiji Restoration?"
+    },
+    "26974": {
+      "title": "Were Americans concerned about \"Overlord\" code words in Daily Telegraph crosswords?"
+    },
+    "27009": {
+      "title": "Why was Niels Abel below the class average in all subjects besides maths?"
+    }
   }
 }

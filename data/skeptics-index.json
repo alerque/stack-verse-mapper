@@ -10986,597 +10986,1816 @@
       ]
     }
   ],
-  "titles": {
-    "41": "Do human activities contribute to climate change?",
-    "195": "Is there an autism epidemic?",
-    "278": "How reliable is the research behind the flu-vaccine?",
-    "297": "How dangerous is a broken compact fluorescent lamp (CFL)?",
-    "301": "Do products that contain antioxidants have any value over products that do not?",
-    "321": "Can toddlers learn sign language?",
-    "351": "Does a car with a hybrid engine and Lithium batteries pollute more than a car with conventional technology?",
-    "359": "Was the golden ratio deliberately used for aesthetics in ancient or Renaissance times?",
-    "394": "Link between runny noses and rhinoviral infections",
-    "402": "Is acupuncture an effective treatment?",
-    "434": "How many of the facts in an average newspaper article are true?",
-    "459": "What risk do pole reversals pose to human civilization?",
-    "734": "Do men have a monthly cycle?",
-    "881": "Crystal glassware contains lead. What health advice are reasonable?",
-    "907": "Is the death penalty an effective deterrent?",
-    "956": "Was Einstein a poor student?",
-    "979": "Can HAARP affect weather or earthquakes?",
-    "1039": "Are there fewer accidental deaths at nuclear power plants than others?",
-    "1052": "Shroud of Turin -- is it absolutely and definitively debunked?",
-    "1244": "Is LSD more harmful than alcohol?",
-    "1266": "Could a Great Flood have happened?",
-    "1355": "Is Barack Obama a natural born US citizen?",
-    "1368": "On 9/11, was Building 7 destroyed in a controlled explosion?",
-    "1374": "Does changing your pH balance change your mood?",
-    "1382": "Was the world life expectancy only 30 years at 1900?",
-    "1438": "Is the Earth 6000 years old?",
-    "1477": "Was the Great Sphinx of Giza originally an Anubis?",
-    "1509": "Would avoiding the eating of meat stop global warming?",
-    "1550": "Can you only trace a phone call if they don't hang up?",
-    "1624": "Did Jesus live?",
-    "1664": "Is it the current that kills you, not the voltage?",
-    "1678": "Claimed similarities between Jesus Christ and Horus and other Gods",
-    "1782": "How effective is melatonin for aiding with sleep difficulty?",
-    "1800": "Do mobile phones cause heart troubles?",
-    "1801": "Did the development of agriculture prevent an ice age occurring?",
-    "1823": "Is the net output of CO₂ from Nuclear Energy lower than the net output of other energy sources?",
-    "1825": "Are there any studies that prove (or disprove) the idea of \"Six Degrees of Separation\"?",
-    "1924": "Does recycling create more pollution than it prevents?",
-    "1955": "Are any notable biblical characters historical figures?",
-    "2059": "Do rich companies pay little/no corporate income taxes in the United States?",
-    "2070": "Can regular cold showers reliably improve health?",
-    "2074": "Is demand for biofuels causing degredation of the environment in third world countries?",
-    "2093": "Would a large quantity of gasoline in a closed container explode violently when exposed to fire?",
-    "2103": "Ammonia content of beef in USA",
-    "2107": "Is there systemic sexual abuse of children by Catholic priests?",
-    "2141": "Does bathing using a shower use more water than using a bucket or bath-tub?",
-    "2167": "Is anti-malware software effective?",
-    "2181": "Has anyone noteworthy given up their US citizenship to escape taxation?",
-    "2203": "Were Kinsey's studies debunked?",
-    "2234": "Is programming in Python faster than in C, C++ or Java?",
-    "2277": "Is flatus flammable?",
-    "2330": "Is eating cloven-hoofed animals, bottom-feeders or ruminants bad for you?",
-    "2335": "Is there any observable evidence of the Big Bang?",
-    "2359": "The origin of \"99 cents\"",
-    "2409": "Do small businesses create the majority of the jobs in America?",
-    "2435": "Are CFLs always more ecologic than incandescent light bulbs?",
-    "2458": "Is suicide through thought possible?",
-    "2497": "Reading while lying down is more strenuous (unhealthy) for eyes",
-    "2591": "Does \"stripping the skin's oils\" with soap or shampoo cause the skin to produce more oil than normal?",
-    "2667": "Did we have a \"global cooling\" 40 years ago?",
-    "2679": "Is there a correlation between penis size and race?",
-    "2761": "Did Martin Luther King, Jr. say that \"I will not rejoice in the death of one, not even an enemy\"?",
-    "2785": "Did Apple \"jumpstart\" the USB market?",
-    "2799": "Is it possible to fly 4 helicopters anywhere in a country without official knowledge?",
-    "2839": "Do we lose most of our body heat through our heads?",
-    "2849": "Do expensive, \"premium\" speaker cables make a difference?",
-    "2867": "Is the Pale Blue Dot smaller than a pixel?",
-    "2879": "Who invented the chicken sandwich?",
-    "2891": "Is the Amazon being cleared at the rate of X football fields a minute?",
-    "2929": "Does the theory of evolution contradict the second law of thermodynamics?",
-    "2962": "Did car and oil companies actively try to suppress electric cars' development?",
-    "2973": "Do hotels omit the 13th floor?",
-    "2975": "Does the Dvorak keyboard increase typing speed?",
-    "3000": "Does the container that soda is in affect the flavour?",
-    "3005": "Not recycling vs air travel - which is worse?",
-    "3023": "Is replacing paper towels with electric hand dryer blowers beneficial to the environment?",
-    "3026": "Was Sir Arthur Conan Doyle responsible for the Piltdown Man hoax?",
-    "3028": "Is a woman who dresses sexually suggestively more likely to get raped?",
-    "3040": "Is there a high chance of being raped in US prisons?",
-    "3085": "Why do cats and dogs fight?",
-    "3167": "Do condoms have large enough holes for HIV to pass through?",
-    "3316": "Does an \"apple a day keep the doctor away\"?",
-    "3331": "Does black magic work?",
-    "3364": "Were there any Jews among the Nazi top people?",
-    "3402": "Did Bill Nye get booed by a room full of Texans for saying that the moon reflected the suns light?",
-    "3409": "High Fructose Corn Syrup vs Cane Sugar (aka Battle of the Bulge)",
-    "3435": "Is CO₂ the cause for Global Warming?",
-    "3439": "Could climate affect Aisha's age of sexual maturity?",
-    "3465": "Does the color temperature of a computer screen affect sleep patterns?",
-    "3469": "Can ants lift 50 times their weight?",
-    "3487": "Does using ethanol fuel save money, and is it better for the environment?",
-    "3515": "Is Kiva a scam?",
-    "3529": "Did Moses live?",
-    "3531": "Can we determine the percentage of statistics made up out of thin air?",
-    "3574": "Can you get drunk with Vodka vapour using a humidifier?",
-    "3579": "Does legalizing prostitution lead to an increase in human trafficking?",
-    "3612": "Does sleeping with our heads pointing towards north pose any health risks?",
-    "3635": "Do active volcanoes emit more CO₂ than humans?",
-    "3665": "Can a television thrown in a bathtub kill someone?",
-    "3794": "Is the 'glycogen restoration window' real?",
-    "3805": "Is fluoride in water an industry waste product?",
-    "4086": "Does Ferrari cheat at track tests?",
-    "4124": "Is it possible to cause problems to an aircraft pilot with an \"over-the-counter\" laser?",
-    "4133": "Is it better to water lawn in the morning or in the evening?",
-    "4134": "Drinking after eating fruits causing belly-ache?",
-    "4165": "Are there more 40-moves chess games than atoms in the universe?",
-    "4209": "Is it necessary to change motor oil every 5,000km/3,000 miles?",
-    "4282": "Is it necessary to leave a pool during a thunderstorm?",
-    "4386": "Does toothpaste cause acne?",
-    "4409": "Do women prefer taller men?",
-    "4425": "Was the character of Lilith written out of the Bible?",
-    "4466": "Do carpool lanes help reduce traffic congestion more than adding an extra lane would?",
-    "4483": "Can you test for microwave leaks by putting a cell phone inside and calling it?",
-    "4498": "Does torture work well as an interrogation technique?",
-    "4551": "Do Personal Development Seminars bring real long-term benefits?",
-    "4709": "Doctors and Handwriting: is it so bad that it inadvertently kills patients?",
-    "4740": "Is public transport less fuel-efficient than cars?",
-    "4787": "Do long married couples look more alike?",
-    "4902": "Do chocolate bars cause pimples?",
-    "4948": "Is it better to store fizzy drinks inside the fridge or outside?",
-    "5034": "Was the opposition of the Catholic Church to contraception based on the Homunculi theory?",
-    "5101": "Does the production of a home PV solar panel provide a net benefit to the environment?",
-    "5102": "Does recharging a battery when it is only half-way dead decrease its life span?",
-    "5122": "Does the digestion of some foods burn more calories than it supplies?",
-    "5167": "Will putting a car remote under your chin increase its range?",
-    "5187": "Is it possible to detect a laptop inside of a car boot?",
-    "5191": "Cohabiting couples more likely to divorce?",
-    "5202": "Has the Catholic Church ever retracted an \"ex cathedra\" statement?",
-    "5258": "Shouldn't tell about pregnancy in first trimester",
-    "5274": "Are blondes dumb or is it just a sarcastic saying?",
-    "5291": "The mystery of \"Numbers Stations\"",
-    "5334": "Do wind farms have a significant impact on weather patterns in the US?",
-    "5360": "Do the Swiss have exceptionally good train timings?",
-    "5460": "Are pediatricians immune to common communicable diseases?",
-    "5480": "Does Apple have more cash reserves than the U.S. government?",
-    "5504": "Do people intuitively turn a particular direction?",
-    "5506": "Is indoor air pollution higher than outdoor air pollution?",
-    "5527": "Did Denmark reduce their need for hospitals by two-thirds?",
-    "5544": "Your domain name may take 24-48 hours to propagate",
-    "5576": "Is the British monarchy economically beneficial?",
-    "5581": "Are airplanes the safest mode of transportation?",
-    "5602": "Does aromatherapy have proven efficacy in certain cases?",
-    "5617": "Are electric cars beneficial to the environment compared to low consumption modern cars?",
-    "5629": "Does \"fracking\" cause earthquakes?",
-    "5756": "Homeopathic Sinus Pain/Allergy Relief",
-    "5861": "Is cycling worse for the environment than driving to work if you need to take a shower?",
-    "5871": "Fasting for 40 days - is it possible?",
-    "5882": "Is the Agenda 21 Conspiracy true?",
-    "5930": "How much are United Airlines reducing their carbon emissions by giving pilots iPads?",
-    "5993": "Is carbon-14 still increasing in the atmosphere?",
-    "5998": "Can you detect a hidden camera in a trial room/changing room with your phone?",
-    "6066": "Do houseplants have any impact on oxygen levels?",
-    "6079": "Could I safely use copper sulfate in my swimming pools as an algaecide?",
-    "6089": "Kindle vs Books and ecofriendliness",
-    "6100": "How is structural unemployment measured?",
-    "6114": "Can trained humans run faster than all other animals on a marathon distance?",
-    "6132": "Do the \"rhythm\" or \"standard days\" methods of birth control eventually cause more embryonic death than other methods?",
-    "6141": "Is it beneficial to drink alkaline water (aka Kangen water)?",
-    "6166": "Is osteopathic medicine evidence based?",
-    "6191": "Does (diet) soda cause tooth decay?",
-    "6217": "Can you improve a car's engine by driving the car fast?",
-    "6222": "Do the majority of Americans take the Noah's ark story from the Bible literally?",
-    "6275": "Is margarine \"one molecule away from plastic\"?",
-    "6308": "What is the nature of ghost lights like Naga Fireballs, Will-o'-the-Wisp, Min Min Light, Hessdalen lights, Chir Batti, et. al",
-    "6389": "Do simple checklists applied in operating theatres significantly reduce the rates of complication and death from surgery?",
-    "6424": "Will increased speed limits on motorways (or highways) cause significant harm?",
-    "6425": "Is an ice-cream tub made of a single molecule?",
-    "6473": "Is routine screening for breast cancer for asymptomatic women worthwhile?",
-    "6501": "Do black cars consume more fuel?",
-    "6518": "Is skin cancer the leading cause of cancer death of young adult women?",
-    "6572": "Are slick bicycle tires more slippery in the wet?",
-    "6605": "Did Hitler survive until 1962?",
-    "6611": "Do pigs have 30 minute orgasms?",
-    "6664": "Is casein from cow's milk harmful to humans over one year of age?",
-    "6686": "Can remote starters make a car move unattended?",
-    "6708": "Is Mecca at a special place on the earth's surface, dictated by the Golden Mean?",
-    "6730": "Is an open internet access a productivity killer at the workplace?",
-    "6734": "Has the UN low variant for population growth been the historically correct figure?",
-    "6744": "Does \"Israel\" mean \"Exiled for their sins\"?",
-    "6757": "Does grass alone produce enough oxygen for life?",
-    "6788": "Is vinegar & baking soda an effective agent for disinfecting bacteria and mold?",
-    "6810": "Can you die from eating chili peppers?",
-    "6824": "Are value-added taxes naturally progressive?",
-    "6838": "Is being a vegan more environmentally friendly than otherwise?",
-    "6839": "Is there a Soviet doomsday device called \"Perimeter\" or \"Dead Hand\"?",
-    "6894": "Has an appendectomy ever been required for submariners?",
-    "6926": "Is 10% of the world's population homosexual?",
-    "6932": "Does the Torah-encoded age of the universe match science?",
-    "6952": "Did Asian countries top an IQ survey of 50 countries?",
-    "6967": "Did William Shakespeare help make the KJV bible?",
-    "6978": "Does exercising  in hot weather burn more calories?",
-    "7018": "Is Internet gambling more harmful than regular gambling?",
-    "7061": "Is running the engine for five minutes before driving beneficial for the car?",
-    "7072": "Is the number of Windows users without security software now equivalent to the total number of Apple users?",
-    "7121": "Is this story about someone taking revenge on his cheating ex-girlfriend by tattooing excrement on her back true?",
-    "7136": "Does nutrition explain why puberty starts earlier than it used to?",
-    "7165": "Do 50% of self reported homosexual teens no longer self report as homosexual by their twenties?",
-    "7202": "Do oily foods have any effect on acne?",
-    "7212": "Are 10% of mental health problems caused by abortion?",
-    "7253": "Does the 'two-second rule' provide a valid minimum gap for safe driving?",
-    "7301": "Is carob healthier than chocolate?",
-    "7384": "Are pet RFID chips (eg: \"HomeAgain\") capable of fulfilling Revelations 13:16-17?",
-    "7391": "Are political leaders from Latin America unusually prone to cancer?",
-    "7454": "Can a dead mouse sealed in a can of soda dissolve into a jelly-like substance in one year?",
-    "7499": "Could Global Warming be good for life?",
-    "7571": "Does skimmed milk have more added chemicals than whole milk?",
-    "7639": "Is a spotlight like the Bat-Signal possible?",
-    "7657": "Does every act of piracy impact revenue by the current content price?",
-    "7663": "Once a burn has cooled (with water or not), does further submersion in cool water help?",
-    "7782": "Are more people accidentally killed by doctors than accidentally killed by guns and traffic combined?",
-    "7789": "Are the specific claims from the \"WSJ 16\" climate skeptics true?",
-    "7801": "Do atoms exist?",
-    "7856": "Does plucking the feathers from live and conscious birds cause them pain?",
-    "7998": "Are \"pox parties\" safer than vaccines for children?",
-    "8042": "Is there a significant difference between voters and non-voters preferences in political elections?",
-    "8070": "Does pre-ejaculate typically contain sperm?",
-    "8100": "Do Germans love David Hasselhoff?",
-    "8138": "Is reducing carbon emission from cars futile?",
-    "8234": "Can 7-Keto DHEA permanently increase the resting metabolic rate in humans?",
-    "8245": "Does second hand smoke cause cancer?",
-    "8286": "Were fat women considered as the norm of beauty in the past?",
-    "8299": "Is it okay to eat food that has been through airport x-ray scanners",
-    "8316": "Does contraception cause infidelity and/or divorce?",
-    "8329": "Have leap days confused the calculated date for the \"end of the Mayan calendar\"?",
-    "8338": "Are cheap sunglasses bad for your eyes?",
-    "8367": "Do solar flares and/or geomagnetic storms affect human health?",
-    "8377": "Does 528 Hz \"facilitate DNA repair\"?",
-    "8420": "Is 94% of male giraffe sexual behaviour homosexual?",
-    "8442": "Is red meat responsible for one in ten early deaths?",
-    "8537": "Are there more people with genius IQs living in China than there are people total in the U.S.?",
-    "8560": "How long is it possible to maintain concentration?",
-    "8576": "Are Chia seeds a 'super-food'?",
-    "8650": "Was there an organized early Jerusalem church?",
-    "8668": "Can Alpha Brain dietary supplement improve mental acuity and focus?",
-    "8672": "Can air conditioner units emit vitamins?",
-    "8681": "Are Elie Wiesel and Lazar Wiesel the same person?",
-    "8699": "Is it possible to crush bacteria?",
-    "8717": "Is overpopulation a myth?",
-    "8768": "Does eating trans fatty acids affect immune response?",
-    "8841": "Were metered taxis busy roaming Imperial Rome?",
-    "8854": "Is global warming irreversible?",
-    "8883": "Plants that release oxygen even at night",
-    "8895": "Is it dangerous to wake a sleepwalker?",
-    "8904": "Was the cretaceous the last time atmospheric carbon dioxide was significantly higher than it is today?",
-    "8905": "Will a warming world directly damage human health?",
-    "8920": "Did Warren Buffett pay a lower rate of income tax than his secretary?",
-    "8990": "Does cows' milk contain blood?",
-    "9044": "How often are recyclable items recycled?",
-    "9045": "Are glaciers melting?",
-    "9083": "Who wrote Shakespeare's plays?",
-    "9155": "26 thousand users of Facebook list their location as Greenland",
-    "9180": "Can a person forget their own name?",
-    "9191": "Do the key Abrahamic holy books claim that their god is omnipotent, omniscient and omnibenevolent?",
-    "9268": "Is eating a banana on an empty stomach bad for you?",
-    "9383": "Are there benefits to filling car tyres with Nitrogen?",
-    "9446": "Do 33% of high school graduates never read another book for the rest of their lives?",
-    "9466": "Can the Bioguard X bracelet protect the body from radiation?",
-    "9484": "Is the name of Prophet Muhammad mentioned in the Bible?",
-    "9522": "Is Fukushima reactor No. 4 on the verge of catastrophic failure that will destroy the world?",
-    "9599": "Is it illegal to sell used mattresses?",
-    "9603": "Can a single cup of coffee help a person to wake up and be more focused?",
-    "9663": "Does the radioactivity on Hiroshima's soil affect radiometric dating?",
-    "9704": "Was the number of injuries happening to the Madden cover players unusually high?",
-    "9759": "Will reducing atmospheric CO₂ reverse the effects of climate change over a few decades?",
-    "9772": "Was 19 the average age of a combat soldier in Vietnam?",
-    "9839": "Have cell phones ever been used as microphones by a government?",
-    "9948": "Can we solve most blindness by cadaver donation?",
-    "9971": "Do high refresh rates prevent motion blur on TVs?",
-    "9992": "Is breath holding disadvantageous for mental or physical health?",
-    "10050": "Does Weight Watchers work?",
-    "10063": "Does wearing a scarf help a sore throat?",
-    "10070": "Can a bomb calorimeter meaningfully measure food calories?",
-    "10090": "Is 22-23 Celsius (72-73 degrees F) measurably the optimal temperature for office productivity",
-    "10112": "Are train passengers exposed to dangerous levels of cell phone electromagnetic radiation?",
-    "10150": "Does UNICEF use less than 14% of the donated money for the advertised causes?",
-    "10248": "Do boiled potatoes have a higher glycemic index than baked?",
-    "10309": "Do Japanese people have a lower body temperature than caucasians?",
-    "10400": "Are rape victims forced to marry their rapist, according to the Old Testament?",
-    "10413": "Is the Bible (Christian and Hebrew) the first one to suggest that the Earth is a sphere?",
-    "10472": "Is Paul Ryan's Congress record of two bills passed unusual?",
-    "10490": "Does the new Testament claim that Mary, mother of Jesus, was a virgin?",
-    "10507": "Do victims of rape have biological defenses that prevent pregnancy?",
-    "10606": "Length of uncoiled human DNA",
-    "10756": "Does flossing your teeth regularly increase your lifespan?",
-    "10763": "Is Earth as smooth as a billiard ball?",
-    "10823": "Is racial resentment towards African Americans correlated with Democrats support of a political position?",
-    "10831": "Was the date for the 9/11 attack chosen to be the same as the emergency number in the U.S. (911)?",
-    "10898": "Does the US Health Care Bill have a provision of RFID chip implants on Americans?",
-    "10909": "Is it, in some parts of the U.S., easier to get a rifle than to register to vote?",
-    "10954": "Does the DNA of one sperm contain 37.5 MB of information?",
-    "10979": "Do lower income workers tend to vote Republican?",
-    "11018": "Do hares chew cud?",
-    "11152": "Can Exocet missiles be remotely disabled with secret codes?",
-    "11186": "Was the September 2012 jobs report manipulated for political purposes?",
-    "11187": "Can headaches be relieved by massaging pressure points in the hands and feet?",
-    "11224": "Does the Eneloop battery have lower self-discharge?",
-    "11249": "Hedge fund performance due to chance?",
-    "12328": "Is climate close to a \"tipping point\"?",
-    "12487": "Do human eyes grow after birth?",
-    "13592": "Does drinking coffee greatly reduce the risk of developing Alzheimer’s disease?",
-    "13604": "Does sodium bicarbonate reduce the risk of cancer?",
-    "13638": "Is voter fraud practically non-existent in the United States?",
-    "13655": "Is typical indoor concentration of VOC correlated to concentration of CO₂?",
-    "13711": "Can the over-use of energy drinks cause a heart attack?",
-    "13764": "Is there a \"sweet spot\" of secondary engagement that makes driving safer?",
-    "13800": "Does the Retina Display cause less eyestrain than other screens?",
-    "13807": "Does a cell phone emit 1000 times more radiation when its battery is low?",
-    "13841": "Do frank (but not gratuitous) discussions or depictions of sexuality traumatize children?",
-    "13879": "Will 25% of people in Western society develop a mental disorder during their life?",
-    "13902": "Do humans share 99% of their DNA with rats?",
-    "13907": "Does the ripeness of a banana have any effect on causing constipation?",
-    "14007": "Do the 3 red stars on Washington DC's flag represent 3 city states?",
-    "14022": "Are 1 million people a year date raped?",
-    "14028": "Does working over 40 hours a week makes you less productive?",
-    "14098": "How often are guns used by private citizens in self defense per year in the United States?",
-    "14123": "What is the value of armed bystanders in preventing gun deaths?",
-    "14134": "Are humans incapable of digesting gluten?",
-    "14148": "Did more than 660 High-School students die as a direct result of Football injuries?",
-    "14166": "Is it illegal to air a prank call in the United States because of FCC regulation?",
-    "14175": "Recommendation of the Canadian Paediatric Society to never clip tongue ties for breastfeeding",
-    "14181": "Is poker more a game of skill than chance?",
-    "14263": "Are most people right handed, because they had to protect their heart?",
-    "14375": "Do fingerprint scanners cause skin cancer?",
-    "14511": "Are air humidifiers necessary, does low humidity have negative heath effects?",
-    "14537": "Is \"strawberry quik\" and chocolate flavored meth going around schools?",
-    "14569": "Have we only mined 16 tonnes of platinum in the whole of history?",
-    "14575": "Are over 90% of school shooters on anti-psychotics?",
-    "14623": "If comparing white populations, does the U.S. have the same murder rate as Belgium?",
-    "14663": "Did the Aurora, Colorado movie theater killer select the only nearby theater where guns were prohibited?",
-    "14665": "Is there an iPhone app that can make corn kernels pop?",
-    "14680": "Do Elite US military units use Kalashnikov weapons?",
-    "14692": "Does the bulletproof diet work?",
-    "14832": "Did Barack Obama receive 108% of the vote in one Ohio county?",
-    "14881": "Is the eye-movement aspect of EMDR therapy more effective than other available therapies for treating trauma survivors?",
-    "14889": "Are the IPCC climate change models overestimating sensitivity to carbon dioxide?",
-    "14912": "Does this creation model conflict with modern science?",
-    "14923": "Span of Control: 5-7 direct subordinates of one manager",
-    "15017": "Is there no link between the meteor that affected Russia and the asteroid 2012 DA14?",
-    "15088": "Are ants afraid of chalk and won't cross a chalk line?",
-    "15106": "Did the Republican Party in the House of Representatives recently propose not a single job bill, but many morality and gun-related bills?",
-    "15143": "Does honey with warm water and lemon reduce tummy fat?",
-    "15159": "Is cooked protein less digestible than raw protein?",
-    "15176": "Is \"peak wind\" coming?",
-    "15184": "Will your eyes pop out if you sneeze with your eyes open?",
-    "15235": "Did Swedish tax rate ever exceed 100%?",
-    "15361": "How many almonds does it take to get cyanide poisoning?",
-    "15424": "Are fossil fuels making the world greener?",
-    "15440": "Could McDonald's pay a $10.10 minimum wage with an increase of only 4¢ per meal?",
-    "15442": "Did 2.5 million Americans serve in the Afghanistan and Iraq wars from 2001 to 2013?",
-    "15467": "Does pumping gas when the tank is half full and on the low flow setting provide an economic benefit?",
-    "15476": "Will entering the ATM's PIN in reverse notify the police?",
-    "15504": "Is Australia the highest per capita emitter of greenhouse gases in the OECD?",
-    "15538": "Does urine have health benefits?",
-    "15582": "Are there 60,000 miles of blood vessels in the human body?",
-    "15605": "Does the fasting two times a week diet (the 5:2 diet) provide health benefits?",
-    "15626": "Can HAARP warp space-time?",
-    "15658": "Has nuclear power generation saved millions of lives from avoided air pollution?",
-    "15767": "Were flu vaccines 9% effective for the elderly in 2013?",
-    "15838": "Can a plant survive bottled in its own ecosystem for 50 years?",
-    "15910": "Do wild dogs use trains to commute to and from Moscow?",
-    "15948": "Is the immigrant/crime correlation simply explained by lower wealth?",
-    "15951": "Does physics give a climate sensitivity to carbon dioxide of about 3°C?",
-    "16007": "Is the value of a tree $193,250?",
-    "16022": "Can CT scans performed on a child's head lower his or her intelligence?",
-    "16112": "Is D-Wave Systems's \"D-Wave One\" a quantum computer?",
-    "16313": "Is it accurate to say that 97% of experts agree that global warming is anthropogenic?",
-    "16408": "Is global temperature significantly affected by time of galactic year?",
-    "16672": "Do major events on tv have the potential to wreak havoc on utilities such as water and electricity?",
-    "16742": "Does honey and cinnamon cure any diseases?",
-    "16813": "Oxygen buildup in the atmosphere",
-    "16829": "Will NSA's Utah Data Center be able to handle and process five zettabytes of data?",
-    "16920": "Is wheat the cause of numerous, serious health problems?",
-    "16962": "Were snakes an ancient symbol of wisdom, fertility, and immortality?",
-    "17053": "Can mobile phones be tracked when they're switched off?",
-    "17054": "Life expectancy of girls born after 1970",
-    "17057": "Are 42% of human deaths worldwide from abortion?",
-    "17085": "Can a combination of wind and ice move a 700 lb (300 kg) rock?",
-    "17136": "Can some simple, old models of the effect of CO₂ predict temperature better than complex modern climate simulations?",
-    "17156": "Are many US Army Rangers young people with no combat experience?",
-    "17190": "Is Japanese technological innovation less ground-breaking than Western technological innovation?",
-    "17225": "What is the largest amount of protein the body can absorb in a single meal?",
-    "17304": "Do forests increase atmosphere's oxygen?",
-    "17407": "Does marijuana impair driving?",
-    "17445": "Have there been 28 years of \"above average temperatures\"?",
-    "17514": "Are specific scents sexually attractive to women or men?",
-    "17544": "Does a Geyser Blanket save electricity?",
-    "17572": "Do LED lights of any colour damage your eyes?",
-    "17584": "Is the cost of preventing climate change 50 times higher than the cost of adapting to it?",
-    "17655": "Does this graph show climate-change predictions don't meet observations?",
-    "17684": "During EAA Airventure Oshkosh, is Wittman Regional Airport the \"world's busiest\"?",
-    "17685": "Did one Avro Arrow (CF-105) avoid being scrapped?",
-    "17695": "Did the Arctic Ice Sheet grow by 60% from 2012 to 2013?",
-    "17776": "Did Pascal write: \"Men never do evil so completely and cheerfully as when they do it from religious conviction\"?",
-    "17859": "Is Polish the hardest language to learn?",
-    "17908": "Is the US government preparing to remove religiosity in the population with a virus, using vaccines as a vector?",
-    "17910": "Are there back doors in Lenovo-built PCs?",
-    "17957": "Was the molten salt reactor (MSR) at Oak Ridge shut down over weekends?",
-    "17983": "Do elephants \"trunk\" themselves (masturbate)?",
-    "17995": "Did the IPCC obfuscate the evidence in a way that obscures the discrepancy between previous climate models and recent observations?",
-    "18017": "Is consuming drinking water stored in PET bottles harmful",
-    "18090": "Do modern toothbrush features remove more plaque than regular toothbrushes?",
-    "18136": "Is climate change currently good for the world economy?",
-    "18246": "Do restaurants in China recycle 'gutter oil'?",
-    "18257": "Do 50% of prostitutes have HIV?",
-    "18272": "Does the phase-out of incandescent light bulbs measurably reduce overall electrical power consumption?",
-    "18329": "Does Roundup harm mammals?",
-    "18338": "Is this tealight-flowerpot heater more efficient than just tealights?",
-    "18381": "Does England devote as much land to Golf as housing?",
-    "18392": "Was 31.5% of Medicare payments in 2006 the result of fraud?",
-    "18442": "How fair is \"N% lower environment load\" claim for lower grammage paper?",
-    "18507": "Was Truman told that the first atom bomb was going to be used on a military target?",
-    "18536": "Why was the tuning standard changed from 432 Hz to 440 Hz?",
-    "18539": "Has Stack Overflow saved billions of dollars in programmer productivity?",
-    "18549": "Is the Pareto Principle applicable to national alcohol consumption?",
-    "18688": "Is Jesus Christ's birth day March 28th?",
-    "18727": "Are there any historical records of Gospel miracles?",
-    "18764": "Are Roman numerals used in the end credits of films to mask their age?",
-    "18805": "Are electric toothbrushes better than standard ones?",
-    "18814": "Is a billion dollar lobbying campaign primarily responsible for opposition to climate policy?",
-    "18877": "Is the Newborn Vitamin K Injection Linked to Cancer or Leukemia?",
-    "18887": "Is \"treatment induced injury\" one of the leading causes of death and disability?",
-    "18913": "Did a Jewish prisoner write this quote about God and forgiveness?",
-    "18950": "Does this video show Fukushima Daiichi radiation in San Francisco?",
-    "18995": "Are some people born funnier than others?",
-    "19042": "Can NSA's portable surveillance radars emit 1kW of RF energy?",
-    "19170": "Does the Theradome Laser Helmet deliver around 7 J/cm2 to the head?",
-    "19296": "Do 52% of computer users lose irreplaceable documents, photos, music and videos every year?",
-    "19417": "Do Jews mostly descend from Shem, son of Noah?",
-    "19604": "Does size 12 Times New Roman font receive better grades in school?",
-    "19615": "Do tinfoil hats protect against any sort of radiation?",
-    "19625": "Does red meat increase the risk of heart disease?",
-    "19816": "Have more people been killed by automobiles than by all wars combined?",
-    "19914": "Does lowering speed limits by 10 km/h have any impact on air pollution?",
-    "19917": "Blowing on food",
-    "19964": "Is it possible to (reliably) diagnose malaria with a noninvasive device/smartphone app?",
-    "19986": "Can looking at pictures tell you something about your personality?",
-    "20021": "Does regular self-induced vomiting provide any health benefit?",
-    "20045": "What is the five-year failure rate for condom-usage?",
-    "20090": "How many people have lost their health insurance as a result of the ACA (Obamacare)?",
-    "20101": "Is ocean acidification happening?",
-    "20122": "Did a soldier fight off 40 train robbers?",
-    "20139": "Do poor children hear 30 million fewer words by age 3?",
-    "20146": "Is food in Alberta, Canada contaminated with radioactivity?",
-    "20159": "Are actuarial life expectancy tables based on information that is 40 years out of date?",
-    "20216": "Is sugar one element away from cocaine or any other drug?",
-    "20230": "Does GPS use General Relativity?",
-    "20263": "Did the Ourang Medan \"ghost ship\" exist?",
-    "20344": "Are the latest estimates of the cost of climate policy five time higher than the projected benefits?",
-    "20381": "Does eating yeast stop you from getting drunk?",
-    "20448": "Has anthropogenic climate change been disproven?",
-    "20525": "Sharing tool claims files can be \"unshared\"",
-    "20554": "Is cryolipolisis effective as a fat reduction method?",
-    "20605": "Is carbon dioxide from a mosquito trap potent enough to attract mosquitoes?",
-    "20703": "Are snowflakes incapable of four-fold symmetry?",
-    "20704": "Do full-time working women earn 77 cents for every dollar a man earns?",
-    "20716": "Does Carbon Dioxide mix well in the atmosphere?",
-    "20737": "Can cold viruses remain dormant in your bones, and later emerge when you are exposed to cold temperatures?",
-    "20771": "Wearing Steel toe boots will burn more calories than normal shoes",
-    "20833": "Is the mustard seed the smallest of seeds?",
-    "20860": "Did goldsmiths invent fractional reserve banking?",
-    "20870": "Is there a nutritional difference between Grain-Fed and Grass-Fed beef?",
-    "21942": "Does a kneeling chair reduce back pain?",
-    "21995": "Does garlic improve hair growth in androgenetic alopecia?",
-    "22029": "Can acupuncture increase blood flow to a muscle?",
-    "22073": "Is Matt Ridley's assertion that the most extreme of the IPCC climate projections is based on very implausible assumptions correct?",
-    "22089": "Did fertilising the ocean with 100 tons of iron sulphate increase the salmon catch by over 100,000 tons?",
-    "22093": "Does Beck's chemical analysis of CO₂ discredit the Law Dome ice core findings?",
-    "22106": "Do 3.5 billion people watch Tour de France on TV every year?",
-    "22122": "Does temperature drive CO₂?",
-    "22145": "Do 7 to 12 year olds need 10 to 11 hours of sleep per day?",
-    "22154": "Is it possible to determine dishonesty in a person through body language?",
-    "22221": "Did irradiated Chernobyl firefighters re-volunteer to avoid others being affected?",
-    "22250": "Do lemons act as bases in the body?",
-    "22258": "Is there more global sea ice than 35 years ago?",
-    "22285": "Did both higher temperatures and an ice age exist at CO₂ levels ten times the present?",
-    "22292": "Do higher CO₂ concentrations increase plant well-being?",
-    "22380": "Are medics often incapable of understanding or communicating statistical results to their patients?",
-    "22394": "Will Lori Robinson command the largest ever theater of operation for a non-pilot?",
-    "22404": "Does beetroot cure cancer?",
-    "22412": "Do animals commit suicide?",
-    "22449": "Have one million Christians been persecuted to death or exile in Iraq by jihadis?",
-    "22467": "Was the MH17 video taken in Ukraine-held territory?",
-    "22489": "Does the \"Nonstop Elevator Hack\" work?",
-    "22501": "Are there enough IPv6 addresses for every atom on the surface of the Earth?",
-    "22549": "Did Coca-Cola contain cocaine?",
-    "22630": "Is Google Chrome killing my laptop battery?",
-    "22692": "Do video games improve reflexes & reaction time?",
-    "22730": "Was Aeroflot SU2074 intended target in MH17 shooting?",
-    "22870": "Should I cut off black banana ending before eating?",
-    "22876": "Does Calendula Gel promote healing of minor burns?",
-    "22890": "Does unflavoured carbonated water cause damage to teeth?",
-    "22940": "Is viewing extremist material a terrorism offence?",
-    "23014": "Was St Peter a bishop of Rome?",
-    "23213": "Is it a felony in Montana for a wife to open her husband's mail?",
-    "23216": "Did Martin Luther refer to physicians who assume diseases come from natural causes as \"ignorant blockheads\" (or the German equivalent)?",
-    "23218": "Quibble with Dawkins's reasoning on the watch-stopping probability on a psychic audience",
-    "23321": "Did Volkswagen, Chrysler and/or GM cut diesel tailpipe emissions by ~99% over a decade?",
-    "23354": "Does Apple install suicide prevention nets at their Chinese factories?",
-    "23358": "Is there a correlation between voting for the Democratic Party and gun crimes in the USA?",
-    "23496": "Did Republicans cut the budget of NIH and CDC in years leading up to Ebola?",
-    "23619": "Is there a cure for Ebola?",
-    "23643": "Would lowering the speed limit in NYC by 5mph lower the number of pedestrian deaths by a factor of 2?",
-    "23667": "Can hypnosis make things subjectively disappear?",
-    "23684": "Do 25 million meteors enter Earth's atmosphere each day?",
-    "23731": "Is it more dangerous to ride a motorcycle [with a helmet] than to drive a car?",
-    "23767": "In the movie \"Life of Brian\", were the guard extras told that they couldn't laugh?",
-    "23853": "Have prior U.S. Presidents used executive actions to change immigration policy",
-    "23860": "When is the origin of Datura in India?",
-    "23933": "Are any aborted \"children\" born alive?",
-    "25162": "Did Saint Charbel Makhluf's body remain intact for 50 years?",
-    "25276": "In Chinese culture is it good luck to let facial mole hair grow long?",
-    "26486": "Did the Hebrew exodus from Egypt ever happen?",
-    "26764": "Do atheists commit far fewer crimes?",
-    "26892": "Would life not exist on Earth if it was one kilometer closer to, or farther from, the sun?",
-    "26907": "Did a Jewish rabbi precisely calculate the duration of the full moon cycle 1800 years ago?",
-    "26918": "Could people perceive the color blue in ancient times?",
-    "26978": "Is fluoride an ingredient in Prozac and rat poison?",
-    "26990": "Did Feeras Antoon cheat porn star Mia Khalifa up to number 1 on PornHub?",
-    "27023": "Do 2/3 of \"vegetarians\" fail to stick to a vegetarian diet?",
-    "27125": "Do you need specialist filters to look at the sun?",
-    "27183": "Is brown rice healthier than white rice?",
-    "27194": "Does exercise affect the number of muscle cells?",
-    "27223": "Are razor blades tax-free in the UK?",
-    "27330": "Is this video by Carl Sagan?",
-    "27341": "Are the bones of puppies not joined at 2 weeks old?",
-    "27352": "Were Mermaid passengers shipwrecked by 5 different vessels before being successfully rescued?",
-    "27441": "Is this photograph of Frank Sinatra as a 10 year old real?",
-    "27468": "Was measles vaccine introduced after the disease was under control",
-    "27471": "Does the word \"butterfly\" stem from an erroneous transcription of \"flutterby\"?",
-    "27499": "How long does it take expanded Antarctic sea ice to reach New Zealand?",
-    "27532": "Did Donnie Decker exist and could he make it rain at will?",
-    "27572": "Can vinegar and essential oils repel ticks?",
-    "27578": "Does smiling make us more happy?",
-    "27590": "Are there more open jobs than available developers?",
-    "27678": "How are airplane contrails linked to climate change?",
-    "27710": "Is it true that the best programmer in the office is 30 times faster than the worst programmer in the office?",
-    "27723": "Are Earthquakes on the rise?",
-    "27779": "\"62 workers may lose their lives for each game played during Qatar’s 2022 World Cup\" - realistic estimate, or not?",
-    "27934": "Is eating rice harmful to birds?",
-    "27948": "Is all gold ever mined able to fit in a 20x20x20 meter cube?",
-    "28118": "Is the US FDA policy of deferring blood donations from MSM justified by increased STD risk?",
-    "28140": "Are annual female rape and male \"made to penetrate\" rates similar in the US?",
-    "28211": "Do homosexuals have a shorter life expectancy than heterosexuals?",
-    "28230": "Are there discriminatory laws against Israelis marrying Palestianians?",
-    "28239": "Is it prohibited to marry more than one woman in US?",
-    "28277": "Did Yanis Varoufakis tweet to Lagarde about repaying dues?",
-    "28283": "Do civil servants in Greece receive 3 days of holiday for donating blood?",
-    "28298": "Does the average Russian drink 250mL of vodka a day?",
-    "28314": "Was there a study finding that being an atheist is viewed on the level of being a rapist in the US?",
-    "28376": "Do London underground drivers earn more and work less than NHS doctors?",
-    "28382": "Are there 30 million non-legal immigrants in the United States?",
-    "28536": "Does James Woods have an IQ of 180?",
-    "28589": "Would eating a packet of cigarettes be fatal?",
-    "28601": "Has a \"chariot army\" been found at the bottom of the Red Sea?",
-    "28612": "Is this description of the processes which take place in the body for an hour after drinking Coca Cola accurate?",
-    "28634": "Was the mileage of the Apollo spaceships 7 inches to the gallon for their moon flights?",
-    "28661": "Do abortions make up only 3% of Planned Parenthood's services?",
-    "28897": "Are there people who do not sleep at all?",
-    "29944": "Is the world record for staying in an anechoic chamber an hour or less?",
-    "30013": "Does it cost £1.5 to clean up every piece of gum left on UK Streets?",
-    "30017": "Can taking Cialis cure Erectile Dysfunction permanently?",
-    "30033": "Was marriage defined as \"selling your daughter for three goats and a cow\" in the Bible?",
-    "30048": "Is Saudi Arabia hosting ~2.5 million Syrian refugees?",
-    "30102": "Has the historical average temperature stayed the same since 1980",
-    "30134": "Did Columbus have Jewish ancestry?",
-    "30215": "Does deepnet have only 7100 onion sites?",
-    "30274": "Is there one climate model equation or are there many?",
-    "30337": "A century ago, was giving birth a major cause of death?",
-    "30361": "Are child thyroid cancer rates around Fukushima 20—50x higher?",
-    "30562": "Did Exxon suppress its own scientific results on climate change?",
-    "30579": "Is yellow the most conspicuous color?",
-    "30607": "Could this monk have lived nine days without food, water and sleep?",
-    "30660": "Do saliva glands emit urine?",
-    "30700": "Is 2.4GHz IEEE 802.11 (WiFi) Dangerous?",
-    "30796": "Is this comparison of wedge tailed eagles and bald eagles accurate?",
-    "30846": "Did Senator McCain ever meet ISIS leader al-Baghdadi?",
-    "30874": "Do 3400 Americans die from household firearms every five weeks?",
-    "30883": "Can all new gasoline vehicles run on E85 ethanol-based fuel?",
-    "30903": "Do rusty nail wounds cause tetanus?",
-    "30921": "Are there 'friendly' fire restrictions programmed into exported (american) weaponry?",
-    "30925": "Are booster shots for pets required annually to maintain rabies immunity?",
-    "30929": "Was the Original Statue of Liberty a Muslim Woman?",
-    "30972": "Air travel risk vs taxi risk",
-    "30985": "Did 12 Michael Jackson fans die by suicide in wake of his death?",
-    "31022": "“War never changes”: Fallout or Ulysses S. Grant?",
-    "31026": "Do trees soak up pollution?",
-    "31058": "Does the bible explicitly forbide homosexuality?",
-    "31080": "Does an e-bike produces only 1/10 carbon emissions for each mile of an conventional electric car?",
-    "31156": "Do 1.4 million Chinese people die each year because of air pollution?",
-    "31222": "Has the US given more aid to the average Israeli citizen than the average American citizen?",
-    "31262": "Could the dinosaurs in the novel Jurasic Park possibly survive in modern climate?"
+  "questions": {
+    "41": {
+      "title": "Do human activities contribute to climate change?"
+    },
+    "195": {
+      "title": "Is there an autism epidemic?"
+    },
+    "278": {
+      "title": "How reliable is the research behind the flu-vaccine?"
+    },
+    "297": {
+      "title": "How dangerous is a broken compact fluorescent lamp (CFL)?"
+    },
+    "301": {
+      "title": "Do products that contain antioxidants have any value over products that do not?"
+    },
+    "321": {
+      "title": "Can toddlers learn sign language?"
+    },
+    "351": {
+      "title": "Does a car with a hybrid engine and Lithium batteries pollute more than a car with conventional technology?"
+    },
+    "359": {
+      "title": "Was the golden ratio deliberately used for aesthetics in ancient or Renaissance times?"
+    },
+    "394": {
+      "title": "Link between runny noses and rhinoviral infections"
+    },
+    "402": {
+      "title": "Is acupuncture an effective treatment?"
+    },
+    "434": {
+      "title": "How many of the facts in an average newspaper article are true?"
+    },
+    "459": {
+      "title": "What risk do pole reversals pose to human civilization?"
+    },
+    "734": {
+      "title": "Do men have a monthly cycle?"
+    },
+    "881": {
+      "title": "Crystal glassware contains lead. What health advice are reasonable?"
+    },
+    "907": {
+      "title": "Is the death penalty an effective deterrent?"
+    },
+    "956": {
+      "title": "Was Einstein a poor student?"
+    },
+    "979": {
+      "title": "Can HAARP affect weather or earthquakes?"
+    },
+    "1039": {
+      "title": "Are there fewer accidental deaths at nuclear power plants than others?"
+    },
+    "1052": {
+      "title": "Shroud of Turin -- is it absolutely and definitively debunked?"
+    },
+    "1244": {
+      "title": "Is LSD more harmful than alcohol?"
+    },
+    "1266": {
+      "title": "Could a Great Flood have happened?"
+    },
+    "1355": {
+      "title": "Is Barack Obama a natural born US citizen?"
+    },
+    "1368": {
+      "title": "On 9/11, was Building 7 destroyed in a controlled explosion?"
+    },
+    "1374": {
+      "title": "Does changing your pH balance change your mood?"
+    },
+    "1382": {
+      "title": "Was the world life expectancy only 30 years at 1900?"
+    },
+    "1438": {
+      "title": "Is the Earth 6000 years old?"
+    },
+    "1477": {
+      "title": "Was the Great Sphinx of Giza originally an Anubis?"
+    },
+    "1509": {
+      "title": "Would avoiding the eating of meat stop global warming?"
+    },
+    "1550": {
+      "title": "Can you only trace a phone call if they don't hang up?"
+    },
+    "1624": {
+      "title": "Did Jesus live?",
+      "general_tag": 1
+    },
+    "1664": {
+      "title": "Is it the current that kills you, not the voltage?"
+    },
+    "1678": {
+      "title": "Claimed similarities between Jesus Christ and Horus and other Gods",
+      "general_tag": 1
+    },
+    "1782": {
+      "title": "How effective is melatonin for aiding with sleep difficulty?"
+    },
+    "1800": {
+      "title": "Do mobile phones cause heart troubles?"
+    },
+    "1801": {
+      "title": "Did the development of agriculture prevent an ice age occurring?"
+    },
+    "1823": {
+      "title": "Is the net output of CO₂ from Nuclear Energy lower than the net output of other energy sources?"
+    },
+    "1825": {
+      "title": "Are there any studies that prove (or disprove) the idea of \"Six Degrees of Separation\"?"
+    },
+    "1924": {
+      "title": "Does recycling create more pollution than it prevents?"
+    },
+    "1955": {
+      "title": "Are any notable biblical characters historical figures?",
+      "general_tag": 1
+    },
+    "2059": {
+      "title": "Do rich companies pay little/no corporate income taxes in the United States?"
+    },
+    "2070": {
+      "title": "Can regular cold showers reliably improve health?"
+    },
+    "2074": {
+      "title": "Is demand for biofuels causing degredation of the environment in third world countries?"
+    },
+    "2093": {
+      "title": "Would a large quantity of gasoline in a closed container explode violently when exposed to fire?"
+    },
+    "2103": {
+      "title": "Ammonia content of beef in USA"
+    },
+    "2107": {
+      "title": "Is there systemic sexual abuse of children by Catholic priests?",
+      "general_tag": 1
+    },
+    "2141": {
+      "title": "Does bathing using a shower use more water than using a bucket or bath-tub?"
+    },
+    "2167": {
+      "title": "Is anti-malware software effective?"
+    },
+    "2181": {
+      "title": "Has anyone noteworthy given up their US citizenship to escape taxation?"
+    },
+    "2203": {
+      "title": "Were Kinsey's studies debunked?"
+    },
+    "2234": {
+      "title": "Is programming in Python faster than in C, C++ or Java?"
+    },
+    "2277": {
+      "title": "Is flatus flammable?"
+    },
+    "2330": {
+      "title": "Is eating cloven-hoofed animals, bottom-feeders or ruminants bad for you?",
+      "general_tag": 1
+    },
+    "2335": {
+      "title": "Is there any observable evidence of the Big Bang?"
+    },
+    "2359": {
+      "title": "The origin of \"99 cents\""
+    },
+    "2409": {
+      "title": "Do small businesses create the majority of the jobs in America?"
+    },
+    "2435": {
+      "title": "Are CFLs always more ecologic than incandescent light bulbs?"
+    },
+    "2458": {
+      "title": "Is suicide through thought possible?"
+    },
+    "2497": {
+      "title": "Reading while lying down is more strenuous (unhealthy) for eyes"
+    },
+    "2591": {
+      "title": "Does \"stripping the skin's oils\" with soap or shampoo cause the skin to produce more oil than normal?"
+    },
+    "2667": {
+      "title": "Did we have a \"global cooling\" 40 years ago?"
+    },
+    "2679": {
+      "title": "Is there a correlation between penis size and race?"
+    },
+    "2761": {
+      "title": "Did Martin Luther King, Jr. say that \"I will not rejoice in the death of one, not even an enemy\"?"
+    },
+    "2785": {
+      "title": "Did Apple \"jumpstart\" the USB market?"
+    },
+    "2799": {
+      "title": "Is it possible to fly 4 helicopters anywhere in a country without official knowledge?"
+    },
+    "2839": {
+      "title": "Do we lose most of our body heat through our heads?"
+    },
+    "2849": {
+      "title": "Do expensive, \"premium\" speaker cables make a difference?"
+    },
+    "2867": {
+      "title": "Is the Pale Blue Dot smaller than a pixel?"
+    },
+    "2879": {
+      "title": "Who invented the chicken sandwich?"
+    },
+    "2891": {
+      "title": "Is the Amazon being cleared at the rate of X football fields a minute?"
+    },
+    "2929": {
+      "title": "Does the theory of evolution contradict the second law of thermodynamics?"
+    },
+    "2962": {
+      "title": "Did car and oil companies actively try to suppress electric cars' development?"
+    },
+    "2973": {
+      "title": "Do hotels omit the 13th floor?"
+    },
+    "2975": {
+      "title": "Does the Dvorak keyboard increase typing speed?"
+    },
+    "3000": {
+      "title": "Does the container that soda is in affect the flavour?"
+    },
+    "3005": {
+      "title": "Not recycling vs air travel - which is worse?"
+    },
+    "3023": {
+      "title": "Is replacing paper towels with electric hand dryer blowers beneficial to the environment?"
+    },
+    "3026": {
+      "title": "Was Sir Arthur Conan Doyle responsible for the Piltdown Man hoax?"
+    },
+    "3028": {
+      "title": "Is a woman who dresses sexually suggestively more likely to get raped?"
+    },
+    "3040": {
+      "title": "Is there a high chance of being raped in US prisons?"
+    },
+    "3085": {
+      "title": "Why do cats and dogs fight?"
+    },
+    "3167": {
+      "title": "Do condoms have large enough holes for HIV to pass through?"
+    },
+    "3316": {
+      "title": "Does an \"apple a day keep the doctor away\"?"
+    },
+    "3331": {
+      "title": "Does black magic work?"
+    },
+    "3364": {
+      "title": "Were there any Jews among the Nazi top people?"
+    },
+    "3402": {
+      "title": "Did Bill Nye get booed by a room full of Texans for saying that the moon reflected the suns light?"
+    },
+    "3409": {
+      "title": "High Fructose Corn Syrup vs Cane Sugar (aka Battle of the Bulge)"
+    },
+    "3435": {
+      "title": "Is CO₂ the cause for Global Warming?"
+    },
+    "3439": {
+      "title": "Could climate affect Aisha's age of sexual maturity?"
+    },
+    "3465": {
+      "title": "Does the color temperature of a computer screen affect sleep patterns?"
+    },
+    "3469": {
+      "title": "Can ants lift 50 times their weight?"
+    },
+    "3487": {
+      "title": "Does using ethanol fuel save money, and is it better for the environment?"
+    },
+    "3515": {
+      "title": "Is Kiva a scam?"
+    },
+    "3529": {
+      "title": "Did Moses live?",
+      "general_tag": 1
+    },
+    "3531": {
+      "title": "Can we determine the percentage of statistics made up out of thin air?"
+    },
+    "3574": {
+      "title": "Can you get drunk with Vodka vapour using a humidifier?"
+    },
+    "3579": {
+      "title": "Does legalizing prostitution lead to an increase in human trafficking?"
+    },
+    "3612": {
+      "title": "Does sleeping with our heads pointing towards north pose any health risks?"
+    },
+    "3635": {
+      "title": "Do active volcanoes emit more CO₂ than humans?"
+    },
+    "3665": {
+      "title": "Can a television thrown in a bathtub kill someone?"
+    },
+    "3794": {
+      "title": "Is the 'glycogen restoration window' real?"
+    },
+    "3805": {
+      "title": "Is fluoride in water an industry waste product?"
+    },
+    "4086": {
+      "title": "Does Ferrari cheat at track tests?"
+    },
+    "4124": {
+      "title": "Is it possible to cause problems to an aircraft pilot with an \"over-the-counter\" laser?"
+    },
+    "4133": {
+      "title": "Is it better to water lawn in the morning or in the evening?"
+    },
+    "4134": {
+      "title": "Drinking after eating fruits causing belly-ache?"
+    },
+    "4165": {
+      "title": "Are there more 40-moves chess games than atoms in the universe?"
+    },
+    "4209": {
+      "title": "Is it necessary to change motor oil every 5,000km/3,000 miles?"
+    },
+    "4282": {
+      "title": "Is it necessary to leave a pool during a thunderstorm?"
+    },
+    "4386": {
+      "title": "Does toothpaste cause acne?"
+    },
+    "4409": {
+      "title": "Do women prefer taller men?"
+    },
+    "4425": {
+      "title": "Was the character of Lilith written out of the Bible?",
+      "general_tag": 1
+    },
+    "4466": {
+      "title": "Do carpool lanes help reduce traffic congestion more than adding an extra lane would?"
+    },
+    "4483": {
+      "title": "Can you test for microwave leaks by putting a cell phone inside and calling it?"
+    },
+    "4498": {
+      "title": "Does torture work well as an interrogation technique?"
+    },
+    "4551": {
+      "title": "Do Personal Development Seminars bring real long-term benefits?"
+    },
+    "4709": {
+      "title": "Doctors and Handwriting: is it so bad that it inadvertently kills patients?"
+    },
+    "4740": {
+      "title": "Is public transport less fuel-efficient than cars?"
+    },
+    "4787": {
+      "title": "Do long married couples look more alike?"
+    },
+    "4902": {
+      "title": "Do chocolate bars cause pimples?"
+    },
+    "4948": {
+      "title": "Is it better to store fizzy drinks inside the fridge or outside?"
+    },
+    "5034": {
+      "title": "Was the opposition of the Catholic Church to contraception based on the Homunculi theory?"
+    },
+    "5101": {
+      "title": "Does the production of a home PV solar panel provide a net benefit to the environment?"
+    },
+    "5102": {
+      "title": "Does recharging a battery when it is only half-way dead decrease its life span?"
+    },
+    "5122": {
+      "title": "Does the digestion of some foods burn more calories than it supplies?"
+    },
+    "5167": {
+      "title": "Will putting a car remote under your chin increase its range?"
+    },
+    "5187": {
+      "title": "Is it possible to detect a laptop inside of a car boot?"
+    },
+    "5191": {
+      "title": "Cohabiting couples more likely to divorce?"
+    },
+    "5202": {
+      "title": "Has the Catholic Church ever retracted an \"ex cathedra\" statement?",
+      "general_tag": 1
+    },
+    "5258": {
+      "title": "Shouldn't tell about pregnancy in first trimester"
+    },
+    "5274": {
+      "title": "Are blondes dumb or is it just a sarcastic saying?"
+    },
+    "5291": {
+      "title": "The mystery of \"Numbers Stations\""
+    },
+    "5334": {
+      "title": "Do wind farms have a significant impact on weather patterns in the US?"
+    },
+    "5360": {
+      "title": "Do the Swiss have exceptionally good train timings?"
+    },
+    "5460": {
+      "title": "Are pediatricians immune to common communicable diseases?"
+    },
+    "5480": {
+      "title": "Does Apple have more cash reserves than the U.S. government?"
+    },
+    "5504": {
+      "title": "Do people intuitively turn a particular direction?"
+    },
+    "5506": {
+      "title": "Is indoor air pollution higher than outdoor air pollution?"
+    },
+    "5527": {
+      "title": "Did Denmark reduce their need for hospitals by two-thirds?"
+    },
+    "5544": {
+      "title": "Your domain name may take 24-48 hours to propagate"
+    },
+    "5576": {
+      "title": "Is the British monarchy economically beneficial?"
+    },
+    "5581": {
+      "title": "Are airplanes the safest mode of transportation?"
+    },
+    "5602": {
+      "title": "Does aromatherapy have proven efficacy in certain cases?"
+    },
+    "5617": {
+      "title": "Are electric cars beneficial to the environment compared to low consumption modern cars?"
+    },
+    "5629": {
+      "title": "Does \"fracking\" cause earthquakes?"
+    },
+    "5756": {
+      "title": "Homeopathic Sinus Pain/Allergy Relief"
+    },
+    "5861": {
+      "title": "Is cycling worse for the environment than driving to work if you need to take a shower?"
+    },
+    "5871": {
+      "title": "Fasting for 40 days - is it possible?",
+      "general_tag": 1
+    },
+    "5882": {
+      "title": "Is the Agenda 21 Conspiracy true?"
+    },
+    "5930": {
+      "title": "How much are United Airlines reducing their carbon emissions by giving pilots iPads?"
+    },
+    "5993": {
+      "title": "Is carbon-14 still increasing in the atmosphere?"
+    },
+    "5998": {
+      "title": "Can you detect a hidden camera in a trial room/changing room with your phone?"
+    },
+    "6066": {
+      "title": "Do houseplants have any impact on oxygen levels?"
+    },
+    "6079": {
+      "title": "Could I safely use copper sulfate in my swimming pools as an algaecide?"
+    },
+    "6089": {
+      "title": "Kindle vs Books and ecofriendliness"
+    },
+    "6100": {
+      "title": "How is structural unemployment measured?"
+    },
+    "6114": {
+      "title": "Can trained humans run faster than all other animals on a marathon distance?"
+    },
+    "6132": {
+      "title": "Do the \"rhythm\" or \"standard days\" methods of birth control eventually cause more embryonic death than other methods?"
+    },
+    "6141": {
+      "title": "Is it beneficial to drink alkaline water (aka Kangen water)?"
+    },
+    "6166": {
+      "title": "Is osteopathic medicine evidence based?"
+    },
+    "6191": {
+      "title": "Does (diet) soda cause tooth decay?"
+    },
+    "6217": {
+      "title": "Can you improve a car's engine by driving the car fast?"
+    },
+    "6222": {
+      "title": "Do the majority of Americans take the Noah's ark story from the Bible literally?",
+      "general_tag": 1
+    },
+    "6275": {
+      "title": "Is margarine \"one molecule away from plastic\"?"
+    },
+    "6308": {
+      "title": "What is the nature of ghost lights like Naga Fireballs, Will-o'-the-Wisp, Min Min Light, Hessdalen lights, Chir Batti, et. al"
+    },
+    "6389": {
+      "title": "Do simple checklists applied in operating theatres significantly reduce the rates of complication and death from surgery?"
+    },
+    "6424": {
+      "title": "Will increased speed limits on motorways (or highways) cause significant harm?"
+    },
+    "6425": {
+      "title": "Is an ice-cream tub made of a single molecule?"
+    },
+    "6473": {
+      "title": "Is routine screening for breast cancer for asymptomatic women worthwhile?"
+    },
+    "6501": {
+      "title": "Do black cars consume more fuel?"
+    },
+    "6518": {
+      "title": "Is skin cancer the leading cause of cancer death of young adult women?"
+    },
+    "6572": {
+      "title": "Are slick bicycle tires more slippery in the wet?"
+    },
+    "6605": {
+      "title": "Did Hitler survive until 1962?"
+    },
+    "6611": {
+      "title": "Do pigs have 30 minute orgasms?"
+    },
+    "6664": {
+      "title": "Is casein from cow's milk harmful to humans over one year of age?"
+    },
+    "6686": {
+      "title": "Can remote starters make a car move unattended?"
+    },
+    "6708": {
+      "title": "Is Mecca at a special place on the earth's surface, dictated by the Golden Mean?"
+    },
+    "6730": {
+      "title": "Is an open internet access a productivity killer at the workplace?"
+    },
+    "6734": {
+      "title": "Has the UN low variant for population growth been the historically correct figure?"
+    },
+    "6744": {
+      "title": "Does \"Israel\" mean \"Exiled for their sins\"?"
+    },
+    "6757": {
+      "title": "Does grass alone produce enough oxygen for life?"
+    },
+    "6788": {
+      "title": "Is vinegar & baking soda an effective agent for disinfecting bacteria and mold?"
+    },
+    "6810": {
+      "title": "Can you die from eating chili peppers?"
+    },
+    "6824": {
+      "title": "Are value-added taxes naturally progressive?"
+    },
+    "6838": {
+      "title": "Is being a vegan more environmentally friendly than otherwise?"
+    },
+    "6839": {
+      "title": "Is there a Soviet doomsday device called \"Perimeter\" or \"Dead Hand\"?"
+    },
+    "6894": {
+      "title": "Has an appendectomy ever been required for submariners?"
+    },
+    "6926": {
+      "title": "Is 10% of the world's population homosexual?"
+    },
+    "6932": {
+      "title": "Does the Torah-encoded age of the universe match science?",
+      "general_tag": 1
+    },
+    "6952": {
+      "title": "Did Asian countries top an IQ survey of 50 countries?"
+    },
+    "6967": {
+      "title": "Did William Shakespeare help make the KJV bible?",
+      "general_tag": 1
+    },
+    "6978": {
+      "title": "Does exercising  in hot weather burn more calories?"
+    },
+    "7018": {
+      "title": "Is Internet gambling more harmful than regular gambling?"
+    },
+    "7061": {
+      "title": "Is running the engine for five minutes before driving beneficial for the car?"
+    },
+    "7072": {
+      "title": "Is the number of Windows users without security software now equivalent to the total number of Apple users?"
+    },
+    "7121": {
+      "title": "Is this story about someone taking revenge on his cheating ex-girlfriend by tattooing excrement on her back true?"
+    },
+    "7136": {
+      "title": "Does nutrition explain why puberty starts earlier than it used to?"
+    },
+    "7165": {
+      "title": "Do 50% of self reported homosexual teens no longer self report as homosexual by their twenties?"
+    },
+    "7202": {
+      "title": "Do oily foods have any effect on acne?"
+    },
+    "7212": {
+      "title": "Are 10% of mental health problems caused by abortion?"
+    },
+    "7253": {
+      "title": "Does the 'two-second rule' provide a valid minimum gap for safe driving?"
+    },
+    "7301": {
+      "title": "Is carob healthier than chocolate?"
+    },
+    "7384": {
+      "title": "Are pet RFID chips (eg: \"HomeAgain\") capable of fulfilling Revelations 13:16-17?",
+      "general_tag": 1
+    },
+    "7391": {
+      "title": "Are political leaders from Latin America unusually prone to cancer?"
+    },
+    "7454": {
+      "title": "Can a dead mouse sealed in a can of soda dissolve into a jelly-like substance in one year?"
+    },
+    "7499": {
+      "title": "Could Global Warming be good for life?"
+    },
+    "7571": {
+      "title": "Does skimmed milk have more added chemicals than whole milk?"
+    },
+    "7639": {
+      "title": "Is a spotlight like the Bat-Signal possible?"
+    },
+    "7657": {
+      "title": "Does every act of piracy impact revenue by the current content price?"
+    },
+    "7663": {
+      "title": "Once a burn has cooled (with water or not), does further submersion in cool water help?"
+    },
+    "7782": {
+      "title": "Are more people accidentally killed by doctors than accidentally killed by guns and traffic combined?"
+    },
+    "7789": {
+      "title": "Are the specific claims from the \"WSJ 16\" climate skeptics true?"
+    },
+    "7801": {
+      "title": "Do atoms exist?"
+    },
+    "7856": {
+      "title": "Does plucking the feathers from live and conscious birds cause them pain?"
+    },
+    "7998": {
+      "title": "Are \"pox parties\" safer than vaccines for children?"
+    },
+    "8042": {
+      "title": "Is there a significant difference between voters and non-voters preferences in political elections?"
+    },
+    "8070": {
+      "title": "Does pre-ejaculate typically contain sperm?"
+    },
+    "8100": {
+      "title": "Do Germans love David Hasselhoff?"
+    },
+    "8138": {
+      "title": "Is reducing carbon emission from cars futile?"
+    },
+    "8234": {
+      "title": "Can 7-Keto DHEA permanently increase the resting metabolic rate in humans?"
+    },
+    "8245": {
+      "title": "Does second hand smoke cause cancer?"
+    },
+    "8286": {
+      "title": "Were fat women considered as the norm of beauty in the past?"
+    },
+    "8299": {
+      "title": "Is it okay to eat food that has been through airport x-ray scanners"
+    },
+    "8316": {
+      "title": "Does contraception cause infidelity and/or divorce?"
+    },
+    "8329": {
+      "title": "Have leap days confused the calculated date for the \"end of the Mayan calendar\"?"
+    },
+    "8338": {
+      "title": "Are cheap sunglasses bad for your eyes?"
+    },
+    "8367": {
+      "title": "Do solar flares and/or geomagnetic storms affect human health?"
+    },
+    "8377": {
+      "title": "Does 528 Hz \"facilitate DNA repair\"?"
+    },
+    "8420": {
+      "title": "Is 94% of male giraffe sexual behaviour homosexual?"
+    },
+    "8442": {
+      "title": "Is red meat responsible for one in ten early deaths?"
+    },
+    "8537": {
+      "title": "Are there more people with genius IQs living in China than there are people total in the U.S.?"
+    },
+    "8560": {
+      "title": "How long is it possible to maintain concentration?"
+    },
+    "8576": {
+      "title": "Are Chia seeds a 'super-food'?"
+    },
+    "8650": {
+      "title": "Was there an organized early Jerusalem church?",
+      "general_tag": 1
+    },
+    "8668": {
+      "title": "Can Alpha Brain dietary supplement improve mental acuity and focus?"
+    },
+    "8672": {
+      "title": "Can air conditioner units emit vitamins?"
+    },
+    "8681": {
+      "title": "Are Elie Wiesel and Lazar Wiesel the same person?"
+    },
+    "8699": {
+      "title": "Is it possible to crush bacteria?"
+    },
+    "8717": {
+      "title": "Is overpopulation a myth?"
+    },
+    "8768": {
+      "title": "Does eating trans fatty acids affect immune response?"
+    },
+    "8841": {
+      "title": "Were metered taxis busy roaming Imperial Rome?"
+    },
+    "8854": {
+      "title": "Is global warming irreversible?"
+    },
+    "8883": {
+      "title": "Plants that release oxygen even at night"
+    },
+    "8895": {
+      "title": "Is it dangerous to wake a sleepwalker?"
+    },
+    "8904": {
+      "title": "Was the cretaceous the last time atmospheric carbon dioxide was significantly higher than it is today?"
+    },
+    "8905": {
+      "title": "Will a warming world directly damage human health?"
+    },
+    "8920": {
+      "title": "Did Warren Buffett pay a lower rate of income tax than his secretary?"
+    },
+    "8990": {
+      "title": "Does cows' milk contain blood?"
+    },
+    "9044": {
+      "title": "How often are recyclable items recycled?"
+    },
+    "9045": {
+      "title": "Are glaciers melting?"
+    },
+    "9083": {
+      "title": "Who wrote Shakespeare's plays?"
+    },
+    "9155": {
+      "title": "26 thousand users of Facebook list their location as Greenland"
+    },
+    "9180": {
+      "title": "Can a person forget their own name?"
+    },
+    "9191": {
+      "title": "Do the key Abrahamic holy books claim that their god is omnipotent, omniscient and omnibenevolent?",
+      "general_tag": 1
+    },
+    "9268": {
+      "title": "Is eating a banana on an empty stomach bad for you?"
+    },
+    "9383": {
+      "title": "Are there benefits to filling car tyres with Nitrogen?"
+    },
+    "9446": {
+      "title": "Do 33% of high school graduates never read another book for the rest of their lives?"
+    },
+    "9466": {
+      "title": "Can the Bioguard X bracelet protect the body from radiation?"
+    },
+    "9484": {
+      "title": "Is the name of Prophet Muhammad mentioned in the Bible?",
+      "general_tag": 1
+    },
+    "9522": {
+      "title": "Is Fukushima reactor No. 4 on the verge of catastrophic failure that will destroy the world?"
+    },
+    "9599": {
+      "title": "Is it illegal to sell used mattresses?"
+    },
+    "9603": {
+      "title": "Can a single cup of coffee help a person to wake up and be more focused?"
+    },
+    "9663": {
+      "title": "Does the radioactivity on Hiroshima's soil affect radiometric dating?"
+    },
+    "9704": {
+      "title": "Was the number of injuries happening to the Madden cover players unusually high?"
+    },
+    "9759": {
+      "title": "Will reducing atmospheric CO₂ reverse the effects of climate change over a few decades?"
+    },
+    "9772": {
+      "title": "Was 19 the average age of a combat soldier in Vietnam?"
+    },
+    "9839": {
+      "title": "Have cell phones ever been used as microphones by a government?"
+    },
+    "9948": {
+      "title": "Can we solve most blindness by cadaver donation?"
+    },
+    "9971": {
+      "title": "Do high refresh rates prevent motion blur on TVs?"
+    },
+    "9992": {
+      "title": "Is breath holding disadvantageous for mental or physical health?"
+    },
+    "10050": {
+      "title": "Does Weight Watchers work?"
+    },
+    "10063": {
+      "title": "Does wearing a scarf help a sore throat?"
+    },
+    "10070": {
+      "title": "Can a bomb calorimeter meaningfully measure food calories?"
+    },
+    "10090": {
+      "title": "Is 22-23 Celsius (72-73 degrees F) measurably the optimal temperature for office productivity"
+    },
+    "10112": {
+      "title": "Are train passengers exposed to dangerous levels of cell phone electromagnetic radiation?"
+    },
+    "10150": {
+      "title": "Does UNICEF use less than 14% of the donated money for the advertised causes?"
+    },
+    "10248": {
+      "title": "Do boiled potatoes have a higher glycemic index than baked?"
+    },
+    "10309": {
+      "title": "Do Japanese people have a lower body temperature than caucasians?"
+    },
+    "10400": {
+      "title": "Are rape victims forced to marry their rapist, according to the Old Testament?",
+      "general_tag": 1
+    },
+    "10413": {
+      "title": "Is the Bible (Christian and Hebrew) the first one to suggest that the Earth is a sphere?",
+      "general_tag": 1
+    },
+    "10472": {
+      "title": "Is Paul Ryan's Congress record of two bills passed unusual?"
+    },
+    "10490": {
+      "title": "Does the new Testament claim that Mary, mother of Jesus, was a virgin?",
+      "general_tag": 1
+    },
+    "10507": {
+      "title": "Do victims of rape have biological defenses that prevent pregnancy?"
+    },
+    "10606": {
+      "title": "Length of uncoiled human DNA"
+    },
+    "10756": {
+      "title": "Does flossing your teeth regularly increase your lifespan?"
+    },
+    "10763": {
+      "title": "Is Earth as smooth as a billiard ball?"
+    },
+    "10823": {
+      "title": "Is racial resentment towards African Americans correlated with Democrats support of a political position?"
+    },
+    "10831": {
+      "title": "Was the date for the 9/11 attack chosen to be the same as the emergency number in the U.S. (911)?"
+    },
+    "10898": {
+      "title": "Does the US Health Care Bill have a provision of RFID chip implants on Americans?"
+    },
+    "10909": {
+      "title": "Is it, in some parts of the U.S., easier to get a rifle than to register to vote?"
+    },
+    "10954": {
+      "title": "Does the DNA of one sperm contain 37.5 MB of information?"
+    },
+    "10979": {
+      "title": "Do lower income workers tend to vote Republican?"
+    },
+    "11018": {
+      "title": "Do hares chew cud?",
+      "general_tag": 1
+    },
+    "11152": {
+      "title": "Can Exocet missiles be remotely disabled with secret codes?"
+    },
+    "11186": {
+      "title": "Was the September 2012 jobs report manipulated for political purposes?"
+    },
+    "11187": {
+      "title": "Can headaches be relieved by massaging pressure points in the hands and feet?"
+    },
+    "11224": {
+      "title": "Does the Eneloop battery have lower self-discharge?"
+    },
+    "11249": {
+      "title": "Hedge fund performance due to chance?"
+    },
+    "12328": {
+      "title": "Is climate close to a \"tipping point\"?"
+    },
+    "12487": {
+      "title": "Do human eyes grow after birth?"
+    },
+    "13592": {
+      "title": "Does drinking coffee greatly reduce the risk of developing Alzheimer’s disease?"
+    },
+    "13604": {
+      "title": "Does sodium bicarbonate reduce the risk of cancer?"
+    },
+    "13638": {
+      "title": "Is voter fraud practically non-existent in the United States?"
+    },
+    "13655": {
+      "title": "Is typical indoor concentration of VOC correlated to concentration of CO₂?"
+    },
+    "13711": {
+      "title": "Can the over-use of energy drinks cause a heart attack?"
+    },
+    "13764": {
+      "title": "Is there a \"sweet spot\" of secondary engagement that makes driving safer?"
+    },
+    "13800": {
+      "title": "Does the Retina Display cause less eyestrain than other screens?"
+    },
+    "13807": {
+      "title": "Does a cell phone emit 1000 times more radiation when its battery is low?"
+    },
+    "13841": {
+      "title": "Do frank (but not gratuitous) discussions or depictions of sexuality traumatize children?"
+    },
+    "13879": {
+      "title": "Will 25% of people in Western society develop a mental disorder during their life?"
+    },
+    "13902": {
+      "title": "Do humans share 99% of their DNA with rats?"
+    },
+    "13907": {
+      "title": "Does the ripeness of a banana have any effect on causing constipation?"
+    },
+    "14007": {
+      "title": "Do the 3 red stars on Washington DC's flag represent 3 city states?"
+    },
+    "14022": {
+      "title": "Are 1 million people a year date raped?"
+    },
+    "14028": {
+      "title": "Does working over 40 hours a week makes you less productive?"
+    },
+    "14098": {
+      "title": "How often are guns used by private citizens in self defense per year in the United States?"
+    },
+    "14123": {
+      "title": "What is the value of armed bystanders in preventing gun deaths?"
+    },
+    "14134": {
+      "title": "Are humans incapable of digesting gluten?"
+    },
+    "14148": {
+      "title": "Did more than 660 High-School students die as a direct result of Football injuries?"
+    },
+    "14166": {
+      "title": "Is it illegal to air a prank call in the United States because of FCC regulation?"
+    },
+    "14175": {
+      "title": "Recommendation of the Canadian Paediatric Society to never clip tongue ties for breastfeeding"
+    },
+    "14181": {
+      "title": "Is poker more a game of skill than chance?"
+    },
+    "14263": {
+      "title": "Are most people right handed, because they had to protect their heart?"
+    },
+    "14375": {
+      "title": "Do fingerprint scanners cause skin cancer?"
+    },
+    "14511": {
+      "title": "Are air humidifiers necessary, does low humidity have negative heath effects?"
+    },
+    "14537": {
+      "title": "Is \"strawberry quik\" and chocolate flavored meth going around schools?"
+    },
+    "14569": {
+      "title": "Have we only mined 16 tonnes of platinum in the whole of history?"
+    },
+    "14575": {
+      "title": "Are over 90% of school shooters on anti-psychotics?"
+    },
+    "14623": {
+      "title": "If comparing white populations, does the U.S. have the same murder rate as Belgium?"
+    },
+    "14663": {
+      "title": "Did the Aurora, Colorado movie theater killer select the only nearby theater where guns were prohibited?"
+    },
+    "14665": {
+      "title": "Is there an iPhone app that can make corn kernels pop?"
+    },
+    "14680": {
+      "title": "Do Elite US military units use Kalashnikov weapons?"
+    },
+    "14692": {
+      "title": "Does the bulletproof diet work?"
+    },
+    "14832": {
+      "title": "Did Barack Obama receive 108% of the vote in one Ohio county?"
+    },
+    "14881": {
+      "title": "Is the eye-movement aspect of EMDR therapy more effective than other available therapies for treating trauma survivors?"
+    },
+    "14889": {
+      "title": "Are the IPCC climate change models overestimating sensitivity to carbon dioxide?"
+    },
+    "14912": {
+      "title": "Does this creation model conflict with modern science?",
+      "general_tag": 1
+    },
+    "14923": {
+      "title": "Span of Control: 5-7 direct subordinates of one manager"
+    },
+    "15017": {
+      "title": "Is there no link between the meteor that affected Russia and the asteroid 2012 DA14?"
+    },
+    "15088": {
+      "title": "Are ants afraid of chalk and won't cross a chalk line?"
+    },
+    "15106": {
+      "title": "Did the Republican Party in the House of Representatives recently propose not a single job bill, but many morality and gun-related bills?"
+    },
+    "15143": {
+      "title": "Does honey with warm water and lemon reduce tummy fat?"
+    },
+    "15159": {
+      "title": "Is cooked protein less digestible than raw protein?"
+    },
+    "15176": {
+      "title": "Is \"peak wind\" coming?"
+    },
+    "15184": {
+      "title": "Will your eyes pop out if you sneeze with your eyes open?"
+    },
+    "15235": {
+      "title": "Did Swedish tax rate ever exceed 100%?"
+    },
+    "15361": {
+      "title": "How many almonds does it take to get cyanide poisoning?"
+    },
+    "15424": {
+      "title": "Are fossil fuels making the world greener?"
+    },
+    "15440": {
+      "title": "Could McDonald's pay a $10.10 minimum wage with an increase of only 4¢ per meal?"
+    },
+    "15442": {
+      "title": "Did 2.5 million Americans serve in the Afghanistan and Iraq wars from 2001 to 2013?"
+    },
+    "15467": {
+      "title": "Does pumping gas when the tank is half full and on the low flow setting provide an economic benefit?"
+    },
+    "15476": {
+      "title": "Will entering the ATM's PIN in reverse notify the police?"
+    },
+    "15504": {
+      "title": "Is Australia the highest per capita emitter of greenhouse gases in the OECD?"
+    },
+    "15538": {
+      "title": "Does urine have health benefits?"
+    },
+    "15582": {
+      "title": "Are there 60,000 miles of blood vessels in the human body?"
+    },
+    "15605": {
+      "title": "Does the fasting two times a week diet (the 5:2 diet) provide health benefits?"
+    },
+    "15626": {
+      "title": "Can HAARP warp space-time?"
+    },
+    "15658": {
+      "title": "Has nuclear power generation saved millions of lives from avoided air pollution?"
+    },
+    "15767": {
+      "title": "Were flu vaccines 9% effective for the elderly in 2013?"
+    },
+    "15838": {
+      "title": "Can a plant survive bottled in its own ecosystem for 50 years?"
+    },
+    "15910": {
+      "title": "Do wild dogs use trains to commute to and from Moscow?"
+    },
+    "15948": {
+      "title": "Is the immigrant/crime correlation simply explained by lower wealth?"
+    },
+    "15951": {
+      "title": "Does physics give a climate sensitivity to carbon dioxide of about 3°C?"
+    },
+    "16007": {
+      "title": "Is the value of a tree $193,250?"
+    },
+    "16022": {
+      "title": "Can CT scans performed on a child's head lower his or her intelligence?"
+    },
+    "16112": {
+      "title": "Is D-Wave Systems's \"D-Wave One\" a quantum computer?"
+    },
+    "16313": {
+      "title": "Is it accurate to say that 97% of experts agree that global warming is anthropogenic?"
+    },
+    "16408": {
+      "title": "Is global temperature significantly affected by time of galactic year?"
+    },
+    "16672": {
+      "title": "Do major events on tv have the potential to wreak havoc on utilities such as water and electricity?"
+    },
+    "16742": {
+      "title": "Does honey and cinnamon cure any diseases?"
+    },
+    "16813": {
+      "title": "Oxygen buildup in the atmosphere"
+    },
+    "16829": {
+      "title": "Will NSA's Utah Data Center be able to handle and process five zettabytes of data?"
+    },
+    "16920": {
+      "title": "Is wheat the cause of numerous, serious health problems?"
+    },
+    "16962": {
+      "title": "Were snakes an ancient symbol of wisdom, fertility, and immortality?",
+      "general_tag": 1
+    },
+    "17053": {
+      "title": "Can mobile phones be tracked when they're switched off?"
+    },
+    "17054": {
+      "title": "Life expectancy of girls born after 1970"
+    },
+    "17057": {
+      "title": "Are 42% of human deaths worldwide from abortion?"
+    },
+    "17085": {
+      "title": "Can a combination of wind and ice move a 700 lb (300 kg) rock?"
+    },
+    "17136": {
+      "title": "Can some simple, old models of the effect of CO₂ predict temperature better than complex modern climate simulations?"
+    },
+    "17156": {
+      "title": "Are many US Army Rangers young people with no combat experience?"
+    },
+    "17190": {
+      "title": "Is Japanese technological innovation less ground-breaking than Western technological innovation?"
+    },
+    "17225": {
+      "title": "What is the largest amount of protein the body can absorb in a single meal?"
+    },
+    "17304": {
+      "title": "Do forests increase atmosphere's oxygen?"
+    },
+    "17407": {
+      "title": "Does marijuana impair driving?"
+    },
+    "17445": {
+      "title": "Have there been 28 years of \"above average temperatures\"?"
+    },
+    "17514": {
+      "title": "Are specific scents sexually attractive to women or men?"
+    },
+    "17544": {
+      "title": "Does a Geyser Blanket save electricity?"
+    },
+    "17572": {
+      "title": "Do LED lights of any colour damage your eyes?"
+    },
+    "17584": {
+      "title": "Is the cost of preventing climate change 50 times higher than the cost of adapting to it?"
+    },
+    "17655": {
+      "title": "Does this graph show climate-change predictions don't meet observations?"
+    },
+    "17684": {
+      "title": "During EAA Airventure Oshkosh, is Wittman Regional Airport the \"world's busiest\"?"
+    },
+    "17685": {
+      "title": "Did one Avro Arrow (CF-105) avoid being scrapped?"
+    },
+    "17695": {
+      "title": "Did the Arctic Ice Sheet grow by 60% from 2012 to 2013?"
+    },
+    "17776": {
+      "title": "Did Pascal write: \"Men never do evil so completely and cheerfully as when they do it from religious conviction\"?"
+    },
+    "17859": {
+      "title": "Is Polish the hardest language to learn?"
+    },
+    "17908": {
+      "title": "Is the US government preparing to remove religiosity in the population with a virus, using vaccines as a vector?"
+    },
+    "17910": {
+      "title": "Are there back doors in Lenovo-built PCs?"
+    },
+    "17957": {
+      "title": "Was the molten salt reactor (MSR) at Oak Ridge shut down over weekends?"
+    },
+    "17983": {
+      "title": "Do elephants \"trunk\" themselves (masturbate)?"
+    },
+    "17995": {
+      "title": "Did the IPCC obfuscate the evidence in a way that obscures the discrepancy between previous climate models and recent observations?"
+    },
+    "18017": {
+      "title": "Is consuming drinking water stored in PET bottles harmful"
+    },
+    "18090": {
+      "title": "Do modern toothbrush features remove more plaque than regular toothbrushes?"
+    },
+    "18136": {
+      "title": "Is climate change currently good for the world economy?"
+    },
+    "18246": {
+      "title": "Do restaurants in China recycle 'gutter oil'?"
+    },
+    "18257": {
+      "title": "Do 50% of prostitutes have HIV?"
+    },
+    "18272": {
+      "title": "Does the phase-out of incandescent light bulbs measurably reduce overall electrical power consumption?"
+    },
+    "18329": {
+      "title": "Does Roundup harm mammals?"
+    },
+    "18338": {
+      "title": "Is this tealight-flowerpot heater more efficient than just tealights?"
+    },
+    "18381": {
+      "title": "Does England devote as much land to Golf as housing?"
+    },
+    "18392": {
+      "title": "Was 31.5% of Medicare payments in 2006 the result of fraud?"
+    },
+    "18442": {
+      "title": "How fair is \"N% lower environment load\" claim for lower grammage paper?"
+    },
+    "18507": {
+      "title": "Was Truman told that the first atom bomb was going to be used on a military target?"
+    },
+    "18536": {
+      "title": "Why was the tuning standard changed from 432 Hz to 440 Hz?"
+    },
+    "18539": {
+      "title": "Has Stack Overflow saved billions of dollars in programmer productivity?"
+    },
+    "18549": {
+      "title": "Is the Pareto Principle applicable to national alcohol consumption?"
+    },
+    "18688": {
+      "title": "Is Jesus Christ's birth day March 28th?",
+      "general_tag": 1
+    },
+    "18727": {
+      "title": "Are there any historical records of Gospel miracles?",
+      "general_tag": 1
+    },
+    "18764": {
+      "title": "Are Roman numerals used in the end credits of films to mask their age?"
+    },
+    "18805": {
+      "title": "Are electric toothbrushes better than standard ones?"
+    },
+    "18814": {
+      "title": "Is a billion dollar lobbying campaign primarily responsible for opposition to climate policy?"
+    },
+    "18877": {
+      "title": "Is the Newborn Vitamin K Injection Linked to Cancer or Leukemia?"
+    },
+    "18887": {
+      "title": "Is \"treatment induced injury\" one of the leading causes of death and disability?"
+    },
+    "18913": {
+      "title": "Did a Jewish prisoner write this quote about God and forgiveness?"
+    },
+    "18950": {
+      "title": "Does this video show Fukushima Daiichi radiation in San Francisco?"
+    },
+    "18995": {
+      "title": "Are some people born funnier than others?"
+    },
+    "19042": {
+      "title": "Can NSA's portable surveillance radars emit 1kW of RF energy?"
+    },
+    "19170": {
+      "title": "Does the Theradome Laser Helmet deliver around 7 J/cm2 to the head?"
+    },
+    "19296": {
+      "title": "Do 52% of computer users lose irreplaceable documents, photos, music and videos every year?"
+    },
+    "19417": {
+      "title": "Do Jews mostly descend from Shem, son of Noah?",
+      "general_tag": 1
+    },
+    "19604": {
+      "title": "Does size 12 Times New Roman font receive better grades in school?"
+    },
+    "19615": {
+      "title": "Do tinfoil hats protect against any sort of radiation?"
+    },
+    "19625": {
+      "title": "Does red meat increase the risk of heart disease?"
+    },
+    "19816": {
+      "title": "Have more people been killed by automobiles than by all wars combined?"
+    },
+    "19914": {
+      "title": "Does lowering speed limits by 10 km/h have any impact on air pollution?"
+    },
+    "19917": {
+      "title": "Blowing on food"
+    },
+    "19964": {
+      "title": "Is it possible to (reliably) diagnose malaria with a noninvasive device/smartphone app?"
+    },
+    "19986": {
+      "title": "Can looking at pictures tell you something about your personality?"
+    },
+    "20021": {
+      "title": "Does regular self-induced vomiting provide any health benefit?"
+    },
+    "20045": {
+      "title": "What is the five-year failure rate for condom-usage?"
+    },
+    "20090": {
+      "title": "How many people have lost their health insurance as a result of the ACA (Obamacare)?"
+    },
+    "20101": {
+      "title": "Is ocean acidification happening?"
+    },
+    "20122": {
+      "title": "Did a soldier fight off 40 train robbers?"
+    },
+    "20139": {
+      "title": "Do poor children hear 30 million fewer words by age 3?"
+    },
+    "20146": {
+      "title": "Is food in Alberta, Canada contaminated with radioactivity?"
+    },
+    "20159": {
+      "title": "Are actuarial life expectancy tables based on information that is 40 years out of date?"
+    },
+    "20216": {
+      "title": "Is sugar one element away from cocaine or any other drug?"
+    },
+    "20230": {
+      "title": "Does GPS use General Relativity?"
+    },
+    "20263": {
+      "title": "Did the Ourang Medan \"ghost ship\" exist?"
+    },
+    "20344": {
+      "title": "Are the latest estimates of the cost of climate policy five time higher than the projected benefits?"
+    },
+    "20381": {
+      "title": "Does eating yeast stop you from getting drunk?"
+    },
+    "20448": {
+      "title": "Has anthropogenic climate change been disproven?"
+    },
+    "20525": {
+      "title": "Sharing tool claims files can be \"unshared\""
+    },
+    "20554": {
+      "title": "Is cryolipolisis effective as a fat reduction method?"
+    },
+    "20605": {
+      "title": "Is carbon dioxide from a mosquito trap potent enough to attract mosquitoes?"
+    },
+    "20703": {
+      "title": "Are snowflakes incapable of four-fold symmetry?"
+    },
+    "20704": {
+      "title": "Do full-time working women earn 77 cents for every dollar a man earns?"
+    },
+    "20716": {
+      "title": "Does Carbon Dioxide mix well in the atmosphere?"
+    },
+    "20737": {
+      "title": "Can cold viruses remain dormant in your bones, and later emerge when you are exposed to cold temperatures?"
+    },
+    "20771": {
+      "title": "Wearing Steel toe boots will burn more calories than normal shoes"
+    },
+    "20833": {
+      "title": "Is the mustard seed the smallest of seeds?",
+      "general_tag": 1
+    },
+    "20860": {
+      "title": "Did goldsmiths invent fractional reserve banking?"
+    },
+    "20870": {
+      "title": "Is there a nutritional difference between Grain-Fed and Grass-Fed beef?"
+    },
+    "21942": {
+      "title": "Does a kneeling chair reduce back pain?"
+    },
+    "21995": {
+      "title": "Does garlic improve hair growth in androgenetic alopecia?"
+    },
+    "22029": {
+      "title": "Can acupuncture increase blood flow to a muscle?"
+    },
+    "22073": {
+      "title": "Is Matt Ridley's assertion that the most extreme of the IPCC climate projections is based on very implausible assumptions correct?"
+    },
+    "22089": {
+      "title": "Did fertilising the ocean with 100 tons of iron sulphate increase the salmon catch by over 100,000 tons?"
+    },
+    "22093": {
+      "title": "Does Beck's chemical analysis of CO₂ discredit the Law Dome ice core findings?"
+    },
+    "22106": {
+      "title": "Do 3.5 billion people watch Tour de France on TV every year?"
+    },
+    "22122": {
+      "title": "Does temperature drive CO₂?"
+    },
+    "22145": {
+      "title": "Do 7 to 12 year olds need 10 to 11 hours of sleep per day?"
+    },
+    "22154": {
+      "title": "Is it possible to determine dishonesty in a person through body language?"
+    },
+    "22221": {
+      "title": "Did irradiated Chernobyl firefighters re-volunteer to avoid others being affected?"
+    },
+    "22250": {
+      "title": "Do lemons act as bases in the body?"
+    },
+    "22258": {
+      "title": "Is there more global sea ice than 35 years ago?"
+    },
+    "22285": {
+      "title": "Did both higher temperatures and an ice age exist at CO₂ levels ten times the present?"
+    },
+    "22292": {
+      "title": "Do higher CO₂ concentrations increase plant well-being?"
+    },
+    "22380": {
+      "title": "Are medics often incapable of understanding or communicating statistical results to their patients?"
+    },
+    "22394": {
+      "title": "Will Lori Robinson command the largest ever theater of operation for a non-pilot?"
+    },
+    "22404": {
+      "title": "Does beetroot cure cancer?"
+    },
+    "22412": {
+      "title": "Do animals commit suicide?"
+    },
+    "22449": {
+      "title": "Have one million Christians been persecuted to death or exile in Iraq by jihadis?",
+      "general_tag": 1
+    },
+    "22467": {
+      "title": "Was the MH17 video taken in Ukraine-held territory?"
+    },
+    "22489": {
+      "title": "Does the \"Nonstop Elevator Hack\" work?"
+    },
+    "22501": {
+      "title": "Are there enough IPv6 addresses for every atom on the surface of the Earth?"
+    },
+    "22549": {
+      "title": "Did Coca-Cola contain cocaine?"
+    },
+    "22630": {
+      "title": "Is Google Chrome killing my laptop battery?"
+    },
+    "22692": {
+      "title": "Do video games improve reflexes & reaction time?"
+    },
+    "22730": {
+      "title": "Was Aeroflot SU2074 intended target in MH17 shooting?"
+    },
+    "22870": {
+      "title": "Should I cut off black banana ending before eating?"
+    },
+    "22876": {
+      "title": "Does Calendula Gel promote healing of minor burns?"
+    },
+    "22890": {
+      "title": "Does unflavoured carbonated water cause damage to teeth?"
+    },
+    "22940": {
+      "title": "Is viewing extremist material a terrorism offence?"
+    },
+    "23014": {
+      "title": "Was St Peter a bishop of Rome?"
+    },
+    "23213": {
+      "title": "Is it a felony in Montana for a wife to open her husband's mail?"
+    },
+    "23216": {
+      "title": "Did Martin Luther refer to physicians who assume diseases come from natural causes as \"ignorant blockheads\" (or the German equivalent)?",
+      "general_tag": 1
+    },
+    "23218": {
+      "title": "Quibble with Dawkins's reasoning on the watch-stopping probability on a psychic audience"
+    },
+    "23321": {
+      "title": "Did Volkswagen, Chrysler and/or GM cut diesel tailpipe emissions by ~99% over a decade?"
+    },
+    "23354": {
+      "title": "Does Apple install suicide prevention nets at their Chinese factories?"
+    },
+    "23358": {
+      "title": "Is there a correlation between voting for the Democratic Party and gun crimes in the USA?"
+    },
+    "23496": {
+      "title": "Did Republicans cut the budget of NIH and CDC in years leading up to Ebola?"
+    },
+    "23619": {
+      "title": "Is there a cure for Ebola?"
+    },
+    "23643": {
+      "title": "Would lowering the speed limit in NYC by 5mph lower the number of pedestrian deaths by a factor of 2?"
+    },
+    "23667": {
+      "title": "Can hypnosis make things subjectively disappear?"
+    },
+    "23684": {
+      "title": "Do 25 million meteors enter Earth's atmosphere each day?"
+    },
+    "23731": {
+      "title": "Is it more dangerous to ride a motorcycle [with a helmet] than to drive a car?"
+    },
+    "23767": {
+      "title": "In the movie \"Life of Brian\", were the guard extras told that they couldn't laugh?"
+    },
+    "23853": {
+      "title": "Have prior U.S. Presidents used executive actions to change immigration policy"
+    },
+    "23860": {
+      "title": "When is the origin of Datura in India?"
+    },
+    "23933": {
+      "title": "Are any aborted \"children\" born alive?"
+    },
+    "25162": {
+      "title": "Did Saint Charbel Makhluf's body remain intact for 50 years?",
+      "general_tag": 1
+    },
+    "25276": {
+      "title": "In Chinese culture is it good luck to let facial mole hair grow long?"
+    },
+    "26486": {
+      "title": "Did the Hebrew exodus from Egypt ever happen?",
+      "general_tag": 1
+    },
+    "26764": {
+      "title": "Do atheists commit far fewer crimes?",
+      "general_tag": 1
+    },
+    "26892": {
+      "title": "Would life not exist on Earth if it was one kilometer closer to, or farther from, the sun?"
+    },
+    "26907": {
+      "title": "Did a Jewish rabbi precisely calculate the duration of the full moon cycle 1800 years ago?",
+      "general_tag": 1
+    },
+    "26918": {
+      "title": "Could people perceive the color blue in ancient times?"
+    },
+    "26978": {
+      "title": "Is fluoride an ingredient in Prozac and rat poison?"
+    },
+    "26990": {
+      "title": "Did Feeras Antoon cheat porn star Mia Khalifa up to number 1 on PornHub?"
+    },
+    "27023": {
+      "title": "Do 2/3 of \"vegetarians\" fail to stick to a vegetarian diet?"
+    },
+    "27125": {
+      "title": "Do you need specialist filters to look at the sun?"
+    },
+    "27183": {
+      "title": "Is brown rice healthier than white rice?"
+    },
+    "27194": {
+      "title": "Does exercise affect the number of muscle cells?"
+    },
+    "27223": {
+      "title": "Are razor blades tax-free in the UK?"
+    },
+    "27330": {
+      "title": "Is this video by Carl Sagan?"
+    },
+    "27341": {
+      "title": "Are the bones of puppies not joined at 2 weeks old?"
+    },
+    "27352": {
+      "title": "Were Mermaid passengers shipwrecked by 5 different vessels before being successfully rescued?"
+    },
+    "27441": {
+      "title": "Is this photograph of Frank Sinatra as a 10 year old real?"
+    },
+    "27468": {
+      "title": "Was measles vaccine introduced after the disease was under control"
+    },
+    "27471": {
+      "title": "Does the word \"butterfly\" stem from an erroneous transcription of \"flutterby\"?"
+    },
+    "27499": {
+      "title": "How long does it take expanded Antarctic sea ice to reach New Zealand?"
+    },
+    "27532": {
+      "title": "Did Donnie Decker exist and could he make it rain at will?"
+    },
+    "27572": {
+      "title": "Can vinegar and essential oils repel ticks?"
+    },
+    "27578": {
+      "title": "Does smiling make us more happy?"
+    },
+    "27590": {
+      "title": "Are there more open jobs than available developers?"
+    },
+    "27678": {
+      "title": "How are airplane contrails linked to climate change?"
+    },
+    "27710": {
+      "title": "Is it true that the best programmer in the office is 30 times faster than the worst programmer in the office?"
+    },
+    "27723": {
+      "title": "Are Earthquakes on the rise?"
+    },
+    "27779": {
+      "title": "\"62 workers may lose their lives for each game played during Qatar’s 2022 World Cup\" - realistic estimate, or not?"
+    },
+    "27934": {
+      "title": "Is eating rice harmful to birds?"
+    },
+    "27948": {
+      "title": "Is all gold ever mined able to fit in a 20x20x20 meter cube?"
+    },
+    "28118": {
+      "title": "Is the US FDA policy of deferring blood donations from MSM justified by increased STD risk?"
+    },
+    "28140": {
+      "title": "Are annual female rape and male \"made to penetrate\" rates similar in the US?"
+    },
+    "28211": {
+      "title": "Do homosexuals have a shorter life expectancy than heterosexuals?"
+    },
+    "28230": {
+      "title": "Are there discriminatory laws against Israelis marrying Palestianians?"
+    },
+    "28239": {
+      "title": "Is it prohibited to marry more than one woman in US?"
+    },
+    "28277": {
+      "title": "Did Yanis Varoufakis tweet to Lagarde about repaying dues?"
+    },
+    "28283": {
+      "title": "Do civil servants in Greece receive 3 days of holiday for donating blood?"
+    },
+    "28298": {
+      "title": "Does the average Russian drink 250mL of vodka a day?"
+    },
+    "28314": {
+      "title": "Was there a study finding that being an atheist is viewed on the level of being a rapist in the US?",
+      "general_tag": 1
+    },
+    "28376": {
+      "title": "Do London underground drivers earn more and work less than NHS doctors?"
+    },
+    "28382": {
+      "title": "Are there 30 million non-legal immigrants in the United States?"
+    },
+    "28536": {
+      "title": "Does James Woods have an IQ of 180?"
+    },
+    "28589": {
+      "title": "Would eating a packet of cigarettes be fatal?"
+    },
+    "28601": {
+      "title": "Has a \"chariot army\" been found at the bottom of the Red Sea?",
+      "general_tag": 1
+    },
+    "28612": {
+      "title": "Is this description of the processes which take place in the body for an hour after drinking Coca Cola accurate?"
+    },
+    "28634": {
+      "title": "Was the mileage of the Apollo spaceships 7 inches to the gallon for their moon flights?"
+    },
+    "28661": {
+      "title": "Do abortions make up only 3% of Planned Parenthood's services?"
+    },
+    "28897": {
+      "title": "Are there people who do not sleep at all?"
+    },
+    "29944": {
+      "title": "Is the world record for staying in an anechoic chamber an hour or less?"
+    },
+    "30013": {
+      "title": "Does it cost £1.5 to clean up every piece of gum left on UK Streets?"
+    },
+    "30017": {
+      "title": "Can taking Cialis cure Erectile Dysfunction permanently?"
+    },
+    "30033": {
+      "title": "Was marriage defined as \"selling your daughter for three goats and a cow\" in the Bible?",
+      "general_tag": 1
+    },
+    "30048": {
+      "title": "Is Saudi Arabia hosting ~2.5 million Syrian refugees?"
+    },
+    "30102": {
+      "title": "Has the historical average temperature stayed the same since 1980"
+    },
+    "30134": {
+      "title": "Did Columbus have Jewish ancestry?",
+      "general_tag": 1
+    },
+    "30215": {
+      "title": "Does deepnet have only 7100 onion sites?"
+    },
+    "30274": {
+      "title": "Is there one climate model equation or are there many?"
+    },
+    "30337": {
+      "title": "A century ago, was giving birth a major cause of death?"
+    },
+    "30361": {
+      "title": "Are child thyroid cancer rates around Fukushima 20—50x higher?"
+    },
+    "30562": {
+      "title": "Did Exxon suppress its own scientific results on climate change?"
+    },
+    "30579": {
+      "title": "Is yellow the most conspicuous color?"
+    },
+    "30607": {
+      "title": "Could this monk have lived nine days without food, water and sleep?"
+    },
+    "30660": {
+      "title": "Do saliva glands emit urine?"
+    },
+    "30700": {
+      "title": "Is 2.4GHz IEEE 802.11 (WiFi) Dangerous?"
+    },
+    "30796": {
+      "title": "Is this comparison of wedge tailed eagles and bald eagles accurate?"
+    },
+    "30846": {
+      "title": "Did Senator McCain ever meet ISIS leader al-Baghdadi?"
+    },
+    "30874": {
+      "title": "Do 3400 Americans die from household firearms every five weeks?"
+    },
+    "30883": {
+      "title": "Can all new gasoline vehicles run on E85 ethanol-based fuel?"
+    },
+    "30903": {
+      "title": "Do rusty nail wounds cause tetanus?"
+    },
+    "30921": {
+      "title": "Are there 'friendly' fire restrictions programmed into exported (american) weaponry?"
+    },
+    "30925": {
+      "title": "Are booster shots for pets required annually to maintain rabies immunity?"
+    },
+    "30929": {
+      "title": "Was the Original Statue of Liberty a Muslim Woman?"
+    },
+    "30972": {
+      "title": "Air travel risk vs taxi risk"
+    },
+    "30985": {
+      "title": "Did 12 Michael Jackson fans die by suicide in wake of his death?"
+    },
+    "31022": {
+      "title": "“War never changes”: Fallout or Ulysses S. Grant?"
+    },
+    "31026": {
+      "title": "Do trees soak up pollution?"
+    },
+    "31058": {
+      "title": "Does the bible explicitly forbide homosexuality?",
+      "general_tag": 1
+    },
+    "31080": {
+      "title": "Does an e-bike produces only 1/10 carbon emissions for each mile of an conventional electric car?"
+    },
+    "31156": {
+      "title": "Do 1.4 million Chinese people die each year because of air pollution?"
+    },
+    "31222": {
+      "title": "Has the US given more aid to the average Israeli citizen than the average American citizen?"
+    },
+    "31262": {
+      "title": "Could the dinosaurs in the novel Jurasic Park possibly survive in modern climate?"
+    }
   }
 }
