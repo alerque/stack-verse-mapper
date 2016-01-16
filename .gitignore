@@ -5,3 +5,6 @@ node_modules
 *.txt
 *.gz
 *.7z
+.travis/*
+!.travis/*.enc
+!.travis/*.pub
