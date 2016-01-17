@@ -12,5 +12,5 @@ search.search( query, index ).forEach( function( post )
 {
 	var url = "http://" + site + ".stackexchange.com/" + post.type + "/" + post.id;
 	console.log( _.truncate( `${ url } ${ post.type.toUpperCase() }: ${ post.title }`, { length: process.stdout.columns } ) );
-	console.log( `  SPEC:${ post.SPEC } APS:${ post.APS.toFixed( 2 ) } TDRHP:${ post.TDRHP } TDRHS:${ post.TDRHS } QTM:${ post.QTM } QTH:${ post.QTH } FPS:${ post.FPS.toFixed( 2 ) }` );
+	console.log( `  SPEC:${ post.SPEC } (${ _.sortBy( post.refs, 'specificity' )[0].osis }) APS:${ post.APS.toFixed( 2 ) } TDRHP:${ post.TDRHP } TDRHS:${ post.TDRHS } TAG:${ post.TAG } QTH:${ post.QTH } FPS:${ post.FPS.toFixed( 2 ) }` );
 });

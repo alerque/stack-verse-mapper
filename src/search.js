@@ -13,25 +13,25 @@ var util = require( '../src/util.js' );
 	APS: A function which takes a SPECificity number, and returns a logarithmically adjusted score
 	TDRHP: The max score bonus from hits in the post
 	TDRHS: The max score bonus from hits in the question and answer set
-	QTM: Bonus for having a book of the Bible tag
+	TAG: Bonus for having a book of the Bible tag
 	QTH: Question bonus for having a matching reference in the title
 */
 
-var options = module.exports.options {
+var default_options = module.exports.options = {
 	APS: function( SPEC )
 	{
 		return 180 - 25 * Math.log( SPEC + 1 );
 	},
 	TDRHP: 10,
 	TDRHS: 20,
-	QTM: 5,
+	TAG: 5,
 	QTH: 5,
 };
 
 module.exports.search = function( query, index, options )
 {
 	// Default ranking options
-	options = _.assign( options, options );
+	options = _.assign( default_options, options );
 	
 	// Parse the search query
 	query = bcv.parse( query ).osis();
@@ -106,10 +106,10 @@ module.exports.search = function( query, index, options )
 		post.TDRHS = Math.min( set_hits[ post.parent || post.id ], options.TDRHS );
 		// Question tags and title
 		var question = index.questions[ post.parent || post.id ];
-		post.QTM = ( question.general_tag || question.tags && ( question.tags.indexOf( parsed_query.book ) !== -1 ) || 0 ) * options.QTM;
+		post.TAG = ( question.general_tag || question.tags && ( question.tags.indexOf( parsed_query.book ) !== -1 ) || 0 ) * options.TAG;
 		post.QTH *= options.QTH;
 		// And add up the Final Post Score
-		post.FPS = post.APS + post.TDRHP + post.TDRHS + post.QTM + post.QTH;
+		post.FPS = post.APS + post.TDRHP + post.TDRHS + post.TAG + post.QTH;
 		post.title = question.title;
 	});
 	
