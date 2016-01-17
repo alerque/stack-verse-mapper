@@ -8,19 +8,30 @@ var util = require( '../src/util.js' );
 // Search for a Bible reference
 // NB. Currently only one verse reference query is supported
 
+/*
+	The options are
+	APS: A function which takes a SPECificity number, and returns a logarithmically adjusted score
+	TDRHP: The max score bonus from hits in the post
+	TDRHS: The max score bonus from hits in the question and answer set
+	QTM: Bonus for having a book of the Bible tag
+	QTH: Question bonus for having a matching reference in the title
+*/
+
+var options = module.exports.options {
+	APS: function( SPEC )
+	{
+		return 180 - 25 * Math.log( SPEC + 1 );
+	},
+	TDRHP: 10,
+	TDRHS: 20,
+	QTM: 5,
+	QTH: 5,
+};
+
 module.exports.search = function( query, index, options )
 {
 	// Default ranking options
-	options = _.assign( {
-		APS: function( SPEC )
-		{
-			return 180 - 25 * Math.log( SPEC + 1 );
-		},
-		TDRHP: 10,
-		TDRHS: 20,
-		QTM: 5,
-		QTH: 5,
-	}, options );
+	options = _.assign( options, options );
 	
 	// Parse the search query
 	query = bcv.parse( query ).osis();
