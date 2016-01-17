@@ -8,8 +8,32 @@ var util = require( '../src/util.js' );
 // Search for a Bible reference
 // NB. Currently only one verse reference query is supported
 
-function search( query, index )
+/*
+	The options are
+	APS: A function which takes a SPECificity number, and returns a logarithmically adjusted score
+	TDRHP: The max score bonus from hits in the post
+	TDRHS: The max score bonus from hits in the question and answer set
+	TAG: Bonus for having a book of the Bible tag
+	QTH: Question bonus for having a matching reference in the title
+*/
+
+var default_options = module.exports.options = {
+	APS: function( SPEC )
+	{
+		return 180 - 25 * Math.log( SPEC + 1 );
+	},
+	TDRHP: 10,
+	TDRHS: 20,
+	TAG: 5,
+	QTH: 5,
+};
+
+module.exports.search = function( query, index, options )
 {
+	// Default ranking options
+	options = _.assign( default_options, options );
+	
+	// Parse the search query
 	query = bcv.parse( query ).osis();
 	if ( !query )
 	{
@@ -19,11 +43,13 @@ function search( query, index )
 	
 	// Filter the posts (and their refs) which match with the query
 	// (But we may do a bit of preanalysis too)
-	var sets = {};
+	var set_hits = {};
 	var results = index.posts.map( function( post )
 	{
 		var post = _.cloneDeep( post );
 		var matched = 0;
+		post.TDRHP = 0;
+		post.QTH = 0;
 		post.refs = post.refs.map( function( ref )
 		{
 			if ( parsed_query.book === ref.book )
@@ -38,21 +64,17 @@ function search( query, index )
 					return;
 				}
 				// Calculate the specificity while we're here
-				ref.specificity = ( Math.abs( r_start - q_start ) + Math.abs( ( r_end || r_start ) - ( q_end || q_start ) ) ) / 2;
+				ref.specificity = ( Math.abs( r_start - q_start ) + Math.abs( r_end - q_end ) ) / 2;
 				matched = 1;
+				post.TDRHP += ref.count || 1;
 				return ref;
 			}
 		});
 		
 		if ( matched )
 		{
-			// Add this post to its question set
-			var set = sets[ post.parent || post.id ];
-			if ( !set )
-			{
-				set = sets[ post.parent || post.id ] = [];
-			}
-			set.push( post );
+			// Add to set_hits
+			set_hits[ post.parent || post.id ] = ( set_hits[ post.parent || post.id ] || 0 ) + post.TDRHP;
 			
 			// Check for matching title references before we clean up the refs array
 			if ( post.title && post.title.length )
@@ -74,38 +96,23 @@ function search( query, index )
 	.filter( _.identity );
 	
 	// Analyse the filtered posts
-	results = analyse( parsed_query, results );
-	results = results.map( function( post )
+	results.forEach( function( post )
 	{
-		return {
-			id: post.id,
-			type: post.type,
-			title: index.questions[ post.parent || post.id ].title,
-			specificity: post.specificity,
-		};
+		// Find the most specific reference
+		post.SPEC = _.sortBy( post.refs, 'specificity' )[0].specificity;
+		post.APS = options.APS( post.SPEC );
+		// Count all the references in the post and set
+		post.TDRHP = Math.min( post.TDRHP, options.TDRHP );
+		post.TDRHS = Math.min( set_hits[ post.parent || post.id ], options.TDRHS );
+		// Question tags and title
+		var question = index.questions[ post.parent || post.id ];
+		post.TAG = ( question.general_tag || question.tags && ( question.tags.indexOf( parsed_query.book ) !== -1 ) || 0 ) * options.TAG;
+		post.QTH *= options.QTH;
+		// And add up the Final Post Score
+		post.FPS = post.APS + post.TDRHP + post.TDRHS + post.TAG + post.QTH;
+		post.title = question.title;
 	});
-	return _.sortBy( results, 'specificity' );
-}
-
-// Pre-compute some data that will be needed for sorting
-function analyse( parsed_query, posts )
-{
-	function most_specific_ref( post )
-	{
-		return post.refs.reduce( function( a, b )
-		{
-			return a.specificity < b.specificity ? a : b;
-		});
-	}
-	return posts.map( function( post )
-	{
-		// Clone the post so that we don't contaminate the index
-		var result = _.clone( post );
-		result.most_specific_ref = most_specific_ref( post );
-		result.specificity = result.most_specific_ref.specificity;
-		return result;
-	});
-}
-
-module.exports.search = search;
-module.exports.analyse = analyse;
+	
+	// Now sort by the Final Post Score
+	return _.orderBy( results, 'FPS', 'desc' );
+};
