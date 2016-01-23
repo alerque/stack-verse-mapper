@@ -33,7 +33,6 @@ PATH := $(shell npm bin):$(PATH)
 
 # Travis sets this to true, so we can use /bin/true and /bin/false for quick tests
 TRAVIS ?= false
-SHA = $(shell git rev-parse --short HEAD)
 
 # We use the SHA of the current commit to republish
 SHA = $(shell git rev-parse --short HEAD)
