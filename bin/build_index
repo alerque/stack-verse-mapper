@@ -78,14 +78,10 @@ function build_index( data )
 	});
 	
 	// Filter the list of titles
-	// TODO: check if lodash ever adds a .pickBy() that passes the key
-	questions = _.pickBy( _.mapValues( questions, function( questions, id )
+	questions = _.pickBy( questions, function( title, id )
 	{
-		if ( questions_references[ id ] )
-		{
-			return questions;
-		}
-	}) );
+		return questions_references[ id ];
+	});
 	
 	var output = {
 		posts: posts,
