@@ -4,6 +4,10 @@
 #     make SITES='site1 site2' [target]
 SITES = $(shell jq -r '.sites | keys[]' -- config.json)
 
+# Default to running multiple jobs
+JOBS := $(shell nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 1)
+MAKEFLAGS = "-j $(JOBS)"
+
 # Location of the project so we don't cross-wire relative paths.
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/" && pwd)
 
