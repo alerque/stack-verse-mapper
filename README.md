@@ -71,10 +71,7 @@ To download the data dumps and build indexes for all enabled sites:
 
 That will take a *long time* because it has to download all the relevant data
 dumps. The downloads will be preserved, so future index rebuilds will be
-faster. You can also speed up the process by building more than one index in
-parallel:
-
-    make -j8 all
+faster.
 
 If you'd like to build just one site, specify the site prefix (the part before
 the .stackexchange.com in the site's URL), e.g.:
