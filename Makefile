@@ -112,7 +112,7 @@ $(DATA)/%.7z:
 	curl -o "data/$*.7z" -s --continue - $(call archive_url,$*)
 
 # Rule for generating static site
-gh-pages: gh-pages-init $(STATIC)/index.html $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json)
+gh-pages: gh-pages-init $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) $(STATIC)/index.html
 
 # For local copies, worktree is saner to work with but Travis's git is too old
 # so the clone route is to keep it happy.
@@ -137,10 +137,10 @@ gh-pages-publish: gh-pages
 		git commit -C "$(SHA)" && \
 			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
-$(STATIC)/index.html: src/index.hbs package.json config.json $(wildcard $(STATIC)/data/*json) | gh-pages-init
+$(STATIC)/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
 	handlebars <(jq -s \
 		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
 		package.json config.json) < $< > $@
 
 $(STATIC)/data/%: $(DATA)/% | gh-pages-init
-	cp $< $@
+	cp -p $< $@
