@@ -127,7 +127,7 @@ gh-pages-init:
 		cd $(STATIC) ;\
 		git checkout gh-pages ;\
 		git remote add parent $(BASE) ;\
-		git fetch --all ;\
+		git fetch --unshallow --all ;\
 		)) ||:
 	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare
 
