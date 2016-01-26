@@ -103,7 +103,7 @@ module.exports.search = function( query, index, options )
 		post.SPEC = _.sortBy( post.refs, 'specificity' )[0].specificity;
 		post.APS = options.APS( post.SPEC );
 		// Count all the references in the post and set
-		post.TDRHP = Math.min( ( post.parent ? 1 : options.TDRHP_question_multiplier ) * post.TDRHP, options.TDRHP_cap );
+		post.TDRHP = Math.min( post.TDRHP, options.TDRHP_cap ) * ( post.parent ? 1 : options.TDRHP_question_multiplier );
 		post.TDRHS = Math.min( set_hits[ post.parent || post.id ], options.TDRHS_cap );
 		// Question tags and title
 		var question = index.questions[ post.parent || post.id ];
