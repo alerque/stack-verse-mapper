@@ -22,8 +22,9 @@ var default_options = module.exports.options = {
 	{
 		return 180 - 25 * Math.log( SPEC + 1 );
 	},
-	TDRHP: 10,
-	TDRHS: 20,
+	TDRHP_cap: 10,
+	TDRHP_question_multiplier: 2,
+	TDRHS_cap: 20,
 	TAG: 5,
 	QTH: 5,
 };
@@ -102,8 +103,8 @@ module.exports.search = function( query, index, options )
 		post.SPEC = _.sortBy( post.refs, 'specificity' )[0].specificity;
 		post.APS = options.APS( post.SPEC );
 		// Count all the references in the post and set
-		post.TDRHP = Math.min( post.TDRHP, options.TDRHP );
-		post.TDRHS = Math.min( set_hits[ post.parent || post.id ], options.TDRHS );
+		post.TDRHP = Math.min( ( post.parent ? 1 : options.TDRHP_question_multiplier ) * post.TDRHP, options.TDRHP_cap );
+		post.TDRHS = Math.min( set_hits[ post.parent || post.id ], options.TDRHS_cap );
 		// Question tags and title
 		var question = index.questions[ post.parent || post.id ];
 		post.TAG = ( question.general_tag || question.tags && ( question.tags.indexOf( parsed_query.book ) !== -1 ) || 0 ) * options.TAG;
