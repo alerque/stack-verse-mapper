@@ -1,0 +1,31 @@
+extends: 'eslint:recommended'
+
+env:
+  node: true
+
+ecmaFeatures:
+  templateStrings: true
+
+rules:
+  brace-style:
+    - 2
+    - allman
+  comma-dangle:
+    - 2
+    - always-multiline
+  curly:
+    - 2
+  eqeqeq:
+    - 2
+  indent:
+    - 2
+    - tab
+  linebreak-style:
+    - 2
+    - unix
+  quotes:
+    - 2
+    - single
+  semi:
+    - 2
+    - always

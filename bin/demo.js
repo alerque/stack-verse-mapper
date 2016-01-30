@@ -1,16 +1,17 @@
 #!/usr/bin/env node
 
+/* eslint no-console: 0 */
+
 var _ = require( 'lodash' );
 var search = require( '../src/search.js' );
 
 var site = process.argv[2];
 var query = process.argv[3];
-var config = require( '../config.json' );
 var index = require( '../data/' + site + '-index.json' );
 
 search.search( query, index ).forEach( function( post )
 {
-	var url = "http://" + site + ".stackexchange.com/" + post.type + "/" + post.id;
+	var url = 'http://' + site + '.stackexchange.com/' + post.type + '/' + post.id;
 	var result = `${ url } ${ post.type.toUpperCase() }: ${ post.title }`;
 	if ( process.stdout.isTTY )
 	{

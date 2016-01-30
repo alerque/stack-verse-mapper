@@ -27,7 +27,7 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean setup gh-pages-init gh-pages-publish travis travis-deploy deploy Makefile
+.PHONY: all clean deploy gh-pages-init gh-pages-publish Makefile setup test travis
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
@@ -42,11 +42,11 @@ TRAVIS ?= false
 SHA = $(shell git rev-parse --short HEAD)
 
 # Default rule to start from scratch and build everything
-all: setup $(SITES)
+all: setup test $(SITES)
 
 # Add demo target to show off a sample
 demo: setup hermeneutics
-	./bin/search hermeneutics "Rev 5:1"
+	./bin/demo.js hermeneutics "Rev 5:1"
 
 # Rule installing and configuring the local environment
 setup: node_modules
@@ -62,18 +62,22 @@ clean:
 	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
 	rm -f $(DATA)/*-{index,posts}.json{,.gz}
 
+# Run some automated tests
+test: setup
+	eslint .
+
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
 # make that the dependency
 $(SITES): $(DATA)/$$@-index.json
 
 # Rule to build an index from a set of posts.
-$(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index src/bcv_parser.js src/tags.json src/util.js
-	./bin/build_index $< | jq . > $@
+$(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index.js src/bcv_parser.js src/tags.json src/util.js
+	./bin/build_index.js $< | jq . > $@
 
 # Rule to extract the source data and build a json version of the posts
-$(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml
-	./bin/parse_xml $< | jq . > $@
+$(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml.js
+	./bin/parse_xml.js $< | jq . > $@
 
 # Rule for extracting the XML we need from the zips
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
@@ -93,7 +97,7 @@ $(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stac
 endef
 
 # This is the target for Travis-CI to test
-travis: test
+travis: test demotest
 
 # Shortcut to publish all the things
 deploy: gh-pages-publish
@@ -101,8 +105,8 @@ deploy: gh-pages-publish
 
 # Islam is a slightly smaller to download, but Hermeneutics gives us a more
 # options for testing actual results
-test: setup hermeneutics
-	./bin/search hermeneutics 'Rev 22:21' | grep -q 'a/13495'
+demotest: setup hermeneutics
+	./bin/demo.js hermeneutics 'Rev 22:21' | grep -q 'a/13495'
 
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.

@@ -47,7 +47,7 @@ module.exports.search = function( query, index, options )
 	var set_hits = {};
 	var results = index.posts.map( function( post )
 	{
-		var post = _.cloneDeep( post );
+		post = _.cloneDeep( post );
 		var matched = 0;
 		post.TDRHP = 0;
 		post.QTH = 0;
