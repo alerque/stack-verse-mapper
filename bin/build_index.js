@@ -63,7 +63,7 @@ function build_index( err, data )
 		// Calculate book-in-verse numbers for the references
 		.map( function( count, ref )
 		{
-			var ref = util.parse_ref( ref );
+			ref = util.parse_ref( ref );
 			ref.count = count;
 			return ref;
 		})
