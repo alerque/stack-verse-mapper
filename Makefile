@@ -27,7 +27,7 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean deploy gh-pages-init gh-pages-publish Makefile setup test travis
+.PHONY: all clean demo demotest deploy gh-pages-init gh-pages-publish setup test travis Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
