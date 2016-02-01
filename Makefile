@@ -50,7 +50,7 @@ demo: setup hermeneutics
 
 # Rule installing and configuring the local environment
 setup: node_modules
-	./bin/git-restore-mtime-bare
+	./bin/git-restore-mtime-bare.py
 
 # rule for how we come by the node_modules folder
 node_modules: package.json
@@ -133,7 +133,7 @@ gh-pages-init:
 		git remote add parent $(BASE) ;\
 		git fetch --unshallow --all ;\
 		)) ||:
-	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare
+	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare.py
 
 gh-pages-publish: gh-pages
 	( cd $(STATIC) ;\
