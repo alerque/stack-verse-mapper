@@ -19,10 +19,10 @@ getRawBody( fs.createReadStream( process.argv[2] ), 'utf8', build_index );
 function build_index( err, data )
 {
 	data = JSON.parse( data );
-	
+
 	var questions = {};
 	var questions_references = {};
-	
+
 	// Parse the verse references of the body and title
 	var posts = data.map( function( post )
 	{
@@ -33,7 +33,7 @@ function build_index( err, data )
 			var title_refs = bcv.parse( post.title ).osis().split( ',' );
 			post.refs = post.refs.concat( title_refs );
 			post.title = _.uniq( title_refs ).sort();
-			
+
 			// Process tags
 			var tags = parse_tags( post.tags );
 			if ( _.isArray( tags ) )
@@ -69,7 +69,7 @@ function build_index( err, data )
 		})
 		.sortBy( 'osis' )
 		.value();
-		
+
 		// Store title references as indexes to refs
 		if ( post.title )
 		{
@@ -78,18 +78,18 @@ function build_index( err, data )
 				return _.findIndex( post.refs, [ 'osis', ref ] );
 			}), -1 );
 		}
-		
+
 		// Preserve the title of this post
 		questions_references[ post.parent || post.id ] = true;
 		return post;
 	});
-	
+
 	// Filter the list of titles
 	questions = _.pickBy( questions, function( title, id )
 	{
 		return questions_references[ id ];
 	});
-	
+
 	var output = {
 		posts: posts,
 		questions: questions,
@@ -108,7 +108,7 @@ tag_map = _.mapKeys( tag_map, function( value, key )
 function parse_tags( tags )
 {
 	tags = tags.split( /[<>]/ );
-	var results =  _.flatMap( tags, function( tag )
+	var results = _.flatMap( tags, function( tag )
 	{
 		return tag_map[ tag.replace( tag_cleanup_pattern, '' ) ];
 	})

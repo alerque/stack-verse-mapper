@@ -1,6 +1,6 @@
 # Stack Verse Mapper
 
-[![Build Status](https://travis-ci.org/alerque/stack-verse-mapper.svg?branch=master)](https://travis-ci.org/alerque/stack-verse-mapper)
+[![Build Status](https://travis-ci.org/alerque/stack-verse-mapper.svg?branch=master)](https://travis-ci.org/alerque/stack-verse-mapper) [![Dependency Status](https://david-dm.org/alerque/stack-verse-mapper.svg)](https://david-dm.org/alerque/stack-verse-mapper)
 
 Index any and all references to Bible verses in Stack Exchange sites using the
 public data dumps and inject matches from this index into search results for
@@ -84,7 +84,7 @@ in `<site>-index.json`.
 Once indexes are generated, you can search from the command line by passing a
 site and a query to the search script:
 
-    ./bin/search hermeneutics 'Rev 5:1'
+    ./bin/demo.js hermeneutics 'Rev 5:1'
 
  [meta]: http://meta.hermeneutics.stackexchange.com/q/3241/36
  [issues]: https://github.com/alerque/stack-verse-mapper/issues

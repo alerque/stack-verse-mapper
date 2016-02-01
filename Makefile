@@ -27,7 +27,7 @@ SHELL = bash
 .SECONDARY:
 
 # Mark which rules are not actually generating files
-.PHONY: all clean deploy gh-pages-init gh-pages-publish Makefile setup test travis
+.PHONY: all clean demo demotest deploy gh-pages-init gh-pages-publish setup test travis Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
@@ -42,7 +42,7 @@ TRAVIS ?= false
 SHA = $(shell git rev-parse --short HEAD)
 
 # Default rule to start from scratch and build everything
-all: setup test $(SITES)
+all: setup $(SITES)
 
 # Add demo target to show off a sample
 demo: setup hermeneutics
@@ -50,7 +50,7 @@ demo: setup hermeneutics
 
 # Rule installing and configuring the local environment
 setup: node_modules
-	./bin/git-restore-mtime-bare
+	./bin/git-restore-mtime-bare.py
 
 # rule for how we come by the node_modules folder
 node_modules: package.json
@@ -133,7 +133,7 @@ gh-pages-init:
 		git remote add parent $(BASE) ;\
 		git fetch --unshallow --all ;\
 		)) ||:
-	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare
+	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare.py
 
 gh-pages-publish: gh-pages
 	( cd $(STATIC) ;\

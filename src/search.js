@@ -33,7 +33,7 @@ module.exports.search = function( query, index, options )
 {
 	// Default ranking options
 	options = _.assign( default_options, options );
-	
+
 	// Parse the search query
 	query = bcv.parse( query ).osis();
 	if ( !query )
@@ -41,7 +41,7 @@ module.exports.search = function( query, index, options )
 		return [];
 	}
 	var parsed_query = util.parse_ref( query );
-	
+
 	// Filter the posts (and their refs) which match with the query
 	// (But we may do a bit of preanalysis too)
 	var set_hits = {};
@@ -71,12 +71,12 @@ module.exports.search = function( query, index, options )
 				return ref;
 			}
 		});
-		
+
 		if ( matched )
 		{
 			// Add to set_hits
 			set_hits[ post.parent || post.id ] = ( set_hits[ post.parent || post.id ] || 0 ) + post.TDRHP;
-			
+
 			// Check for matching title references before we clean up the refs array
 			if ( post.title && post.title.length )
 			{
@@ -95,7 +95,7 @@ module.exports.search = function( query, index, options )
 		}
 	})
 	.filter( _.identity );
-	
+
 	// Analyse the filtered posts
 	results.forEach( function( post )
 	{
@@ -113,7 +113,7 @@ module.exports.search = function( query, index, options )
 		post.FPS = post.APS + post.TDRHP + post.TDRHS + post.TAG + post.QTH;
 		post.title = question.title;
 	});
-	
+
 	// Now sort by the Final Post Score
 	return _.orderBy( results, 'FPS', 'desc' );
 };
