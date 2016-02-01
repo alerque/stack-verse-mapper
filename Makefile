@@ -42,7 +42,7 @@ TRAVIS ?= false
 SHA = $(shell git rev-parse --short HEAD)
 
 # Default rule to start from scratch and build everything
-all: setup test $(SITES)
+all: setup $(SITES)
 
 # Add demo target to show off a sample
 demo: setup hermeneutics
