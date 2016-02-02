@@ -146,16 +146,16 @@ $(STATIC)/%.html: $$(addprefix src/%.,hbs less js) package.json config.json $(fo
 		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
 		package.json config.json) < $< > $@
 
-$(STATIC)/%.css: src/%.less
+$(STATIC)/%.css: src/%.less | gh-pages-init
 	lessc $< $@
 
-$(STATIC)/%.min.js: $(STATIC)/%.js
+$(STATIC)/%.min.js: $(STATIC)/%.js | gh-pages-init
 	uglifyjs $< -c -o $@ --source-map $@.map
 
-$(STATIC)/%.web.json: $(STATIC)/%.json
+$(STATIC)/%.web.json: $(STATIC)/%.json | gh-pages-init
 	jq -c . < $< > $@
 
-$(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js)
+$(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js) | gh-pages-init
 	browserify $< -o $@
 
 $(STATIC)/data/%: $(DATA)/% | gh-pages-init
