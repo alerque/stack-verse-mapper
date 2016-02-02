@@ -137,7 +137,7 @@ gh-pages-init:
 
 gh-pages-publish: gh-pages
 	( cd $(STATIC) ;\
-		$TRAVIS && git add -A || git add -u ;\
+		$(TRAVIS) && git add -A || git add -u ;\
 		git commit -C "$(SHA)" && \
 			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
