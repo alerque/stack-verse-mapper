@@ -5,9 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link rel="stylesheet" href="index.css">
+		<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="index.min.js"></script>
 		<title>{{package.name}}</title>
 	</head>
-	<body>
+	<body class="svm">
 		<nav class="navbar navbar-static-top navbar-dark bg-inverse">
 			<div class="container">
 				<a class="navbar-brand" href="#">{{package.name}}</a>
@@ -23,25 +26,36 @@
 				</form>
 			</div>
 		</nav>
-		<div class="jombotron">
-			<div class="container">
-				<p>{{package.description}}</p>
-			</div>
-		</div>
 		<div class="container">
 			<div class="row">
+				<div class="col-md-8 results">
+					<h2>Search Results</h2>
+					<p>
+						TODO:  What goes here?
+					</p>
+				</div>
 				<div class="col-md-4">
-					<h2>Raw index data</h2>
+					<h3>About</h3>
+					<p>{{package.description}}</p>
+					<h3>Seach Tips</h3>
+					<p>
+						TODO: Notes on query syntax.
+					</p>
+					<h3>Raw data</h3>
+					<p>
+						If you want to use the data that powers this search in
+						your own projects, the data dumps parsed for verse
+						referencese are available in a raw JSON format. Read the
+						<a href="{{package.homepage}}/wiki/Index-structure">index structure specification</a>
+						for an explanation about what's included.
+					</p>
 					<ul>{{#each config.sites}}
 						<li><a href="data/{{@key}}-index.json">{{@key}}-index.json</a></li>{{/each}}
 					</ul>
-					<p>
-						<a href="{{package.homepage}}/wiki/Index-structure">Read the index structure specification</a>
-					</p>
 				</div>
 			</div>
 		</div>
-		<footer class="navbar navbar-fixed-bottom">Last updated {{date}} from git commit <a href="{{package.homepage}}/commit/{{sha}}">{{sha}}</a>.</footer>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+		<footer class="container navbar navbar-fixed-bottom">Last updated {{date}} from git commit <a href="{{package.homepage}}/commit/{{sha}}">{{sha}}</a>.</footer>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 	</body>
 </html>

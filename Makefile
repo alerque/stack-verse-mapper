@@ -24,7 +24,7 @@ SHELL = bash
 # Make two-passes at expanding make-specific variables so that we can use them
 # in dependency names
 .SECONDEXPANSION:
-.SECONDARY:
+.SECONDARY: $(wildcard **.js)
 
 # Mark which rules are not actually generating files
 .PHONY: all clean demo demotest deploy gh-pages-init gh-pages-publish setup test travis Makefile
@@ -116,7 +116,7 @@ $(DATA)/%.7z:
 	curl -o "data/$*.7z" -s --continue - $(call archive_url,$*)
 
 # Rule for generating static site
-gh-pages: gh-pages-init $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) $(STATIC)/index.html
+gh-pages: gh-pages-init $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) $(addprefix $(STATIC)/index.,html css min.js)
 
 # For local copies, worktree is saner to work with but Travis's git is too old
 # so the clone route is to keep it happy.
@@ -137,14 +137,23 @@ gh-pages-init:
 
 gh-pages-publish: gh-pages
 	( cd $(STATIC) ;\
-		git add -u ;\
+		$TRAVIS && git add -A || git add -u ;\
 		git commit -C "$(SHA)" && \
 			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
-$(STATIC)/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
+$(STATIC)/%.html: $$(addprefix src/%.,hbs less js) package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
 	handlebars <(jq -s \
 		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
 		package.json config.json) < $< > $@
+
+$(STATIC)/%.css: src/%.less
+	lessc $< $@
+
+$(STATIC)/%.min.js: $(STATIC)/%.js
+	uglifyjs $< -c -o $@ --source-map $@.map
+
+$(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js)
+	browserify $< -o $@
 
 $(STATIC)/data/%: $(DATA)/% | gh-pages-init
 	cp -p $< $@
