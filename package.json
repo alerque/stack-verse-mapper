@@ -14,6 +14,7 @@
   "homepage": "https://github.com/alerque/stack-verse-mapper",
   "dependencies": {
     "bible-passage-reference-parser": "^1.0.0",
+    "browserify": "^13.0.0",
     "handlebars": "^4.0.5",
     "handlebars-cmd": "^0.1.4",
     "html-to-text": "^1.6.0",
