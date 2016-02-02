@@ -17,6 +17,7 @@
     "handlebars": "^4.0.5",
     "handlebars-cmd": "^0.1.4",
     "html-to-text": "^1.6.0",
+    "less": "^2.6.0",
     "lodash": "^4.1.0",
     "raw-body": "^2.1.5",
     "xml-flow": "^0.4.0"
