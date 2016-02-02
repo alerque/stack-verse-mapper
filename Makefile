@@ -149,7 +149,7 @@ $(STATIC)/index.html: src/index.hbs $(STATIC)/site.css $(STATIC)/site.js package
 $(STATIC)/%.css: src/%.less
 	lessc $< $@
 
-$(STATIC)/%.js: src/%.js
+$(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js)
 	browserify $< -o $@
 
 $(STATIC)/data/%: $(DATA)/% | gh-pages-init
