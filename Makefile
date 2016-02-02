@@ -24,7 +24,7 @@ SHELL = bash
 # Make two-passes at expanding make-specific variables so that we can use them
 # in dependency names
 .SECONDEXPANSION:
-.SECONDARY: $(wildcard **.js)
+.SECONDARY: $(wildcard **.js{,on})
 
 # Mark which rules are not actually generating files
 .PHONY: all clean demo demotest deploy gh-pages-init gh-pages-publish setup test travis Makefile
@@ -141,7 +141,7 @@ gh-pages-publish: gh-pages
 		git commit -C "$(SHA)" && \
 			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
-$(STATIC)/%.html: $$(addprefix src/%.,hbs less js) package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
+$(STATIC)/%.html: $$(addprefix src/%.,hbs less js) package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.web.json) | gh-pages-init
 	handlebars <(jq -s \
 		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
 		package.json config.json) < $< > $@
@@ -151,6 +151,9 @@ $(STATIC)/%.css: src/%.less
 
 $(STATIC)/%.min.js: $(STATIC)/%.js
 	uglifyjs $< -c -o $@ --source-map $@.map
+
+$(STATIC)/%.web.json: $(STATIC)/%.json
+	jq -c . < $< > $@
 
 $(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js)
 	browserify $< -o $@
