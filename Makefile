@@ -141,10 +141,13 @@ gh-pages-publish: gh-pages
 		git commit -C "$(SHA)" && \
 			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
-$(STATIC)/index.html: src/index.hbs package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
+$(STATIC)/index.html: src/index.hbs $(STATIC)/site.css package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
 	handlebars <(jq -s \
 		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
 		package.json config.json) < $< > $@
+
+$(STATIC)/%.css: src/%.less
+	lessc $< $@
 
 $(STATIC)/data/%: $(DATA)/% | gh-pages-init
 	cp -p $< $@
