@@ -141,13 +141,16 @@ gh-pages-publish: gh-pages
 		git commit -C "$(SHA)" && \
 			git commit --amend -m "Publish static site from $(SHA)" ||: )
 
-$(STATIC)/index.html: src/index.hbs $(STATIC)/site.css $(STATIC)/site.js package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
+$(STATIC)/index.html: src/index.hbs $(STATIC)/site.css $(STATIC)/site.min.js package.json config.json $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.json) | gh-pages-init
 	handlebars <(jq -s \
 		'{ package: .[0], config: .[1], date: "$(shell date)", sha: "$(SHA)" }' \
 		package.json config.json) < $< > $@
 
 $(STATIC)/%.css: src/%.less
 	lessc $< $@
+
+%.min.js: %.js
+	uglifyjs $< -c -o $@ --source-map $@.map
 
 $(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js)
 	browserify $< -o $@
