@@ -27,7 +27,7 @@ SHELL = bash
 .SECONDARY: $(wildcard **.js{,on})
 
 # Mark which rules are not actually generating files
-.PHONY: all clean demo demotest deploy gh-pages-init gh-pages-publish setup test travis Makefile
+.PHONY: all clean demo deploy gh-pages-init gh-pages-publish setup test Makefile
 
 # Don't cleaanup our downloads as part of a regular cleanup cycle
 .PRECIOUS: %.7z *-posts.json *-index.json
@@ -65,6 +65,8 @@ clean:
 # Run some automated tests
 test: setup
 	eslint .
+	./bin/parse_xml.js ./test/test-posts.xml | jq . | diff -u - ./test/test-posts.json
+	./bin/build_index.js ./test/test-posts.json | jq . | diff -u - ./test/test-index.json
 
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
@@ -96,17 +98,9 @@ define archive_url
 $(shell curl -w "%{url_effective}" -I -L -s -S https://archive.org/download/stackexchange/$(1).7z -o /dev/null)
 endef
 
-# This is the target for Travis-CI to test
-travis: test demotest
-
 # Shortcut to publish all the things
 deploy: gh-pages-publish
 	cd $(STATIC) && git push origin HEAD:gh-pages
-
-# Islam is a slightly smaller to download, but Hermeneutics gives us a more
-# options for testing actual results
-demotest: setup hermeneutics
-	./bin/demo.js hermeneutics 'Rev 22:21' | grep -q 'a/13495'
 
 # Rule for fetching site specific data dumps. This checks if the site exists,
 # then attempts to update or resume downloading the dump file.
