@@ -67,6 +67,7 @@ test: setup
 	eslint .
 	./bin/parse_xml.js ./test/test-posts.xml | jq . | diff -u - ./test/test-posts.json
 	./bin/build_index.js ./test/test-posts.json | jq . | diff -u - ./test/test-index.json
+	./bin/prune_index.js ./test/test-index.json | diff -u - ./test/test-index.web.json
 
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
@@ -146,8 +147,8 @@ $(STATIC)/%.css: src/%.less | gh-pages-init
 $(STATIC)/%.min.js: $(STATIC)/%.js | gh-pages-init
 	uglifyjs $< -c -o $@ --source-map $@.map
 
-$(STATIC)/%.web.json: $(STATIC)/%.json | gh-pages-init
-	jq -c . < $< > $@
+$(STATIC)/%.web.json: $(STATIC)/%.json bin/prune_index.js | gh-pages-init
+	./bin/prune_index.js $< > $@
 
 $(STATIC)/%.js: src/%.js $$(shell $(shell npm bin)/browserify --list src/%.js) | gh-pages-init
 	browserify $< -o $@
