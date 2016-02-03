@@ -18,7 +18,7 @@ before_install:
 before_script:
   - git fetch --unshallow --all
 script:
-  - make travis
+  - make test
   - if [[ $TRAVIS_REPO_SLUG == alerque/stack-verse-mapper ]] &&
        [[ $TRAVIS_BRANCH == master ]] &&
        [[ $TRAVIS_PULL_REQUEST == false ]]; then make all; fi
