@@ -7789,7 +7789,7 @@ var grammar = (function() {
 (function (global){
 /**
  * @license
- * lodash 4.1.0 (Custom Build) <https://lodash.com/>
+ * lodash 4.3.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash -d -o ./foo/lodash.js`
  * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -7802,7 +7802,7 @@ var grammar = (function() {
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.1.0';
+  var VERSION = '4.3.0';
 
   /** Used to compose bitmasks for wrapper metadata. */
   var BIND_FLAG = 1,
@@ -7871,7 +7871,8 @@ var grammar = (function() {
       setTag = '[object Set]',
       stringTag = '[object String]',
       symbolTag = '[object Symbol]',
-      weakMapTag = '[object WeakMap]';
+      weakMapTag = '[object WeakMap]',
+      weakSetTag = '[object WeakSet]';
 
   var arrayBufferTag = '[object ArrayBuffer]',
       float32Tag = '[object Float32Array]',
@@ -8020,8 +8021,8 @@ var grammar = (function() {
 
   /** Used to assign default `context` object properties. */
   var contextProps = [
-    'Array', 'Date', 'Error', 'Float32Array', 'Float64Array', 'Function',
-    'Int8Array', 'Int16Array', 'Int32Array', 'Map', 'Math', 'Object',
+    'Array', 'Buffer', 'Date', 'Error', 'Float32Array', 'Float64Array',
+    'Function', 'Int8Array', 'Int16Array', 'Int32Array', 'Map', 'Math', 'Object',
     'Reflect', 'RegExp', 'Set', 'String', 'Symbol', 'TypeError', 'Uint8Array',
     'Uint8ClampedArray', 'Uint16Array', 'Uint32Array', 'WeakMap', '_',
     'clearTimeout', 'isFinite', 'parseInt', 'setTimeout'
@@ -8186,11 +8187,11 @@ var grammar = (function() {
    * @private
    * @param {Function} func The function to invoke.
    * @param {*} thisArg The `this` binding of `func`.
-   * @param {...*} [args] The arguments to invoke `func` with.
+   * @param {...*} args The arguments to invoke `func` with.
    * @returns {*} Returns the result of `func`.
    */
   function apply(func, thisArg, args) {
-    var length = args ? args.length : 0;
+    var length = args.length;
     switch (length) {
       case 0: return func.call(thisArg);
       case 1: return func.call(thisArg, args[0]);
@@ -8630,7 +8631,7 @@ var grammar = (function() {
         result = result === undefined ? current : (result + current);
       }
     }
-    return length ? result : 0;
+    return result;
   }
 
   /**
@@ -9043,14 +9044,14 @@ var grammar = (function() {
    * lodash.isFunction(lodash.bar);
    * // => true
    *
-   * // using `context` to mock `Date#getTime` use in `_.now`
+   * // Use `context` to mock `Date#getTime` use in `_.now`.
    * var mock = _.runInContext({
    *   'Date': function() {
    *     return { 'getTime': getTimeMock };
    *   }
    * });
    *
-   * // or creating a suped-up `defer` in Node.js
+   * // Create a suped-up `defer` in Node.js.
    * var defer = _.runInContext({ 'setTimeout': setImmediate }).defer;
    */
   function runInContext(context) {
@@ -9095,7 +9096,8 @@ var grammar = (function() {
     );
 
     /** Built-in value references. */
-    var Reflect = context.Reflect,
+    var Buffer = moduleExports ? context.Buffer : undefined,
+        Reflect = context.Reflect,
         Symbol = context.Symbol,
         Uint8Array = context.Uint8Array,
         clearTimeout = context.clearTimeout,
@@ -9128,9 +9130,10 @@ var grammar = (function() {
     /** Used to store function metadata. */
     var metaMap = WeakMap && new WeakMap;
 
-    /** Used to detect maps and sets. */
+    /** Used to detect maps, sets, and weakmaps. */
     var mapCtorString = Map ? funcToString.call(Map) : '',
-        setCtorString = Set ? funcToString.call(Set) : '';
+        setCtorString = Set ? funcToString.call(Set) : '',
+        weakMapCtorString = WeakMap ? funcToString.call(WeakMap) : '';
 
     /** Used to convert symbols to primitives and strings. */
     var symbolProto = Symbol ? Symbol.prototype : undefined,
@@ -9240,11 +9243,11 @@ var grammar = (function() {
      *
      * var wrapped = _([1, 2, 3]);
      *
-     * // returns an unwrapped value
+     * // Returns an unwrapped value.
      * wrapped.reduce(_.add);
      * // => 6
      *
-     * // returns a wrapped value
+     * // Returns a wrapped value.
      * var squares = wrapped.map(square);
      *
      * _.isArray(squares);
@@ -10040,6 +10043,9 @@ var grammar = (function() {
         var tag = getTag(value),
             isFunc = tag == funcTag || tag == genTag;
 
+        if (isBuffer(value)) {
+          return cloneBuffer(value, isDeep);
+        }
         if (tag == objectTag || tag == argsTag || (isFunc && !object)) {
           if (isHostObject(value)) {
             return object ? value : {};
@@ -10125,7 +10131,7 @@ var grammar = (function() {
      * @private
      * @param {Function} func The function to delay.
      * @param {number} wait The number of milliseconds to delay invocation.
-     * @param {Object} args The arguments provide to `func`.
+     * @param {Object} args The arguments to provide to `func`.
      * @returns {number} Returns the timer id.
      */
     function baseDelay(func, wait, args) {
@@ -10370,7 +10376,7 @@ var grammar = (function() {
 
     /**
      * The base implementation of `_.functions` which creates an array of
-     * `object` function property names filtered from those provided.
+     * `object` function property names filtered from `props`.
      *
      * @private
      * @param {Object} object The object to inspect.
@@ -11497,18 +11503,37 @@ var grammar = (function() {
     }
 
     /**
-     * Creates a clone of `buffer`.
+     * Creates a clone of  `buffer`.
      *
      * @private
-     * @param {ArrayBuffer} buffer The array buffer to clone.
+     * @param {Buffer} buffer The buffer to clone.
+     * @param {boolean} [isDeep] Specify a deep clone.
+     * @returns {Buffer} Returns the cloned buffer.
+     */
+    function cloneBuffer(buffer, isDeep) {
+      if (isDeep) {
+        return buffer.slice();
+      }
+      var Ctor = buffer.constructor,
+          result = new Ctor(buffer.length);
+
+      buffer.copy(result);
+      return result;
+    }
+
+    /**
+     * Creates a clone of `arrayBuffer`.
+     *
+     * @private
+     * @param {ArrayBuffer} arrayBuffer The array buffer to clone.
      * @returns {ArrayBuffer} Returns the cloned array buffer.
      */
-    function cloneBuffer(buffer) {
-      var Ctor = buffer.constructor,
-          result = new Ctor(buffer.byteLength),
+    function cloneArrayBuffer(arrayBuffer) {
+      var Ctor = arrayBuffer.constructor,
+          result = new Ctor(arrayBuffer.byteLength),
           view = new Uint8Array(result);
 
-      view.set(new Uint8Array(buffer));
+      view.set(new Uint8Array(arrayBuffer));
       return result;
     }
 
@@ -11574,7 +11599,7 @@ var grammar = (function() {
       var buffer = typedArray.buffer,
           Ctor = typedArray.constructor;
 
-      return new Ctor(isDeep ? cloneBuffer(buffer) : buffer, typedArray.byteOffset, typedArray.length);
+      return new Ctor(isDeep ? cloneArrayBuffer(buffer) : buffer, typedArray.byteOffset, typedArray.length);
     }
 
     /**
@@ -11912,7 +11937,7 @@ var grammar = (function() {
             index = length,
             args = Array(length),
             fn = (this && this !== root && this instanceof wrapper) ? Ctor : func,
-            placeholder = wrapper.placeholder;
+            placeholder = lodash.placeholder || wrapper.placeholder;
 
         while (index--) {
           args[index] = arguments[index];
@@ -12028,7 +12053,7 @@ var grammar = (function() {
           args = composeArgsRight(args, partialsRight, holdersRight);
         }
         if (isCurry || isCurryRight) {
-          var placeholder = wrapper.placeholder,
+          var placeholder = lodash.placeholder || wrapper.placeholder,
               argsHolders = replaceHolders(args, placeholder);
 
           length -= argsHolders.length;
@@ -12642,19 +12667,20 @@ var grammar = (function() {
       return objectToString.call(value);
     }
 
-    // Fallback for IE 11 providing `toStringTag` values for maps and sets.
-    if ((Map && getTag(new Map) != mapTag) || (Set && getTag(new Set) != setTag)) {
+    // Fallback for IE 11 providing `toStringTag` values for maps, sets, and weakmaps.
+    if ((Map && getTag(new Map) != mapTag) ||
+        (Set && getTag(new Set) != setTag) ||
+        (WeakMap && getTag(new WeakMap) != weakMapTag)) {
       getTag = function(value) {
         var result = objectToString.call(value),
             Ctor = result == objectTag ? value.constructor : null,
             ctorString = typeof Ctor == 'function' ? funcToString.call(Ctor) : '';
 
         if (ctorString) {
-          if (ctorString == mapCtorString) {
-            return mapTag;
-          }
-          if (ctorString == setCtorString) {
-            return setTag;
+          switch (ctorString) {
+            case mapCtorString: return mapTag;
+            case setCtorString: return setTag;
+            case weakMapCtorString: return weakMapTag;
           }
         }
         return result;
@@ -12768,7 +12794,7 @@ var grammar = (function() {
       var Ctor = object.constructor;
       switch (tag) {
         case arrayBufferTag:
-          return cloneBuffer(object);
+          return cloneArrayBuffer(object);
 
         case boolTag:
         case dateTag:
@@ -12815,7 +12841,7 @@ var grammar = (function() {
     }
 
     /**
-     * Checks if the provided arguments are from an iteratee call.
+     * Checks if the given arguments are from an iteratee call.
      *
      * @private
      * @param {*} value The potential iteratee value argument.
@@ -13223,7 +13249,7 @@ var grammar = (function() {
 
     /**
      * Creates an array of unique `array` values not included in the other
-     * provided arrays using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+     * given arrays using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
      * for equality comparisons.
      *
      * @static
@@ -13260,7 +13286,7 @@ var grammar = (function() {
      * _.differenceBy([3.1, 2.2, 1.3], [4.4, 2.5], Math.floor);
      * // => [3.1, 1.3]
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.differenceBy([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], 'x');
      * // => [{ 'x': 2 }]
      */
@@ -13392,15 +13418,15 @@ var grammar = (function() {
      * _.dropRightWhile(users, function(o) { return !o.active; });
      * // => objects for ['barney']
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.dropRightWhile(users, { 'user': 'pebbles', 'active': false });
      * // => objects for ['barney', 'fred']
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.dropRightWhile(users, ['active', false]);
      * // => objects for ['barney']
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.dropRightWhile(users, 'active');
      * // => objects for ['barney', 'fred', 'pebbles']
      */
@@ -13432,15 +13458,15 @@ var grammar = (function() {
      * _.dropWhile(users, function(o) { return !o.active; });
      * // => objects for ['pebbles']
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.dropWhile(users, { 'user': 'barney', 'active': false });
      * // => objects for ['fred', 'pebbles']
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.dropWhile(users, ['active', false]);
      * // => objects for ['pebbles']
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.dropWhile(users, 'active');
      * // => objects for ['barney', 'fred', 'pebbles']
      */
@@ -13511,15 +13537,15 @@ var grammar = (function() {
      * _.findIndex(users, function(o) { return o.user == 'barney'; });
      * // => 0
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.findIndex(users, { 'user': 'fred', 'active': false });
      * // => 1
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.findIndex(users, ['active', false]);
      * // => 0
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.findIndex(users, 'active');
      * // => 2
      */
@@ -13550,15 +13576,15 @@ var grammar = (function() {
      * _.findLastIndex(users, function(o) { return o.user == 'pebbles'; });
      * // => 2
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.findLastIndex(users, { 'user': 'barney', 'active': true });
      * // => 0
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.findLastIndex(users, ['active', false]);
      * // => 2
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.findLastIndex(users, 'active');
      * // => 0
      */
@@ -13566,31 +13592,6 @@ var grammar = (function() {
       return (array && array.length)
         ? baseFindIndex(array, getIteratee(predicate, 3), true)
         : -1;
-    }
-
-    /**
-     * Creates an array of flattened values by running each element in `array`
-     * through `iteratee` and concating its result to the other mapped values.
-     * The iteratee is invoked with three arguments: (value, index|key, array).
-     *
-     * @static
-     * @memberOf _
-     * @category Array
-     * @param {Array} array The array to iterate over.
-     * @param {Function|Object|string} [iteratee=_.identity] The function invoked per iteration.
-     * @returns {Array} Returns the new array.
-     * @example
-     *
-     * function duplicate(n) {
-     *   return [n, n];
-     * }
-     *
-     * _.flatMap([1, 2], duplicate);
-     * // => [1, 1, 2, 2]
-     */
-    function flatMap(array, iteratee) {
-      var length = array ? array.length : 0;
-      return length ? baseFlatten(arrayMap(array, getIteratee(iteratee, 3))) : [];
     }
 
     /**
@@ -13680,8 +13681,7 @@ var grammar = (function() {
      * Gets the index at which the first occurrence of `value` is found in `array`
      * using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
      * for equality comparisons. If `fromIndex` is negative, it's used as the offset
-     * from the end of `array`. If `array` is sorted providing `true` for `fromIndex`
-     * performs a faster binary search.
+     * from the end of `array`.
      *
      * @static
      * @memberOf _
@@ -13695,7 +13695,7 @@ var grammar = (function() {
      * _.indexOf([1, 2, 1, 2], 2);
      * // => 1
      *
-     * // using `fromIndex`
+     * // Search from the `fromIndex`.
      * _.indexOf([1, 2, 1, 2], 2, 2);
      * // => 3
      */
@@ -13729,8 +13729,8 @@ var grammar = (function() {
     }
 
     /**
-     * Creates an array of unique values that are included in all of the provided
-     * arrays using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+     * Creates an array of unique values that are included in all given arrays
+     * using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
      * for equality comparisons.
      *
      * @static
@@ -13766,7 +13766,7 @@ var grammar = (function() {
      * _.intersectionBy([2.1, 1.2], [4.3, 2.4], Math.floor);
      * // => [2.1]
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.intersectionBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
      * // => [{ 'x': 1 }]
      */
@@ -13869,7 +13869,7 @@ var grammar = (function() {
      * _.lastIndexOf([1, 2, 1, 2], 2);
      * // => 3
      *
-     * // using `fromIndex`
+     * // Search from the `fromIndex`.
      * _.lastIndexOf([1, 2, 1, 2], 2, 2);
      * // => 1
      */
@@ -13895,7 +13895,7 @@ var grammar = (function() {
     }
 
     /**
-     * Removes all provided values from `array` using
+     * Removes all given values from `array` using
      * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
      * for equality comparisons.
      *
@@ -13944,7 +13944,7 @@ var grammar = (function() {
 
     /**
      * This method is like `_.pullAll` except that it accepts `iteratee` which is
-     * invoked for each element of `array` and `values` to to generate the criterion
+     * invoked for each element of `array` and `values` to generate the criterion
      * by which uniqueness is computed. The iteratee is invoked with one argument: (value).
      *
      * **Note:** Unlike `_.differenceBy`, this method mutates `array`.
@@ -14145,7 +14145,7 @@ var grammar = (function() {
      * _.sortedIndexBy(['thirty', 'fifty'], 'forty', _.propertyOf(dict));
      * // => 1
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.sortedIndexBy([{ 'x': 4 }, { 'x': 5 }], { 'x': 4 }, 'x');
      * // => 0
      */
@@ -14213,7 +14213,7 @@ var grammar = (function() {
      * @returns {number} Returns the index at which `value` should be inserted into `array`.
      * @example
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.sortedLastIndexBy([{ 'x': 4 }, { 'x': 5 }], { 'x': 4 }, 'x');
      * // => 1
      */
@@ -14280,7 +14280,7 @@ var grammar = (function() {
      * @example
      *
      * _.sortedUniqBy([1.1, 1.2, 2.3, 2.4], Math.floor);
-     * // => [1.1, 2.2]
+     * // => [1.1, 2.3]
      */
     function sortedUniqBy(array, iteratee) {
       return (array && array.length)
@@ -14393,15 +14393,15 @@ var grammar = (function() {
      * _.takeRightWhile(users, function(o) { return !o.active; });
      * // => objects for ['fred', 'pebbles']
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.takeRightWhile(users, { 'user': 'pebbles', 'active': false });
      * // => objects for ['pebbles']
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.takeRightWhile(users, ['active', false]);
      * // => objects for ['fred', 'pebbles']
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.takeRightWhile(users, 'active');
      * // => []
      */
@@ -14433,15 +14433,15 @@ var grammar = (function() {
      * _.takeWhile(users, function(o) { return !o.active; });
      * // => objects for ['barney', 'fred']
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.takeWhile(users, { 'user': 'barney', 'active': false });
      * // => objects for ['barney']
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.takeWhile(users, ['active', false]);
      * // => objects for ['barney', 'fred']
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.takeWhile(users, 'active');
      * // => []
      */
@@ -14452,8 +14452,8 @@ var grammar = (function() {
     }
 
     /**
-     * Creates an array of unique values, in order, from all of the provided arrays
-     * using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+     * Creates an array of unique values, in order, from all given arrays using
+     * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
      * for equality comparisons.
      *
      * @static
@@ -14486,7 +14486,7 @@ var grammar = (function() {
      * _.unionBy([2.1, 1.2], [4.3, 2.4], Math.floor);
      * // => [2.1, 1.2, 4.3]
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.unionBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
      * // => [{ 'x': 1 }, { 'x': 2 }]
      */
@@ -14563,7 +14563,7 @@ var grammar = (function() {
      * _.uniqBy([2.1, 1.2, 2.3], Math.floor);
      * // => [2.1, 1.2]
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.uniqBy([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
      * // => [{ 'x': 1 }, { 'x': 2 }]
      */
@@ -14664,7 +14664,7 @@ var grammar = (function() {
     }
 
     /**
-     * Creates an array excluding all provided values using
+     * Creates an array excluding all given values using
      * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
      * for equality comparisons.
      *
@@ -14687,7 +14687,7 @@ var grammar = (function() {
 
     /**
      * Creates an array of unique values that is the [symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference)
-     * of the provided arrays.
+     * of the given arrays.
      *
      * @static
      * @memberOf _
@@ -14719,7 +14719,7 @@ var grammar = (function() {
      * _.xorBy([2.1, 1.2], [4.3, 2.4], Math.floor);
      * // => [1.2, 4.3]
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.xorBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
      * // => [{ 'x': 2 }]
      */
@@ -14874,10 +14874,9 @@ var grammar = (function() {
     }
 
     /**
-     * This method invokes `interceptor` and returns `value`. The interceptor is
-     * invoked with one argument; (value). The purpose of this method is to "tap into"
-     * a method chain in order to perform operations on intermediate results within
-     * the chain.
+     * This method invokes `interceptor` and returns `value`. The interceptor
+     * is invoked with one argument; (value). The purpose of this method is to
+     * "tap into" a method chain in order to modify intermediate results.
      *
      * @static
      * @memberOf _
@@ -14889,6 +14888,7 @@ var grammar = (function() {
      *
      * _([1, 2, 3])
      *  .tap(function(array) {
+     *    // Mutate input array.
      *    array.pop();
      *  })
      *  .reverse()
@@ -14902,6 +14902,8 @@ var grammar = (function() {
 
     /**
      * This method is like `_.tap` except that it returns the result of `interceptor`.
+     * The purpose of this method is to "pass thru" values replacing intermediate
+     * results in a method chain.
      *
      * @static
      * @memberOf _
@@ -14977,11 +14979,11 @@ var grammar = (function() {
      *   { 'user': 'fred',   'age': 40 }
      * ];
      *
-     * // without explicit chaining
+     * // A sequence without explicit chaining.
      * _(users).head();
      * // => { 'user': 'barney', 'age': 36 }
      *
-     * // with explicit chaining
+     * // A sequence with explicit chaining.
      * _(users)
      *   .chain()
      *   .head()
@@ -15236,15 +15238,15 @@ var grammar = (function() {
      *   { 'user': 'fred',   'active': false }
      * ];
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.every(users, { 'user': 'barney', 'active': false });
      * // => false
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.every(users, ['active', false]);
      * // => true
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.every(users, 'active');
      * // => false
      */
@@ -15277,15 +15279,15 @@ var grammar = (function() {
      * _.filter(users, function(o) { return !o.active; });
      * // => objects for ['fred']
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.filter(users, { 'age': 36, 'active': true });
      * // => objects for ['barney']
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.filter(users, ['active', false]);
      * // => objects for ['fred']
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.filter(users, 'active');
      * // => objects for ['barney']
      */
@@ -15316,15 +15318,15 @@ var grammar = (function() {
      * _.find(users, function(o) { return o.age < 40; });
      * // => object for 'barney'
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.find(users, { 'age': 1, 'active': true });
      * // => object for 'pebbles'
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.find(users, ['active', false]);
      * // => object for 'fred'
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.find(users, 'active');
      * // => object for 'barney'
      */
@@ -15361,6 +15363,30 @@ var grammar = (function() {
         return index > -1 ? collection[index] : undefined;
       }
       return baseFind(collection, predicate, baseEachRight);
+    }
+
+    /**
+     * Creates an array of flattened values by running each element in `collection`
+     * through `iteratee` and concating its result to the other mapped values.
+     * The iteratee is invoked with three arguments: (value, index|key, collection).
+     *
+     * @static
+     * @memberOf _
+     * @category Collection
+     * @param {Array|Object} collection The collection to iterate over.
+     * @param {Function|Object|string} [iteratee=_.identity] The function invoked per iteration.
+     * @returns {Array} Returns the new flattened array.
+     * @example
+     *
+     * function duplicate(n) {
+     *   return [n, n];
+     * }
+     *
+     * _.flatMap([1, 2], duplicate);
+     * // => [1, 1, 2, 2]
+     */
+    function flatMap(collection, iteratee) {
+      return baseFlatten(map(collection, iteratee));
     }
 
     /**
@@ -15438,7 +15464,7 @@ var grammar = (function() {
      * _.groupBy([6.1, 4.2, 6.3], Math.floor);
      * // => { '4': [4.2], '6': [6.1, 6.3] }
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.groupBy(['one', 'two', 'three'], 'length');
      * // => { '3': ['one', 'two'], '5': ['three'] }
      */
@@ -15594,7 +15620,7 @@ var grammar = (function() {
      *   { 'user': 'fred' }
      * ];
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.map(users, 'user');
      * // => ['barney', 'fred']
      */
@@ -15626,7 +15652,7 @@ var grammar = (function() {
      *   { 'user': 'barney', 'age': 36 }
      * ];
      *
-     * // sort by `user` in ascending order and by `age` in descending order
+     * // Sort by `user` in ascending order and by `age` in descending order.
      * _.orderBy(users, ['user', 'age'], ['asc', 'desc']);
      * // => objects for [['barney', 36], ['barney', 34], ['fred', 48], ['fred', 42]]
      */
@@ -15667,15 +15693,15 @@ var grammar = (function() {
      * _.partition(users, function(o) { return o.active; });
      * // => objects for [['fred'], ['barney', 'pebbles']]
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.partition(users, { 'age': 1, 'active': false });
      * // => objects for [['pebbles'], ['barney', 'fred']]
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.partition(users, ['active', false]);
      * // => objects for [['barney', 'pebbles'], ['fred']]
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.partition(users, 'active');
      * // => objects for [['fred'], ['barney', 'pebbles']]
      */
@@ -15687,7 +15713,7 @@ var grammar = (function() {
      * Reduces `collection` to a value which is the accumulated result of running
      * each element in `collection` through `iteratee`, where each successive
      * invocation is supplied the return value of the previous. If `accumulator`
-     * is not provided the first element of `collection` is used as the initial
+     * is not given the first element of `collection` is used as the initial
      * value. The iteratee is invoked with four arguments:
      * (accumulator, value, index|key, collection).
      *
@@ -15772,15 +15798,15 @@ var grammar = (function() {
      * _.reject(users, function(o) { return !o.active; });
      * // => objects for ['fred']
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.reject(users, { 'age': 40, 'active': true });
      * // => objects for ['barney']
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.reject(users, ['active', false]);
      * // => objects for ['fred']
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.reject(users, 'active');
      * // => objects for ['barney']
      */
@@ -15919,15 +15945,15 @@ var grammar = (function() {
      *   { 'user': 'fred',   'active': false }
      * ];
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.some(users, { 'user': 'barney', 'active': false });
      * // => false
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.some(users, ['active', false]);
      * // => true
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.some(users, 'active');
      * // => true
      */
@@ -16127,7 +16153,7 @@ var grammar = (function() {
      * bound('!');
      * // => 'hi fred!'
      *
-     * // using placeholders
+     * // Bound with placeholders.
      * var bound = _.bind(greet, object, _, '!');
      * bound('hi');
      * // => 'hi fred!'
@@ -16135,7 +16161,9 @@ var grammar = (function() {
     var bind = rest(function(func, thisArg, partials) {
       var bitmask = BIND_FLAG;
       if (partials.length) {
-        var holders = replaceHolders(partials, bind.placeholder);
+        var placeholder = lodash.placeholder || bind.placeholder,
+            holders = replaceHolders(partials, placeholder);
+
         bitmask |= PARTIAL_FLAG;
       }
       return createWrapper(func, bitmask, thisArg, partials, holders);
@@ -16180,7 +16208,7 @@ var grammar = (function() {
      * bound('!');
      * // => 'hiya fred!'
      *
-     * // using placeholders
+     * // Bound with placeholders.
      * var bound = _.bindKey(object, 'greet', _, '!');
      * bound('hi');
      * // => 'hiya fred!'
@@ -16188,7 +16216,9 @@ var grammar = (function() {
     var bindKey = rest(function(object, key, partials) {
       var bitmask = BIND_FLAG | BIND_KEY_FLAG;
       if (partials.length) {
-        var holders = replaceHolders(partials, bindKey.placeholder);
+        var placeholder = lodash.placeholder || bindKey.placeholder,
+            holders = replaceHolders(partials, placeholder);
+
         bitmask |= PARTIAL_FLAG;
       }
       return createWrapper(key, bitmask, object, partials, holders);
@@ -16230,14 +16260,14 @@ var grammar = (function() {
      * curried(1, 2, 3);
      * // => [1, 2, 3]
      *
-     * // using placeholders
+     * // Curried with placeholders.
      * curried(1)(_, 3)(2);
      * // => [1, 2, 3]
      */
     function curry(func, arity, guard) {
       arity = guard ? undefined : arity;
       var result = createWrapper(func, CURRY_FLAG, undefined, undefined, undefined, undefined, undefined, arity);
-      result.placeholder = curry.placeholder;
+      result.placeholder = lodash.placeholder || curry.placeholder;
       return result;
     }
 
@@ -16274,14 +16304,14 @@ var grammar = (function() {
      * curried(1, 2, 3);
      * // => [1, 2, 3]
      *
-     * // using placeholders
+     * // Curried with placeholders.
      * curried(3)(1, _)(2);
      * // => [1, 2, 3]
      */
     function curryRight(func, arity, guard) {
       arity = guard ? undefined : arity;
       var result = createWrapper(func, CURRY_RIGHT_FLAG, undefined, undefined, undefined, undefined, undefined, arity);
-      result.placeholder = curryRight.placeholder;
+      result.placeholder = lodash.placeholder || curryRight.placeholder;
       return result;
     }
 
@@ -16296,7 +16326,7 @@ var grammar = (function() {
      * to the debounced function return the result of the last `func` invocation.
      *
      * **Note:** If `leading` and `trailing` options are `true`, `func` is invoked
-     * on the trailing edge of the timeout only if the the debounced function is
+     * on the trailing edge of the timeout only if the debounced function is
      * invoked more than once during the `wait` timeout.
      *
      * See [David Corbacho's article](http://drupalmotion.com/article/debounce-and-throttle-visual-explanation)
@@ -16317,21 +16347,21 @@ var grammar = (function() {
      * @returns {Function} Returns the new debounced function.
      * @example
      *
-     * // avoid costly calculations while the window size is in flux
+     * // Avoid costly calculations while the window size is in flux.
      * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
      *
-     * // invoke `sendMail` when clicked, debouncing subsequent calls
+     * // Invoke `sendMail` when clicked, debouncing subsequent calls.
      * jQuery(element).on('click', _.debounce(sendMail, 300, {
      *   'leading': true,
      *   'trailing': false
      * }));
      *
-     * // ensure `batchLog` is invoked once after 1 second of debounced calls
+     * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
      * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
      * var source = new EventSource('/stream');
      * jQuery(source).on('message', debounced);
      *
-     * // cancel a trailing debounced invocation
+     * // Cancel the trailing debounced invocation.
      * jQuery(window).on('popstate', debounced.cancel);
      */
     function debounce(func, wait, options) {
@@ -16412,7 +16442,7 @@ var grammar = (function() {
         if (maxWait === false) {
           var leadingCall = leading && !timeoutId;
         } else {
-          if (!maxTimeoutId && !leading) {
+          if (!lastCalled && !maxTimeoutId && !leading) {
             lastCalled = stamp;
           }
           var remaining = maxWait - (stamp - lastCalled),
@@ -16464,7 +16494,7 @@ var grammar = (function() {
      * _.defer(function(text) {
      *   console.log(text);
      * }, 'deferred');
-     * // logs 'deferred' after one or more milliseconds
+     * // => logs 'deferred' after one or more milliseconds
      */
     var defer = rest(function(func, args) {
       return baseDelay(func, 1, args);
@@ -16547,12 +16577,12 @@ var grammar = (function() {
      * values(object);
      * // => [1, 2]
      *
-     * // modifying the result cache
+     * // Modify the result cache.
      * values.cache.set(object, ['a', 'b']);
      * values(object);
      * // => ['a', 'b']
      *
-     * // replacing `_.memoize.Cache`
+     * // Replace `_.memoize.Cache`.
      * _.memoize.Cache = WeakMap;
      */
     function memoize(func, resolver) {
@@ -16697,13 +16727,15 @@ var grammar = (function() {
      * sayHelloTo('fred');
      * // => 'hello fred'
      *
-     * // using placeholders
+     * // Partially applied with placeholders.
      * var greetFred = _.partial(greet, _, 'fred');
      * greetFred('hi');
      * // => 'hi fred'
      */
     var partial = rest(function(func, partials) {
-      var holders = replaceHolders(partials, partial.placeholder);
+      var placeholder = lodash.placeholder || partial.placeholder,
+          holders = replaceHolders(partials, placeholder);
+
       return createWrapper(func, PARTIAL_FLAG, undefined, partials, holders);
     });
 
@@ -16733,13 +16765,15 @@ var grammar = (function() {
      * greetFred('hi');
      * // => 'hi fred'
      *
-     * // using placeholders
+     * // Partially applied with placeholders.
      * var sayHelloTo = _.partialRight(greet, 'hello', _);
      * sayHelloTo('fred');
      * // => 'hello fred'
      */
     var partialRight = rest(function(func, partials) {
-      var holders = replaceHolders(partials, partialRight.placeholder);
+      var placeholder = lodash.placeholder || partialRight.placeholder,
+          holders = replaceHolders(partials, placeholder);
+
       return createWrapper(func, PARTIAL_RIGHT_FLAG, undefined, partials, holders);
     });
 
@@ -16830,6 +16864,7 @@ var grammar = (function() {
      * @memberOf _
      * @category Function
      * @param {Function} func The function to spread arguments over.
+     * @param {number} [start=0] The start position of the spread.
      * @returns {Function} Returns the new function.
      * @example
      *
@@ -16840,7 +16875,6 @@ var grammar = (function() {
      * say(['fred', 'hello']);
      * // => 'fred says hello'
      *
-     * // with a Promise
      * var numbers = Promise.all([
      *   Promise.resolve(40),
      *   Promise.resolve(36)
@@ -16851,13 +16885,20 @@ var grammar = (function() {
      * }));
      * // => a Promise of 76
      */
-    function spread(func) {
+    function spread(func, start) {
       if (typeof func != 'function') {
         throw new TypeError(FUNC_ERROR_TEXT);
       }
-      return function(array) {
-        return apply(func, this, array);
-      };
+      start = start === undefined ? 0 : nativeMax(toInteger(start), 0);
+      return rest(function(args) {
+        var array = args[start],
+            otherArgs = args.slice(0, start);
+
+        if (array) {
+          arrayPush(otherArgs, array);
+        }
+        return apply(func, this, otherArgs);
+      });
     }
 
     /**
@@ -16871,7 +16912,7 @@ var grammar = (function() {
      * result of the last `func` invocation.
      *
      * **Note:** If `leading` and `trailing` options are `true`, `func` is invoked
-     * on the trailing edge of the timeout only if the the throttled function is
+     * on the trailing edge of the timeout only if the throttled function is
      * invoked more than once during the `wait` timeout.
      *
      * See [David Corbacho's article](http://drupalmotion.com/article/debounce-and-throttle-visual-explanation)
@@ -16890,14 +16931,14 @@ var grammar = (function() {
      * @returns {Function} Returns the new throttled function.
      * @example
      *
-     * // avoid excessively updating the position while scrolling
+     * // Avoid excessively updating the position while scrolling.
      * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
      *
-     * // invoke `renewToken` when the click event is fired, but not more than once every 5 minutes
+     * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
      * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
      * jQuery(element).on('click', throttled);
      *
-     * // cancel a trailing throttled invocation
+     * // Cancel the trailing throttled invocation.
      * jQuery(window).on('popstate', throttled.cancel);
      */
     function throttle(func, wait, options) {
@@ -17201,6 +17242,27 @@ var grammar = (function() {
     var isArray = Array.isArray;
 
     /**
+     * Checks if `value` is classified as an `ArrayBuffer` object.
+     *
+     * @static
+     * @memberOf _
+     * @type Function
+     * @category Lang
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+     * @example
+     *
+     * _.isArrayBuffer(new ArrayBuffer(2));
+     * // => true
+     *
+     * _.isArrayBuffer(new Array(2));
+     * // => false
+     */
+    function isArrayBuffer(value) {
+      return isObjectLike(value) && objectToString.call(value) == arrayBufferTag;
+    }
+
+    /**
      * Checks if `value` is array-like. A value is considered array-like if it's
      * not a function and has a `value.length` that's an integer greater than or
      * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
@@ -17278,6 +17340,26 @@ var grammar = (function() {
       return value === true || value === false ||
         (isObjectLike(value) && objectToString.call(value) == boolTag);
     }
+
+    /**
+     * Checks if `value` is a buffer.
+     *
+     * @static
+     * @memberOf _
+     * @category Lang
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
+     * @example
+     *
+     * _.isBuffer(new Buffer(2));
+     * // => true
+     *
+     * _.isBuffer(new Uint8Array(2));
+     * // => false
+     */
+    var isBuffer = !Buffer ? constant(false) : function(value) {
+      return value instanceof Buffer;
+    };
 
     /**
      * Checks if `value` is classified as a `Date` object.
@@ -17613,6 +17695,26 @@ var grammar = (function() {
     }
 
     /**
+     * Checks if `value` is classified as a `Map` object.
+     *
+     * @static
+     * @memberOf _
+     * @category Lang
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+     * @example
+     *
+     * _.isMap(new Map);
+     * // => true
+     *
+     * _.isMap(new WeakMap);
+     * // => false
+     */
+    function isMap(value) {
+      return isObjectLike(value) && getTag(value) == mapTag;
+    }
+
+    /**
      * Performs a deep comparison between `object` and `source` to determine if
      * `object` contains equivalent property values.
      *
@@ -17898,6 +18000,26 @@ var grammar = (function() {
     }
 
     /**
+     * Checks if `value` is classified as a `Set` object.
+     *
+     * @static
+     * @memberOf _
+     * @category Lang
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+     * @example
+     *
+     * _.isSet(new Set);
+     * // => true
+     *
+     * _.isSet(new WeakSet);
+     * // => false
+     */
+    function isSet(value) {
+      return isObjectLike(value) && getTag(value) == setTag;
+    }
+
+    /**
      * Checks if `value` is classified as a `String` primitive or object.
      *
      * @static
@@ -17977,6 +18099,46 @@ var grammar = (function() {
      */
     function isUndefined(value) {
       return value === undefined;
+    }
+
+    /**
+     * Checks if `value` is classified as a `WeakMap` object.
+     *
+     * @static
+     * @memberOf _
+     * @category Lang
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+     * @example
+     *
+     * _.isWeakMap(new WeakMap);
+     * // => true
+     *
+     * _.isWeakMap(new Map);
+     * // => false
+     */
+    function isWeakMap(value) {
+      return isObjectLike(value) && getTag(value) == weakMapTag;
+    }
+
+    /**
+     * Checks if `value` is classified as a `WeakSet` object.
+     *
+     * @static
+     * @memberOf _
+     * @category Lang
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+     * @example
+     *
+     * _.isWeakSet(new WeakSet);
+     * // => true
+     *
+     * _.isWeakSet(new Set);
+     * // => false
+     */
+    function isWeakSet(value) {
+      return isObjectLike(value) && objectToString.call(value) == weakSetTag;
     }
 
     /**
@@ -18413,7 +18575,7 @@ var grammar = (function() {
 
     /**
      * Creates an object that inherits from the `prototype` object. If a `properties`
-     * object is provided its own enumerable properties are assigned to the created object.
+     * object is given its own enumerable properties are assigned to the created object.
      *
      * @static
      * @memberOf _
@@ -18516,15 +18678,15 @@ var grammar = (function() {
      * _.findKey(users, function(o) { return o.age < 40; });
      * // => 'barney' (iteration order is not guaranteed)
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.findKey(users, { 'age': 1, 'active': true });
      * // => 'pebbles'
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.findKey(users, ['active', false]);
      * // => 'fred'
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.findKey(users, 'active');
      * // => 'barney'
      */
@@ -18553,15 +18715,15 @@ var grammar = (function() {
      * _.findLastKey(users, function(o) { return o.age < 40; });
      * // => returns 'pebbles' assuming `_.findKey` returns 'barney'
      *
-     * // using the `_.matches` iteratee shorthand
+     * // The `_.matches` iteratee shorthand.
      * _.findLastKey(users, { 'age': 36, 'active': true });
      * // => 'barney'
      *
-     * // using the `_.matchesProperty` iteratee shorthand
+     * // The `_.matchesProperty` iteratee shorthand.
      * _.findLastKey(users, ['active', false]);
      * // => 'fred'
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.findLastKey(users, 'active');
      * // => 'pebbles'
      */
@@ -19034,7 +19196,7 @@ var grammar = (function() {
      * _.mapValues(users, function(o) { return o.age; });
      * // => { 'fred': 40, 'pebbles': 1 } (iteration order is not guaranteed)
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.mapValues(users, 'age');
      * // => { 'fred': 40, 'pebbles': 1 } (iteration order is not guaranteed)
      */
@@ -19087,6 +19249,8 @@ var grammar = (function() {
      * properties. If `customizer` returns `undefined` merging is handled by the
      * method instead. The `customizer` is invoked with seven arguments:
      * (objValue, srcValue, key, object, source, stack).
+     *
+     * **Note:** This method mutates `object`.
      *
      * @static
      * @memberOf _
@@ -19194,7 +19358,7 @@ var grammar = (function() {
 
     /**
      * Creates an object composed of the `object` properties `predicate` returns
-     * truthy for. The predicate is invoked with one argument: (value).
+     * truthy for. The predicate is invoked with two arguments: (value, key).
      *
      * @static
      * @memberOf _
@@ -19261,6 +19425,8 @@ var grammar = (function() {
      * are created for all other missing properties. Use `_.setWith` to customize
      * `path` creation.
      *
+     * **Note:** This method mutates `object`.
+     *
      * @static
      * @memberOf _
      * @category Object
@@ -19289,6 +19455,8 @@ var grammar = (function() {
      * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
      * path creation is handled by the method instead. The `customizer` is invoked
      * with three arguments: (nsValue, key, nsObject).
+     *
+     * **Note:** This method mutates `object`.
      *
      * @static
      * @memberOf _
@@ -19408,6 +19576,8 @@ var grammar = (function() {
 
     /**
      * Removes the property at `path` of `object`.
+     *
+     * **Note:** This method mutates `object`.
      *
      * @static
      * @memberOf _
@@ -20171,7 +20341,7 @@ var grammar = (function() {
      * in "interpolate" delimiters, HTML-escape interpolated data properties in
      * "escape" delimiters, and execute JavaScript in "evaluate" delimiters. Data
      * properties may be accessed as free variables in the template. If a setting
-     * object is provided it takes precedence over `_.templateSettings` values.
+     * object is given it takes precedence over `_.templateSettings` values.
      *
      * **Note:** In the development build `_.template` utilizes
      * [sourceURLs](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/#toc-sourceurl)
@@ -20198,54 +20368,54 @@ var grammar = (function() {
      * @returns {Function} Returns the compiled template function.
      * @example
      *
-     * // using the "interpolate" delimiter to create a compiled template
+     * // Use the "interpolate" delimiter to create a compiled template.
      * var compiled = _.template('hello <%= user %>!');
      * compiled({ 'user': 'fred' });
      * // => 'hello fred!'
      *
-     * // using the HTML "escape" delimiter to escape data property values
+     * // Use the HTML "escape" delimiter to escape data property values.
      * var compiled = _.template('<b><%- value %></b>');
      * compiled({ 'value': '<script>' });
      * // => '<b>&lt;script&gt;</b>'
      *
-     * // using the "evaluate" delimiter to execute JavaScript and generate HTML
+     * // Use the "evaluate" delimiter to execute JavaScript and generate HTML.
      * var compiled = _.template('<% _.forEach(users, function(user) { %><li><%- user %></li><% }); %>');
      * compiled({ 'users': ['fred', 'barney'] });
      * // => '<li>fred</li><li>barney</li>'
      *
-     * // using the internal `print` function in "evaluate" delimiters
+     * // Use the internal `print` function in "evaluate" delimiters.
      * var compiled = _.template('<% print("hello " + user); %>!');
      * compiled({ 'user': 'barney' });
      * // => 'hello barney!'
      *
-     * // using the ES delimiter as an alternative to the default "interpolate" delimiter
+     * // Use the ES delimiter as an alternative to the default "interpolate" delimiter.
      * var compiled = _.template('hello ${ user }!');
      * compiled({ 'user': 'pebbles' });
      * // => 'hello pebbles!'
      *
-     * // using custom template delimiters
+     * // Use custom template delimiters.
      * _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
      * var compiled = _.template('hello {{ user }}!');
      * compiled({ 'user': 'mustache' });
      * // => 'hello mustache!'
      *
-     * // using backslashes to treat delimiters as plain text
+     * // Use backslashes to treat delimiters as plain text.
      * var compiled = _.template('<%= "\\<%- value %\\>" %>');
      * compiled({ 'value': 'ignored' });
      * // => '<%- value %>'
      *
-     * // using the `imports` option to import `jQuery` as `jq`
+     * // Use the `imports` option to import `jQuery` as `jq`.
      * var text = '<% jq.each(users, function(user) { %><li><%- user %></li><% }); %>';
      * var compiled = _.template(text, { 'imports': { 'jq': jQuery } });
      * compiled({ 'users': ['fred', 'barney'] });
      * // => '<li>fred</li><li>barney</li>'
      *
-     * // using the `sourceURL` option to specify a custom sourceURL for the template
+     * // Use the `sourceURL` option to specify a custom sourceURL for the template.
      * var compiled = _.template('hello <%= user %>!', { 'sourceURL': '/basic/greeting.jst' });
      * compiled(data);
      * // => find the source of "greeting.jst" under the Sources tab or Resources panel of the web inspector
      *
-     * // using the `variable` option to ensure a with-statement isn't used in the compiled template
+     * // Use the `variable` option to ensure a with-statement isn't used in the compiled template.
      * var compiled = _.template('hi <%= data.user %>!', { 'variable': 'data' });
      * compiled.source;
      * // => function(data) {
@@ -20254,8 +20424,8 @@ var grammar = (function() {
      * //   return __p;
      * // }
      *
-     * // using the `source` property to inline compiled templates for meaningful
-     * // line numbers in error messages and a stack trace
+     * // Use the `source` property to inline compiled templates for meaningful
+     * // line numbers in error messages and stack traces.
      * fs.writeFileSync(path.join(cwd, 'jst.js'), '\
      *   var JST = {\
      *     "main": ' + _.template(mainText).source + '\
@@ -20702,7 +20872,7 @@ var grammar = (function() {
      * @returns {*} Returns the `func` result or error object.
      * @example
      *
-     * // avoid throwing errors for invalid selectors
+     * // Avoid throwing errors for invalid selectors.
      * var elements = _.attempt(function(selector) {
      *   return document.querySelectorAll(selector);
      * }, '>_>');
@@ -20715,7 +20885,7 @@ var grammar = (function() {
       try {
         return apply(func, undefined, args);
       } catch (e) {
-        return isError(e) ? e : new Error(e);
+        return isObject(e) ? e : new Error(e);
       }
     });
 
@@ -20849,9 +21019,9 @@ var grammar = (function() {
     }
 
     /**
-     * Creates a function that returns the result of invoking the provided
-     * functions with the `this` binding of the created function, where each
-     * successive invocation is supplied the return value of the previous.
+     * Creates a function that returns the result of invoking the given functions
+     * with the `this` binding of the created function, where each successive
+     * invocation is supplied the return value of the previous.
      *
      * @static
      * @memberOf _
@@ -20872,7 +21042,7 @@ var grammar = (function() {
 
     /**
      * This method is like `_.flow` except that it creates a function that
-     * invokes the provided functions from right to left.
+     * invokes the given functions from right to left.
      *
      * @static
      * @memberOf _
@@ -20892,7 +21062,7 @@ var grammar = (function() {
     var flowRight = createFlow(true);
 
     /**
-     * This method returns the first argument provided to it.
+     * This method returns the first argument given to it.
      *
      * @static
      * @memberOf _
@@ -20928,7 +21098,7 @@ var grammar = (function() {
      *   { 'user': 'fred',   'age': 40 }
      * ];
      *
-     * // create custom iteratee shorthands
+     * // Create custom iteratee shorthands.
      * _.iteratee = _.wrap(_.iteratee, function(callback, func) {
      *   var p = /^(\S+)\s*([<>])\s*(\S+)$/.exec(func);
      *   return !p ? callback(func) : function(object) {
@@ -20940,9 +21110,7 @@ var grammar = (function() {
      * // => [{ 'user': 'fred', 'age': 40 }]
      */
     function iteratee(func) {
-      return (isObjectLike(func) && !isArray(func))
-        ? matches(func)
-        : baseIteratee(func);
+      return baseIteratee(typeof func == 'function' ? func : baseClone(func, true));
     }
 
     /**
@@ -21446,7 +21614,7 @@ var grammar = (function() {
     }
 
     /**
-     * Generates a unique ID. If `prefix` is provided the ID is appended to it.
+     * Generates a unique ID. If `prefix` is given the ID is appended to it.
      *
      * @static
      * @memberOf _
@@ -21484,6 +21652,9 @@ var grammar = (function() {
      */
     function add(augend, addend) {
       var result;
+      if (augend === undefined && addend === undefined) {
+        return 0;
+      }
       if (augend !== undefined) {
         result = augend;
       }
@@ -21578,7 +21749,7 @@ var grammar = (function() {
      * _.maxBy(objects, function(o) { return o.n; });
      * // => { 'n': 2 }
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.maxBy(objects, 'n');
      * // => { 'n': 2 }
      */
@@ -21646,7 +21817,7 @@ var grammar = (function() {
      * _.minBy(objects, function(o) { return o.n; });
      * // => { 'n': 1 }
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.minBy(objects, 'n');
      * // => { 'n': 1 }
      */
@@ -21694,6 +21865,9 @@ var grammar = (function() {
      */
     function subtract(minuend, subtrahend) {
       var result;
+      if (minuend === undefined && subtrahend === undefined) {
+        return 0;
+      }
       if (minuend !== undefined) {
         result = minuend;
       }
@@ -21740,7 +21914,7 @@ var grammar = (function() {
      * _.sumBy(objects, function(o) { return o.n; });
      * // => 20
      *
-     * // using the `_.property` iteratee shorthand
+     * // The `_.property` iteratee shorthand.
      * _.sumBy(objects, 'n');
      * // => 20
      */
@@ -21980,9 +22154,11 @@ var grammar = (function() {
     lodash.invoke = invoke;
     lodash.isArguments = isArguments;
     lodash.isArray = isArray;
+    lodash.isArrayBuffer = isArrayBuffer;
     lodash.isArrayLike = isArrayLike;
     lodash.isArrayLikeObject = isArrayLikeObject;
     lodash.isBoolean = isBoolean;
+    lodash.isBuffer = isBuffer;
     lodash.isDate = isDate;
     lodash.isElement = isElement;
     lodash.isEmpty = isEmpty;
@@ -21993,6 +22169,7 @@ var grammar = (function() {
     lodash.isFunction = isFunction;
     lodash.isInteger = isInteger;
     lodash.isLength = isLength;
+    lodash.isMap = isMap;
     lodash.isMatch = isMatch;
     lodash.isMatchWith = isMatchWith;
     lodash.isNaN = isNaN;
@@ -22005,10 +22182,13 @@ var grammar = (function() {
     lodash.isPlainObject = isPlainObject;
     lodash.isRegExp = isRegExp;
     lodash.isSafeInteger = isSafeInteger;
+    lodash.isSet = isSet;
     lodash.isString = isString;
     lodash.isSymbol = isSymbol;
     lodash.isTypedArray = isTypedArray;
     lodash.isUndefined = isUndefined;
+    lodash.isWeakMap = isWeakMap;
+    lodash.isWeakSet = isWeakSet;
     lodash.join = join;
     lodash.kebabCase = kebabCase;
     lodash.last = last;
