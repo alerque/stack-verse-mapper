@@ -16,7 +16,7 @@
     "eslint": "^2.0.0",
     "handlebars": "^4.0.5",
     "handlebars-cmd": "^0.1.4",
-    "html-to-text": "^1.6.0",
+    "html-to-text": "^2.0.0",
     "less": "^2.6.0",
     "lodash": "^4.3.0",
     "raw-body": "^2.1.5",

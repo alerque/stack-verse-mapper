@@ -4,6 +4,7 @@
 
 var fs = require( 'fs' );
 var htmlToText = require( 'html-to-text' );
+var url_parse = require( 'url' ).parse;
 var xmlFlow = require( 'xml-flow' );
 
 // Read in from a supplied file name or stdin
@@ -27,17 +28,18 @@ xmlStream.on( 'end', function()
 	process.stdout.write( '[' + results.slice( 1 ) + ']' );
 });
 
-
 function extract_post_data( data )
 {
+	var body = htmlToText.fromString( data.body, {
+		wordwrap: false,
+	}).replace( /\[(\w+:\/\/[^\]]+)\]/g, extract_translations );
+
 	var post = {
 		id: +data.id,
 		type: +data.posttypeid === 1 ? 'q' : 'a',
-		body: htmlToText.fromString( data.body, {
-			wordwrap: false,
-			ignoreHref: true,
-		}),
+		body: body,
 	};
+
 	if ( post.type === 'q' )
 	{
 		post.title = data.title;
@@ -48,4 +50,30 @@ function extract_post_data( data )
 		post.parent = +data.parentid;
 	}
 	return post;
+}
+
+// Extract translations from URLs
+function extract_translations( match, url )
+{
+	url = url_parse( url, true );
+	var result;
+
+	// Check for known Bible sites
+	if ( /biblegateway.com$/i.test( url.hostname ) )
+	{
+		result = url.query.version;
+	}
+	else if ( /blueletterbible.org$/i.test( url.hostname ) )
+	{
+		// Support their old and new format URLs
+		if ( url.query && url.query.t )
+		{
+			result = url.query.t;
+		}
+		else
+		{
+			result = url.pathname.split( '/' )[1];
+		}
+	}
+	return result ? result.toUpperCase() : '';
 }
