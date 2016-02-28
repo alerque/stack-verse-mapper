@@ -20,6 +20,7 @@
     "less": "^2.6.0",
     "lodash": "^4.3.0",
     "raw-body": "^2.1.5",
+    "reversify": "^0.1.0",
     "uglify-js": "^2.6.1",
     "xml-flow": "^0.4.0"
   }

@@ -1,4 +1,5 @@
 var bcv_parser = require( 'bible-passage-reference-parser/js/en_bcv_parser' );
+require( 'reversify' )( bcv_parser );
 var config = require( '../config.json' );
 
 var opts = config;
