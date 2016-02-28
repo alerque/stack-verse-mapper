@@ -62,12 +62,20 @@ clean:
 	rm -rf $(foreach SITE,$(SITES),$(DATA)/$(SITE))
 	rm -f $(DATA)/*-{index,posts}.json{,.gz}
 
+# Swap out the test action depending on a user overridable variable
+UPDATE_EXPECTED := false
+ifeq ($(UPDATE_EXPECTED),false)
+    TEST_ACTION = | diff -u -
+else
+    TEST_ACTION = >
+endif
+
 # Run some automated tests
 test: setup
 	eslint .
-	./bin/parse_xml.js ./test/test-posts.xml | jq . | diff -u - ./test/test-posts.json
-	./bin/build_index.js ./test/test-posts.json | jq . | diff -u - ./test/test-index.json
-	./bin/prune_index.js ./test/test-index.json | diff -u - ./test/test-index.web.json
+	./bin/parse_xml.js ./test/test-posts.xml | jq . $(TEST_ACTION) ./test/test-posts.json
+	./bin/build_index.js ./test/test-posts.json | jq . $(TEST_ACTION) ./test/test-index.json
+	./bin/prune_index.js ./test/test-index.json $(TEST_ACTION) ./test/test-index.web.json
 
 # Catch-all rule for building one site at a time, the target name is assumed
 # to be a site name. For each site we want to end up with a completed index, so
