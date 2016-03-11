@@ -90,6 +90,10 @@ $(DATA)/%-index.json: $(DATA)/%-posts.json config.json bin/build_index.js src/bc
 $(DATA)/%-posts.json: $(DATA)/%/Posts.xml bin/parse_xml.js
 	./bin/parse_xml.js $< | jq . > $@
 
+# Extract and order the top domains in a site
+$(DATA)/%-domains.json: $(DATA)/%/Posts.xml bin/top_domains.js
+	./bin/top_domains.js $< | jq . > $@
+
 # Rule for extracting the XML we need from the zips
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
 	mkdir -p $(DATA)/$*
