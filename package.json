@@ -13,14 +13,14 @@
   "dependencies": {
     "bible-passage-reference-parser": "^1.0.0",
     "browserify": "^13.0.0",
-    "eslint": "^2.0.0",
+    "eslint": "^2.5.3",
     "handlebars": "^4.0.5",
     "handlebars-cmd": "^0.1.4",
     "html-to-text": "^2.0.0",
     "less": "^2.6.0",
     "lodash": "^4.3.0",
     "raw-body": "^2.1.5",
-    "reversify": "^0.1.0",
+    "reversify": "^0.2.0",
     "uglify-js": "^2.6.1",
     "xml-flow": "^0.4.0"
   }

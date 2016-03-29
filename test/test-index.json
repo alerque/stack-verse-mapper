@@ -21,17 +21,17 @@
       "title": [],
       "refs": [
         {
-          "osis": "3John.1.12-3John.1.14",
+          "osis": "3John.1.12-3John.1.15",
           "book": "3John",
           "start": 12,
-          "end": 14,
+          "end": 15,
           "count": 1
         },
         {
-          "osis": "3John.1.13-3John.1.14",
+          "osis": "3John.1.13-3John.1.15",
           "book": "3John",
           "start": 13,
-          "end": 14,
+          "end": 15,
           "count": 1
         },
         {
