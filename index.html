@@ -4,9 +4,198 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">		
 		<link rel="stylesheet" href="index.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://www.gitcdn.xyz/repo/HubSpot/tether/master/dist/js/tether.min.js"></script>
 		<script src="index.min.js"></script>
+		<script>
+		$(document).ready(function() {
+		  //Get and Generate Results
+		  var jsonquery = '[{"search":"Romans 7:3-6", "maxFPS":220}]';
+		  var jsonresults = '[ \
+			{"id": 30, "type":"a", "parent": 1, "refs": [{"osis": "Rom.7.1-Rom.7.6", "book": "Rom", "start": 50, "end": 249, "count": 3, "specificity": 1}], "SPEC": 1, "APS": 162.67, "TDRHP": 10, "TDRHS": 20, "TAG": 5, "QTH": 0, "FPS": 197.67, "title":"Does Paul refer to his past or present evil/sin in Romans 7"}, \
+			{"id": 10, "type":"a", "parent": 1, "refs": [{"osis": "Rom.7.3", "book": "Rom", "start": 50, "end": 249, "count": 3, "specificity": 1.5}, {"osis": "Rom.7.6", "book": "Rom", "start": 50, "end": 249, "count": 1, "specificity": 1.5}], "SPEC": 1.5, "APS": 157.09, "TDRHP": 1, "TDRHS": 20, "TAG": 5, "QTH": 0, "FPS": 183.09, "title":"Does Paul refer to his past or present evil/sin in Romans 7"}, \
+			{"id": 50, "type":"a", "parent": 2, "refs":[{"osis": "Rom.7.4", "book": "Rom", "start": 50, "end": 249, "count": 1, "specificity": 1.5}], "SPEC": 1.5, "APS": 157.09, "TDRHP": 4, "TDRHS": 4, "TAG": 5, "QTH": 0, "FPS": 170.09, "title":"Does Romans 3:31 refer to the Law or the law?"}, \
+			{"id": 20, "type":"a", "parent": 3, "refs":[{"osis": "Rom.7.5", "book": "Rom", "start": 50, "end": 249, "count": 1, "specificity": 1.5}], "SPEC": 1.5, "APS": 157.09, "TDRHP": 1, "TDRHS": 1, "TAG": 5, "QTH": 0, "FPS": 164.09, "title":"What is the Righteousness of God in Romans 1:17?"}, \
+			{"id": 40, "type":"q", "parent":"", "refs":[{"osis": "Rom.7.1-Rom.7.25", "book": "Rom", "start": 50, "end": 249, "count": 1, "specificity": 10.5}], "SPEC": 10.5, "APS": 118.94, "TDRHP": 1, "TDRHS": 20, "TAG": 5, "QTH": 5, "FPS": 149.94, "title":"Does Paul refer to his past or present evil/sin in Romans 7"} \
+		  ]';
+		  var query = $.parseJSON(jsonquery)[0];
+		  var result = $.parseJSON(jsonresults);
+		  var sitePath = "http://hermeneutics.stackexchange.com/";
+		  var resultsHTML = '<h3>' + query.search + '</h3>';
+		  $.each(result, function() {
+		      //Get Number of Hits
+			  var hitCnt = 0;
+			  $.each(this.refs, function() {
+			     hitCnt += this.count;
+			  });
+		  
+		      //Result wrapper
+		      var open = "<div class='svm-result' \
+			    data-svm-ID='" + this.id + "' \
+				data-svm-TYPE='" + this.type + "' \
+				data-svm-PARENT='" + this.parent + "' \
+				data-svm-SPEC='" + this.SPEC + "' \
+				data-svm-APS='" + this.APS + "' \
+				data-svm-TDRHP='" + this.TDRHP + "' \
+				data-svm-TDRHS='" + this.TDRHS + "' \
+				data-svm-TAG='" + this.TAG + "' \
+				data-svm-QTH='" + this.QTH + "' \
+				data-svm-FPS='" + this.FPS + "' \
+				data-svm-HITS='" + hitCnt + "' \
+			  >";
+		      var close = "</div>";
+			  
+			  //Basic Info (Link)
+			  var type = "<span class='svm-type' data-svm-type='" + this.type + "'>" + this.type.toUpperCase() + ": </span>";
+			  var linkPath = sitePath + this.type + "/" + this.id;
+			  
+		      var link = "<a class='svm-link' data-svm-title='" + this.title + "' data-svm-id='" + this.id + "' href='" + linkPath + "'>" + type + this.title + "</a>";
+			  
+			  //Rank Info
+			  var rankPercent = "<span class='svm-relativepercent' data-svm-desc='(Score [FPS] / Max Score [FPS = " + query.maxFPS + "])' tabindex='0'>Relative: " + Math.round((this.FPS / query.maxFPS) * 100) + "%</span>";
+			  var score = "<span class='svm-score' data-svm-desc='The Final Post Score (FPS) Value' data-svm-FPS='" + this.FPS + "' tabindex='0'>Score: " + this.FPS + "</span>";
+			  var totalCount = "<span class='svm-hit-count noPopoverLink' data-svm-desc='The total number of hits on the reference in the post' data-svm-count='" + hitCnt  + "' tabindex='0'>Ref. Hits: " + hitCnt  + " </span>";
+			  var rankGroup = "<div class='svm-rank-group'>" + rankPercent + score + totalCount + "</div>";
+			  
+			  //Full Details Info
+			  var fullDetails = "<div class='svm-details'> \
+							<span class='noPopoverLink' data-svm-desc='Q or A ID Number' tabindex='0'>ID: " + this.id + "</span> \
+							<span data-svm-desc='Specificity Score (Raw value)' tabindex='0'>SPEC: " + this.SPEC + "</span> \
+							<span data-svm-desc='Adjusted Post Score' tabindex='0'>APS: " + this.APS + "</span> \
+							<span data-svm-desc='Total Distinct References Hit in Post (bonus to APS)' tabindex='0'>TDRHP: " + this.TDRHP + "</span> \
+							<span data-svm-desc='Total Distinct References Hit in Set (bonus to APS)' tabindex='0'>TDRHS: " + this.TDRHS + "</span> \
+							<span data-svm-desc='Tag match (bonus to APS)' tabindex='0'>TAG: " + this.TAG + "</span> \
+							<span data-svm-desc='Question Title Hit (bonus to APS for Questions only)' tabindex='0'>QTH: " + this.QTH + "</span> \
+							<span data-svm-desc='Final Post Score (All bonuses included)' tabindex='0'>FPS: " + this.FPS + "</span> \
+						</div>";
+			  
+			  //Build Result
+			  resultsHTML += open + link + rankGroup + fullDetails + close;
+		  });
+		  $('.svm-resultslist').html(resultsHTML);
+		  
+		  //Display selection
+		  $('.svm-select-display .dropdown-item').click(function(){
+			  $('.svm-results').removeClass('svm-view-basic svm-view-rank svm-view-full').addClass('svm-view-' + $(this).data('set-value'));
+			  $(this).parents('.svm-select-display').find('.btn').html($(this).text());
+		  });
+		  
+		  //Set up Popovers
+		  $('body').popover({
+				/* popovers need tabindex='0' set to avoid bug in not showing */
+				selector: '[data-svm-desc]',
+				container: 'body',
+				template: '<div class="popover" role="tooltip"><div class="popover-arrow"></div><span class="popover-content"></span></div>',
+				content: function(){
+					var innerWrapStart = '';
+					var innerWrapEnd = '';
+					if(!$(this).hasClass('noPopoverLink')){
+					  innerWrapStart = '<a href="https://github.com/alerque/stack-verse-mapper/wiki/Ranking-algorithm" target="_blank">';
+					  innerWrapEnd = '</a>';
+					}
+				    return (innerWrapStart + $(this).attr('data-svm-desc') + innerWrapEnd);
+				},
+				html: true,
+				trigger: 'focus',
+				placement: 'top'
+		  });
+		  
+		  //Provide Sortability
+		  $('.svm-select-sort').on('click', '.dropdown-item', function(){
+		
+			//define a function to call the sort and append
+			var sortItems = function() {
+			    items.sort(function(a,b){
+					var aData = a.getAttribute(sortByData),
+					   bData = b.getAttribute(sortByData);
+
+					if(aData > bData) {
+						return ascending;
+					}
+					if(aData < bData) {
+						return (-1 * ascending);
+					}
+					return 0;
+			    });
+                items.detach().appendTo(list);
+			};
+		    
+		    //get the results container and grouping value
+			var list = $('.svm-resultslist');
+			var group = list.attr('data-svm-grouping');
+			
+			//get the results
+			var items = list.children('.svm-result');
+			
+			//get data value to switch sort by
+			var sortBy = $(this).attr('data-set-value');
+			
+			//set prefix that has suffix added to determine what value is sorted on
+			sortByData = 'data-svm-';
+
+			//used to control if a particular sort is expected to be in ascending (1) or descending order (-1)
+			ascending = 1; 
+
+			//reset the button display list data value for selection
+			$(this).parents('.svm-select-sort').find('.btn').html($(this).text());
+			list.attr('data-svm-sortedby', sortBy);
+			
+			//select the type of sort and set parameters for that
+			switch(sortBy) {
+				case 'Hits':
+					sortByData += 'HITS';
+				    ascending = -1;
+					break;
+				case 'Oldest':
+					sortByData += 'SPEC';
+					ascending = -1;
+					break;
+				default: //Rank, which is FPS
+					sortByData += 'FPS';
+					ascending = -1;
+			}
+			
+			//sort the items and append them
+			sortItems();
+			
+			//check for and group the items
+			if(group != 'No Grouping') {
+			    //reset sortby
+			    sortByData = 'data-svm-TYPE';
+				//reset direction
+				switch(group) {
+					case 'Q then A':
+						ascending = -1;
+						sortItems();
+						break;
+					case 'A then Q':
+						ascending = 1;
+						sortItems();
+						break;
+					default: //Keep No Grouping	
+				}
+			}
+			
+
+		   });
+		   
+		   $('.svm-select-sortGroup').on('click', '.dropdown-item', function(){
+		    //get the list, data value to group by, and current sort routine
+			var list = $('.svm-resultslist');
+			var groupBy = $(this).data('set-value');
+			var sortBy = list.attr('data-svm-sortedby');
+			
+		    //reset the results container's grouping value and sort Group selection button's value
+			list.attr('data-svm-grouping', groupBy);
+			$(this).parents('.svm-select-sortGroup').find('.btn').html($(this).text());
+
+		    //call the active sort routine to resort and regroup appropriately
+			$('.svm-select-sort .dropdown-item[data-set-value="'+sortBy+'"]').click();		
+		   });		   
+		});
+		</script>
 		<title>stack-verse-mapper</title>
 	</head>
 	<body class="svm">
@@ -32,11 +221,43 @@
 		</nav>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 results">
+				<div class="col-md-8 svm-results svm-view-basic">
+				    <div class="btn-group svm-controls" role="group" aria-label="Results display controls">
+						<div class="btn-group svm-select-display" role="group" aria-label="Data to display">
+						  <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Basic
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a class="dropdown-item" href="#" data-set-value="basic">Basic</a></li>
+							<li><a class="dropdown-item" href="#" data-set-value="rank">With Ranking</a></li>
+							<li><a class="dropdown-item" href="#" data-set-value="full">Full Data</a></li>
+						  </ul>
+						</div>
+						<div class="btn-group svm-select-sort" role="group" aria-label="Sort order">
+						  <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Rank
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<li><a class="dropdown-item" href="#" data-set-value="Rank">Rank</a></li>
+							<li><a class="dropdown-item" href="#" data-set-value="Hits">Hits</a></li>
+							<li><a class="dropdown-item" href="#" data-set-value="Raw">Raw</a></li>
+						  </ul>
+						</div>
+						<div class="btn-group svm-select-sortGroup" role="group" aria-label="Sort grouping">
+						  <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							None
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+							<li><a class="dropdown-item" href="#" data-set-value="No Grouping">None</a></li>
+							<li><a class="dropdown-item" href="#" data-set-value="Q then A">Q|A</a></li>
+							<li><a class="dropdown-item" href="#" data-set-value="A then Q">A|Q</a></li>
+						  </ul>
+						</div>
+					</div>
 					<h2>Search Results</h2>
-					<p>
-						TODO:  What goes here?
-					</p>
+					<div class="svm-resultslist" data-svm-sortedby="Rank" data-svm-grouping="No Grouping">
+					
+					</div>
 				</div>
 				<div class="col-md-4">
 					<h3>About</h3>

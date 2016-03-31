@@ -1,3 +1,79 @@
-.svm .results {
-  background: #AAF;
+.svm-results {
+  background: #E1E1E8;
 }
+
+.svm-controls {
+  margin: .2rem 0 0 0;
+  padding: .2rem;
+}
+
+.svm-controls .btn-sm {
+    padding: .2rem .7rem;
+    font-size: .75rem;
+    line-height: 1.2;
+    border-radius: .15rem;
+}
+
+.svm-controls .dropdown-menu {
+    font-size: .75rem;
+	min-width: 100px;
+}
+
+.svm-select-display a :before,
+.svm-select-display button:before  {
+ content: "Display: ";
+}
+
+.svm-select-sort a :before,
+.svm-select-sort button:before  {
+ content: "Sort: ";
+}
+
+.svm-select-sortGroup a :before,
+.svm-select-sortGroup button:before  {
+ content: "Group: ";
+}
+
+.svm-resultslist {
+  clear: left;
+}
+
+.svm-resultslist h3 {
+  font-style: italic;
+  font-size: 1.3em;
+}
+.svm-resultslist h3:before {
+  content: "For: ";
+}
+
+.svm-view-basic  .svm-rank-group,
+.svm-view-basic  .svm-details,
+.svm-view-rank .svm-details {
+  display: none;
+}
+
+.svm-view-basic  .svm-result {
+  clear: right;
+  margin-bottom: .3em;
+}
+
+.svm-rank-group > span ,
+.svm-details  > span {
+  font-size: .7em;
+  margin-left: 1.5em;
+  white-space: nowrap;
+}
+
+.svm-resultslist [data-svm-desc]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+body .popover-content {
+  font-size: .8em;
+  padding: .5em;
+  line-height: 1.7;
+}
+
+
+
