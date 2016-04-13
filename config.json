@@ -3,35 +3,41 @@
     "hermeneutics": {
       "include_apocrypha": true,
       "include_chapters": true,
-      "referral": 36
+      "name": "Biblical Hermeneutics"
     },
     "christianity": {
       "include_apocrypha": true,
       "include_chapters": true,
-      "referral": 30
-    },
-    "judaism": {
-      "include_apocrypha": true,
-      "include_chapters": true,
-      "referral": 836
-    },
-    "islam": {
-      "include_apocrypha": true,
-      "include_chapters": true,
-      "tags": ["bible", "christianity", "comparative-religions", "judaism", "other-religions"],
-      "referral": 75
+      "name": "Christianity"
     },
     "history": {
       "include_apocrypha": true,
       "include_chapters": false,
       "tags": ["bible", "christianity", "judaism", "religion"],
-      "referral": 177
+      "name": "History"
+    },
+    "islam": {
+      "include_apocrypha": true,
+      "include_chapters": true,
+      "tags": ["bible", "christianity", "comparative-religions", "judaism", "other-religions"],
+      "name": "Islam"
+    },
+    "judaism": {
+      "include_apocrypha": true,
+      "include_chapters": true,
+      "name": "Mi Yodeya"
+    },
+    "mythology": {
+      "include_apocrypha": true,
+      "include_chapters": false,
+      "tags": ["abrahamic-religions", "bible", "christianity", "judaism", "judeo-christian"],
+      "name": "Mythology"
     },
     "skeptics": {
       "include_apocrypha": true,
       "include_chapters": false,
       "tags": ["bible", "christianity", "jesus-christ", "judaism", "religion"],
-      "referral": 933
+      "name": "Skeptics"
     }
   },
   "include_apocrypha": true,
