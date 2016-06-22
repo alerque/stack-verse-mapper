@@ -65,6 +65,20 @@
       ]
     },
     {
+      "id": 1002,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.33.1-Num.33.49",
+          "book": "Num",
+          "start": 1157,
+          "end": 1205,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 36360,
       "type": "q",
       "title": [
@@ -184,6 +198,9 @@
     },
     "1001": {
       "title": "URLs must not cut off verses"
+    },
+    "1002": {
+      "title": "Support fancy dashes"
     },
     "36360": {
       "title": "Who was \"Zacharias son of Barachias\" in Matt. 23:35?",

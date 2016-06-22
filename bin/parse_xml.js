@@ -31,8 +31,10 @@ function extract_post_data( data )
 	var body = htmlToText.fromString( data.body, {
 		wordwrap: false,
 	})
+		// Replace fancy dashes and hyphens with normal ones
+		.replace( /[\u2010-\u2015]/g, '-' )
 		// Account for verse numbers which aren't included in the links
-		.replace( / (\[\w+:\/\/[^\]]+\]) (:[-:\w]+)/g, '$2 $1 ' )
+		.replace( / (\[\w+:\/\/[^\]]+\]) ([-:][-:\w]+)/g, '$2 $1 ' )
 		.replace( /\[(\w+:\/\/[^\]]+)\]/g, extract_translations );
 
 	var post = {
