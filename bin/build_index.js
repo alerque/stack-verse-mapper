@@ -26,11 +26,11 @@ function build_index( err, data )
 	// Parse the verse references of the body and title
 	var posts = data.map( function( post )
 	{
-		post.refs = bcv.parse( post.body ).osis().split( ',' );
+		post.refs = bcv.parse( post.body ).reversify( 'default' ).split( ',' );
 		if ( post.type === 'q' )
 		{
 			questions[ post.id ] = { title: post.title };
-			var title_refs = bcv.parse( post.title ).osis().split( ',' );
+			var title_refs = bcv.parse( post.title ).reversify( 'default' ).split( ',' );
 			post.refs = post.refs.concat( title_refs );
 			post.title = _.uniq( title_refs ).sort();
 

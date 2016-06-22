@@ -11,16 +11,17 @@
   "bugs": "https://github.com/alerque/stack-verse-mapper/issues",
   "homepage": "https://github.com/alerque/stack-verse-mapper",
   "dependencies": {
-    "bible-passage-reference-parser": "^1.0.0",
-    "browserify": "^13.0.0",
-    "eslint": "^2.0.0",
+    "bible-passage-reference-parser": "^2.0.0",
+    "browserify": "^13.0.1",
+    "eslint": "^2.13.1",
     "handlebars": "^4.0.5",
     "handlebars-cmd": "^0.1.4",
-    "html-to-text": "^1.6.0",
-    "less": "^2.6.0",
-    "lodash": "^4.3.0",
-    "raw-body": "^2.1.5",
-    "uglify-js": "^2.6.1",
-    "xml-flow": "^0.4.0"
+    "html-to-text": "^2.1.0",
+    "less": "^2.7.0",
+    "lodash": "^4.13.0",
+    "raw-body": "^2.1.7",
+    "reversify": "^1.0.0",
+    "uglify-js": "^2.6.3",
+    "xml-flow": "^1.0.1"
   }
 }
