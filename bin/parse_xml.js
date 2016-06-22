@@ -28,13 +28,19 @@ xmlStream.on( 'end', function()
 
 function extract_post_data( data )
 {
-	var body = htmlToText.fromString( data.body, {
-		wordwrap: false,
-	})
+	var body = data.body
 		// Replace fancy dashes and hyphens with normal ones
 		.replace( /[\u2010-\u2015]/g, '-' )
 		// Account for verse numbers which aren't included in the links
-		.replace( / (\[\w+:\/\/[^\]]+\]) ([-:][-:\w]+)/g, '$2 $1 ' )
+		.replace( /<\/a>( *[:-]? *\d\w*( *- *\d\w* *: *\d\w*)?)/g, '$1</a>' )
+		// If the ref is using periods instead of colons then it can't have spaces around it
+		.replace( /<\/a>((\.| *- *)?\d\w*( *- *\d\w*\.\d\w*)?)/g, '$1</a>' );
+
+	// Strip the formatting
+	body = htmlToText.fromString( body, {
+		wordwrap: false,
+	})
+		// And extract translations
 		.replace( /\[(\w+:\/\/[^\]]+)\]/g, extract_translations );
 
 	var post = {
