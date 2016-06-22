@@ -30,7 +30,10 @@ function extract_post_data( data )
 {
 	var body = htmlToText.fromString( data.body, {
 		wordwrap: false,
-	}).replace( /\[(\w+:\/\/[^\]]+)\]/g, extract_translations );
+	})
+		// Account for verse numbers which aren't included in the links
+		.replace( / (\[\w+:\/\/[^\]]+\]) (:[-:\w]+)/g, '$2 $1 ' )
+		.replace( /\[(\w+:\/\/[^\]]+)\]/g, extract_translations );
 
 	var post = {
 		id: +data.id,
