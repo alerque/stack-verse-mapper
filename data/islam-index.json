@@ -364,20 +364,6 @@
       ]
     },
     {
-      "id": 1932,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Rev.6.1-Rev.6.17",
-          "book": "Rev",
-          "start": 97,
-          "end": 113,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 2035,
       "type": "a",
       "parent": 2034,
@@ -861,27 +847,6 @@
           "start": 86,
           "end": 105,
           "count": 1
-        }
-      ]
-    },
-    {
-      "id": 7009,
-      "type": "a",
-      "parent": 5945,
-      "refs": [
-        {
-          "osis": "Jas.3.1-Jas.3.18",
-          "book": "Jas",
-          "start": 54,
-          "end": 71,
-          "count": 1
-        },
-        {
-          "osis": "Matt.3.1-Matt.3.17",
-          "book": "Matt",
-          "start": 49,
-          "end": 65,
-          "count": 2
         }
       ]
     },
@@ -2592,20 +2557,6 @@
       ]
     },
     {
-      "id": 23472,
-      "type": "a",
-      "parent": 23467,
-      "refs": [
-        {
-          "osis": "Ps.9.1-Ps.9.20",
-          "book": "Ps",
-          "start": 83,
-          "end": 102,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 23473,
       "type": "a",
       "parent": 22982,
@@ -2793,26 +2744,6 @@
       ]
     },
     {
-      "id": 23990,
-      "type": "a",
-      "parent": 23964,
-      "refs": [
-        {
-          "osis": "Deut.18.18",
-          "book": "Deut",
-          "start": 510,
-          "count": 2
-        },
-        {
-          "osis": "Deut.5.1-Deut.5.33",
-          "book": "Deut",
-          "start": 162,
-          "end": 194,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 24126,
       "type": "a",
       "parent": 24078,
@@ -2875,20 +2806,6 @@
       ]
     },
     {
-      "id": 24442,
-      "type": "a",
-      "parent": 5894,
-      "refs": [
-        {
-          "osis": "Matt.24.1-Matt.24.51",
-          "book": "Matt",
-          "start": 814,
-          "end": 864,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 24520,
       "type": "a",
       "parent": 24463,
@@ -2905,6 +2822,19 @@
           "book": "Num",
           "start": 247,
           "end": 335,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 24602,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Amos.8.0",
+          "book": "Amos",
+          "start": 117,
           "count": 1
         }
       ]
@@ -3251,20 +3181,6 @@
       ]
     },
     {
-      "id": 26141,
-      "type": "a",
-      "parent": 26139,
-      "refs": [
-        {
-          "osis": "Isa.3.1-Isa.3.26",
-          "book": "Isa",
-          "start": 54,
-          "end": 79,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 26160,
       "type": "a",
       "parent": 26042,
@@ -3472,6 +3388,20 @@
       ]
     },
     {
+      "id": 28444,
+      "type": "a",
+      "parent": 26367,
+      "refs": [
+        {
+          "osis": "Song.1.1-Song.1.17",
+          "book": "Song",
+          "start": 1,
+          "end": 17,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 28516,
       "type": "q",
       "title": [],
@@ -3495,27 +3425,6 @@
           "book": "Num",
           "start": 220,
           "end": 246,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 28570,
-      "type": "a",
-      "parent": 25576,
-      "refs": [
-        {
-          "osis": "Num.21.1-Num.21.35",
-          "book": "Num",
-          "start": 737,
-          "end": 771,
-          "count": 1
-        },
-        {
-          "osis": "Num.30.1-Num.30.16",
-          "book": "Num",
-          "start": 1045,
-          "end": 1060,
           "count": 1
         }
       ]
@@ -3551,20 +3460,6 @@
           "book": "Isa",
           "start": 86,
           "end": 115,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 28852,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Isa.40.1-Isa.40.31",
-          "book": "Isa",
-          "start": 767,
-          "end": 797,
           "count": 1
         }
       ]
@@ -3805,15 +3700,478 @@
       ]
     },
     {
-      "id": 29229,
+      "id": 29316,
+      "type": "a",
+      "parent": 9065,
+      "refs": [
+        {
+          "osis": "Isa.4.1-Isa.4.6",
+          "book": "Isa",
+          "start": 80,
+          "end": 85,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 29475,
+      "type": "a",
+      "parent": 29413,
+      "refs": [
+        {
+          "osis": "1Cor.5.1",
+          "book": "1Cor",
+          "start": 92,
+          "count": 1
+        },
+        {
+          "osis": "Deut.22.30",
+          "book": "Deut",
+          "start": 608,
+          "count": 1
+        },
+        {
+          "osis": "Deut.27.20-Deut.27.23",
+          "book": "Deut",
+          "start": 713,
+          "end": 716,
+          "count": 1
+        },
+        {
+          "osis": "Lev.20.11-Lev.20.21",
+          "book": "Lev",
+          "start": 584,
+          "end": 594,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 29487,
+      "type": "a",
+      "parent": 29483,
+      "refs": [
+        {
+          "osis": "2Chr.20.18",
+          "book": "2Chr",
+          "start": 411,
+          "count": 1
+        },
+        {
+          "osis": "Exod.34.8",
+          "book": "Exod",
+          "start": 972,
+          "count": 1
+        },
+        {
+          "osis": "Ezek.9.8",
+          "book": "Ezek",
+          "start": 166,
+          "count": 1
+        },
+        {
+          "osis": "Gen.17.17",
+          "book": "Gen",
+          "start": 415,
+          "count": 1
+        },
+        {
+          "osis": "Matt.17.6",
+          "book": "Matt",
+          "start": 562,
+          "count": 1
+        },
+        {
+          "osis": "Matt.26.39",
+          "book": "Matt",
+          "start": 949,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 29575,
+      "type": "a",
+      "parent": 29199,
+      "refs": [
+        {
+          "osis": "Num.2.1-Num.2.34",
+          "book": "Num",
+          "start": 55,
+          "end": 88,
+          "count": 1
+        },
+        {
+          "osis": "Num.3.1-Num.3.51",
+          "book": "Num",
+          "start": 89,
+          "end": 139,
+          "count": 1
+        },
+        {
+          "osis": "Num.4.1-Num.4.49",
+          "book": "Num",
+          "start": 140,
+          "end": 188,
+          "count": 1
+        },
+        {
+          "osis": "Num.5.1-Num.5.31",
+          "book": "Num",
+          "start": 189,
+          "end": 219,
+          "count": 1
+        },
+        {
+          "osis": "Num.6.1-Num.6.27",
+          "book": "Num",
+          "start": 220,
+          "end": 246,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 29643,
+      "type": "a",
+      "parent": 29642,
+      "refs": [
+        {
+          "osis": "Num.3.1-Num.3.51",
+          "book": "Num",
+          "start": 89,
+          "end": 139,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 29816,
       "type": "q",
       "title": [],
       "refs": [
         {
-          "osis": "Isa.28.1-Isa.28.29",
+          "osis": "Isa.24.1-Isa.24.23",
           "book": "Isa",
-          "start": 511,
-          "end": 539,
+          "start": 442,
+          "end": 464,
+          "count": 1
+        },
+        {
+          "osis": "Isa.36.1-Isa.36.22",
+          "book": "Isa",
+          "start": 677,
+          "end": 698,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 29880,
+      "type": "a",
+      "parent": 29305,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 29987,
+      "type": "a",
+      "parent": 29818,
+      "refs": [
+        {
+          "osis": "Isa.6.1-Isa.6.13",
+          "book": "Isa",
+          "start": 116,
+          "end": 128,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30352,
+      "type": "a",
+      "parent": 8293,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30375,
+      "type": "a",
+      "parent": 27456,
+      "refs": [
+        {
+          "osis": "Isa.12.1-Isa.12.6",
+          "book": "Isa",
+          "start": 247,
+          "end": 252,
+          "count": 1
+        },
+        {
+          "osis": "Isa.30.1-Isa.30.33",
+          "book": "Isa",
+          "start": 564,
+          "end": 596,
+          "count": 1
+        },
+        {
+          "osis": "Isa.9.1-Isa.9.21",
+          "book": "Isa",
+          "start": 176,
+          "end": 196,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30393,
+      "type": "a",
+      "parent": 30390,
+      "refs": [
+        {
+          "osis": "Isa.15.9",
+          "book": "Isa",
+          "start": 315,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30466,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.17.1-Isa.17.14",
+          "book": "Isa",
+          "start": 330,
+          "end": 343,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30500,
+      "type": "a",
+      "parent": 30499,
+      "refs": [
+        {
+          "osis": "Isa.50.1-Isa.50.11",
+          "book": "Isa",
+          "start": 1009,
+          "end": 1019,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30538,
+      "type": "a",
+      "parent": 30508,
+      "refs": [
+        {
+          "osis": "Isa.7.1-Isa.7.25",
+          "book": "Isa",
+          "start": 129,
+          "end": 153,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30542,
+      "type": "a",
+      "parent": 30537,
+      "refs": [
+        {
+          "osis": "Num.19.1-Num.19.22",
+          "book": "Num",
+          "start": 686,
+          "end": 707,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30601,
+      "type": "a",
+      "parent": 30598,
+      "refs": [
+        {
+          "osis": "Deut.20.12-Deut.20.14",
+          "book": "Deut",
+          "start": 547,
+          "end": 549,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30847,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.12.1-Isa.12.6",
+          "book": "Isa",
+          "start": 247,
+          "end": 252,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31360,
+      "type": "a",
+      "parent": 31348,
+      "refs": [
+        {
+          "osis": "Isa.22.5",
+          "book": "Isa",
+          "start": 403,
+          "count": 1
+        },
+        {
+          "osis": "Isa.30.1-Isa.30.33",
+          "book": "Isa",
+          "start": 564,
+          "end": 596,
+          "count": 2
+        },
+        {
+          "osis": "Isa.45.1-Isa.45.25",
+          "book": "Isa",
+          "start": 908,
+          "end": 932,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31371,
+      "type": "a",
+      "parent": 31127,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31377,
+      "type": "a",
+      "parent": 31252,
+      "refs": [
+        {
+          "osis": "Isa.4.1-Isa.4.6",
+          "book": "Isa",
+          "start": 80,
+          "end": 85,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31383,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31465,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Isa.40.1-Isa.40.31",
+          "book": "Isa",
+          "start": 767,
+          "end": 797,
+          "count": 8
+        },
+        {
+          "osis": "Isa.40.3",
+          "book": "Isa",
+          "start": 769,
+          "count": 1
+        },
+        {
+          "osis": "John.16.7",
+          "book": "John",
+          "start": 689,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32598,
+      "type": "a",
+      "parent": 32596,
+      "refs": [
+        {
+          "osis": "Num.33.1-Num.33.56",
+          "book": "Num",
+          "start": 1157,
+          "end": 1212,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32646,
+      "type": "a",
+      "parent": 32644,
+      "refs": [
+        {
+          "osis": "Song.2.1-Song.2.17",
+          "book": "Song",
+          "start": 18,
+          "end": 34,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32668,
+      "type": "a",
+      "parent": 32657,
+      "refs": [
+        {
+          "osis": "Isa.2.5",
+          "book": "Isa",
+          "start": 36,
           "count": 1
         }
       ]
@@ -3824,19 +4182,19 @@
       "title": "Is evolution compatible with Islam?"
     },
     "63": {
-      "title": "Evidence for setting the Islamic calendar through calculations only"
+      "title": "Is there any evidence for setting the Islamic calendar through calculations only?"
     },
     "287": {
       "title": "In Surat At-Tin, why does Allah (SWT) swear by the Fig and the Olive?"
     },
     "298": {
-      "title": "Evidence of 124,000 Prophets/Messengers (peace be upon them) in Islam"
+      "title": "Is there any evidence in Qur'an or Hadith which states that there were 124,000 Prophets/Messengers of Islam?"
     },
     "331": {
-      "title": "Sources of Legislation in Shia Islam"
+      "title": "What are the sources of Legislation in Shia Islam?"
     },
     "448": {
-      "title": "Islam and homosexuality"
+      "title": "What does Islam say about homosexuality?"
     },
     "476": {
       "title": "Are women allowed to work in Islam?"
@@ -3863,7 +4221,7 @@
       "title": "Do the teachings of Physics and Astronomy contradict the teachings of Islam?"
     },
     "1203": {
-      "title": "Special worship on the night of mid-Sha'ban (also known as Shab-e-Barat)"
+      "title": "Is there any special or extra worship legislated for the night of mid-Sha'ban (Shab-e-Barat)?"
     },
     "1218": {
       "title": "Is there any advantage to praying in a masjid?"
@@ -3872,16 +4230,16 @@
       "title": "Is interest-based educational loan allowed?"
     },
     "1347": {
-      "title": "Does Islam allow Honor killing"
+      "title": "Does Islam permit honor killing?"
     },
     "1361": {
-      "title": "Do non-Muslims have chance to go to Paradise?"
+      "title": "Do non-Muslims have a chance to go to Paradise?"
     },
     "1408": {
-      "title": "Inheritance shares don't add up to 1"
+      "title": "How to solve the following problem regarding distribution of Inheritance shares?"
     },
     "1559": {
-      "title": "Eid: Stipulation of number of days is shar'ee?"
+      "title": "How many days are celebrated as Eid?"
     },
     "1775": {
       "title": "When is the correct time to start my fast?"
@@ -3899,7 +4257,7 @@
       "title": "Why is there a repetition in Surat Al-Kafiroon?"
     },
     "1932": {
-      "title": "Christianity, Judaism, and Islam worship the same God?",
+      "title": "Do Christians, Jews and Muslims worship the same God?",
       "general_tag": 1
     },
     "2034": {
@@ -3915,7 +4273,7 @@
       "title": "How is Sahih al-Bukhari arranged?"
     },
     "2462": {
-      "title": "Balancing between general stereotypes and the Quran"
+      "title": "How to balance between general stereotypes and the Quran?"
     },
     "2564": {
       "title": "What is the significance of trees under which rivers flow in Heaven?"
@@ -3930,7 +4288,7 @@
       "title": "What is the exact manner to join the Salat Jamat after arriving late?"
     },
     "2820": {
-      "title": "How to perform witr salah"
+      "title": "How to perform witr salah?"
     },
     "2897": {
       "title": "\"About some things He was silent-out of compassion for you, not forgetfulness, so seek not after them\" - What things?"
@@ -3995,14 +4353,8 @@
     "5874": {
       "title": "Jannes and Jambres in Qur'an?"
     },
-    "5894": {
-      "title": "Why is Jesus predicting his death and raising to life in Sura 19?"
-    },
     "5902": {
       "title": "Am I eligible to remarry now?"
-    },
-    "5945": {
-      "title": "Did prophet Muhammad die naturally or was he killed?"
     },
     "5984": {
       "title": "What are the lessons we can learn from the creation of عيسى (Jesus) PBUH?"
@@ -4060,7 +4412,7 @@
       "title": "What is the wisdom behind the importance of getting married and have children?"
     },
     "8102": {
-      "title": "I want to convert, but I have family issue"
+      "title": "How do I convince my Marxist parents to allow me to convert to Islam?"
     },
     "8188": {
       "title": "Is playing with dolls allowed in islam?"
@@ -4069,10 +4421,10 @@
       "title": "What is the minimum number of persons required for a jumuah jama'ath?"
     },
     "8472": {
-      "title": "Should child pray for the forgivness of his bad father"
+      "title": "Should child pray for the forgiveness of his bad father?"
     },
     "8564": {
-      "title": "about Yaajooj and Maajooj ( Arabic: يَأْجُوج وَمَأْجُوج‎ )"
+      "title": "About Yaajooj and Maajooj ( Arabic: يَأْجُوج وَمَأْجُوج‎ )"
     },
     "8598": {
       "title": "Can a woman recite the Qur'an during her menses?"
@@ -4092,6 +4444,9 @@
     "8972": {
       "title": "Allowed to marry ' people of the book ' especially Christians or not?",
       "general_tag": 1
+    },
+    "9065": {
+      "title": "Observing of Iddah, is it important in case of prisoners of war?"
     },
     "9451": {
       "title": "Where is praying 2 and 2 sunnah prayers before Zuhr comes from?"
@@ -4192,7 +4547,7 @@
       "title": "Should women marry the rapist according to Islam?"
     },
     "14415": {
-      "title": "why didnt allah reveal his name to jesus?"
+      "title": "Why didn't Allah reveal His name to Jesus?"
     },
     "14447": {
       "title": "Christian claims God spoke to bibilical prophets but never to Mohammad. Is it true?",
@@ -4242,7 +4597,7 @@
       "title": "Intolerance in muslims"
     },
     "17637": {
-      "title": "What is the exact age of Tamiz(التمییز) for children?"
+      "title": "What is the exact age of Tamiz (التمییز) for children?"
     },
     "18184": {
       "title": "Where is self-denial mentioned in the Quran?"
@@ -4270,7 +4625,7 @@
       "title": "Does Islam allow killing of Innocent individuals, if the tribe has committed some crime?"
     },
     "20303": {
-      "title": "Did Muslims beheaded males of Banu Qurayza?"
+      "title": "Did Muslims behead males of Banu Qurayza?"
     },
     "20309": {
       "title": "Celebration of Eid ul Adha for a vegan muslim"
@@ -4302,9 +4657,6 @@
     "23416": {
       "title": "Does Islam agree with science on the Schrödinger's cat experiment?"
     },
-    "23467": {
-      "title": "Is it universally agreed which surahs are Meccan and which are Medinan? If so, when did this agreement arise?"
-    },
     "23582": {
       "title": "What is the significance of number 3 in Islam?"
     },
@@ -4316,7 +4668,7 @@
       "title": "Is `13` unlucky in Islam"
     },
     "23791": {
-      "title": "notation of star before an ayah indicates?"
+      "title": "Notation of star before an ayah indicates?"
     },
     "23856": {
       "title": "Important criteria for marriage in Islam"
@@ -4340,6 +4692,9 @@
     },
     "24463": {
       "title": "What is the proof that Islam is THE truth? How can I have 100% certainty?"
+    },
+    "24602": {
+      "title": "Eating medicine while fasting will make the fast makrooh?"
     },
     "24659": {
       "title": "Can I reserve my favorite graveyard / burial ground / cemetery for myself?"
@@ -4381,13 +4736,10 @@
       "title": "99 names of Allah"
     },
     "25531": {
-      "title": "constant flatulence sometimes / not sometimes when it comes to doing my prayers and is causing me a lot of stress"
+      "title": "Constant flatulence sometimes / not sometimes when it comes to doing my prayers and is causing me a lot of stress"
     },
     "25553": {
       "title": "Why is eating meat haram?"
-    },
-    "25576": {
-      "title": "How Can Evolutionism and Creationism co-exist in Islam?"
     },
     "25632": {
       "title": "Do we know if Allah prohibited all forms of riba with the children of Israel?",
@@ -4402,11 +4754,14 @@
     "26042": {
       "title": "Who are not tempted by Satan?"
     },
-    "26139": {
-      "title": "Is it permissible to re-use the water that has been already used [by myself] for ablution?"
+    "26367": {
+      "title": "Fix a sinful relationship towards halal"
     },
     "26410": {
       "title": "How to react when my step-mother did this?"
+    },
+    "27456": {
+      "title": "How many lines in Quran?"
     },
     "27555": {
       "title": "Is 8 Ball Pool from Miniclip Legal According To Islamic Teachings"
@@ -4421,7 +4776,7 @@
       "title": "Do we get the same punishment for supporting the murderer?"
     },
     "28032": {
-      "title": "Nikah without means of Marraige"
+      "title": "Nikah without means of Marriage"
     },
     "28040": {
       "title": "Why muslims (and also christians) believe in prophets after Malachi?",
@@ -4434,7 +4789,7 @@
       "title": "Can we fast only for 1 day in muharram?"
     },
     "28459": {
-      "title": "Was the name Friday/Jumua known before islam?"
+      "title": "Was the name Friday/Jumua known before Islam?"
     },
     "28516": {
       "title": "Zakat at the age of 17"
@@ -4445,11 +4800,8 @@
     "28847": {
       "title": "Wealth distribution"
     },
-    "28852": {
-      "title": "Why do millions of Shias walk to Kerbala each year despite life threatening conditions"
-    },
     "28914": {
-      "title": "interracial marriage"
+      "title": "Interracial marriage"
     },
     "28955": {
       "title": "Does the concept of grace exist in Islam like it does in Christianity?",
@@ -4461,8 +4813,72 @@
     "29162": {
       "title": "Shares in a partnership business"
     },
-    "29229": {
-      "title": "husband or family =("
+    "29199": {
+      "title": "Are these description of Jannat proved by Quran and Hadith?"
+    },
+    "29305": {
+      "title": "What is Sunni view regarding the savior of the world?"
+    },
+    "29413": {
+      "title": "Does Islam allow marriage between first cousins?"
+    },
+    "29483": {
+      "title": "Namaaz and its question"
+    },
+    "29642": {
+      "title": "How should I interpret Quran[a:b]?"
+    },
+    "29816": {
+      "title": "Forcefully married"
+    },
+    "29818": {
+      "title": "How can a child marriage be anything but forced?"
+    },
+    "30390": {
+      "title": "Why do we find Medinian verses in Meccan Chapters and vice versa?"
+    },
+    "30466": {
+      "title": "Help me to find the reason to salat/prayer ( Importance of the Prayer)"
+    },
+    "30499": {
+      "title": "How do some people know that a certain person/group will go to Hell?"
+    },
+    "30508": {
+      "title": "Different versions of Arabic Qur'an"
+    },
+    "30537": {
+      "title": "What is the ruling regarding Hadith Rejecters?"
+    },
+    "30598": {
+      "title": "Islam and the enslavement of children: Punishing the sons for the sins of the fathers"
+    },
+    "30847": {
+      "title": "In love with a non muslim girl who I want to convert to Islam - is this halal?"
+    },
+    "31127": {
+      "title": "How many adhans are there for Friday prayer?"
+    },
+    "31252": {
+      "title": "Why is prophet Muhammad different from other prophets and why this makes him so important?"
+    },
+    "31348": {
+      "title": "Accurately get Qiblah direction"
+    },
+    "31383": {
+      "title": "Gambling, is it haram if i dont keep the profit gained? Is it haram if my loses are protected?"
+    },
+    "31465": {
+      "title": "Did Muhammad (pbuh) ever go to Jerusalem to spread the word of Allah?",
+      "general_tag": 1
+    },
+    "32596": {
+      "title": "Why do Muslims say Subhan Allah, Alhamdulillah and Allahu Akbar for 33 times after daily prayers?"
+    },
+    "32644": {
+      "title": "Going from \"never prayed in my life\" to my first prayer?"
+    },
+    "32657": {
+      "title": "Can we pay zakaat money or other donations for purpose of planting trees specifically?"
     }
   }
 }

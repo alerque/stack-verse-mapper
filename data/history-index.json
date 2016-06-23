@@ -207,20 +207,6 @@
       ]
     },
     {
-      "id": 1515,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "John.8.1-John.8.59",
-          "book": "John",
-          "start": 338,
-          "end": 396,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 1620,
       "type": "a",
       "parent": 101,
@@ -340,19 +326,6 @@
           "book": "Num",
           "start": 247,
           "end": 335,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 2494,
-      "type": "a",
-      "parent": 2489,
-      "refs": [
-        {
-          "osis": "Jude.1.9",
-          "book": "Jude",
-          "start": 9,
           "count": 1
         }
       ]
@@ -1054,20 +1027,6 @@
       ]
     },
     {
-      "id": 8342,
-      "type": "a",
-      "parent": 8334,
-      "refs": [
-        {
-          "osis": "Jas.1.1-Jas.1.27",
-          "book": "Jas",
-          "start": 1,
-          "end": 27,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 8353,
       "type": "a",
       "parent": 630,
@@ -1203,20 +1162,6 @@
           "book": "Isa",
           "start": 247,
           "end": 252,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 8944,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Ezek.1.1-Ezek.1.28",
-          "book": "Ezek",
-          "start": 1,
-          "end": 28,
           "count": 1
         }
       ]
@@ -1940,20 +1885,6 @@
       ]
     },
     {
-      "id": 11514,
-      "type": "a",
-      "parent": 1722,
-      "refs": [
-        {
-          "osis": "Eph.1.1-Eph.1.23",
-          "book": "Eph",
-          "start": 1,
-          "end": 23,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 11566,
       "type": "a",
       "parent": 11547,
@@ -2242,20 +2173,6 @@
           "book": "Num",
           "start": 385,
           "end": 420,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 14179,
-      "type": "a",
-      "parent": 14178,
-      "refs": [
-        {
-          "osis": "Num.1.1-Num.1.54",
-          "book": "Num",
-          "start": 1,
-          "end": 54,
           "count": 1
         }
       ]
@@ -3114,20 +3031,6 @@
       ]
     },
     {
-      "id": 21530,
-      "type": "a",
-      "parent": 21529,
-      "refs": [
-        {
-          "osis": "Isa.4.1-Isa.4.6",
-          "book": "Isa",
-          "start": 80,
-          "end": 85,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 22710,
       "type": "a",
       "parent": 17711,
@@ -3234,20 +3137,6 @@
           "book": "Isa",
           "start": 424,
           "end": 441,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 23302,
-      "type": "a",
-      "parent": 23300,
-      "refs": [
-        {
-          "osis": "Dan.5.1-Dan.5.31",
-          "book": "Dan",
-          "start": 138,
-          "end": 168,
           "count": 1
         }
       ]
@@ -3948,20 +3837,6 @@
       ]
     },
     {
-      "id": 26628,
-      "type": "a",
-      "parent": 26627,
-      "refs": [
-        {
-          "osis": "1Pet.4.1-1Pet.4.19",
-          "book": "1Pet",
-          "start": 73,
-          "end": 91,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 26840,
       "type": "a",
       "parent": 26835,
@@ -4004,15 +3879,374 @@
       ]
     },
     {
-      "id": 27009,
+      "id": 27279,
+      "type": "a",
+      "parent": 27269,
+      "refs": [
+        {
+          "osis": "Jer.13.23",
+          "book": "Jer",
+          "start": 343,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 27418,
+      "type": "a",
+      "parent": 27416,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 8
+        },
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 27442,
+      "type": "a",
+      "parent": 27416,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 27581,
+      "type": "a",
+      "parent": 27577,
+      "refs": [
+        {
+          "osis": "Isa.8.1-Isa.8.22",
+          "book": "Isa",
+          "start": 154,
+          "end": 175,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 27668,
+      "type": "a",
+      "parent": 14724,
+      "refs": [
+        {
+          "osis": "John.3.1-John.3.36",
+          "book": "John",
+          "start": 77,
+          "end": 112,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 27778,
+      "type": "a",
+      "parent": 27775,
+      "refs": [
+        {
+          "osis": "2Chr.9.13",
+          "book": "2Chr",
+          "start": 183,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 27922,
+      "type": "a",
+      "parent": 27921,
+      "refs": [
+        {
+          "osis": "Isa.14.1-Isa.14.32",
+          "book": "Isa",
+          "start": 275,
+          "end": 306,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 27941,
+      "type": "a",
+      "parent": 21489,
+      "refs": [
+        {
+          "osis": "1Cor.11.14-1Cor.11.15",
+          "book": "1Cor",
+          "start": 251,
+          "end": 252,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 28057,
+      "type": "a",
+      "parent": 17704,
+      "refs": [
+        {
+          "osis": "Gen.6.4",
+          "book": "Gen",
+          "start": 142,
+          "count": 1
+        },
+        {
+          "osis": "John.7.41",
+          "book": "John",
+          "start": 325,
+          "count": 1
+        },
+        {
+          "osis": "Judg.17.6",
+          "book": "Judg",
+          "start": 477,
+          "count": 1
+        },
+        {
+          "osis": "Judg.20.27",
+          "book": "Judg",
+          "start": 572,
+          "count": 1
+        },
+        {
+          "osis": "Luke.1.26",
+          "book": "Luke",
+          "start": 26,
+          "count": 1
+        },
+        {
+          "osis": "Luke.1.27",
+          "book": "Luke",
+          "start": 27,
+          "count": 1
+        },
+        {
+          "osis": "Luke.2.1",
+          "book": "Luke",
+          "start": 81,
+          "count": 3
+        },
+        {
+          "osis": "Luke.2.2",
+          "book": "Luke",
+          "start": 82,
+          "count": 2
+        },
+        {
+          "osis": "Luke.2.3",
+          "book": "Luke",
+          "start": 83,
+          "count": 3
+        },
+        {
+          "osis": "Luke.2.39",
+          "book": "Luke",
+          "start": 119,
+          "count": 2
+        },
+        {
+          "osis": "Luke.4.3",
+          "book": "Luke",
+          "start": 173,
+          "count": 1
+        },
+        {
+          "osis": "Matt.2.23",
+          "book": "Matt",
+          "start": 48,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28146,
+      "type": "a",
+      "parent": 28082,
+      "refs": [
+        {
+          "osis": "Num.10.1-Num.10.36",
+          "book": "Num",
+          "start": 385,
+          "end": 420,
+          "count": 1
+        },
+        {
+          "osis": "Num.6.1-Num.6.27",
+          "book": "Num",
+          "start": 220,
+          "end": 246,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28209,
+      "type": "a",
+      "parent": 28152,
+      "refs": [
+        {
+          "osis": "Isa.60.1-Isa.60.22",
+          "book": "Isa",
+          "start": 1168,
+          "end": 1189,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28307,
+      "type": "a",
+      "parent": 28300,
+      "refs": [
+        {
+          "osis": "Mark.14.1-Mark.14.72",
+          "book": "Mark",
+          "start": 540,
+          "end": 611,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28330,
+      "type": "a",
+      "parent": 10051,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28513,
+      "type": "a",
+      "parent": 10276,
+      "refs": [
+        {
+          "osis": "Isa.20.1",
+          "book": "Isa",
+          "start": 376,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28544,
       "type": "q",
       "title": [],
       "refs": [
         {
-          "osis": "Mark.4.1-Mark.4.41",
-          "book": "Mark",
-          "start": 109,
-          "end": 149,
+          "osis": "Isa.3.4",
+          "book": "Isa",
+          "start": 57,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28979,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Amos.4.1-Amos.4.13",
+          "book": "Amos",
+          "start": 47,
+          "end": 59,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28993,
+      "type": "a",
+      "parent": 28957,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 29043,
+      "type": "a",
+      "parent": 28808,
+      "refs": [
+        {
+          "osis": "Isa.21.1-Isa.21.17",
+          "book": "Isa",
+          "start": 382,
+          "end": 398,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 29135,
+      "type": "a",
+      "parent": 29133,
+      "refs": [
+        {
+          "osis": "Isa.8.3",
+          "book": "Isa",
+          "start": 156,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30241,
+      "type": "a",
+      "parent": 10884,
+      "refs": [
+        {
+          "osis": "Deut.22.21",
+          "book": "Deut",
+          "start": 599,
+          "count": 1
+        },
+        {
+          "osis": "Deut.23.17",
+          "book": "Deut",
+          "start": 625,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30252,
+      "type": "a",
+      "parent": 30249,
+      "refs": [
+        {
+          "osis": "Gen.1.1-Gen.1.31",
+          "book": "Gen",
+          "start": 1,
+          "end": 31,
           "count": 1
         }
       ]
@@ -4092,14 +4326,8 @@
     "1382": {
       "title": "Did The Soviet Union Need Both Prongs to Succeed At the Battle of Stalingrad?"
     },
-    "1515": {
-      "title": "\"Musketeer\" beard, mustache and hairdress - where did they originate?"
-    },
     "1683": {
       "title": "Are there any theories about what health problems would a man of the past suffer in the current age?"
-    },
-    "1722": {
-      "title": "Economic effects of the Cuban Revolution"
     },
     "1812": {
       "title": "Why Europe became more developed although metal was first discovered and used in Asia/Africa?"
@@ -4126,9 +4354,6 @@
     },
     "2383": {
       "title": "If the nazi is a far-right party, why is it socialist?"
-    },
-    "2489": {
-      "title": "Was the transition from the Bronze Age to the Iron Age violent?"
     },
     "2543": {
       "title": "How accurately could ancient astronomers find latitude and longitude?"
@@ -4239,9 +4464,6 @@
     "8311": {
       "title": "Viking culture: unhygienic use of water bowl"
     },
-    "8334": {
-      "title": "Why are the Portuguese so obsessed with salted codfish?"
-    },
     "8369": {
       "title": "When did retailers stop wrapping purchases in paper and twine?"
     },
@@ -4271,9 +4493,6 @@
     },
     "8937": {
       "title": "Were there many \"co-headed\" commands where the senior member was younger than the junior?"
-    },
-    "8944": {
-      "title": "What did Mesopotamian beehives look like?"
     },
     "9059": {
       "title": "How true is the statement \"Soviet troops got into Berlin riding American trucks, walking in American boots and using American trains\"?"
@@ -4396,6 +4615,9 @@
     "10852": {
       "title": "Historically, how come we have 7 days in a week?"
     },
+    "10884": {
+      "title": "Was prostitution legal in the Kingdom of Israel during the reign of Solomon?"
+    },
     "10933": {
       "title": "Has there ever been a truly multi-sided war?"
     },
@@ -4464,15 +4686,15 @@
     "12882": {
       "title": "Was it Bismarck who said: \"He who is master of Bohemia is master of Europe\"?"
     },
-    "14178": {
-      "title": "Meaning of samurai crest / symbol"
-    },
     "14364": {
       "title": "did relic sellers have a specific name or term for their profession?",
       "general_tag": 1
     },
     "14710": {
       "title": "Why did Nebuchadnezzar keep King Jeconiah alive?"
+    },
+    "14724": {
+      "title": "Did the US and Soviet navies really come close to blows in the Indian Ocean in 1971?"
     },
     "14731": {
       "title": "Which attempts to create or revise states resulted in action?"
@@ -4576,9 +4798,6 @@
     "21489": {
       "title": "When and why did having long hair become associated with women, and short hair with men?"
     },
-    "21529": {
-      "title": "Borisov aktion of 23 July , 1941"
-    },
     "22873": {
       "title": "How were the holes for the guns in battleships' turrets protected?"
     },
@@ -4603,9 +4822,6 @@
     },
     "23271": {
       "title": "Why was decimal time unsuccessful?"
-    },
-    "23300": {
-      "title": "What was the general attitude of people in states without anti-miscegenation laws toward interracial marriage?"
     },
     "23331": {
       "title": "Origin of the idea of a series of books"
@@ -4684,9 +4900,6 @@
     "26361": {
       "title": "Effects of the Berlin Wall on modern-day Germany"
     },
-    "26627": {
-      "title": "Why did Japan take so long to attack Wuhan?"
-    },
     "26835": {
       "title": "Decyphering Versal in Book of Kells"
     },
@@ -4696,8 +4909,48 @@
     "26974": {
       "title": "Were Americans concerned about \"Overlord\" code words in Daily Telegraph crosswords?"
     },
-    "27009": {
-      "title": "Why was Niels Abel below the class average in all subjects besides maths?"
+    "27269": {
+      "title": "What did the Romans call black people (sub-Saharan)?"
+    },
+    "27416": {
+      "title": "Did the Soviets excel in one area of weaponry during World War II?"
+    },
+    "27577": {
+      "title": "Was 18th century Prussia really so militarily obsessed?"
+    },
+    "27775": {
+      "title": "Is there any relationship between 666 and Roman numerals?",
+      "general_tag": 1
+    },
+    "27921": {
+      "title": "Which calendar to use in English for non-European countries?"
+    },
+    "28082": {
+      "title": "Looking for the 20th century painters on this t-shirt"
+    },
+    "28152": {
+      "title": "When and how did the West lose its dependency on the USSR for Titanium?"
+    },
+    "28300": {
+      "title": "Submarines during the Battle of the Philippine Sea"
+    },
+    "28544": {
+      "title": "What are the height units of contours on this WW2 topographic map?"
+    },
+    "28808": {
+      "title": "What is the historical reason for 18 years being the most popular age of adulthood?"
+    },
+    "28957": {
+      "title": "Why of all units is Time standard?"
+    },
+    "28979": {
+      "title": "Did a US Territory Gaining Statehood by Itself Bestow Citizenship to Anyone Who Was Present?"
+    },
+    "29133": {
+      "title": "How long did it take to sail from Philadelphia to Boston in the 1700s?"
+    },
+    "30249": {
+      "title": "Why does clock time start in the middle of the night?"
     }
   }
 }

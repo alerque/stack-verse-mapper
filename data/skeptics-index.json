@@ -181,20 +181,6 @@
       ]
     },
     {
-      "id": 907,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Deut.5.1-Deut.5.33",
-          "book": "Deut",
-          "start": 162,
-          "end": 194,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 957,
       "type": "a",
       "parent": 956,
@@ -492,20 +478,6 @@
       ]
     },
     {
-      "id": 1947,
-      "type": "a",
-      "parent": 1477,
-      "refs": [
-        {
-          "osis": "Song.4.1-Song.4.16",
-          "book": "Song",
-          "start": 46,
-          "end": 61,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 2099,
       "type": "a",
       "parent": 2059,
@@ -543,20 +515,6 @@
           "book": "Isa",
           "start": 626,
           "end": 649,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 2174,
-      "type": "a",
-      "parent": 2167,
-      "refs": [
-        {
-          "osis": "1Pet.4.1-1Pet.4.19",
-          "book": "1Pet",
-          "start": 73,
-          "end": 91,
           "count": 1
         }
       ]
@@ -969,20 +927,6 @@
           "book": "Isa",
           "start": 32,
           "end": 53,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 3026,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Isa.5.1-Isa.5.30",
-          "book": "Isa",
-          "start": 86,
-          "end": 115,
           "count": 1
         }
       ]
@@ -2737,20 +2681,6 @@
       ]
     },
     {
-      "id": 7132,
-      "type": "a",
-      "parent": 6734,
-      "refs": [
-        {
-          "osis": "Lev.9.1-Lev.9.24",
-          "book": "Lev",
-          "start": 209,
-          "end": 232,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 7137,
       "type": "a",
       "parent": 7136,
@@ -2913,20 +2843,6 @@
           "book": "Isa",
           "start": 197,
           "end": 230,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 7641,
-      "type": "a",
-      "parent": 7639,
-      "refs": [
-        {
-          "osis": "Exod.8.1-Exod.8.32",
-          "book": "Exod",
-          "start": 179,
-          "end": 210,
           "count": 1
         }
       ]
@@ -3197,20 +3113,6 @@
           "book": "Num",
           "start": 1,
           "end": 54,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 8286,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Prov.11.1-Prov.11.31",
-          "book": "Prov",
-          "start": 289,
-          "end": 319,
           "count": 1
         }
       ]
@@ -3692,6 +3594,12 @@
       "parent": 9191,
       "refs": [
         {
+          "osis": "1John.3.20",
+          "book": "1John",
+          "start": 59,
+          "count": 1
+        },
+        {
           "osis": "1John.4.16",
           "book": "1John",
           "start": 79,
@@ -3704,35 +3612,66 @@
           "count": 1
         },
         {
-          "osis": "1Sam.23.11",
+          "osis": "1Sam.23.11-1Sam.23.13",
           "book": "1Sam",
           "start": 609,
+          "end": 611,
           "count": 1
         },
         {
-          "osis": "Isa.46.9",
+          "osis": "2Cor.6.18",
+          "book": "2Cor",
+          "start": 116,
+          "count": 1
+        },
+        {
+          "osis": "Isa.46.9-Isa.46.10",
           "book": "Isa",
           "start": 941,
+          "end": 942,
           "count": 1
         },
         {
-          "osis": "Rom.5.6",
+          "osis": "Jer.32.17",
+          "book": "Jer",
+          "start": 802,
+          "count": 1
+        },
+        {
+          "osis": "Luke.1.37",
+          "book": "Luke",
+          "start": 37,
+          "count": 1
+        },
+        {
+          "osis": "Mark.10.18",
+          "book": "Mark",
+          "start": 391,
+          "count": 1
+        },
+        {
+          "osis": "Matt.19.26",
+          "book": "Matt",
+          "start": 644,
+          "count": 1
+        },
+        {
+          "osis": "Ps.139.2",
+          "book": "Ps",
+          "start": 2302,
+          "count": 1
+        },
+        {
+          "osis": "Ps.25.8",
+          "book": "Ps",
+          "start": 320,
+          "count": 1
+        },
+        {
+          "osis": "Rom.5.6-Rom.5.10",
           "book": "Rom",
           "start": 123,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 9227,
-      "type": "a",
-      "parent": 8699,
-      "refs": [
-        {
-          "osis": "Isa.2.1-Isa.2.22",
-          "book": "Isa",
-          "start": 32,
-          "end": 53,
+          "end": 127,
           "count": 1
         }
       ]
@@ -4552,20 +4491,6 @@
       ]
     },
     {
-      "id": 11006,
-      "type": "a",
-      "parent": 10979,
-      "refs": [
-        {
-          "osis": "Luke.2.1-Luke.2.52",
-          "book": "Luke",
-          "start": 81,
-          "end": 132,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 11018,
       "type": "q",
       "title": [],
@@ -5221,20 +5146,6 @@
       ]
     },
     {
-      "id": 14264,
-      "type": "a",
-      "parent": 14263,
-      "refs": [
-        {
-          "osis": "1Sam.7.1-1Sam.7.17",
-          "book": "1Sam",
-          "start": 141,
-          "end": 157,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 14320,
       "type": "a",
       "parent": 12328,
@@ -5680,20 +5591,6 @@
       ]
     },
     {
-      "id": 15268,
-      "type": "a",
-      "parent": 5861,
-      "refs": [
-        {
-          "osis": "Col.2.1-Col.2.23",
-          "book": "Col",
-          "start": 30,
-          "end": 52,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 15361,
       "type": "q",
       "title": [],
@@ -5798,12 +5695,6 @@
           "osis": "John.16.7",
           "book": "John",
           "start": 689,
-          "count": 1
-        },
-        {
-          "osis": "Song.2.16",
-          "book": "Song",
-          "start": 33,
           "count": 1
         },
         {
@@ -6277,20 +6168,6 @@
       ]
     },
     {
-      "id": 17087,
-      "type": "a",
-      "parent": 17085,
-      "refs": [
-        {
-          "osis": "Matt.1.1-Matt.1.25",
-          "book": "Matt",
-          "start": 1,
-          "end": 25,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 17136,
       "type": "q",
       "title": [],
@@ -6725,20 +6602,6 @@
       ]
     },
     {
-      "id": 18052,
-      "type": "a",
-      "parent": 8717,
-      "refs": [
-        {
-          "osis": "Luke.6.1-Luke.6.49",
-          "book": "Luke",
-          "start": 254,
-          "end": 302,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 18136,
       "type": "q",
       "title": [],
@@ -6847,20 +6710,6 @@
       "id": 18272,
       "type": "q",
       "title": [],
-      "refs": [
-        {
-          "osis": "Col.2.1-Col.2.23",
-          "book": "Col",
-          "start": 30,
-          "end": 52,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 18299,
-      "type": "a",
-      "parent": 18272,
       "refs": [
         {
           "osis": "Col.2.1-Col.2.23",
@@ -7379,20 +7228,6 @@
       ]
     },
     {
-      "id": 19636,
-      "type": "a",
-      "parent": 19615,
-      "refs": [
-        {
-          "osis": "Isa.1.1-Isa.1.31",
-          "book": "Isa",
-          "start": 1,
-          "end": 31,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 19764,
       "type": "a",
       "parent": 3635,
@@ -7645,19 +7480,6 @@
       ]
     },
     {
-      "id": 20284,
-      "type": "a",
-      "parent": 20263,
-      "refs": [
-        {
-          "osis": "Jude.1.5",
-          "book": "Jude",
-          "start": 5,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 20285,
       "type": "a",
       "parent": 20021,
@@ -7791,20 +7613,6 @@
           "book": "Col",
           "start": 30,
           "end": 52,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 20722,
-      "type": "a",
-      "parent": 20703,
-      "refs": [
-        {
-          "osis": "Luke.5.1-Luke.5.39",
-          "book": "Luke",
-          "start": 215,
-          "end": 253,
           "count": 1
         }
       ]
@@ -8225,20 +8033,6 @@
       ]
     },
     {
-      "id": 22047,
-      "type": "a",
-      "parent": 22029,
-      "refs": [
-        {
-          "osis": "1Kgs.2.1-1Kgs.2.46",
-          "book": "1Kgs",
-          "start": 54,
-          "end": 99,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 22083,
       "type": "a",
       "parent": 22073,
@@ -8617,20 +8411,6 @@
           "book": "Gen",
           "start": 32,
           "end": 56,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 22515,
-      "type": "a",
-      "parent": 22467,
-      "refs": [
-        {
-          "osis": "Lam.2.1-Lam.2.22",
-          "book": "Lam",
-          "start": 23,
-          "end": 44,
           "count": 1
         }
       ]
@@ -9184,20 +8964,6 @@
       ]
     },
     {
-      "id": 26904,
-      "type": "a",
-      "parent": 26892,
-      "refs": [
-        {
-          "osis": "Prov.8.1-Prov.8.36",
-          "book": "Prov",
-          "start": 203,
-          "end": 238,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 26920,
       "type": "a",
       "parent": 26918,
@@ -9448,20 +9214,6 @@
       ]
     },
     {
-      "id": 27443,
-      "type": "a",
-      "parent": 27441,
-      "refs": [
-        {
-          "osis": "Gal.3.1-Gal.3.29",
-          "book": "Gal",
-          "start": 46,
-          "end": 74,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 27470,
       "type": "a",
       "parent": 27468,
@@ -9688,11 +9440,17 @@
       "parent": 27934,
       "refs": [
         {
+          "osis": "Col.2.0",
+          "book": "Col",
+          "start": 29,
+          "count": 1
+        },
+        {
           "osis": "Col.2.1-Col.2.23",
           "book": "Col",
           "start": 30,
           "end": 52,
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -10326,20 +10084,6 @@
       ]
     },
     {
-      "id": 30013,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Jer.9.1-Jer.9.26",
-          "book": "Jer",
-          "start": 230,
-          "end": 255,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 30026,
       "type": "a",
       "parent": 30017,
@@ -10643,20 +10387,6 @@
       ]
     },
     {
-      "id": 30846,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Deut.4.1-Deut.4.49",
-          "book": "Deut",
-          "start": 113,
-          "end": 161,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 30881,
       "type": "a",
       "parent": 402,
@@ -10705,20 +10435,6 @@
           "book": "Mark",
           "start": 74,
           "end": 108,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 30921,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Dan.6.1-Dan.6.28",
-          "book": "Dan",
-          "start": 169,
-          "end": 196,
           "count": 1
         }
       ]
@@ -10984,6 +10700,694 @@
           "count": 1
         }
       ]
+    },
+    {
+      "id": 31272,
+      "type": "a",
+      "parent": 8904,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 10
+        },
+        {
+          "osis": "Isa.8.1-Isa.8.22",
+          "book": "Isa",
+          "start": 154,
+          "end": 175,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31355,
+      "type": "a",
+      "parent": 31335,
+      "refs": [
+        {
+          "osis": "Isa.1.0",
+          "book": "Isa",
+          "start": 0,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31454,
+      "type": "a",
+      "parent": 31452,
+      "refs": [
+        {
+          "osis": "Isa.41.1-Isa.41.29",
+          "book": "Isa",
+          "start": 798,
+          "end": 826,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31468,
+      "type": "a",
+      "parent": 10327,
+      "refs": [
+        {
+          "osis": "Dan.4.1-Dan.4.37",
+          "book": "Dan",
+          "start": 101,
+          "end": 137,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31640,
+      "type": "a",
+      "parent": 31635,
+      "refs": [
+        {
+          "osis": "Tob.1.5",
+          "book": "Tob",
+          "start": 5,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31666,
+      "type": "a",
+      "parent": 31665,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 9
+        },
+        {
+          "osis": "Song.6.1-Song.6.13",
+          "book": "Song",
+          "start": 78,
+          "end": 90,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31677,
+      "type": "a",
+      "parent": 31665,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31780,
+      "type": "a",
+      "parent": 31779,
+      "refs": [
+        {
+          "osis": "Mark.3.1-Mark.3.35",
+          "book": "Mark",
+          "start": 74,
+          "end": 108,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31806,
+      "type": "a",
+      "parent": 3803,
+      "refs": [
+        {
+          "osis": "Num.7.1-Num.7.89",
+          "book": "Num",
+          "start": 247,
+          "end": 335,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31852,
+      "type": "a",
+      "parent": 31846,
+      "refs": [
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31861,
+      "type": "a",
+      "parent": 31853,
+      "refs": [
+        {
+          "osis": "Num.10.1-Num.10.36",
+          "book": "Num",
+          "start": 385,
+          "end": 420,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31862,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31876,
+      "type": "a",
+      "parent": 31874,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31894,
+      "type": "a",
+      "parent": 31887,
+      "refs": [
+        {
+          "osis": "Num.18.1-Num.18.32",
+          "book": "Num",
+          "start": 654,
+          "end": 685,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32008,
+      "type": "a",
+      "parent": 16478,
+      "refs": [
+        {
+          "osis": "Isa.8.0",
+          "book": "Isa",
+          "start": 153,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32052,
+      "type": "a",
+      "parent": 1367,
+      "refs": [
+        {
+          "osis": "Isa.8.1-Isa.8.22",
+          "book": "Isa",
+          "start": 154,
+          "end": 175,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32115,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Mark.11.1-Mark.11.33",
+          "book": "Mark",
+          "start": 426,
+          "end": 458,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32142,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Exod.8.1-Exod.8.32",
+          "book": "Exod",
+          "start": 179,
+          "end": 210,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32147,
+      "type": "a",
+      "parent": 32141,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32153,
+      "type": "a",
+      "parent": 23071,
+      "refs": [
+        {
+          "osis": "Isa.20.1-Isa.20.6",
+          "book": "Isa",
+          "start": 376,
+          "end": 381,
+          "count": 2
+        },
+        {
+          "osis": "Isa.3.10",
+          "book": "Isa",
+          "start": 63,
+          "count": 1
+        },
+        {
+          "osis": "Isa.7.10",
+          "book": "Isa",
+          "start": 138,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32173,
+      "type": "a",
+      "parent": 32141,
+      "refs": [
+        {
+          "osis": "Rev.15.1-Rev.15.8",
+          "book": "Rev",
+          "start": 250,
+          "end": 257,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32194,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Isa.8.1-Isa.8.22",
+          "book": "Isa",
+          "start": 154,
+          "end": 175,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32215,
+      "type": "a",
+      "parent": 5617,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32231,
+      "type": "a",
+      "parent": 5617,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 32290,
+      "type": "a",
+      "parent": 32283,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 32322,
+      "type": "a",
+      "parent": 26907,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32387,
+      "type": "a",
+      "parent": 32386,
+      "refs": [
+        {
+          "osis": "Deut.7.25",
+          "book": "Deut",
+          "start": 244,
+          "count": 1
+        },
+        {
+          "osis": "Exod.20.17",
+          "book": "Exod",
+          "start": 536,
+          "count": 1
+        },
+        {
+          "osis": "Luke.12.13-Luke.12.15",
+          "book": "Luke",
+          "start": 579,
+          "end": 581,
+          "count": 1
+        },
+        {
+          "osis": "Matt.5.27-Matt.5.28",
+          "book": "Matt",
+          "start": 117,
+          "end": 118,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32394,
+      "type": "a",
+      "parent": 20460,
+      "refs": [
+        {
+          "osis": "Song.1.1-Song.1.17",
+          "book": "Song",
+          "start": 1,
+          "end": 17,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32418,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32458,
+      "type": "a",
+      "parent": 32248,
+      "refs": [
+        {
+          "osis": "Isa.39.1-Isa.39.8",
+          "book": "Isa",
+          "start": 759,
+          "end": 766,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32477,
+      "type": "a",
+      "parent": 32449,
+      "refs": [
+        {
+          "osis": "Isa.20.1-Isa.20.6",
+          "book": "Isa",
+          "start": 376,
+          "end": 381,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32608,
+      "type": "a",
+      "parent": 32606,
+      "refs": [
+        {
+          "osis": "Isa.35.1-Isa.35.10",
+          "book": "Isa",
+          "start": 667,
+          "end": 676,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32661,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Isa.50.1-Isa.50.11",
+          "book": "Isa",
+          "start": 1009,
+          "end": 1019,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32665,
+      "type": "a",
+      "parent": 32661,
+      "refs": [
+        {
+          "osis": "Isa.50.1-Isa.50.11",
+          "book": "Isa",
+          "start": 1009,
+          "end": 1019,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32704,
+      "type": "a",
+      "parent": 32694,
+      "refs": [
+        {
+          "osis": "Isa.48.1-Isa.48.22",
+          "book": "Isa",
+          "start": 961,
+          "end": 982,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32708,
+      "type": "a",
+      "parent": 32695,
+      "refs": [
+        {
+          "osis": "Isa.29.1-Isa.29.24",
+          "book": "Isa",
+          "start": 540,
+          "end": 563,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32745,
+      "type": "a",
+      "parent": 32706,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.2.22",
+          "book": "Isa",
+          "start": 1,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32779,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32783,
+      "type": "a",
+      "parent": 32779,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Isa.25.1-Isa.40.31",
+          "book": "Isa",
+          "start": 465,
+          "end": 797,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32958,
+      "type": "a",
+      "parent": 32957,
+      "refs": [
+        {
+          "osis": "Mic.5.1-Mic.5.15",
+          "book": "Mic",
+          "start": 55,
+          "end": 69,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33081,
+      "type": "a",
+      "parent": 33073,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33099,
+      "type": "a",
+      "parent": 32766,
+      "refs": [
+        {
+          "osis": "Gen.11.26",
+          "book": "Gen",
+          "start": 293,
+          "count": 1
+        },
+        {
+          "osis": "Gen.17.5",
+          "book": "Gen",
+          "start": 403,
+          "count": 1
+        },
+        {
+          "osis": "Gen.17.6-Gen.17.8",
+          "book": "Gen",
+          "start": 404,
+          "end": 406,
+          "count": 1
+        },
+        {
+          "osis": "Gen.4.4-Gen.4.5",
+          "book": "Gen",
+          "start": 84,
+          "end": 85,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33131,
+      "type": "a",
+      "parent": 33110,
+      "refs": [
+        {
+          "osis": "Mic.6.1-Mic.6.16",
+          "book": "Mic",
+          "start": 70,
+          "end": 85,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33195,
+      "type": "a",
+      "parent": 15764,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 3
+        }
+      ]
     }
   ],
   "questions": {
@@ -11029,9 +11433,6 @@
     "881": {
       "title": "Crystal glassware contains lead. What health advice are reasonable?"
     },
-    "907": {
-      "title": "Is the death penalty an effective deterrent?"
-    },
     "956": {
       "title": "Was Einstein a poor student?"
     },
@@ -11053,6 +11454,9 @@
     "1355": {
       "title": "Is Barack Obama a natural born US citizen?"
     },
+    "1367": {
+      "title": "Does circumcision lead to a net increase in quality of life?"
+    },
     "1368": {
       "title": "On 9/11, was Building 7 destroyed in a controlled explosion?"
     },
@@ -11064,9 +11468,6 @@
     },
     "1438": {
       "title": "Is the Earth 6000 years old?"
-    },
-    "1477": {
-      "title": "Was the Great Sphinx of Giza originally an Anubis?"
     },
     "1509": {
       "title": "Would avoiding the eating of meat stop global warming?"
@@ -11145,8 +11546,7 @@
       "title": "Is flatus flammable?"
     },
     "2330": {
-      "title": "Is eating cloven-hoofed animals, bottom-feeders or ruminants bad for you?",
-      "general_tag": 1
+      "title": "Is eating cloven-hoofed animals, bottom-feeders or ruminants bad for you?"
     },
     "2335": {
       "title": "Is there any observable evidence of the Big Bang?"
@@ -11220,9 +11620,6 @@
     "3023": {
       "title": "Is replacing paper towels with electric hand dryer blowers beneficial to the environment?"
     },
-    "3026": {
-      "title": "Was Sir Arthur Conan Doyle responsible for the Piltdown Man hoax?"
-    },
     "3028": {
       "title": "Is a woman who dresses sexually suggestively more likely to get raped?"
     },
@@ -11292,6 +11689,9 @@
     },
     "3794": {
       "title": "Is the 'glycogen restoration window' real?"
+    },
+    "3803": {
+      "title": "Are bar peanuts regularly tainted by urine?"
     },
     "3805": {
       "title": "Is fluoride in water an industry waste product?"
@@ -11392,7 +11792,7 @@
       "title": "Do wind farms have a significant impact on weather patterns in the US?"
     },
     "5360": {
-      "title": "Do the Swiss have exceptionally good train timings?"
+      "title": "Are Swiss trains exceptionally punctual?"
     },
     "5460": {
       "title": "Are pediatricians immune to common communicable diseases?"
@@ -11528,9 +11928,6 @@
     "6730": {
       "title": "Is an open internet access a productivity killer at the workplace?"
     },
-    "6734": {
-      "title": "Has the UN low variant for population growth been the historically correct figure?"
-    },
     "6744": {
       "title": "Does \"Israel\" mean \"Exiled for their sins\"?"
     },
@@ -11618,9 +12015,6 @@
     "7571": {
       "title": "Does skimmed milk have more added chemicals than whole milk?"
     },
-    "7639": {
-      "title": "Is a spotlight like the Bat-Signal possible?"
-    },
     "7657": {
       "title": "Does every act of piracy impact revenue by the current content price?"
     },
@@ -11659,9 +12053,6 @@
     },
     "8245": {
       "title": "Does second hand smoke cause cancer?"
-    },
-    "8286": {
-      "title": "Were fat women considered as the norm of beauty in the past?"
     },
     "8299": {
       "title": "Is it okay to eat food that has been through airport x-ray scanners"
@@ -11711,9 +12102,6 @@
     },
     "8699": {
       "title": "Is it possible to crush bacteria?"
-    },
-    "8717": {
-      "title": "Is overpopulation a myth?"
     },
     "8768": {
       "title": "Does eating trans fatty acids affect immune response?"
@@ -11834,6 +12222,9 @@
     "10309": {
       "title": "Do Japanese people have a lower body temperature than caucasians?"
     },
+    "10327": {
+      "title": "Did L Ron Hubbard say \"The way to make a million dollars is to start a religion.\""
+    },
     "10400": {
       "title": "Are rape victims forced to marry their rapist, according to the Old Testament?",
       "general_tag": 1
@@ -11875,9 +12266,6 @@
     },
     "10954": {
       "title": "Does the DNA of one sperm contain 37.5 MB of information?"
-    },
-    "10979": {
-      "title": "Do lower income workers tend to vote Republican?"
     },
     "11018": {
       "title": "Do hares chew cud?",
@@ -11969,9 +12357,6 @@
     },
     "14181": {
       "title": "Is poker more a game of skill than chance?"
-    },
-    "14263": {
-      "title": "Are most people right handed, because they had to protect their heart?"
     },
     "14375": {
       "title": "Do fingerprint scanners cause skin cancer?"
@@ -12079,6 +12464,9 @@
     "15658": {
       "title": "Has nuclear power generation saved millions of lives from avoided air pollution?"
     },
+    "15764": {
+      "title": "Has a carbon price lead to a 8.6 percent drop in electricity demand in Australia?"
+    },
     "15767": {
       "title": "Were flu vaccines 9% effective for the elderly in 2013?"
     },
@@ -12109,6 +12497,9 @@
     "16408": {
       "title": "Is global temperature significantly affected by time of galactic year?"
     },
+    "16478": {
+      "title": "Is there formaldehyde in the glue of bamboo cutting boards? Is it dangerous?"
+    },
     "16672": {
       "title": "Do major events on tv have the potential to wreak havoc on utilities such as water and electricity?"
     },
@@ -12136,9 +12527,6 @@
     },
     "17057": {
       "title": "Are 42% of human deaths worldwide from abortion?"
-    },
-    "17085": {
-      "title": "Can a combination of wind and ice move a 700 lb (300 kg) rock?"
     },
     "17136": {
       "title": "Can some simple, old models of the effect of CO₂ predict temperature better than complex modern climate simulations?"
@@ -12299,9 +12687,6 @@
     "19604": {
       "title": "Does size 12 Times New Roman font receive better grades in school?"
     },
-    "19615": {
-      "title": "Do tinfoil hats protect against any sort of radiation?"
-    },
     "19625": {
       "title": "Does red meat increase the risk of heart disease?"
     },
@@ -12350,9 +12735,6 @@
     "20230": {
       "title": "Does GPS use General Relativity?"
     },
-    "20263": {
-      "title": "Did the Ourang Medan \"ghost ship\" exist?"
-    },
     "20344": {
       "title": "Are the latest estimates of the cost of climate policy five time higher than the projected benefits?"
     },
@@ -12362,6 +12744,9 @@
     "20448": {
       "title": "Has anthropogenic climate change been disproven?"
     },
+    "20460": {
+      "title": "Are 1 in 5 college women raped?"
+    },
     "20525": {
       "title": "Sharing tool claims files can be \"unshared\""
     },
@@ -12370,9 +12755,6 @@
     },
     "20605": {
       "title": "Is carbon dioxide from a mosquito trap potent enough to attract mosquitoes?"
-    },
-    "20703": {
-      "title": "Are snowflakes incapable of four-fold symmetry?"
     },
     "20704": {
       "title": "Do full-time working women earn 77 cents for every dollar a man earns?"
@@ -12401,9 +12783,6 @@
     },
     "21995": {
       "title": "Does garlic improve hair growth in androgenetic alopecia?"
-    },
-    "22029": {
-      "title": "Can acupuncture increase blood flow to a muscle?"
     },
     "22073": {
       "title": "Is Matt Ridley's assertion that the most extreme of the IPCC climate projections is based on very implausible assumptions correct?"
@@ -12457,9 +12836,6 @@
       "title": "Have one million Christians been persecuted to death or exile in Iraq by jihadis?",
       "general_tag": 1
     },
-    "22467": {
-      "title": "Was the MH17 video taken in Ukraine-held territory?"
-    },
     "22489": {
       "title": "Does the \"Nonstop Elevator Hack\" work?"
     },
@@ -12492,6 +12868,9 @@
     },
     "23014": {
       "title": "Was St Peter a bishop of Rome?"
+    },
+    "23071": {
+      "title": "Is looking at an IR transmitter bad for your eyes?"
     },
     "23213": {
       "title": "Is it a felony in Montana for a wife to open her husband's mail?"
@@ -12557,9 +12936,6 @@
       "title": "Do atheists commit far fewer crimes?",
       "general_tag": 1
     },
-    "26892": {
-      "title": "Would life not exist on Earth if it was one kilometer closer to, or farther from, the sun?"
-    },
     "26907": {
       "title": "Did a Jewish rabbi precisely calculate the duration of the full moon cycle 1800 years ago?",
       "general_tag": 1
@@ -12596,9 +12972,6 @@
     },
     "27352": {
       "title": "Were Mermaid passengers shipwrecked by 5 different vessels before being successfully rescued?"
-    },
-    "27441": {
-      "title": "Is this photograph of Frank Sinatra as a 10 year old real?"
     },
     "27468": {
       "title": "Was measles vaccine introduced after the disease was under control"
@@ -12698,9 +13071,6 @@
     "29944": {
       "title": "Is the world record for staying in an anechoic chamber an hour or less?"
     },
-    "30013": {
-      "title": "Does it cost £1.5 to clean up every piece of gum left on UK Streets?"
-    },
     "30017": {
       "title": "Can taking Cialis cure Erectile Dysfunction permanently?"
     },
@@ -12748,9 +13118,6 @@
     "30796": {
       "title": "Is this comparison of wedge tailed eagles and bald eagles accurate?"
     },
-    "30846": {
-      "title": "Did Senator McCain ever meet ISIS leader al-Baghdadi?"
-    },
     "30874": {
       "title": "Do 3400 Americans die from household firearms every five weeks?"
     },
@@ -12759,9 +13126,6 @@
     },
     "30903": {
       "title": "Do rusty nail wounds cause tetanus?"
-    },
-    "30921": {
-      "title": "Are there 'friendly' fire restrictions programmed into exported (american) weaponry?"
     },
     "30925": {
       "title": "Are booster shots for pets required annually to maintain rabies immunity?"
@@ -12796,6 +13160,97 @@
     },
     "31262": {
       "title": "Could the dinosaurs in the novel Jurasic Park possibly survive in modern climate?"
+    },
+    "31335": {
+      "title": "Are the 2016 UK guidelines on alcohol consumption evidence based?"
+    },
+    "31452": {
+      "title": "Are 41% of Donald Trump supporters in favor of bombing Agrabah (the country from Aladdin)?"
+    },
+    "31635": {
+      "title": "Is the Zika virus a serious threat?"
+    },
+    "31665": {
+      "title": "Are annual contributions to carbon in the atmosphere due to human activities increasing by 6% per annum?"
+    },
+    "31779": {
+      "title": "Is duct tape an effective treatment for warts?"
+    },
+    "31846": {
+      "title": "Was Napoleon Bonaparte short?"
+    },
+    "31853": {
+      "title": "Do these photos from the Civil Rights Era show Bernie Sanders?"
+    },
+    "31862": {
+      "title": "Is the chance of an obese person attaining normal body weight 1 in 210 for men and 1 in 124 for women?"
+    },
+    "31874": {
+      "title": "Does low-dose radiation from X-rays or CT scans cause cancer?"
+    },
+    "31887": {
+      "title": "Did just 18 people die from prostate cancer in Japan in 1958?"
+    },
+    "32115": {
+      "title": "Are there more pedophiles in the Catholic Church than other religions, or professions",
+      "general_tag": 1
+    },
+    "32141": {
+      "title": "Is Giardiasis a significant risk of drinking untreated water in pristine backcountry areas in North America?"
+    },
+    "32142": {
+      "title": "Did Apple help the Chinese government unlock thousands of iPhones?"
+    },
+    "32194": {
+      "title": "Is 8% of human DNA from viruses?"
+    },
+    "32248": {
+      "title": "Does the US spend more on prisons than public education?"
+    },
+    "32283": {
+      "title": "Are the outcomes of evolution too improbable to have occurred in the Earth's lifetime?",
+      "general_tag": 1
+    },
+    "32386": {
+      "title": "Did \"thou shalt not covet thy neighbor's wife\" originally refer not to sex but to housework?",
+      "general_tag": 1
+    },
+    "32418": {
+      "title": "Can Zipf's power law be applied to the population of European cities?"
+    },
+    "32449": {
+      "title": "Does standard table salt contain anti-caking agents that prevent salts from disolving in our body?"
+    },
+    "32606": {
+      "title": "In 2014, did nearly half of all Americans believe in Creationism?"
+    },
+    "32661": {
+      "title": "Is 50% of happiness determined by genetics?"
+    },
+    "32694": {
+      "title": "Are black Americans responsible for more than 50% of homicides?"
+    },
+    "32695": {
+      "title": "Are five million Muslims attempting to move to Europe?"
+    },
+    "32706": {
+      "title": "Are 30% of all putative fathers who take paternity tests not the biological father of their children?"
+    },
+    "32766": {
+      "title": "How old is Judaism?",
+      "general_tag": 1
+    },
+    "32779": {
+      "title": "\"One year without beef saves 3432 trees\""
+    },
+    "32957": {
+      "title": "Was Hitler the father of Obama?"
+    },
+    "33073": {
+      "title": "Does a SSD only store data for 3 months without power?"
+    },
+    "33110": {
+      "title": "Did Alan Turing commit suicide, or is it possible his death was an accident?"
     }
   }
 }
