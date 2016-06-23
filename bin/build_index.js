@@ -26,6 +26,7 @@ function build_index( err, data )
 	// Parse the verse references of the body and title
 	var posts = data.map( function( post )
 	{
+		bcv.versification_system( post.translation || 'default' );
 		post.refs = bcv.parse( post.body ).reversify( 'default' ).split( ',' );
 		if ( post.type === 'q' )
 		{
@@ -51,6 +52,7 @@ function build_index( err, data )
 		{
 			delete post.body;
 			delete post.tags;
+			delete post.translation;
 			return post;
 		}
 	})

@@ -2,9 +2,10 @@
 
 // Parse Posts.xml from a Stack Exchange site archive, extracting the information we need
 
+var _ = require( 'lodash' );
 var fs = require( 'fs' );
 var htmlToText = require( 'html-to-text' );
-//var url_parse = require( 'url' ).parse;
+var url_parse = require( 'url' ).parse;
 var xmlFlow = require( 'xml-flow' );
 
 // Read in from a supplied file name
@@ -28,28 +29,29 @@ xmlStream.on( 'end', function()
 
 function extract_post_data( data )
 {
+	var translations = {};
 	var body = data.body
 		// Replace fancy dashes and hyphens with normal ones
 		.replace( /[\u2010-\u2015]/g, '-' );
-		// Account for verse numbers which aren't included in the links
-		//.replace( /<\/a>( *[:-]? *\d\w*( *- *\d\w* *: *\d\w*)?)/g, '$1</a>' )
-		// If the ref is using periods instead of colons then it can't have spaces around it
-		//.replace( /<\/a>((\.| *- *)?\d\w*( *- *\d\w*\.\d\w*)?)/g, '$1</a>' );
 
 	// Strip the formatting
 	body = htmlToText.fromString( body, {
-		ignoreHref: true,
 		wordwrap: false,
-	});
-
+	})
 		// And extract translations
-		//.replace( /\[(\w+:\/\/[^\]]+)\]/g, extract_translations );
+		.replace( /\[(\w+:\/\/[^\]]+)\] ?/g, _.curry( extract_translations )( translations ) );
 
 	var post = {
 		id: +data.id,
 		type: +data.posttypeid === 1 ? 'q' : 'a',
 		body: body,
 	};
+
+	translations = _( translations ).toPairs().orderBy( t => t[1], 'desc' ).value();
+	if ( translations.length )
+	{
+		post.translation = translations[0][0];
+	}
 
 	if ( post.type === 'q' )
 	{
@@ -64,10 +66,10 @@ function extract_post_data( data )
 }
 
 // Extract translations from URLs
-/*function extract_translations( match, url )
+function extract_translations( translations, match, url )
 {
 	url = url_parse( url, true );
-	var result;
+	var result = '';
 
 	// Check for known Bible sites
 	if ( /biblegateway.com$/i.test( url.hostname ) )
@@ -153,5 +155,17 @@ function extract_post_data( data )
 	{
 		result = 'NABRE';
 	}
-	return result ? result.toString().toUpperCase() : '';
-}*/
+	if ( result )
+	{
+		result = result.toString().toLowerCase();
+		if ( translations[result] )
+		{
+			translations[result]++;
+		}
+		else
+		{
+			translations[result] = 1;
+		}
+	}
+	return '';
+}
