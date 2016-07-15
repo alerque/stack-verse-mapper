@@ -19,7 +19,6 @@ STATIC := $(BASE)/gh-pages
 # Use bash instead of SH for fancier shell syntax and run each successive line
 # in the same shell so that environment variables carry over.
 SHELL = bash
-.ONESHELL:
 
 # Make two-passes at expanding make-specific variables so that we can use them
 # in dependency names
@@ -128,18 +127,18 @@ gh-pages: gh-pages-init $(foreach SITE,$(SITES),$(STATIC)/data/$(SITE)-index.jso
 # For local copies, worktree is saner to work with but Travis's git is too old
 # so the clone route is to keep it happy.
 gh-pages-init:
-	test -d $(STATIC) && ( cd $(STATIC) && git pull ) ||:
-	$(TRAVIS) || ( test -d $(STATIC) || ( \
+	-test -d $(STATIC) && ( cd $(STATIC) && git pull )
+	-$(TRAVIS) || ( test -d $(STATIC) || ( \
 		git worktree prune ;\
 		git worktree add $(STATIC) gh-pages ;\
-		)) ||:
-	$(TRAVIS) && ( test -d $(STATIC) || ( \
+		))
+	-$(TRAVIS) && ( test -d $(STATIC) || ( \
 		git clone --branch=gh-pages git@github.com:${TRAVIS_REPO_SLUG}.git $(STATIC) ;\
 		cd $(STATIC) ;\
 		git checkout gh-pages ;\
 		git remote add parent $(BASE) ;\
 		git fetch --unshallow --all ;\
-		)) ||:
+		))
 	cd $(STATIC) && $(BASE)/bin/git-restore-mtime-bare.py
 
 gh-pages-publish: gh-pages
