@@ -13,7 +13,7 @@
   "dependencies": {
     "bible-passage-reference-parser": "^2.0.0",
     "browserify": "^13.0.1",
-    "eslint": "^2.13.1",
+    "eslint": "^3.0.1",
     "handlebars": "^4.0.5",
     "handlebars-cmd": "^0.1.4",
     "html-to-text": "^2.1.0",
