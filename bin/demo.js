@@ -5,13 +5,14 @@
 var _ = require( 'lodash' );
 var search = require( '../src/search.js' );
 
-var site = process.argv[2];
+var sites = process.argv[2].split( ',' );
 var query = process.argv[3];
-var index = require( '../data/' + site + '-index.json' );
+var index = {};
+_.forEach( sites, site => index[site] = require( '../data/' + site + '-index.json' ) );
 
 search.search( query, index ).forEach( function( post )
 {
-	var url = 'http://' + site + '.stackexchange.com/' + post.type + '/' + post.id;
+	var url = 'http://' + post.site + '.stackexchange.com/' + post.type + '/' + post.id;
 	var result = `${ url } ${ post.type.toUpperCase() }: ${ post.title }`;
 	if ( process.stdout.isTTY )
 	{
