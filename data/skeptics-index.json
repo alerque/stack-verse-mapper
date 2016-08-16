@@ -788,20 +788,6 @@
       ]
     },
     {
-      "id": 2897,
-      "type": "a",
-      "parent": 2849,
-      "refs": [
-        {
-          "osis": "Isa.60.1-Isa.60.22",
-          "book": "Isa",
-          "start": 1168,
-          "end": 1189,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 2906,
       "type": "a",
       "parent": 2667,
@@ -2184,13 +2170,6 @@
       "type": "a",
       "parent": 6191,
       "refs": [
-        {
-          "osis": "2Cor.3.1-2Cor.3.18",
-          "book": "2Cor",
-          "start": 42,
-          "end": 59,
-          "count": 1
-        },
         {
           "osis": "Col.2.1-Col.2.23",
           "book": "Col",
@@ -6858,9 +6837,10 @@
       "parent": 18536,
       "refs": [
         {
-          "osis": "Isa.2.8",
+          "osis": "Isa.28.1-Isa.28.29",
           "book": "Isa",
-          "start": 39,
+          "start": 511,
+          "end": 539,
           "count": 1
         }
       ]
@@ -7197,13 +7177,6 @@
       "type": "a",
       "parent": 6275,
       "refs": [
-        {
-          "osis": "2Chr.2.1-2Chr.2.18",
-          "book": "2Chr",
-          "start": 18,
-          "end": 35,
-          "count": 1
-        },
         {
           "osis": "Col.2.1-Col.2.23",
           "book": "Col",
@@ -10313,12 +10286,6 @@
           "start": 80,
           "end": 85,
           "count": 1
-        },
-        {
-          "osis": "Song.4.2",
-          "book": "Song",
-          "start": 47,
-          "count": 1
         }
       ]
     },
@@ -11586,9 +11553,6 @@
     },
     "2839": {
       "title": "Do we lose most of our body heat through our heads?"
-    },
-    "2849": {
-      "title": "Do expensive, \"premium\" speaker cables make a difference?"
     },
     "2867": {
       "title": "Is the Pale Blue Dot smaller than a pixel?"

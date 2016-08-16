@@ -7650,19 +7650,6 @@
       ]
     },
     {
-      "id": 8661,
-      "type": "a",
-      "parent": 8656,
-      "refs": [
-        {
-          "osis": "Zech.8.19",
-          "book": "Zech",
-          "start": 117,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 8665,
       "type": "a",
       "parent": 8652,
@@ -9427,13 +9414,6 @@
           "count": 1
         },
         {
-          "osis": "Isa.4.1-Isa.4.6",
-          "book": "Isa",
-          "start": 80,
-          "end": 85,
-          "count": 3
-        },
-        {
           "osis": "Isa.5.1-Isa.5.30",
           "book": "Isa",
           "start": 86,
@@ -10599,19 +10579,6 @@
           "osis": "2Chr.22.11",
           "book": "2Chr",
           "start": 461,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 11821,
-      "type": "a",
-      "parent": 11804,
-      "refs": [
-        {
-          "osis": "Judg.1.13",
-          "book": "Judg",
-          "start": 13,
           "count": 1
         }
       ]
@@ -23634,105 +23601,10 @@
       "parent": 27431,
       "refs": [
         {
-          "osis": "1Kgs.21.10",
-          "book": "1Kgs",
-          "start": 744,
-          "count": 1
-        },
-        {
-          "osis": "1Kgs.22.30",
-          "book": "1Kgs",
-          "start": 793,
-          "count": 1
-        },
-        {
-          "osis": "1Sam.9.4",
-          "book": "1Sam",
-          "start": 183,
-          "count": 1
-        },
-        {
-          "osis": "2Kgs.7.4",
-          "book": "2Kgs",
-          "start": 178,
-          "count": 1
-        },
-        {
-          "osis": "2Sam.13.26",
-          "book": "2Sam",
-          "start": 321,
-          "count": 1
-        },
-        {
-          "osis": "2Sam.15.12",
-          "book": "2Sam",
-          "start": 379,
-          "count": 1
-        },
-        {
-          "osis": "Esth.1.8",
-          "book": "Esth",
-          "start": 8,
-          "count": 1
-        },
-        {
-          "osis": "Exod.21.12",
-          "book": "Exod",
-          "start": 557,
-          "count": 1
-        },
-        {
-          "osis": "Exod.25.3",
-          "book": "Exod",
-          "start": 666,
-          "count": 1
-        },
-        {
-          "osis": "Ezek.47.9",
-          "book": "Ezek",
-          "start": 1224,
-          "count": 1
-        },
-        {
-          "osis": "Gen.1.2",
+          "osis": "Gen.12.1-Gen.12.20",
           "book": "Gen",
-          "start": 2,
-          "count": 1
-        },
-        {
-          "osis": "Gen.13.14",
-          "book": "Gen",
-          "start": 333,
-          "count": 1
-        },
-        {
-          "osis": "Gen.33.13",
-          "book": "Gen",
-          "start": 974,
-          "count": 1
-        },
-        {
-          "osis": "Gen.7.13",
-          "book": "Gen",
-          "start": 173,
-          "count": 1
-        },
-        {
-          "osis": "Gen.8.22",
-          "book": "Gen",
-          "start": 206,
-          "count": 1
-        },
-        {
-          "osis": "Isa.24.17",
-          "book": "Isa",
-          "start": 458,
-          "count": 1
-        },
-        {
-          "osis": "Ruth.3.3",
-          "book": "Ruth",
-          "start": 48,
+          "start": 300,
+          "end": 319,
           "count": 1
         }
       ]
@@ -31541,13 +31413,6 @@
           "start": 231,
           "end": 246,
           "count": 1
-        },
-        {
-          "osis": "Isa.16.1-Isa.16.14",
-          "book": "Isa",
-          "start": 316,
-          "end": 329,
-          "count": 1
         }
       ]
     },
@@ -34822,19 +34687,6 @@
           "book": "Song",
           "start": 18,
           "end": 34,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 37039,
-      "type": "a",
-      "parent": 37038,
-      "refs": [
-        {
-          "osis": "Ps.37.21",
-          "book": "Ps",
-          "start": 532,
           "count": 1
         }
       ]
@@ -55557,25 +55409,6 @@
       ]
     },
     {
-      "id": 64020,
-      "type": "a",
-      "parent": 64016,
-      "refs": [
-        {
-          "osis": "Lev.19.17",
-          "book": "Lev",
-          "start": 553,
-          "count": 1
-        },
-        {
-          "osis": "Prov.9.8",
-          "book": "Prov",
-          "start": 246,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 64030,
       "type": "a",
       "parent": 64025,
@@ -70396,9 +70229,6 @@
     "8652": {
       "title": "No kaddish for a sister?"
     },
-    "8656": {
-      "title": "Why do the Destruction-related Fasts not have names?"
-    },
     "8752": {
       "title": "Why is the age of 30 important in the Bible?"
     },
@@ -75188,9 +75018,6 @@
     "37036": {
       "title": "What's the order of importance of Honorees under a Chuppa?"
     },
-    "37038": {
-      "title": "Borrowing money without clear plan of how to pay it back"
-    },
     "37063": {
       "title": "Did Nehemia know the second temple wouldn't last?",
       "tags": [
@@ -78858,9 +78685,6 @@
     },
     "64010": {
       "title": "May a 3 sided pyramid (almost) be used as a succah?"
-    },
-    "64016": {
-      "title": "When is one exempt from giving rebuke?"
     },
     "64019": {
       "title": "Why was there a huge concern to assure that Hoshanna Rabbah is not on Shabbat?"
