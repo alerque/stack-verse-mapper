@@ -97,6 +97,8 @@ $(DATA)/%-domains.json: $(DATA)/%/Posts.xml bin/top_domains.js
 $(DATA)/%/Posts.xml: | $(DATA)/%.stackexchange.com.7z
 	mkdir -p $(DATA)/$*
 	cd $(DATA)/$* && 7z e -y "$|" Posts.xml
+# Delete the zip so that the Travis cache isn't too big
+	rm $(DATA)/$*.stackexchange.com.7z
 
 # Rule for outputing compressed versions or any input
 %.gz: %

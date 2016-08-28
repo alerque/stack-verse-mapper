@@ -9,11 +9,17 @@ var url_parse = require( 'url' ).parse;
 var xmlFlow = require( 'xml-flow' );
 
 // Read in from a supplied file name
-var xmlStream = xmlFlow( fs.createReadStream( process.argv[2] ) );
+var xmlStream = xmlFlow( fs.createReadStream( process.argv[2] ), { simplifyNodes: false } );
 var results = '';
 
-xmlStream.on( 'tag:row', function( data )
+xmlStream.on( 'tag:row', function( node )
 {
+	var data = node.$attrs;
+	if ( !data.body && node.$cdata )
+	{
+		data.body = node.$cdata;
+	}
+
 	// Filter out tag wikis
 	var type = +data.posttypeid;
 	if ( type === 1 || type === 2 )
