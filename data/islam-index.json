@@ -2018,20 +2018,6 @@
       ]
     },
     {
-      "id": 16686,
-      "type": "a",
-      "parent": 10519,
-      "refs": [
-        {
-          "osis": "Song.1.1-Song.1.17",
-          "book": "Song",
-          "start": 1,
-          "end": 17,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 16720,
       "type": "a",
       "parent": 16524,
@@ -3006,20 +2992,6 @@
       ]
     },
     {
-      "id": 25344,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Isa.50.1-Isa.50.11",
-          "book": "Isa",
-          "start": 1009,
-          "end": 1019,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 25402,
       "type": "q",
       "title": [
@@ -3950,20 +3922,6 @@
       ]
     },
     {
-      "id": 30466,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Isa.17.1-Isa.17.14",
-          "book": "Isa",
-          "start": 330,
-          "end": 343,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 30500,
       "type": "a",
       "parent": 30499,
@@ -4175,6 +4133,472 @@
           "count": 1
         }
       ]
+    },
+    {
+      "id": 32706,
+      "type": "a",
+      "parent": 23075,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        },
+        {
+          "osis": "Song.2.1-Song.2.17",
+          "book": "Song",
+          "start": 18,
+          "end": 34,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32784,
+      "type": "a",
+      "parent": 28314,
+      "refs": [
+        {
+          "osis": "Matt.2.1-Matt.2.23",
+          "book": "Matt",
+          "start": 26,
+          "end": 48,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 32787,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32792,
+      "type": "a",
+      "parent": 103,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Song.2.1-Song.2.17",
+          "book": "Song",
+          "start": 18,
+          "end": 34,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32808,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.13.1-Isa.13.22",
+          "book": "Isa",
+          "start": 253,
+          "end": 274,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32850,
+      "type": "a",
+      "parent": 32716,
+      "refs": [
+        {
+          "osis": "Isa.6.1-Isa.6.13",
+          "book": "Isa",
+          "start": 116,
+          "end": 128,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32922,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.4.1-Isa.4.6",
+          "book": "Isa",
+          "start": 80,
+          "end": 85,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32949,
+      "type": "a",
+      "parent": 1299,
+      "refs": [
+        {
+          "osis": "Matt.27.46",
+          "book": "Matt",
+          "start": 1031,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33056,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.42.1-Isa.42.25",
+          "book": "Isa",
+          "start": 827,
+          "end": 851,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33149,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.34.1-Isa.34.17",
+          "book": "Isa",
+          "start": 650,
+          "end": 666,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33160,
+      "type": "a",
+      "parent": 24857,
+      "refs": [
+        {
+          "osis": "Isa.42.1-Isa.42.25",
+          "book": "Isa",
+          "start": 827,
+          "end": 851,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33488,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Jonah.3.1-Jonah.3.10",
+          "book": "Jonah",
+          "start": 28,
+          "end": 37,
+          "count": 1
+        },
+        {
+          "osis": "Jonah.4.10",
+          "book": "Jonah",
+          "start": 47,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33522,
+      "type": "a",
+      "parent": 33512,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        },
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33543,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.4.1-Num.4.49",
+          "book": "Num",
+          "start": 140,
+          "end": 188,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33565,
+      "type": "a",
+      "parent": 33462,
+      "refs": [
+        {
+          "osis": "Num.19.1-Num.19.22",
+          "book": "Num",
+          "start": 686,
+          "end": 707,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33584,
+      "type": "a",
+      "parent": 4146,
+      "refs": [
+        {
+          "osis": "Matt.6.33",
+          "book": "Matt",
+          "start": 171,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33619,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.2.1-Num.2.34",
+          "book": "Num",
+          "start": 55,
+          "end": 88,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33630,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Exod.6.20",
+          "book": "Exod",
+          "start": 143,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33639,
+      "type": "a",
+      "parent": 33630,
+      "refs": [
+        {
+          "osis": "Heb.2.1-Heb.2.18",
+          "book": "Heb",
+          "start": 15,
+          "end": 32,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33685,
+      "type": "a",
+      "parent": 16186,
+      "refs": [
+        {
+          "osis": "Luke.19.10",
+          "book": "Luke",
+          "start": 848,
+          "count": 1
+        },
+        {
+          "osis": "Ps.139.1-Ps.139.24",
+          "book": "Ps",
+          "start": 2301,
+          "end": 2324,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33731,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.17.1-Isa.17.14",
+          "book": "Isa",
+          "start": 330,
+          "end": 343,
+          "count": 1
+        },
+        {
+          "osis": "Isa.18.1-Isa.18.7",
+          "book": "Isa",
+          "start": 344,
+          "end": 350,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34741,
+      "type": "a",
+      "parent": 21401,
+      "refs": [
+        {
+          "osis": "1Kgs.16.1-1Kgs.16.34",
+          "book": "1Kgs",
+          "start": 567,
+          "end": 600,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34767,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.20.1-Isa.20.6",
+          "book": "Isa",
+          "start": 376,
+          "end": 381,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34925,
+      "type": "a",
+      "parent": 34903,
+      "refs": [
+        {
+          "osis": "Matt.25.40",
+          "book": "Matt",
+          "start": 904,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34948,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.16",
+          "book": "Isa",
+          "start": 16,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34952,
+      "type": "a",
+      "parent": 34948,
+      "refs": [
+        {
+          "osis": "Isa.1.16",
+          "book": "Isa",
+          "start": 16,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34974,
+      "type": "a",
+      "parent": 16186,
+      "refs": [
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        },
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35079,
+      "type": "a",
+      "parent": 35078,
+      "refs": [
+        {
+          "osis": "Gen.3.16",
+          "book": "Gen",
+          "start": 72,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35110,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35153,
+      "type": "a",
+      "parent": 33708,
+      "refs": [
+        {
+          "osis": "Isa.13.7",
+          "book": "Isa",
+          "start": 259,
+          "count": 2
+        },
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
     }
   ],
   "questions": {
@@ -4183,6 +4607,9 @@
     },
     "63": {
       "title": "Is there any evidence for setting the Islamic calendar through calculations only?"
+    },
+    "103": {
+      "title": "Just reciting \"Talak\" thrice commits divorce?"
     },
     "287": {
       "title": "In Surat At-Tin, why does Allah (SWT) swear by the Fig and the Olive?"
@@ -4225,6 +4652,9 @@
     },
     "1218": {
       "title": "Is there any advantage to praying in a masjid?"
+    },
+    "1299": {
+      "title": "How do Muslims respond to C.S. Lewis's \"Lord, Liar or Lunatic\" argument?"
     },
     "1320": {
       "title": "Is interest-based educational loan allowed?"
@@ -4302,6 +4732,9 @@
     "3022": {
       "title": "Frequent change in message from the creator (God, Allah)",
       "general_tag": 1
+    },
+    "4146": {
+      "title": "What is Hadith Qudsi?"
     },
     "4254": {
       "title": "What is the difference between Hadith and Qur'an?"
@@ -4475,9 +4908,6 @@
     "10489": {
       "title": "What's the reason behind raising one's hand up to the shoulder and ears while saying Takbir?"
     },
-    "10519": {
-      "title": "Replacing old Ramadan days"
-    },
     "10604": {
       "title": "When Uthman burn many versions of Quran, how do we know that the burned one are the \"wrong\" ones?"
     },
@@ -4630,6 +5060,9 @@
     "20309": {
       "title": "Celebration of Eid ul Adha for a vegan muslim"
     },
+    "21401": {
+      "title": "Are all non-Jewish/Christian/Muslim people kafirs?"
+    },
     "21796": {
       "title": "Special favours to Israel"
     },
@@ -4644,6 +5077,9 @@
     },
     "23061": {
       "title": "Why does the Hijri calendar continue indefinitely?"
+    },
+    "23075": {
+      "title": "Why can't we see jinn when they're created from FIRE...?"
     },
     "23142": {
       "title": "True meaning of this ayat Qur'an 2:34?"
@@ -4708,6 +5144,9 @@
     "24846": {
       "title": "Is it permitted to eat fruit from tree that has root in neighbour's house but some part of it hangs on my wall?"
     },
+    "24857": {
+      "title": "Investment Finance Query"
+    },
     "24978": {
       "title": "Do I have to fast if I will be staying at a travel destination for 15 days or more?"
     },
@@ -4716,9 +5155,6 @@
     },
     "25196": {
       "title": "Day of Lailat-al Qadr"
-    },
-    "25344": {
-      "title": "Investing in a company which trades Stocks, Commodities and Forex"
     },
     "25402": {
       "title": "Why does the number 3 repeats itself in the Islam?"
@@ -4788,6 +5224,9 @@
     "28297": {
       "title": "Can we fast only for 1 day in muharram?"
     },
+    "28314": {
+      "title": "Questioning about girl's virginity before marriage?"
+    },
     "28459": {
       "title": "Was the name Friday/Jumua known before Islam?"
     },
@@ -4837,9 +5276,6 @@
     "30390": {
       "title": "Why do we find Medinian verses in Meccan Chapters and vice versa?"
     },
-    "30466": {
-      "title": "Help me to find the reason to salat/prayer ( Importance of the Prayer)"
-    },
     "30499": {
       "title": "How do some people know that a certain person/group will go to Hell?"
     },
@@ -4879,6 +5315,64 @@
     },
     "32657": {
       "title": "Can we pay zakaat money or other donations for purpose of planting trees specifically?"
+    },
+    "32716": {
+      "title": "صاع and مد According to Ja'fari Fiqh"
+    },
+    "32787": {
+      "title": "If someone do not pray 5 time, is he/she Kafer?"
+    },
+    "32808": {
+      "title": "Is this sort of business classifies as Riba?"
+    },
+    "32922": {
+      "title": "Is it necessary to mention age on nikkah papers?"
+    },
+    "33056": {
+      "title": "Living with fathee in law after khulla"
+    },
+    "33149": {
+      "title": "Can I marry a girl without parents consent in Islam"
+    },
+    "33462": {
+      "title": "Is miracle considered the fundamental proof of the validity of the Qur'an?"
+    },
+    "33488": {
+      "title": "why did the quran says only the people of jonah benefited from faith?",
+      "general_tag": 1
+    },
+    "33512": {
+      "title": "What orthodox positions with regard to epistemology exist?"
+    },
+    "33543": {
+      "title": "Four untrustworthy hadith narrators of hadith said by al Nasa'i?"
+    },
+    "33619": {
+      "title": "Misinterpretation about the 72 virgins"
+    },
+    "33630": {
+      "title": "Are muslims misinterpreting Surah Al-Imran?"
+    },
+    "33708": {
+      "title": "Qur'an question about age of the Earth"
+    },
+    "33731": {
+      "title": "Question on nikah in America"
+    },
+    "34767": {
+      "title": "Absent Father Refuses Marriage Proposal"
+    },
+    "34903": {
+      "title": "Stomach Cancer dying as martyr?"
+    },
+    "34948": {
+      "title": "Time of reading Sunnah prayer before the fard prayer"
+    },
+    "35078": {
+      "title": "In what ways did Muhammad's teachings improve the status of women?"
+    },
+    "35110": {
+      "title": "I committed zina (adulatery) and I feel ashamed"
     }
   }
 }

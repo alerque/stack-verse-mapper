@@ -3520,20 +3520,6 @@
       ]
     },
     {
-      "id": 9088,
-      "type": "a",
-      "parent": 9083,
-      "refs": [
-        {
-          "osis": "Ps.137.1-Ps.137.9",
-          "book": "Ps",
-          "start": 2284,
-          "end": 2292,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 9160,
       "type": "a",
       "parent": 9155,
@@ -5824,6 +5810,20 @@
       ]
     },
     {
+      "id": 15882,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 15918,
       "type": "a",
       "parent": 15910,
@@ -6080,6 +6080,40 @@
           "book": "Isa",
           "start": 154,
           "end": 175,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 16852,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.11.2-Deut.11.7",
+          "book": "Deut",
+          "start": 318,
+          "end": 323,
+          "count": 1
+        },
+        {
+          "osis": "Deut.5.5",
+          "book": "Deut",
+          "start": 166,
+          "count": 1
+        },
+        {
+          "osis": "Exod.19.18-Exod.19.19",
+          "book": "Exod",
+          "start": 512,
+          "end": 513,
+          "count": 1
+        },
+        {
+          "osis": "Exod.19.21-Exod.19.25",
+          "book": "Exod",
+          "start": 515,
+          "end": 519,
           "count": 1
         }
       ]
@@ -11318,13 +11352,6 @@
           "start": 404,
           "end": 406,
           "count": 1
-        },
-        {
-          "osis": "Gen.4.4-Gen.4.5",
-          "book": "Gen",
-          "start": 84,
-          "end": 85,
-          "count": 1
         }
       ]
     },
@@ -11353,6 +11380,271 @@
           "start": 30,
           "end": 52,
           "count": 3
+        }
+      ]
+    },
+    {
+      "id": 34274,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.7.1-Num.7.89",
+          "book": "Num",
+          "start": 247,
+          "end": 335,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34296,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.27.1-Isa.27.13",
+          "book": "Isa",
+          "start": 498,
+          "end": 510,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34329,
+      "type": "a",
+      "parent": 34270,
+      "refs": [
+        {
+          "osis": "Isa.9.5-Isa.9.15",
+          "book": "Isa",
+          "start": 180,
+          "end": 190,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34363,
+      "type": "a",
+      "parent": 34362,
+      "refs": [
+        {
+          "osis": "Isa.19.1-Isa.19.25",
+          "book": "Isa",
+          "start": 351,
+          "end": 375,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34424,
+      "type": "a",
+      "parent": 34383,
+      "refs": [
+        {
+          "osis": "Isa.5.9",
+          "book": "Isa",
+          "start": 94,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34481,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.30.1-Isa.32.20",
+          "book": "Isa",
+          "start": 564,
+          "end": 625,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34493,
+      "type": "a",
+      "parent": 32033,
+      "refs": [
+        {
+          "osis": "Isa.18.1-Isa.18.7",
+          "book": "Isa",
+          "start": 344,
+          "end": 350,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34573,
+      "type": "a",
+      "parent": 34570,
+      "refs": [
+        {
+          "osis": "Isa.18.1-Isa.18.7",
+          "book": "Isa",
+          "start": 344,
+          "end": 350,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34590,
+      "type": "a",
+      "parent": 34589,
+      "refs": [
+        {
+          "osis": "Jas.3.1-Jas.3.18",
+          "book": "Jas",
+          "start": 54,
+          "end": 71,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34597,
+      "type": "a",
+      "parent": 34596,
+      "refs": [
+        {
+          "osis": "Isa.7.1-Isa.7.25",
+          "book": "Isa",
+          "start": 129,
+          "end": 153,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34730,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.5.1-Num.5.31",
+          "book": "Num",
+          "start": 189,
+          "end": 219,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34761,
+      "type": "a",
+      "parent": 34756,
+      "refs": [
+        {
+          "osis": "Acts.2.1-Acts.2.47",
+          "book": "Acts",
+          "start": 27,
+          "end": 73,
+          "count": 1
+        },
+        {
+          "osis": "Eph.2.1-Eph.2.22",
+          "book": "Eph",
+          "start": 24,
+          "end": 45,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34784,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34914,
+      "type": "a",
+      "parent": 16852,
+      "refs": [
+        {
+          "osis": "Acts.2.1-Acts.2.47",
+          "book": "Acts",
+          "start": 27,
+          "end": 73,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35002,
+      "type": "a",
+      "parent": 26559,
+      "refs": [
+        {
+          "osis": "Isa.20.1-Isa.20.6",
+          "book": "Isa",
+          "start": 376,
+          "end": 381,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35003,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.57.1-Isa.57.21",
+          "book": "Isa",
+          "start": 1112,
+          "end": 1132,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35005,
+      "type": "a",
+      "parent": 28918,
+      "refs": [
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35061,
+      "type": "a",
+      "parent": 35060,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        },
+        {
+          "osis": "Isa.4.1-Isa.4.6",
+          "book": "Isa",
+          "start": 80,
+          "end": 85,
+          "count": 1
         }
       ]
     }
@@ -12100,9 +12392,6 @@
     "9045": {
       "title": "Are glaciers melting?"
     },
-    "9083": {
-      "title": "Who wrote Shakespeare's plays?"
-    },
     "9155": {
       "title": "26 thousand users of Facebook list their location as Greenland"
     },
@@ -12437,6 +12726,9 @@
     "15838": {
       "title": "Can a plant survive bottled in its own ecosystem for 50 years?"
     },
+    "15882": {
+      "title": "Are biofuels environmentally friendly?"
+    },
     "15910": {
       "title": "Do wild dogs use trains to commute to and from Moscow?"
     },
@@ -12475,6 +12767,10 @@
     },
     "16829": {
       "title": "Will NSA's Utah Data Center be able to handle and process five zettabytes of data?"
+    },
+    "16852": {
+      "title": "Is the story of a divine miracle at Mt. Sinai, witnessed by a national audience, unique among cultures or religions?",
+      "general_tag": 1
     },
     "16920": {
       "title": "Is wheat the cause of numerous, serious health problems?"
@@ -12896,6 +13192,9 @@
       "title": "Did the Hebrew exodus from Egypt ever happen?",
       "general_tag": 1
     },
+    "26559": {
+      "title": "Does blending food to \"break down the cell walls\" make it healthier?"
+    },
     "26764": {
       "title": "Do atheists commit far fewer crimes?",
       "general_tag": 1
@@ -13032,6 +13331,9 @@
     "28897": {
       "title": "Are there people who do not sleep at all?"
     },
+    "28918": {
+      "title": "Is measuring the size of a nuclear cloud with your thumb an approximate indication of whether you're in the radiation zone?"
+    },
     "29944": {
       "title": "Is the world record for staying in an anechoic chamber an hour or less?"
     },
@@ -13155,6 +13457,9 @@
     "31887": {
       "title": "Did just 18 people die from prostate cancer in Japan in 1958?"
     },
+    "32033": {
+      "title": "Does Netherlands accept child marriages registered in the country of origin?"
+    },
     "32115": {
       "title": "Are there more pedophiles in the Catholic Church than other religions, or professions",
       "general_tag": 1
@@ -13215,6 +13520,50 @@
     },
     "33110": {
       "title": "Did Alan Turing commit suicide, or is it possible his death was an accident?"
+    },
+    "34270": {
+      "title": "Did Christians kill thirty to fifty times as many people in political violence as Muslims in the 20th century?",
+      "general_tag": 1
+    },
+    "34274": {
+      "title": "Has the United States had 7 mass shootings in the past week?"
+    },
+    "34296": {
+      "title": "Did Pablo Reyes post a Facebook update that predicts the future?"
+    },
+    "34362": {
+      "title": "Does the UK send the EU £350 million a week?"
+    },
+    "34383": {
+      "title": "Did Kali Muscle weigh 99 pounds when he was 16 years old?"
+    },
+    "34481": {
+      "title": "Is the average lifespan of a trans woman 30-32 years?"
+    },
+    "34570": {
+      "title": "Is it easier for a teenager to get their hands on a gun than a computer or a book?"
+    },
+    "34589": {
+      "title": "After 9/11 did the police find a fuel calculator with a copy of the koran belonging to one of the Hijackers?"
+    },
+    "34596": {
+      "title": "Does the Italian mafia account for 7% of Italy's GDP?"
+    },
+    "34730": {
+      "title": "Is microwaving Styrofoam hazardous/toxic/unhealthy?"
+    },
+    "34756": {
+      "title": "Did Augustine of Hippo warn Christians to beware mathematicians?",
+      "general_tag": 1
+    },
+    "34784": {
+      "title": "Are one-third of human deaths from \"poverty-related causes\"?"
+    },
+    "35003": {
+      "title": "What is the actual reason behind intestinal gas?"
+    },
+    "35060": {
+      "title": "Have more vets taken their own life in the last six years than died in Iraq and Afghanistan?"
     }
   }
 }

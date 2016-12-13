@@ -1452,6 +1452,20 @@
       ]
     },
     {
+      "id": 9566,
+      "type": "a",
+      "parent": 9564,
+      "refs": [
+        {
+          "osis": "Isa.8.1-Isa.12.6",
+          "book": "Isa",
+          "start": 154,
+          "end": 252,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 9594,
       "type": "a",
       "parent": 7448,
@@ -4250,6 +4264,172 @@
           "count": 1
         }
       ]
+    },
+    {
+      "id": 30648,
+      "type": "a",
+      "parent": 30625,
+      "refs": [
+        {
+          "osis": "Rev.1.1-Rev.1.20",
+          "book": "Rev",
+          "start": 1,
+          "end": 20,
+          "count": 2
+        },
+        {
+          "osis": "Rev.15.1-Rev.15.8",
+          "book": "Rev",
+          "start": 250,
+          "end": 257,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30739,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30770,
+      "type": "a",
+      "parent": 30300,
+      "refs": [
+        {
+          "osis": "Mark.2.1-Mark.2.28",
+          "book": "Mark",
+          "start": 46,
+          "end": 73,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30831,
+      "type": "a",
+      "parent": 30819,
+      "refs": [
+        {
+          "osis": "Isa.8.1-Isa.8.22",
+          "book": "Isa",
+          "start": 154,
+          "end": 175,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31125,
+      "type": "a",
+      "parent": 31112,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 31143,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "John.10.34",
+          "book": "John",
+          "start": 471,
+          "count": 1
+        },
+        {
+          "osis": "Ps.82.6",
+          "book": "Ps",
+          "start": 1300,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32302,
+      "type": "a",
+      "parent": 32289,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32308,
+      "type": "a",
+      "parent": 32307,
+      "refs": [
+        {
+          "osis": "Isa.14.1-Isa.14.32",
+          "book": "Isa",
+          "start": 275,
+          "end": 306,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32458,
+      "type": "a",
+      "parent": 32452,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 32530,
+      "type": "a",
+      "parent": 32506,
+      "refs": [
+        {
+          "osis": "Song.2.1-Song.2.17",
+          "book": "Song",
+          "start": 18,
+          "end": 34,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32559,
+      "type": "a",
+      "parent": 32557,
+      "refs": [
+        {
+          "osis": "Num.20.1-Num.20.29",
+          "book": "Num",
+          "start": 708,
+          "end": 736,
+          "count": 1
+        }
+      ]
     }
   ],
   "questions": {
@@ -4380,7 +4560,7 @@
       "title": "What laws of war existed before the modern international treaties and conventions?"
     },
     "4336": {
-      "title": "Why China was able to unify and not Europe"
+      "title": "Why China was able to unify and not Europe?"
     },
     "4464": {
       "title": "Natural born citizen"
@@ -4541,6 +4721,9 @@
     "9557": {
       "title": "In the context of Ancient Egypt, what could \"Priest of On\" mean?",
       "general_tag": 1
+    },
+    "9564": {
+      "title": "Why have major sporting events been held every 4 years?"
     },
     "9732": {
       "title": "Ancient Christianity",
@@ -4938,7 +5121,7 @@
       "title": "What are the height units of contours on this WW2 topographic map?"
     },
     "28808": {
-      "title": "What is the historical reason for 18 years being the most popular age of adulthood?"
+      "title": "What is the historical reason for 18 years being the most commonly accepted age of adulthood?"
     },
     "28957": {
       "title": "Why of all units is Time standard?"
@@ -4951,6 +5134,40 @@
     },
     "30249": {
       "title": "Why does clock time start in the middle of the night?"
+    },
+    "30300": {
+      "title": "What were China's thoughts on the possibility of a nuclear exchange, during the Cold War?"
+    },
+    "30625": {
+      "title": "How quickly did the term \"nuclear fission\" spread?"
+    },
+    "30739": {
+      "title": "Is there a precedent for private companies maintaining a military force?"
+    },
+    "30819": {
+      "title": "When were the first timezones established?"
+    },
+    "31112": {
+      "title": "Why didn't trench warfare produce a similar stalemate on the eastern front in World War I?"
+    },
+    "31143": {
+      "title": "\"Memento quod es vice Dei\"",
+      "general_tag": 1
+    },
+    "32289": {
+      "title": "Why are Illyrian and Thracian cultures not studied as thoroughly as other balkans people?"
+    },
+    "32307": {
+      "title": "How many Iraqi civilians were killed directly by US military action?"
+    },
+    "32452": {
+      "title": "What was the range of round shot on level ground?"
+    },
+    "32506": {
+      "title": "Have conscripted women fought in any notable battles or wars?"
+    },
+    "32557": {
+      "title": "Why does the Uruk King List say Antiochus I Soter ruled for 22 years?"
     }
   }
 }

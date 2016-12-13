@@ -1070,9 +1070,298 @@
           "count": 1
         }
       ]
+    },
+    {
+      "id": 1753,
+      "type": "a",
+      "parent": 1204,
+      "refs": [
+        {
+          "osis": "Deut.19.1-Deut.19.21",
+          "book": "Deut",
+          "start": 515,
+          "end": 535,
+          "count": 1
+        },
+        {
+          "osis": "Josh.20.1-Josh.20.9",
+          "book": "Josh",
+          "start": 522,
+          "end": 530,
+          "count": 1
+        },
+        {
+          "osis": "Num.25.1-Num.25.18",
+          "book": "Num",
+          "start": 868,
+          "end": 885,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1767,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.1.28",
+          "book": "Deut",
+          "start": 28,
+          "count": 1
+        },
+        {
+          "osis": "Deut.2.10-Deut.2.11",
+          "book": "Deut",
+          "start": 56,
+          "end": 57,
+          "count": 1
+        },
+        {
+          "osis": "Deut.2.21",
+          "book": "Deut",
+          "start": 67,
+          "count": 1
+        },
+        {
+          "osis": "Deut.9.2",
+          "book": "Deut",
+          "start": 267,
+          "count": 1
+        },
+        {
+          "osis": "Josh.11.21-Josh.11.22",
+          "book": "Josh",
+          "start": 277,
+          "end": 278,
+          "count": 1
+        },
+        {
+          "osis": "Josh.14.12",
+          "book": "Josh",
+          "start": 348,
+          "count": 1
+        },
+        {
+          "osis": "Josh.14.15",
+          "book": "Josh",
+          "start": 351,
+          "count": 1
+        },
+        {
+          "osis": "Josh.15.13-Josh.15.14",
+          "book": "Josh",
+          "start": 364,
+          "end": 365,
+          "count": 1
+        },
+        {
+          "osis": "Josh.21.11",
+          "book": "Josh",
+          "start": 541,
+          "count": 1
+        },
+        {
+          "osis": "Judg.1.20",
+          "book": "Judg",
+          "start": 20,
+          "count": 1
+        },
+        {
+          "osis": "Num.13.22",
+          "book": "Num",
+          "start": 493,
+          "count": 1
+        },
+        {
+          "osis": "Num.13.28",
+          "book": "Num",
+          "start": 499,
+          "count": 1
+        },
+        {
+          "osis": "Num.13.33",
+          "book": "Num",
+          "start": 504,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1771,
+      "type": "a",
+      "parent": 135,
+      "refs": [
+        {
+          "osis": "Gen.4.17",
+          "book": "Gen",
+          "start": 97,
+          "count": 1
+        },
+        {
+          "osis": "Gen.6.1-Gen.6.22",
+          "book": "Gen",
+          "start": 139,
+          "end": 160,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1797,
+      "type": "a",
+      "parent": 1792,
+      "refs": [
+        {
+          "osis": "Exod.30.35",
+          "book": "Exod",
+          "start": 885,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1815,
+      "type": "a",
+      "parent": 68,
+      "refs": [
+        {
+          "osis": "Luke.11.11",
+          "book": "Luke",
+          "start": 523,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1860,
+      "type": "a",
+      "parent": 1853,
+      "refs": [
+        {
+          "osis": "Lev.16.10",
+          "book": "Lev",
+          "start": 466,
+          "count": 1
+        },
+        {
+          "osis": "Matt.25.31-Matt.25.33",
+          "book": "Matt",
+          "start": 895,
+          "end": 897,
+          "count": 1
+        },
+        {
+          "osis": "Matt.25.41-Matt.25.43",
+          "book": "Matt",
+          "start": 905,
+          "end": 907,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1885,
+      "type": "a",
+      "parent": 1883,
+      "refs": [
+        {
+          "osis": "Gen.24.1-Gen.24.67",
+          "book": "Gen",
+          "start": 593,
+          "end": 659,
+          "count": 1
+        },
+        {
+          "osis": "Gen.3.1-Gen.23.20",
+          "book": "Gen",
+          "start": 57,
+          "end": 592,
+          "count": 1
+        },
+        {
+          "osis": "Tob.12.15",
+          "book": "Tob",
+          "start": 203,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1896,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Rev.12.7-Rev.12.17",
+          "book": "Rev",
+          "start": 201,
+          "end": 211,
+          "count": 1
+        },
+        {
+          "osis": "Tob.3.1-Tob.3.17",
+          "book": "Tob",
+          "start": 37,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1897,
+      "type": "a",
+      "parent": 1896,
+      "refs": [
+        {
+          "osis": "Gen.25.1-Gen.25.34",
+          "book": "Gen",
+          "start": 660,
+          "end": 693,
+          "count": 1
+        },
+        {
+          "osis": "Gen.3.1-Gen.24.67",
+          "book": "Gen",
+          "start": 57,
+          "end": 659,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1924,
+      "type": "a",
+      "parent": 1920,
+      "refs": [
+        {
+          "osis": "John.8.1-John.11.57",
+          "book": "John",
+          "start": 338,
+          "end": 536,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1952,
+      "type": "a",
+      "parent": 1948,
+      "refs": [
+        {
+          "osis": "John.19.19-John.19.20",
+          "book": "John",
+          "start": 800,
+          "end": 801,
+          "count": 1
+        }
+      ]
     }
   ],
   "questions": {
+    "68": {
+      "title": "Greek/Roman Mermaids"
+    },
     "80": {
       "title": "What is the River Styx?"
     },
@@ -1159,6 +1448,9 @@
         "Num"
       ]
     },
+    "1204": {
+      "title": "How were the Furies (Erinyies) born?"
+    },
     "1238": {
       "title": "Who is the oldest being in Greek mythology?"
     },
@@ -1185,6 +1477,30 @@
     },
     "1675": {
       "title": "Were the furies/erinyes of one accord?"
+    },
+    "1767": {
+      "title": "Are the Anunnaki mentioned in the Bible?",
+      "general_tag": 1
+    },
+    "1792": {
+      "title": "Why is salt used to get rid of ghosts and keep out demons?"
+    },
+    "1853": {
+      "title": "Why are goats associated with Satan?"
+    },
+    "1883": {
+      "title": "What do the abrahamic angels call God?",
+      "general_tag": 1
+    },
+    "1896": {
+      "title": "How do judeo-christian angels fight?"
+    },
+    "1920": {
+      "title": "Why is the meaning of Loki's name considered unclear?"
+    },
+    "1948": {
+      "title": "What was Jesus's original name?",
+      "general_tag": 1
     }
   }
 }
