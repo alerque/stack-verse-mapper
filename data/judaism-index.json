@@ -34299,7 +34299,7 @@
           "osis": "Dan.3.2",
           "book": "Dan",
           "start": 72,
-          "count": 3
+          "count": 2
         },
         {
           "osis": "Ezek.9.2",
@@ -34329,7 +34329,7 @@
           "osis": "Isa.42.5",
           "book": "Isa",
           "start": 831,
-          "count": 2
+          "count": 1
         },
         {
           "osis": "Jer.38.11",
@@ -34365,13 +34365,7 @@
           "osis": "Neh.8.7",
           "book": "Neh",
           "start": 204,
-          "count": 3
-        },
-        {
-          "osis": "Ruth.1.13",
-          "book": "Ruth",
-          "start": 13,
-          "count": 1
+          "count": 2
         },
         {
           "osis": "Ruth.1.2",
@@ -58074,28 +58068,6 @@
       ]
     },
     {
-      "id": 65562,
-      "type": "q",
-      "title": [
-        0
-      ],
-      "refs": [
-        {
-          "osis": "1Chr.6.19",
-          "book": "1Chr",
-          "start": 221,
-          "count": 1
-        },
-        {
-          "osis": "Song.3.1-Song.3.11",
-          "book": "Song",
-          "start": 35,
-          "end": 45,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 65565,
       "type": "q",
       "title": [],
@@ -61563,6 +61535,12 @@
       "parent": 65244,
       "refs": [
         {
+          "osis": "Exod.14.11",
+          "book": "Exod",
+          "start": 368,
+          "count": 1
+        },
+        {
           "osis": "Gen.28.8",
           "book": "Gen",
           "start": 782,
@@ -64100,10 +64078,9 @@
       "parent": 69617,
       "refs": [
         {
-          "osis": "Song.2.1-Song.2.17",
-          "book": "Song",
-          "start": 18,
-          "end": 34,
+          "osis": "Gen.9.4",
+          "book": "Gen",
+          "start": 210,
           "count": 1
         }
       ]
@@ -64436,20 +64413,6 @@
           "osis": "Exod.35.3",
           "book": "Exod",
           "start": 1002,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 69867,
-      "type": "a",
-      "parent": 69841,
-      "refs": [
-        {
-          "osis": "2Kgs.4.1-2Kgs.4.44",
-          "book": "2Kgs",
-          "start": 71,
-          "end": 114,
           "count": 1
         }
       ]
@@ -66961,37 +66924,6 @@
           "book": "Job",
           "start": 1,
           "end": 22,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 71323,
-      "type": "a",
-      "parent": 71252,
-      "refs": [
-        {
-          "osis": "Deut.10.17",
-          "book": "Deut",
-          "start": 311,
-          "count": 1
-        },
-        {
-          "osis": "Deut.10.18",
-          "book": "Deut",
-          "start": 312,
-          "count": 1
-        },
-        {
-          "osis": "Deut.32.4",
-          "book": "Deut",
-          "start": 870,
-          "count": 1
-        },
-        {
-          "osis": "Exod.34.6",
-          "book": "Exod",
-          "start": 970,
           "count": 1
         }
       ]
@@ -70521,11 +70453,18 @@
       "parent": 28842,
       "refs": [
         {
+          "osis": "Num.6.1-Num.6.27",
+          "book": "Num",
+          "start": 220,
+          "end": 246,
+          "count": 1
+        },
+        {
           "osis": "Num.7.1-Num.7.89",
           "book": "Num",
           "start": 247,
           "end": 335,
-          "count": 3
+          "count": 5
         }
       ]
     },
@@ -70681,41 +70620,6 @@
           "osis": "Zech.3.2",
           "book": "Zech",
           "start": 36,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 75203,
-      "type": "q",
-      "title": [
-        2
-      ],
-      "refs": [
-        {
-          "osis": "Deut.29.26",
-          "book": "Deut",
-          "start": 813,
-          "count": 1
-        },
-        {
-          "osis": "Deut.32.1-Deut.32.52",
-          "book": "Deut",
-          "start": 867,
-          "end": 918,
-          "count": 1
-        },
-        {
-          "osis": "Deut.32.8-Deut.32.9",
-          "book": "Deut",
-          "start": 874,
-          "end": 875,
-          "count": 2
-        },
-        {
-          "osis": "Mic.4.5",
-          "book": "Mic",
-          "start": 46,
           "count": 1
         }
       ]
@@ -71627,21 +71531,6 @@
       ]
     },
     {
-      "id": 75805,
-      "type": "q",
-      "title": [
-        0
-      ],
-      "refs": [
-        {
-          "osis": "Ps.20.6",
-          "book": "Ps",
-          "start": 249,
-          "count": 2
-        }
-      ]
-    },
-    {
       "id": 75819,
       "type": "a",
       "parent": 75812,
@@ -71710,33 +71599,6 @@
           "osis": "Isa.28.10",
           "book": "Isa",
           "start": 520,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 75870,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "John.16.12-John.16.13",
-          "book": "John",
-          "start": 694,
-          "end": 695,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 75879,
-      "type": "a",
-      "parent": 75870,
-      "refs": [
-        {
-          "osis": "Isa.11.2",
-          "book": "Isa",
-          "start": 232,
           "count": 1
         }
       ]
@@ -71956,6 +71818,3895 @@
           "osis": "Ps.141.2",
           "book": "Ps",
           "start": 2339,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76052,
+      "type": "a",
+      "parent": 76051,
+      "refs": [
+        {
+          "osis": "Deut.25.1-Deut.25.19",
+          "book": "Deut",
+          "start": 656,
+          "end": 674,
+          "count": 1
+        },
+        {
+          "osis": "Lev.18.1-Lev.18.30",
+          "book": "Lev",
+          "start": 507,
+          "end": 536,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76061,
+      "type": "a",
+      "parent": 75458,
+      "refs": [
+        {
+          "osis": "Gen.46.15",
+          "book": "Gen",
+          "start": 1402,
+          "count": 1
+        },
+        {
+          "osis": "Gen.46.26",
+          "book": "Gen",
+          "start": 1413,
+          "count": 2
+        },
+        {
+          "osis": "Gen.46.27",
+          "book": "Gen",
+          "start": 1414,
+          "count": 1
+        },
+        {
+          "osis": "Isa.34.1-Isa.34.17",
+          "book": "Isa",
+          "start": 650,
+          "end": 666,
+          "count": 1
+        },
+        {
+          "osis": "Num.33.1-Num.33.56",
+          "book": "Num",
+          "start": 1157,
+          "end": 1212,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76062,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Exod.12.1-Exod.12.51",
+          "book": "Exod",
+          "start": 285,
+          "end": 335,
+          "count": 1
+        },
+        {
+          "osis": "Exod.17.1-Exod.17.16",
+          "book": "Exod",
+          "start": 452,
+          "end": 467,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76071,
+      "type": "a",
+      "parent": 76067,
+      "refs": [
+        {
+          "osis": "Deut.33.18",
+          "book": "Deut",
+          "start": 936,
+          "count": 1
+        },
+        {
+          "osis": "Deut.33.4",
+          "book": "Deut",
+          "start": 922,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76093,
+      "type": "a",
+      "parent": 76092,
+      "refs": [
+        {
+          "osis": "Amos.9.13-Amos.9.15",
+          "book": "Amos",
+          "start": 144,
+          "end": 146,
+          "count": 1
+        },
+        {
+          "osis": "Ezek.37.26-Ezek.37.28",
+          "book": "Ezek",
+          "start": 959,
+          "end": 961,
+          "count": 1
+        },
+        {
+          "osis": "Hos.2.20-Hos.2.22",
+          "book": "Hos",
+          "start": 31,
+          "end": 33,
+          "count": 1
+        },
+        {
+          "osis": "Isa.2.1-Isa.2.4",
+          "book": "Isa",
+          "start": 32,
+          "end": 35,
+          "count": 1
+        },
+        {
+          "osis": "Isa.2.4",
+          "book": "Isa",
+          "start": 35,
+          "count": 1
+        },
+        {
+          "osis": "Isa.32.15-Isa.32.18",
+          "book": "Isa",
+          "start": 620,
+          "end": 623,
+          "count": 1
+        },
+        {
+          "osis": "Isa.43.5-Isa.43.6",
+          "book": "Isa",
+          "start": 856,
+          "end": 857,
+          "count": 1
+        },
+        {
+          "osis": "Isa.60.15-Isa.60.18",
+          "book": "Isa",
+          "start": 1182,
+          "end": 1185,
+          "count": 1
+        },
+        {
+          "osis": "Jer.31.33-Jer.31.34",
+          "book": "Jer",
+          "start": 778,
+          "end": 779,
+          "count": 1
+        },
+        {
+          "osis": "Mic.4.1-Mic.4.4",
+          "book": "Mic",
+          "start": 42,
+          "end": 45,
+          "count": 1
+        },
+        {
+          "osis": "Zech.14.9",
+          "book": "Zech",
+          "start": 199,
+          "count": 2
+        },
+        {
+          "osis": "Zech.8.23",
+          "book": "Zech",
+          "start": 121,
+          "count": 1
+        },
+        {
+          "osis": "Zeph.3.9",
+          "book": "Zeph",
+          "start": 42,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76100,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.43.5-Isa.43.6",
+          "book": "Isa",
+          "start": 856,
+          "end": 857,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76101,
+      "type": "a",
+      "parent": 12310,
+      "refs": [
+        {
+          "osis": "1John.2.19",
+          "book": "1John",
+          "start": 29,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76105,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Mal.3.6",
+          "book": "Mal",
+          "start": 37,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76119,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Ps.27.1-Ps.27.14",
+          "book": "Ps",
+          "start": 347,
+          "end": 360,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 76124,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Exod.16.3",
+          "book": "Exod",
+          "start": 418,
+          "count": 1
+        },
+        {
+          "osis": "Num.11.1-Num.11.35",
+          "book": "Num",
+          "start": 421,
+          "end": 455,
+          "count": 1
+        },
+        {
+          "osis": "Num.11.33",
+          "book": "Num",
+          "start": 453,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76129,
+      "type": "a",
+      "parent": 76127,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76132,
+      "type": "a",
+      "parent": 2329,
+      "refs": [
+        {
+          "osis": "Isa.24.19",
+          "book": "Isa",
+          "start": 460,
+          "count": 1
+        },
+        {
+          "osis": "Jer.23.17",
+          "book": "Jer",
+          "start": 555,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76135,
+      "type": "a",
+      "parent": 76133,
+      "refs": [
+        {
+          "osis": "Exod.12.2",
+          "book": "Exod",
+          "start": 286,
+          "count": 1
+        },
+        {
+          "osis": "Exod.12.8",
+          "book": "Exod",
+          "start": 292,
+          "count": 1
+        },
+        {
+          "osis": "Exod.20.8",
+          "book": "Exod",
+          "start": 527,
+          "count": 1
+        },
+        {
+          "osis": "Exod.9.1-Exod.9.35",
+          "book": "Exod",
+          "start": 211,
+          "end": 245,
+          "count": 1
+        },
+        {
+          "osis": "Jer.16.14",
+          "book": "Jer",
+          "start": 404,
+          "count": 1
+        },
+        {
+          "osis": "Jer.16.9",
+          "book": "Jer",
+          "start": 399,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76147,
+      "type": "a",
+      "parent": 76142,
+      "refs": [
+        {
+          "osis": "Deut.12.5",
+          "book": "Deut",
+          "start": 353,
+          "count": 1
+        },
+        {
+          "osis": "Deut.12.5-Deut.12.14",
+          "book": "Deut",
+          "start": 353,
+          "end": 362,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76185,
+      "type": "a",
+      "parent": 76184,
+      "refs": [
+        {
+          "osis": "1Kgs.11.7",
+          "book": "1Kgs",
+          "start": 398,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76195,
+      "type": "a",
+      "parent": 76194,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76199,
+      "type": "a",
+      "parent": 39067,
+      "refs": [
+        {
+          "osis": "Exod.31.13",
+          "book": "Exod",
+          "start": 901,
+          "count": 1
+        },
+        {
+          "osis": "Exod.31.14",
+          "book": "Exod",
+          "start": 902,
+          "count": 1
+        },
+        {
+          "osis": "Lev.23.3",
+          "book": "Lev",
+          "start": 660,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76207,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.20.19",
+          "book": "Deut",
+          "start": 554,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76222,
+      "type": "a",
+      "parent": 76220,
+      "refs": [
+        {
+          "osis": "Deut.7.3",
+          "book": "Deut",
+          "start": 222,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76233,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Lev.21.1",
+          "book": "Lev",
+          "start": 601,
+          "count": 1
+        },
+        {
+          "osis": "Num.25.6-Num.25.9",
+          "book": "Num",
+          "start": 873,
+          "end": 876,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76239,
+      "type": "a",
+      "parent": 76221,
+      "refs": [
+        {
+          "osis": "Deut.4.32-Deut.4.33",
+          "book": "Deut",
+          "start": 144,
+          "end": 145,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76264,
+      "type": "a",
+      "parent": 76237,
+      "refs": [
+        {
+          "osis": "Deut.16.19",
+          "book": "Deut",
+          "start": 469,
+          "count": 1
+        },
+        {
+          "osis": "Deut.23.8",
+          "book": "Deut",
+          "start": 616,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76268,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.23.5",
+          "book": "Ps",
+          "start": 301,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76273,
+      "type": "a",
+      "parent": 6589,
+      "refs": [
+        {
+          "osis": "Num.10.1-Num.10.36",
+          "book": "Num",
+          "start": 385,
+          "end": 420,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76277,
+      "type": "a",
+      "parent": 76189,
+      "refs": [
+        {
+          "osis": "Eccl.3.11",
+          "book": "Eccl",
+          "start": 55,
+          "count": 1
+        },
+        {
+          "osis": "Ps.8.7",
+          "book": "Ps",
+          "start": 80,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76310,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.90.4",
+          "book": "Ps",
+          "start": 1443,
+          "count": 1
+        },
+        {
+          "osis": "Ps.92.1",
+          "book": "Ps",
+          "start": 1473,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76317,
+      "type": "a",
+      "parent": 76310,
+      "refs": [
+        {
+          "osis": "Isa.55.8-Isa.55.9",
+          "book": "Isa",
+          "start": 1094,
+          "end": 1095,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76320,
+      "type": "a",
+      "parent": 40143,
+      "refs": [
+        {
+          "osis": "Dan.6.4",
+          "book": "Dan",
+          "start": 172,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76329,
+      "type": "a",
+      "parent": 76300,
+      "refs": [
+        {
+          "osis": "Isa.28.8",
+          "book": "Isa",
+          "start": 518,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76340,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.13.1-Num.13.33",
+          "book": "Num",
+          "start": 472,
+          "end": 504,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76344,
+      "type": "a",
+      "parent": 76336,
+      "refs": [
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        },
+        {
+          "osis": "Isa.22.1-Isa.22.25",
+          "book": "Isa",
+          "start": 399,
+          "end": 423,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76361,
+      "type": "a",
+      "parent": 36687,
+      "refs": [
+        {
+          "osis": "1Sam.13.1",
+          "book": "1Sam",
+          "start": 274,
+          "count": 1
+        },
+        {
+          "osis": "1Sam.17.4",
+          "book": "1Sam",
+          "start": 410,
+          "count": 1
+        },
+        {
+          "osis": "Amos.1.2",
+          "book": "Amos",
+          "start": 2,
+          "count": 1
+        },
+        {
+          "osis": "Deut.32.8",
+          "book": "Deut",
+          "start": 874,
+          "count": 1
+        },
+        {
+          "osis": "Gen.4.8",
+          "book": "Gen",
+          "start": 88,
+          "count": 1
+        },
+        {
+          "osis": "Ps.145.1-Ps.145.21",
+          "book": "Ps",
+          "start": 2382,
+          "end": 2402,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76367,
+      "type": "a",
+      "parent": 53759,
+      "refs": [
+        {
+          "osis": "Isa.59.16",
+          "book": "Isa",
+          "start": 1162,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76384,
+      "type": "a",
+      "parent": 73836,
+      "refs": [
+        {
+          "osis": "1Kgs.8.46",
+          "book": "1Kgs",
+          "start": 314,
+          "count": 1
+        },
+        {
+          "osis": "Deut.30.15",
+          "book": "Deut",
+          "start": 831,
+          "count": 1
+        },
+        {
+          "osis": "Deut.30.19",
+          "book": "Deut",
+          "start": 835,
+          "count": 1
+        },
+        {
+          "osis": "Deut.6.5",
+          "book": "Deut",
+          "start": 199,
+          "count": 2
+        },
+        {
+          "osis": "Eccl.7.20",
+          "book": "Eccl",
+          "start": 134,
+          "count": 1
+        },
+        {
+          "osis": "Gen.4.6-Gen.4.7",
+          "book": "Gen",
+          "start": 86,
+          "end": 87,
+          "count": 1
+        },
+        {
+          "osis": "Hab.2.4",
+          "book": "Hab",
+          "start": 21,
+          "count": 1
+        },
+        {
+          "osis": "Isa.1.5",
+          "book": "Isa",
+          "start": 5,
+          "count": 1
+        },
+        {
+          "osis": "Jer.17.9",
+          "book": "Jer",
+          "start": 420,
+          "count": 1
+        },
+        {
+          "osis": "Job.14.4",
+          "book": "Job",
+          "start": 316,
+          "count": 1
+        },
+        {
+          "osis": "Lev.1.3",
+          "book": "Lev",
+          "start": 3,
+          "count": 1
+        },
+        {
+          "osis": "Lev.16.16",
+          "book": "Lev",
+          "start": 472,
+          "count": 1
+        },
+        {
+          "osis": "Lev.16.19",
+          "book": "Lev",
+          "start": 475,
+          "count": 1
+        },
+        {
+          "osis": "Lev.4.14",
+          "book": "Lev",
+          "start": 64,
+          "count": 1
+        },
+        {
+          "osis": "Lev.4.20",
+          "book": "Lev",
+          "start": 70,
+          "count": 1
+        },
+        {
+          "osis": "Lev.4.31",
+          "book": "Lev",
+          "start": 81,
+          "count": 1
+        },
+        {
+          "osis": "Lev.5.5-Lev.5.6",
+          "book": "Lev",
+          "start": 90,
+          "end": 91,
+          "count": 1
+        },
+        {
+          "osis": "Num.15.28",
+          "book": "Num",
+          "start": 577,
+          "count": 1
+        },
+        {
+          "osis": "Ps.19.13",
+          "book": "Ps",
+          "start": 242,
+          "count": 1
+        },
+        {
+          "osis": "Ps.51.4",
+          "book": "Ps",
+          "start": 756,
+          "count": 1
+        },
+        {
+          "osis": "Ps.51.7",
+          "book": "Ps",
+          "start": 759,
+          "count": 1
+        },
+        {
+          "osis": "Rom.5.12",
+          "book": "Rom",
+          "start": 129,
+          "count": 1
+        },
+        {
+          "osis": "Rom.5.12-Rom.5.21",
+          "book": "Rom",
+          "start": 129,
+          "end": 138,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76396,
+      "type": "a",
+      "parent": 8858,
+      "refs": [
+        {
+          "osis": "Job.38.7",
+          "book": "Job",
+          "start": 931,
+          "count": 1
+        },
+        {
+          "osis": "Ps.29.1",
+          "book": "Ps",
+          "start": 370,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76397,
+      "type": "a",
+      "parent": 37893,
+      "refs": [
+        {
+          "osis": "1Sam.15.22",
+          "book": "1Sam",
+          "start": 370,
+          "count": 1
+        },
+        {
+          "osis": "Amos.4.5",
+          "book": "Amos",
+          "start": 51,
+          "count": 1
+        },
+        {
+          "osis": "Amos.5.21-Amos.5.27",
+          "book": "Amos",
+          "start": 80,
+          "end": 86,
+          "count": 1
+        },
+        {
+          "osis": "Amos.5.24",
+          "book": "Amos",
+          "start": 83,
+          "count": 1
+        },
+        {
+          "osis": "Amos.5.25",
+          "book": "Amos",
+          "start": 84,
+          "count": 1
+        },
+        {
+          "osis": "Deut.12.6-Deut.12.14",
+          "book": "Deut",
+          "start": 354,
+          "end": 362,
+          "count": 1
+        },
+        {
+          "osis": "Ezek.8.1-Ezek.8.18",
+          "book": "Ezek",
+          "start": 141,
+          "end": 158,
+          "count": 1
+        },
+        {
+          "osis": "Hos.13.2",
+          "book": "Hos",
+          "start": 174,
+          "count": 1
+        },
+        {
+          "osis": "Hos.2.13-Hos.2.15",
+          "book": "Hos",
+          "start": 24,
+          "end": 26,
+          "count": 1
+        },
+        {
+          "osis": "Hos.4.11-Hos.4.13",
+          "book": "Hos",
+          "start": 50,
+          "end": 52,
+          "count": 1
+        },
+        {
+          "osis": "Hos.6.6",
+          "book": "Hos",
+          "start": 79,
+          "count": 2
+        },
+        {
+          "osis": "Isa.1.11-Isa.1.17",
+          "book": "Isa",
+          "start": 11,
+          "end": 17,
+          "count": 1
+        },
+        {
+          "osis": "Isa.1.15",
+          "book": "Isa",
+          "start": 15,
+          "count": 1
+        },
+        {
+          "osis": "Isa.1.16-Isa.1.17",
+          "book": "Isa",
+          "start": 16,
+          "end": 17,
+          "count": 1
+        },
+        {
+          "osis": "Isa.29.13",
+          "book": "Isa",
+          "start": 552,
+          "count": 1
+        },
+        {
+          "osis": "Jer.6.20",
+          "book": "Jer",
+          "start": 163,
+          "count": 1
+        },
+        {
+          "osis": "Jer.7.17-Jer.7.18",
+          "book": "Jer",
+          "start": 190,
+          "end": 191,
+          "count": 1
+        },
+        {
+          "osis": "Jer.7.21-Jer.7.22",
+          "book": "Jer",
+          "start": 194,
+          "end": 195,
+          "count": 1
+        },
+        {
+          "osis": "Jer.7.23",
+          "book": "Jer",
+          "start": 196,
+          "count": 1
+        },
+        {
+          "osis": "Lev.16.11",
+          "book": "Lev",
+          "start": 467,
+          "count": 1
+        },
+        {
+          "osis": "Lev.16.21",
+          "book": "Lev",
+          "start": 477,
+          "count": 2
+        },
+        {
+          "osis": "Lev.5.17-Lev.5.19",
+          "book": "Lev",
+          "start": 102,
+          "end": 104,
+          "count": 1
+        },
+        {
+          "osis": "Matt.12.7",
+          "book": "Matt",
+          "start": 352,
+          "count": 1
+        },
+        {
+          "osis": "Matt.9.13",
+          "book": "Matt",
+          "start": 248,
+          "count": 1
+        },
+        {
+          "osis": "Mic.6.6-Mic.6.8",
+          "book": "Mic",
+          "start": 75,
+          "end": 77,
+          "count": 1
+        },
+        {
+          "osis": "Mic.6.8",
+          "book": "Mic",
+          "start": 77,
+          "count": 1
+        },
+        {
+          "osis": "Prov.15.8",
+          "book": "Prov",
+          "start": 415,
+          "count": 1
+        },
+        {
+          "osis": "Prov.21.27",
+          "book": "Prov",
+          "start": 611,
+          "count": 1
+        },
+        {
+          "osis": "Prov.21.3",
+          "book": "Prov",
+          "start": 587,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76401,
+      "type": "a",
+      "parent": 40475,
+      "refs": [
+        {
+          "osis": "Exod.32.32",
+          "book": "Exod",
+          "start": 938,
+          "count": 1
+        },
+        {
+          "osis": "Isa.53.12",
+          "book": "Isa",
+          "start": 1069,
+          "count": 1
+        },
+        {
+          "osis": "Lev.16.15-Lev.16.22",
+          "book": "Lev",
+          "start": 471,
+          "end": 478,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76428,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ruth.4.1",
+          "book": "Ruth",
+          "start": 64,
+          "count": 1
+        },
+        {
+          "osis": "Ruth.4.7-Ruth.4.10",
+          "book": "Ruth",
+          "start": 70,
+          "end": 73,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76436,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.5.1-Deut.5.4",
+          "book": "Deut",
+          "start": 162,
+          "end": 165,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76438,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Ps.123.1-Ps.123.4",
+          "book": "Ps",
+          "start": 2160,
+          "end": 2163,
+          "count": 2
+        },
+        {
+          "osis": "Song.4.1",
+          "book": "Song",
+          "start": 46,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76448,
+      "type": "a",
+      "parent": 76446,
+      "refs": [
+        {
+          "osis": "2Chr.34.1-2Chr.34.33",
+          "book": "2Chr",
+          "start": 740,
+          "end": 772,
+          "count": 1
+        },
+        {
+          "osis": "Lev.18.3",
+          "book": "Lev",
+          "start": 509,
+          "count": 1
+        },
+        {
+          "osis": "Lev.18.30",
+          "book": "Lev",
+          "start": 536,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76449,
+      "type": "a",
+      "parent": 76447,
+      "refs": [
+        {
+          "osis": "Ps.121.8",
+          "book": "Ps",
+          "start": 2150,
+          "count": 1
+        },
+        {
+          "osis": "Ps.29.11",
+          "book": "Ps",
+          "start": 380,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76461,
+      "type": "a",
+      "parent": 76460,
+      "refs": [
+        {
+          "osis": "Gen.1.2",
+          "book": "Gen",
+          "start": 2,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76462,
+      "type": "a",
+      "parent": 8858,
+      "refs": [
+        {
+          "osis": "Gen.4.17",
+          "book": "Gen",
+          "start": 97,
+          "count": 1
+        },
+        {
+          "osis": "Gen.4.2",
+          "book": "Gen",
+          "start": 82,
+          "count": 1
+        },
+        {
+          "osis": "Gen.4.25",
+          "book": "Gen",
+          "start": 105,
+          "count": 1
+        },
+        {
+          "osis": "Gen.5.18",
+          "book": "Gen",
+          "start": 124,
+          "count": 1
+        },
+        {
+          "osis": "Gen.5.2",
+          "book": "Gen",
+          "start": 108,
+          "count": 1
+        },
+        {
+          "osis": "Gen.6.2",
+          "book": "Gen",
+          "start": 140,
+          "count": 1
+        },
+        {
+          "osis": "Job.1.6",
+          "book": "Job",
+          "start": 6,
+          "count": 1
+        },
+        {
+          "osis": "Job.2.1",
+          "book": "Job",
+          "start": 23,
+          "count": 1
+        },
+        {
+          "osis": "Job.38.7",
+          "book": "Job",
+          "start": 931,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76482,
+      "type": "a",
+      "parent": 76477,
+      "refs": [
+        {
+          "osis": "Gen.50.2",
+          "book": "Gen",
+          "start": 1509,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76492,
+      "type": "a",
+      "parent": 76378,
+      "refs": [
+        {
+          "osis": "Exod.20.10",
+          "book": "Exod",
+          "start": 529,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76494,
+      "type": "a",
+      "parent": 28651,
+      "refs": [
+        {
+          "osis": "Isa.29.1-Isa.29.24",
+          "book": "Isa",
+          "start": 540,
+          "end": 563,
+          "count": 1
+        },
+        {
+          "osis": "Isa.30.1-Isa.30.33",
+          "book": "Isa",
+          "start": 564,
+          "end": 596,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76540,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ezek.29.1-Ezek.29.21",
+          "book": "Ezek",
+          "start": 720,
+          "end": 740,
+          "count": 1
+        },
+        {
+          "osis": "Jer.18.7-Jer.18.10",
+          "book": "Jer",
+          "start": 445,
+          "end": 448,
+          "count": 1
+        },
+        {
+          "osis": "Jer.44.30",
+          "book": "Jer",
+          "start": 1094,
+          "count": 1
+        },
+        {
+          "osis": "Jer.46.1-Jer.46.28",
+          "book": "Jer",
+          "start": 1100,
+          "end": 1127,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76548,
+      "type": "a",
+      "parent": 76545,
+      "refs": [
+        {
+          "osis": "Hos.14.3",
+          "book": "Hos",
+          "start": 191,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76550,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Hos.14.3",
+          "book": "Hos",
+          "start": 191,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76552,
+      "type": "a",
+      "parent": 71425,
+      "refs": [
+        {
+          "osis": "Num.18.1-Num.18.32",
+          "book": "Num",
+          "start": 654,
+          "end": 685,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76561,
+      "type": "a",
+      "parent": 7775,
+      "refs": [
+        {
+          "osis": "Num.30.2",
+          "book": "Num",
+          "start": 1046,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76586,
+      "type": "a",
+      "parent": 76583,
+      "refs": [
+        {
+          "osis": "Isa.22.14",
+          "book": "Isa",
+          "start": 412,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76592,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Isa.19.1-Isa.19.25",
+          "book": "Isa",
+          "start": 351,
+          "end": 375,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76594,
+      "type": "a",
+      "parent": 76566,
+      "refs": [
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        },
+        {
+          "osis": "Isa.54.1-Isa.54.17",
+          "book": "Isa",
+          "start": 1070,
+          "end": 1086,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76626,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Ps.34.9",
+          "book": "Ps",
+          "start": 458,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76629,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.16.2",
+          "book": "Ps",
+          "start": 155,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76632,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.29.28",
+          "book": "Deut",
+          "start": 815,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76645,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.4.2",
+          "book": "Deut",
+          "start": 114,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76685,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.22.6",
+          "book": "Deut",
+          "start": 584,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76697,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.4.1-Isa.4.6",
+          "book": "Isa",
+          "start": 80,
+          "end": 85,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76699,
+      "type": "a",
+      "parent": 44544,
+      "refs": [
+        {
+          "osis": "1Kgs.3.6-1Kgs.3.9",
+          "book": "1Kgs",
+          "start": 105,
+          "end": 108,
+          "count": 1
+        },
+        {
+          "osis": "Deut.31.2",
+          "book": "Deut",
+          "start": 838,
+          "count": 1
+        },
+        {
+          "osis": "Josh.14.11",
+          "book": "Josh",
+          "start": 347,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76705,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.39.8",
+          "book": "Isa",
+          "start": 1,
+          "end": 766,
+          "count": 1
+        },
+        {
+          "osis": "Isa.40.1-Isa.66.24",
+          "book": "Isa",
+          "start": 767,
+          "end": 1292,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76715,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76717,
+      "type": "a",
+      "parent": 76705,
+      "refs": [
+        {
+          "osis": "Ps.90.1-Ps.90.17",
+          "book": "Ps",
+          "start": 1440,
+          "end": 1456,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76738,
+      "type": "a",
+      "parent": 76736,
+      "refs": [
+        {
+          "osis": "Num.12.1",
+          "book": "Num",
+          "start": 456,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76771,
+      "type": "a",
+      "parent": 76770,
+      "refs": [
+        {
+          "osis": "Esth.9.28",
+          "book": "Esth",
+          "start": 160,
+          "count": 1
+        },
+        {
+          "osis": "Isa.65.16",
+          "book": "Isa",
+          "start": 1259,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76786,
+      "type": "a",
+      "parent": 76784,
+      "refs": [
+        {
+          "osis": "Exod.14.7",
+          "book": "Exod",
+          "start": 364,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76788,
+      "type": "a",
+      "parent": 76780,
+      "refs": [
+        {
+          "osis": "Exod.4.16",
+          "book": "Exod",
+          "start": 85,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76795,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.30.3",
+          "book": "Deut",
+          "start": 819,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76811,
+      "type": "a",
+      "parent": 46130,
+      "refs": [
+        {
+          "osis": "Isa.26.1-Isa.26.21",
+          "book": "Isa",
+          "start": 477,
+          "end": 497,
+          "count": 1
+        },
+        {
+          "osis": "Isa.7.7",
+          "book": "Isa",
+          "start": 135,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76823,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Dan.4.1-Dan.4.37",
+          "book": "Dan",
+          "start": 101,
+          "end": 137,
+          "count": 1
+        },
+        {
+          "osis": "Dan.4.18",
+          "book": "Dan",
+          "start": 118,
+          "count": 1
+        },
+        {
+          "osis": "Dan.4.9",
+          "book": "Dan",
+          "start": 109,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76829,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Dan.12.2",
+          "book": "Dan",
+          "start": 346,
+          "count": 1
+        },
+        {
+          "osis": "Isa.26.19",
+          "book": "Isa",
+          "start": 495,
+          "count": 1
+        },
+        {
+          "osis": "Prov.30.15-Prov.30.16",
+          "book": "Prov",
+          "start": 866,
+          "end": 867,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76832,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Dan.12.2",
+          "book": "Dan",
+          "start": 346,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76853,
+      "type": "a",
+      "parent": 76784,
+      "refs": [
+        {
+          "osis": "Exod.9.6",
+          "book": "Exod",
+          "start": 216,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76869,
+      "type": "a",
+      "parent": 46130,
+      "refs": [
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76878,
+      "type": "a",
+      "parent": 76874,
+      "refs": [
+        {
+          "osis": "1Kgs.3.1",
+          "book": "1Kgs",
+          "start": 100,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76882,
+      "type": "a",
+      "parent": 75808,
+      "refs": [
+        {
+          "osis": "Lev.19.18",
+          "book": "Lev",
+          "start": 554,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76900,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.22.28-Deut.22.29",
+          "book": "Deut",
+          "start": 606,
+          "end": 607,
+          "count": 2
+        },
+        {
+          "osis": "Exod.22.16-Exod.22.17",
+          "book": "Exod",
+          "start": 597,
+          "end": 598,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76903,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Song.1.1-Song.1.17",
+          "book": "Song",
+          "start": 1,
+          "end": 17,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76923,
+      "type": "a",
+      "parent": 76914,
+      "refs": [
+        {
+          "osis": "Lev.26.14",
+          "book": "Lev",
+          "start": 793,
+          "count": 1
+        },
+        {
+          "osis": "Lev.26.3",
+          "book": "Lev",
+          "start": 782,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76927,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Lev.16.31",
+          "book": "Lev",
+          "start": 487,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76948,
+      "type": "a",
+      "parent": 76917,
+      "refs": [
+        {
+          "osis": "Gen.15.2",
+          "book": "Gen",
+          "start": 363,
+          "count": 1
+        },
+        {
+          "osis": "Gen.15.8",
+          "book": "Gen",
+          "start": 369,
+          "count": 1
+        },
+        {
+          "osis": "Isa.6.1-Isa.6.13",
+          "book": "Isa",
+          "start": 116,
+          "end": 128,
+          "count": 1
+        },
+        {
+          "osis": "Judg.16.28",
+          "book": "Judg",
+          "start": 468,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76958,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "1Sam.16.14",
+          "book": "1Sam",
+          "start": 397,
+          "count": 1
+        },
+        {
+          "osis": "1Sam.16.15",
+          "book": "1Sam",
+          "start": 398,
+          "count": 1
+        },
+        {
+          "osis": "1Sam.16.16",
+          "book": "1Sam",
+          "start": 399,
+          "count": 1
+        },
+        {
+          "osis": "1Sam.16.23",
+          "book": "1Sam",
+          "start": 406,
+          "count": 1
+        },
+        {
+          "osis": "1Sam.18.10",
+          "book": "1Sam",
+          "start": 474,
+          "count": 2
+        },
+        {
+          "osis": "1Sam.19.9",
+          "book": "1Sam",
+          "start": 503,
+          "count": 1
+        },
+        {
+          "osis": "Judg.9.23",
+          "book": "Judg",
+          "start": 268,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76959,
+      "type": "a",
+      "parent": 76950,
+      "refs": [
+        {
+          "osis": "2Esd.7.36",
+          "book": "2Esd",
+          "start": 327,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76963,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Lev.23.23-Lev.23.25",
+          "book": "Lev",
+          "start": 680,
+          "end": 682,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76977,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Exod.34.6-Exod.34.7",
+          "book": "Exod",
+          "start": 970,
+          "end": 971,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 76994,
+      "type": "a",
+      "parent": 76949,
+      "refs": [
+        {
+          "osis": "Gen.17.14",
+          "book": "Gen",
+          "start": 412,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 76998,
+      "type": "a",
+      "parent": 76997,
+      "refs": [
+        {
+          "osis": "Deut.32.4",
+          "book": "Deut",
+          "start": 870,
+          "count": 1
+        },
+        {
+          "osis": "Gen.6.1-Gen.9.29",
+          "book": "Gen",
+          "start": 139,
+          "end": 235,
+          "count": 1
+        },
+        {
+          "osis": "Job.26.7",
+          "book": "Job",
+          "start": 605,
+          "count": 1
+        },
+        {
+          "osis": "Josh.10.12",
+          "book": "Josh",
+          "start": 225,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77008,
+      "type": "a",
+      "parent": 76956,
+      "refs": [
+        {
+          "osis": "Isa.58.2",
+          "book": "Isa",
+          "start": 1134,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77021,
+      "type": "a",
+      "parent": 77003,
+      "refs": [
+        {
+          "osis": "Isa.58.13-Isa.58.14",
+          "book": "Isa",
+          "start": 1145,
+          "end": 1146,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77024,
+      "type": "a",
+      "parent": 65065,
+      "refs": [
+        {
+          "osis": "Ps.31.8",
+          "book": "Ps",
+          "start": 400,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77058,
+      "type": "q",
+      "title": [
+        2
+      ],
+      "refs": [
+        {
+          "osis": "Lev.4.22-Lev.4.24",
+          "book": "Lev",
+          "start": 72,
+          "end": 74,
+          "count": 1
+        },
+        {
+          "osis": "Num.28.3",
+          "book": "Num",
+          "start": 976,
+          "count": 1
+        },
+        {
+          "osis": "Ps.40.7",
+          "book": "Ps",
+          "start": 593,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 77066,
+      "type": "a",
+      "parent": 77055,
+      "refs": [
+        {
+          "osis": "Prov.13.1-Prov.13.25",
+          "book": "Prov",
+          "start": 348,
+          "end": 372,
+          "count": 1
+        },
+        {
+          "osis": "Prov.24.1-Prov.24.34",
+          "book": "Prov",
+          "start": 680,
+          "end": 713,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77070,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Job.28.28",
+          "book": "Job",
+          "start": 663,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77072,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ezra.10.1-Ezra.10.44",
+          "book": "Ezra",
+          "start": 237,
+          "end": 280,
+          "count": 1
+        },
+        {
+          "osis": "Ezra.9.1-Ezra.9.15",
+          "book": "Ezra",
+          "start": 222,
+          "end": 236,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77094,
+      "type": "a",
+      "parent": 47892,
+      "refs": [
+        {
+          "osis": "Ps.9.1-Ps.9.20",
+          "book": "Ps",
+          "start": 83,
+          "end": 102,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77106,
+      "type": "a",
+      "parent": 77103,
+      "refs": [
+        {
+          "osis": "Gen.9.6",
+          "book": "Gen",
+          "start": 212,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77118,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Exod.30.34-Exod.30.38",
+          "book": "Exod",
+          "start": 884,
+          "end": 888,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 77119,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77151,
+      "type": "a",
+      "parent": 56145,
+      "refs": [
+        {
+          "osis": "Ezek.48.10",
+          "book": "Ezek",
+          "start": 1248,
+          "count": 1
+        },
+        {
+          "osis": "Zeph.2.15",
+          "book": "Zeph",
+          "start": 33,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 77159,
+      "type": "a",
+      "parent": 10616,
+      "refs": [
+        {
+          "osis": "Gen.1.1-Gen.1.31",
+          "book": "Gen",
+          "start": 1,
+          "end": 31,
+          "count": 3
+        },
+        {
+          "osis": "Gen.1.1-Gen.3.24",
+          "book": "Gen",
+          "start": 1,
+          "end": 80,
+          "count": 1
+        },
+        {
+          "osis": "Gen.1.29-Gen.1.30",
+          "book": "Gen",
+          "start": 29,
+          "end": 30,
+          "count": 1
+        },
+        {
+          "osis": "Gen.3.17-Gen.3.19",
+          "book": "Gen",
+          "start": 73,
+          "end": 75,
+          "count": 2
+        },
+        {
+          "osis": "Lev.11.1-Lev.11.47",
+          "book": "Lev",
+          "start": 253,
+          "end": 299,
+          "count": 1
+        },
+        {
+          "osis": "Lev.11.47",
+          "book": "Lev",
+          "start": 299,
+          "count": 2
+        },
+        {
+          "osis": "Lev.17.13-Lev.17.15",
+          "book": "Lev",
+          "start": 503,
+          "end": 505,
+          "count": 1
+        },
+        {
+          "osis": "Lev.3.17",
+          "book": "Lev",
+          "start": 50,
+          "count": 1
+        },
+        {
+          "osis": "Lev.3.4",
+          "book": "Lev",
+          "start": 37,
+          "count": 1
+        },
+        {
+          "osis": "Lev.7.24",
+          "book": "Lev",
+          "start": 158,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77196,
+      "type": "a",
+      "parent": 77187,
+      "refs": [
+        {
+          "osis": "Gen.14.1-Gen.14.24",
+          "book": "Gen",
+          "start": 338,
+          "end": 361,
+          "count": 1
+        },
+        {
+          "osis": "Gen.3.1-Gen.3.24",
+          "book": "Gen",
+          "start": 57,
+          "end": 80,
+          "count": 1
+        },
+        {
+          "osis": "Gen.35.1-Gen.35.29",
+          "book": "Gen",
+          "start": 1013,
+          "end": 1041,
+          "count": 1
+        },
+        {
+          "osis": "Gen.43.1-Gen.43.34",
+          "book": "Gen",
+          "start": 1292,
+          "end": 1325,
+          "count": 1
+        },
+        {
+          "osis": "Gen.47.1-Gen.47.31",
+          "book": "Gen",
+          "start": 1422,
+          "end": 1452,
+          "count": 1
+        },
+        {
+          "osis": "Gen.9.1-Gen.9.29",
+          "book": "Gen",
+          "start": 207,
+          "end": 235,
+          "count": 1
+        },
+        {
+          "osis": "Ps.2.1-Ps.2.12",
+          "book": "Ps",
+          "start": 7,
+          "end": 18,
+          "count": 1
+        },
+        {
+          "osis": "Ps.30.1-Ps.30.12",
+          "book": "Ps",
+          "start": 381,
+          "end": 392,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77198,
+      "type": "a",
+      "parent": 34260,
+      "refs": [
+        {
+          "osis": "Isa.53.1-Isa.53.12",
+          "book": "Isa",
+          "start": 1058,
+          "end": 1069,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77200,
+      "type": "a",
+      "parent": 31403,
+      "refs": [
+        {
+          "osis": "Ezek.23.20",
+          "book": "Ezek",
+          "start": 563,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77217,
+      "type": "a",
+      "parent": 77179,
+      "refs": [
+        {
+          "osis": "Num.3.1-Num.3.51",
+          "book": "Num",
+          "start": 89,
+          "end": 139,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77219,
+      "type": "a",
+      "parent": 77167,
+      "refs": [
+        {
+          "osis": "Num.10.1-Num.10.36",
+          "book": "Num",
+          "start": 385,
+          "end": 420,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77225,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.2.17",
+          "book": "Gen",
+          "start": 48,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77228,
+      "type": "a",
+      "parent": 73754,
+      "refs": [
+        {
+          "osis": "Isa.53.1-Isa.53.12",
+          "book": "Isa",
+          "start": 1058,
+          "end": 1069,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77231,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.1.1-Gen.1.31",
+          "book": "Gen",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77270,
+      "type": "a",
+      "parent": 77268,
+      "refs": [
+        {
+          "osis": "Gen.14.13",
+          "book": "Gen",
+          "start": 350,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77281,
+      "type": "a",
+      "parent": 70934,
+      "refs": [
+        {
+          "osis": "Isa.58.13",
+          "book": "Isa",
+          "start": 1145,
+          "count": 1
+        },
+        {
+          "osis": "Isa.58.14",
+          "book": "Isa",
+          "start": 1146,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77303,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Gen.1.1-Gen.1.31",
+          "book": "Gen",
+          "start": 1,
+          "end": 31,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 77309,
+      "type": "a",
+      "parent": 77307,
+      "refs": [
+        {
+          "osis": "Isa.14.7",
+          "book": "Isa",
+          "start": 281,
+          "count": 1
+        },
+        {
+          "osis": "Isa.44.23",
+          "book": "Isa",
+          "start": 902,
+          "count": 1
+        },
+        {
+          "osis": "Isa.48.20",
+          "book": "Isa",
+          "start": 980,
+          "count": 1
+        },
+        {
+          "osis": "Isa.49.13",
+          "book": "Isa",
+          "start": 995,
+          "count": 1
+        },
+        {
+          "osis": "Isa.54.1",
+          "book": "Isa",
+          "start": 1070,
+          "count": 1
+        },
+        {
+          "osis": "Isa.55.12",
+          "book": "Isa",
+          "start": 1098,
+          "count": 1
+        },
+        {
+          "osis": "Jer.11.14",
+          "book": "Jer",
+          "start": 294,
+          "count": 1
+        },
+        {
+          "osis": "Jer.7.16",
+          "book": "Jer",
+          "start": 189,
+          "count": 1
+        },
+        {
+          "osis": "Prov.11.10",
+          "book": "Prov",
+          "start": 298,
+          "count": 1
+        },
+        {
+          "osis": "Ps.118.15",
+          "book": "Ps",
+          "start": 1945,
+          "count": 1
+        },
+        {
+          "osis": "Ps.126.2",
+          "book": "Ps",
+          "start": 2178,
+          "count": 1
+        },
+        {
+          "osis": "Ps.30.6",
+          "book": "Ps",
+          "start": 386,
+          "count": 1
+        },
+        {
+          "osis": "Ps.42.5",
+          "book": "Ps",
+          "start": 621,
+          "count": 1
+        },
+        {
+          "osis": "Ps.47.2",
+          "book": "Ps",
+          "start": 688,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77320,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.12.21",
+          "book": "Deut",
+          "start": 369,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77321,
+      "type": "a",
+      "parent": 77320,
+      "refs": [
+        {
+          "osis": "Deut.12.21",
+          "book": "Deut",
+          "start": 369,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77324,
+      "type": "a",
+      "parent": 36788,
+      "refs": [
+        {
+          "osis": "Exod.17.6",
+          "book": "Exod",
+          "start": 457,
+          "count": 1
+        },
+        {
+          "osis": "Exod.4.11",
+          "book": "Exod",
+          "start": 80,
+          "count": 1
+        },
+        {
+          "osis": "Gen.1.1",
+          "book": "Gen",
+          "start": 1,
+          "count": 1
+        },
+        {
+          "osis": "Gen.1.2",
+          "book": "Gen",
+          "start": 2,
+          "count": 1
+        },
+        {
+          "osis": "Gen.1.30",
+          "book": "Gen",
+          "start": 30,
+          "count": 1
+        },
+        {
+          "osis": "Gen.1.7",
+          "book": "Gen",
+          "start": 7,
+          "count": 1
+        },
+        {
+          "osis": "Gen.3.12",
+          "book": "Gen",
+          "start": 68,
+          "count": 2
+        },
+        {
+          "osis": "Gen.40.16",
+          "book": "Gen",
+          "start": 1189,
+          "count": 1
+        },
+        {
+          "osis": "Isa.42.5",
+          "book": "Isa",
+          "start": 831,
+          "count": 2
+        },
+        {
+          "osis": "Josh.9.12",
+          "book": "Josh",
+          "start": 198,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77326,
+      "type": "a",
+      "parent": 77325,
+      "refs": [
+        {
+          "osis": "Deut.29.22",
+          "book": "Deut",
+          "start": 809,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77328,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.4.22",
+          "book": "Gen",
+          "start": 102,
+          "count": 1
+        },
+        {
+          "osis": "Gen.4.4",
+          "book": "Gen",
+          "start": 84,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77334,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.6.5",
+          "book": "Gen",
+          "start": 143,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77345,
+      "type": "a",
+      "parent": 53566,
+      "refs": [
+        {
+          "osis": "Gen.31.52",
+          "book": "Gen",
+          "start": 926,
+          "count": 1
+        },
+        {
+          "osis": "Gen.9.12",
+          "book": "Gen",
+          "start": 218,
+          "count": 1
+        },
+        {
+          "osis": "Gen.9.13",
+          "book": "Gen",
+          "start": 219,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 77347,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Exod.23.2",
+          "book": "Exod",
+          "start": 614,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77355,
+      "type": "a",
+      "parent": 77347,
+      "refs": [
+        {
+          "osis": "Exod.23.2",
+          "book": "Exod",
+          "start": 614,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77368,
+      "type": "a",
+      "parent": 28784,
+      "refs": [
+        {
+          "osis": "Ps.110.1",
+          "book": "Ps",
+          "start": 1848,
+          "count": 1
+        },
+        {
+          "osis": "Ps.110.1-Ps.110.7",
+          "book": "Ps",
+          "start": 1848,
+          "end": 1854,
+          "count": 1
+        },
+        {
+          "osis": "Ps.110.2",
+          "book": "Ps",
+          "start": 1849,
+          "count": 2
+        },
+        {
+          "osis": "Ps.110.4",
+          "book": "Ps",
+          "start": 1851,
+          "count": 1
+        },
+        {
+          "osis": "Ps.110.5",
+          "book": "Ps",
+          "start": 1852,
+          "count": 1
+        },
+        {
+          "osis": "Ps.18.36",
+          "book": "Ps",
+          "start": 215,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77376,
+      "type": "a",
+      "parent": 76673,
+      "refs": [
+        {
+          "osis": "Joel.3.1-Joel.3.21",
+          "book": "Joel",
+          "start": 53,
+          "end": 73,
+          "count": 1
+        },
+        {
+          "osis": "Mal.3.1-Mal.3.18",
+          "book": "Mal",
+          "start": 32,
+          "end": 49,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77379,
+      "type": "q",
+      "title": [
+        0,
+        1
+      ],
+      "refs": [
+        {
+          "osis": "Gen.1.1-Gen.1.31",
+          "book": "Gen",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Gen.9.1-Gen.9.29",
+          "book": "Gen",
+          "start": 207,
+          "end": 235,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77389,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.112.2",
+          "book": "Ps",
+          "start": 1866,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77489,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Deut.28.64",
+          "book": "Deut",
+          "start": 783,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77492,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Matt.12.22-Matt.12.23",
+          "book": "Matt",
+          "start": 367,
+          "end": 368,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77517,
+      "type": "a",
+      "parent": 69349,
+      "refs": [
+        {
+          "osis": "Isa.3.1-Isa.3.26",
+          "book": "Isa",
+          "start": 54,
+          "end": 79,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77523,
+      "type": "a",
+      "parent": 77506,
+      "refs": [
+        {
+          "osis": "Gen.1.1",
+          "book": "Gen",
+          "start": 1,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77535,
+      "type": "q",
+      "title": [
+        0,
+        1
+      ],
+      "refs": [
+        {
+          "osis": "1Chr.21.1",
+          "book": "1Chr",
+          "start": 683,
+          "count": 2
+        },
+        {
+          "osis": "2Sam.24.1",
+          "book": "2Sam",
+          "start": 671,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 77556,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.150.1-Ps.150.6",
+          "book": "Ps",
+          "start": 2456,
+          "end": 2461,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77561,
+      "type": "a",
+      "parent": 77559,
+      "refs": [
+        {
+          "osis": "Neh.4.4",
+          "book": "Neh",
+          "start": 67,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77563,
+      "type": "a",
+      "parent": 77535,
+      "refs": [
+        {
+          "osis": "1Chr.21.1",
+          "book": "1Chr",
+          "start": 683,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77569,
+      "type": "a",
+      "parent": 77537,
+      "refs": [
+        {
+          "osis": "Gen.4.17",
+          "book": "Gen",
+          "start": 97,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77581,
+      "type": "a",
+      "parent": 64395,
+      "refs": [
+        {
+          "osis": "Exod.20.15",
+          "book": "Exod",
+          "start": 534,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77582,
+      "type": "a",
+      "parent": 17446,
+      "refs": [
+        {
+          "osis": "Exod.20.15",
+          "book": "Exod",
+          "start": 534,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77601,
+      "type": "a",
+      "parent": 77600,
+      "refs": [
+        {
+          "osis": "Gen.13.14",
+          "book": "Gen",
+          "start": 333,
+          "count": 2
+        },
+        {
+          "osis": "Gen.28.14",
+          "book": "Gen",
+          "start": 788,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 77643,
+      "type": "a",
+      "parent": 73765,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77655,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "1Sam.2.1-1Sam.2.36",
+          "book": "1Sam",
+          "start": 29,
+          "end": 64,
+          "count": 1
+        },
+        {
+          "osis": "1Sam.7.1-1Sam.7.17",
+          "book": "1Sam",
+          "start": 141,
+          "end": 157,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77666,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.15.38",
+          "book": "Num",
+          "start": 587,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77667,
+      "type": "a",
+      "parent": 31906,
+      "refs": [
+        {
+          "osis": "Dan.2.36",
+          "book": "Dan",
+          "start": 57,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77679,
+      "type": "a",
+      "parent": 57383,
+      "refs": [
+        {
+          "osis": "Ruth.4.17",
+          "book": "Ruth",
+          "start": 80,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77689,
+      "type": "a",
+      "parent": 65924,
+      "refs": [
+        {
+          "osis": "Deut.17.11",
+          "book": "Deut",
+          "start": 483,
+          "count": 3
+        },
+        {
+          "osis": "Deut.17.18",
+          "book": "Deut",
+          "start": 490,
+          "count": 1
+        },
+        {
+          "osis": "Deut.32.7",
+          "book": "Deut",
+          "start": 873,
+          "count": 1
+        },
+        {
+          "osis": "Matt.26.1-Matt.26.75",
+          "book": "Matt",
+          "start": 911,
+          "end": 985,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77702,
+      "type": "a",
+      "parent": 77701,
+      "refs": [
+        {
+          "osis": "Lev.13.1-Lev.13.59",
+          "book": "Lev",
+          "start": 308,
+          "end": 366,
+          "count": 1
+        },
+        {
+          "osis": "Lev.18.1-Lev.18.30",
+          "book": "Lev",
+          "start": 507,
+          "end": 536,
+          "count": 2
+        },
+        {
+          "osis": "Lev.19.1-Lev.19.37",
+          "book": "Lev",
+          "start": 537,
+          "end": 573,
+          "count": 1
+        },
+        {
+          "osis": "Lev.20.1-Lev.20.27",
+          "book": "Lev",
+          "start": 574,
+          "end": 600,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77706,
+      "type": "a",
+      "parent": 76452,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Isa.12.1-Isa.12.6",
+          "book": "Isa",
+          "start": 247,
+          "end": 252,
+          "count": 1
+        },
+        {
+          "osis": "Isa.60.1-Isa.60.22",
+          "book": "Isa",
+          "start": 1168,
+          "end": 1189,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77720,
+      "type": "a",
+      "parent": 7225,
+      "refs": [
+        {
+          "osis": "2Chr.11.1-2Chr.11.23",
+          "book": "2Chr",
+          "start": 221,
+          "end": 243,
+          "count": 1
+        },
+        {
+          "osis": "Luke.2.2",
+          "book": "Luke",
+          "start": 82,
+          "count": 1
+        },
+        {
+          "osis": "Luke.2.36",
+          "book": "Luke",
+          "start": 116,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77722,
+      "type": "a",
+      "parent": 77710,
+      "refs": [
+        {
+          "osis": "Gen.20.2",
+          "book": "Gen",
+          "start": 498,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77727,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.18.7",
+          "book": "Gen",
+          "start": 432,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77748,
+      "type": "a",
+      "parent": 77745,
+      "refs": [
+        {
+          "osis": "Deut.18.10",
+          "book": "Deut",
+          "start": 502,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77750,
+      "type": "a",
+      "parent": 77713,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Isa.1.25",
+          "book": "Isa",
+          "start": 25,
+          "count": 1
+        },
+        {
+          "osis": "Isa.25.1-Isa.25.12",
+          "book": "Isa",
+          "start": 465,
+          "end": 476,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77782,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Dan.7.1-Dan.7.28",
+          "book": "Dan",
+          "start": 197,
+          "end": 224,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 77794,
+      "type": "a",
+      "parent": 77787,
+      "refs": [
+        {
+          "osis": "Ps.9.18",
+          "book": "Ps",
+          "start": 100,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77812,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.3.14",
+          "book": "Gen",
+          "start": 70,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77817,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.2.22",
+          "book": "Isa",
+          "start": 1,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77844,
+      "type": "a",
+      "parent": 76510,
+      "refs": [
+        {
+          "osis": "Esth.4.17",
+          "book": "Esth",
+          "start": 77,
+          "count": 1
+        },
+        {
+          "osis": "Esth.6.1",
+          "book": "Esth",
+          "start": 92,
+          "count": 1
+        },
+        {
+          "osis": "Exod.12.42",
+          "book": "Exod",
+          "start": 326,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77874,
+      "type": "a",
+      "parent": 12232,
+      "refs": [
+        {
+          "osis": "Deut.10.10",
+          "book": "Deut",
+          "start": 304,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77876,
+      "type": "a",
+      "parent": 77870,
+      "refs": [
+        {
+          "osis": "Gen.3.17",
+          "book": "Gen",
+          "start": 73,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77886,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Jer.13.18-Jer.13.27",
+          "book": "Jer",
+          "start": 338,
+          "end": 347,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77888,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Num.8.1-Num.8.26",
+          "book": "Num",
+          "start": 336,
+          "end": 361,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77894,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Num.31.1-Num.31.54",
+          "book": "Num",
+          "start": 1061,
+          "end": 1114,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 77896,
+      "type": "a",
+      "parent": 55891,
+      "refs": [
+        {
+          "osis": "Isa.18.1",
+          "book": "Isa",
+          "start": 344,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77905,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "2Sam.12.14",
+          "book": "2Sam",
+          "start": 278,
+          "count": 2
+        },
+        {
+          "osis": "Gen.46.4",
+          "book": "Gen",
+          "start": 1391,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77927,
+      "type": "a",
+      "parent": 77925,
+      "refs": [
+        {
+          "osis": "Num.1.1-Num.9.23",
+          "book": "Num",
+          "start": 1,
+          "end": 384,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77930,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.84.5",
+          "book": "Ps",
+          "start": 1325,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77939,
+      "type": "a",
+      "parent": 77930,
+      "refs": [
+        {
+          "osis": "Prov.8.34",
+          "book": "Prov",
+          "start": 236,
+          "count": 1
+        },
+        {
+          "osis": "Ps.112.1",
+          "book": "Ps",
+          "start": 1865,
+          "count": 1
+        },
+        {
+          "osis": "Ps.119.1",
+          "book": "Ps",
+          "start": 1960,
+          "count": 4
+        },
+        {
+          "osis": "Ps.119.2",
+          "book": "Ps",
+          "start": 1961,
+          "count": 2
+        },
+        {
+          "osis": "Ps.144.15",
+          "book": "Ps",
+          "start": 2381,
+          "count": 1
+        },
+        {
+          "osis": "Ps.145.1-Ps.145.21",
+          "book": "Ps",
+          "start": 2382,
+          "end": 2402,
+          "count": 3
+        },
+        {
+          "osis": "Ps.84.5",
+          "book": "Ps",
+          "start": 1325,
+          "count": 2
+        },
+        {
+          "osis": "Ps.84.6",
+          "book": "Ps",
+          "start": 1326,
+          "count": 1
+        },
+        {
+          "osis": "Ps.89.16",
+          "book": "Ps",
+          "start": 1403,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77975,
+      "type": "a",
+      "parent": 77973,
+      "refs": [
+        {
+          "osis": "2Chr.30.1-2Chr.30.27",
+          "book": "2Chr",
+          "start": 634,
+          "end": 660,
+          "count": 1
+        },
+        {
+          "osis": "Josh.5.1-Josh.5.15",
+          "book": "Josh",
+          "start": 84,
+          "end": 98,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77982,
+      "type": "a",
+      "parent": 77890,
+      "refs": [
+        {
+          "osis": "Num.14.1-Num.14.45",
+          "book": "Num",
+          "start": 505,
+          "end": 549,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77993,
+      "type": "a",
+      "parent": 77988,
+      "refs": [
+        {
+          "osis": "1Kgs.14.21",
+          "book": "1Kgs",
+          "start": 522,
+          "count": 1
+        },
+        {
+          "osis": "2Kgs.5.1-2Kgs.5.27",
+          "book": "2Kgs",
+          "start": 115,
+          "end": 141,
+          "count": 1
+        },
+        {
+          "osis": "Josh.2.1-Josh.2.24",
+          "book": "Josh",
+          "start": 19,
+          "end": 42,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 77997,
+      "type": "a",
+      "parent": 22432,
+      "refs": [
+        {
+          "osis": "Exod.28.1-Exod.28.43",
+          "book": "Exod",
+          "start": 762,
+          "end": 804,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78006,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.9.1-Isa.9.21",
+          "book": "Isa",
+          "start": 176,
+          "end": 196,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78010,
+      "type": "a",
+      "parent": 78009,
+      "refs": [
+        {
+          "osis": "Isa.56.2",
+          "book": "Isa",
+          "start": 1101,
+          "count": 1
+        },
+        {
+          "osis": "Lev.25.6",
+          "book": "Lev",
+          "start": 730,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78029,
+      "type": "a",
+      "parent": 78028,
+      "refs": [
+        {
+          "osis": "2Chr.33.13",
+          "book": "2Chr",
+          "start": 727,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78046,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "John.4.44",
+          "book": "John",
+          "start": 156,
+          "count": 1
+        },
+        {
+          "osis": "Mark.6.4",
+          "book": "Mark",
+          "start": 196,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78052,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Lev.19.3",
+          "book": "Lev",
+          "start": 539,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78066,
+      "type": "a",
+      "parent": 15347,
+      "refs": [
+        {
+          "osis": "Job.39.8",
+          "book": "Job",
+          "start": 973,
+          "count": 1
+        },
+        {
+          "osis": "Ps.68.14",
+          "book": "Ps",
+          "start": 975,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78081,
+      "type": "a",
+      "parent": 78058,
+      "refs": [
+        {
+          "osis": "Deut.12.30",
+          "book": "Deut",
+          "start": 378,
+          "count": 1
+        },
+        {
+          "osis": "Lev.18.3",
+          "book": "Lev",
+          "start": 509,
+          "count": 1
+        },
+        {
+          "osis": "Lev.20.23",
+          "book": "Lev",
+          "start": 596,
+          "count": 1
+        },
+        {
+          "osis": "Lev.20.26",
+          "book": "Lev",
+          "start": 599,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78082,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Gen.31.6",
+          "book": "Gen",
+          "start": 880,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78083,
+      "type": "a",
+      "parent": 78075,
+      "refs": [
+        {
+          "osis": "Deut.28.40",
+          "book": "Deut",
+          "start": 759,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78085,
+      "type": "a",
+      "parent": 78075,
+      "refs": [
+        {
+          "osis": "Gen.11.10-Gen.11.19",
+          "book": "Gen",
+          "start": 277,
+          "end": 286,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78086,
+      "type": "a",
+      "parent": 78082,
+      "refs": [
+        {
+          "osis": "Ezek.34.31",
+          "book": "Ezek",
+          "start": 880,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 78090,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Ps.95.1-Ps.95.2",
+          "book": "Ps",
+          "start": 1516,
+          "end": 1517,
           "count": 1
         }
       ]
@@ -72439,6 +76190,9 @@
     },
     "2296": {
       "title": "Shisha Veshishim - mi yodeya?"
+    },
+    "2329": {
+      "title": "verb + its infinitive"
     },
     "2345": {
       "title": "Shemona Veshishim - mi yodeya?"
@@ -73180,6 +76934,9 @@
     "6587": {
       "title": "Chamisha Asar Umatayim - mi yodeya?"
     },
+    "6589": {
+      "title": "Bedikas Chometz - 10 pieces of bread"
+    },
     "6606": {
       "title": "Shisha Asar Umatayim - mi yodeya?"
     },
@@ -73258,6 +77015,9 @@
     "7210": {
       "title": "Is it possible for a Gentile to convert to Judaism?"
     },
+    "7225": {
+      "title": "Are there any Jewish people alive today who can identify themselves as coming from a particular tribe?"
+    },
     "7236": {
       "title": "Halachic Restrictions not in the Torah, and \"shall not add\""
     },
@@ -73329,6 +77089,9 @@
     },
     "7762": {
       "title": "Wedding Day Forgiveness"
+    },
+    "7775": {
+      "title": "Can a Jew lose their Jewish Status?"
     },
     "7786": {
       "title": "Shisha Ve'arba'im Umatayim - mi yodeya?"
@@ -73803,6 +77566,9 @@
     "10609": {
       "title": "Is one allowed to smoke Marijuana?"
     },
+    "10616": {
+      "title": "Animals vs. plants: kashrus"
+    },
     "10630": {
       "title": "Of Rats and Hemorrhoids",
       "tags": [
@@ -74114,6 +77880,9 @@
     },
     "12225": {
       "title": "When and why did we start reading the Parshat Hashavua?"
+    },
+    "12232": {
+      "title": "Why doesn't saying the sh'ma satisfy torah-reading requirements?"
     },
     "12282": {
       "title": "Magen Avraham - Practically no Plag HaMinḥah or just no Plag HaMinḥah in winter?"
@@ -74729,6 +78498,9 @@
     "15318": {
       "title": "Chamisha Vetish'im Umatayim - mi yodeya?"
     },
+    "15347": {
+      "title": "What color is Yarok?"
+    },
     "15378": {
       "title": "Why did Moshe Rabbeinu object to the mirrors, but not the kumaz?"
     },
@@ -75162,6 +78934,9 @@
         "2Sam"
       ]
     },
+    "17446": {
+      "title": "Should I be shuckling?"
+    },
     "17491": {
       "title": "What is the Jewish view on creating an army to defend ourselves against armies?"
     },
@@ -75527,7 +79302,7 @@
       "title": "Am I liable to be stoned for my devotion to Hashem and the Jewish people?"
     },
     "20473": {
-      "title": "In What Sense Non Jews Should Obey/Disobey Torah?"
+      "title": "In what Sense should non-Jews obey/disobey Torah?"
     },
     "20495": {
       "title": "What are we \"celebrating\" on Shmini Etzeres?"
@@ -75660,6 +79435,12 @@
     },
     "22420": {
       "title": "Benediction to be recited over stuffing?"
+    },
+    "22432": {
+      "title": "Yaakov Kissing Rachel",
+      "tags": [
+        "Gen"
+      ]
     },
     "22451": {
       "title": "Did Tamar marry a third time, and if so whom?",
@@ -76684,6 +80465,9 @@
         "Num"
       ]
     },
+    "28651": {
+      "title": "What are the 14 types of Jewish Years?"
+    },
     "28669": {
       "title": "Is it considered Pikuach Nefesh if you break Shomer Negiah to give someone emotional comfort?"
     },
@@ -76697,7 +80481,7 @@
       "title": "Do a mitzva for mashiach?"
     },
     "28714": {
-      "title": "one who says something in the name of the person who originally said it"
+      "title": "One who says something in the name of the person who originally said it"
     },
     "28722": {
       "title": "Preparing food for Yom Tov Sheni"
@@ -77269,6 +81053,12 @@
     },
     "31379": {
       "title": "Why did God do nothing against the Romans that desecrated the Temple?"
+    },
+    "31403": {
+      "title": "Why does Scripture in parashat bereishit need to mention the four rivers?",
+      "tags": [
+        "Gen"
+      ]
     },
     "31415": {
       "title": "Why are bread and wine important?"
@@ -78469,6 +82259,9 @@
     "37888": {
       "title": "Does Jewish tradition indicate that Jewish people tend to be rude?"
     },
+    "37893": {
+      "title": "What Atones for Which Sins?"
+    },
     "37960": {
       "title": "Does God continually (re)create the physical world?"
     },
@@ -78670,7 +82463,10 @@
       "title": "How does the midrash know that the Jews had to be awakened for the giving of the Torah?"
     },
     "38742": {
-      "title": "What is a megillah?"
+      "title": "What is a megillah?",
+      "tags": [
+        "Esth"
+      ]
     },
     "38746": {
       "title": "Why is there so much focus on Women's Modesty among Orthodox Jews?"
@@ -78707,6 +82503,12 @@
       "tags": [
         "Prov"
       ]
+    },
+    "39067": {
+      "title": "Why does the Torah sometimes refer to Shabbat as a masculine noun and other times as a feminine noun?"
+    },
+    "40143": {
+      "title": "Are there any sources for parents respecting children"
     },
     "40145": {
       "title": "what are the prerequisites for getting married?"
@@ -78752,6 +82554,9 @@
     },
     "40462": {
       "title": "Telling G-d Lashon Harah"
+    },
+    "40475": {
+      "title": "Does today's Yom Kippur observance atone for all sins?"
     },
     "40511": {
       "title": "Doesn't the wide use of Sheitels among Orthodox Jewish women prove that hair no longer retains the erotic status that it once had?"
@@ -79290,6 +83095,9 @@
     "46106": {
       "title": "Hamelech Hakadosh on Motzei Yom Kippur"
     },
+    "46130": {
+      "title": "Plans for building a sukkah shlock"
+    },
     "46171": {
       "title": "What is the source for Rav Soloveitchik's assertion that 1st Century Christians introduced mixed seating for prayers?"
     },
@@ -79406,6 +83214,12 @@
     },
     "47880": {
       "title": "Is it possible for mesorah to be discovered?"
+    },
+    "47892": {
+      "title": "Why did Ashkenazi Jews not adopt the custom of reading the Book of Job in synagogue on Tisha B'Av, as Sephardim do?",
+      "tags": [
+        "Job"
+      ]
     },
     "47912": {
       "title": "Did Noah have grandchildren before the flood?",
@@ -80119,6 +83933,12 @@
         "Lev"
       ]
     },
+    "53566": {
+      "title": "Rainbows prior to the Mabul",
+      "tags": [
+        "Gen"
+      ]
+    },
     "53574": {
       "title": "What distinguishes humans from animals?"
     },
@@ -80374,6 +84194,9 @@
         "Gen"
       ]
     },
+    "55891": {
+      "title": "Winged sun symbol on Hezekiah coins/seals"
+    },
     "55893": {
       "title": "Why is raising taxes in the the last, 3 verse chapter of Megilat Esther?",
       "tags": [
@@ -80442,7 +84265,10 @@
       "title": "Being Machmir in \"Matanot Laevyonim\""
     },
     "56087": {
-      "title": "How can a person who can't read Hebrew be yotzeh the megillah?"
+      "title": "How can a person who can't read Hebrew be yotzeh the megillah?",
+      "tags": [
+        "Esth"
+      ]
     },
     "56088": {
       "title": "Mosaic Law and ISIS"
@@ -80464,6 +84290,13 @@
     },
     "56135": {
       "title": "Does giving left-over Masholakh manot fulfill the mitzvah?"
+    },
+    "56145": {
+      "title": "Questions regarding unusual trope combination",
+      "tags": [
+        "Gen",
+        "Lev"
+      ]
     },
     "56152": {
       "title": "Where do the words sholom bayis come from?"
@@ -80778,6 +84611,9 @@
     },
     "57381": {
       "title": "Saying Hamapil after Alos Hashachar"
+    },
+    "57383": {
+      "title": "Original Sources for Ideas about Hidden Path to Moshiach"
     },
     "57388": {
       "title": "וְהִתְקִין לוֹ מִמֶּנּוּ בִּנְיַן עֲדֵי עַד Is the translation of מִמֶּנּוּ **His** very self or his very self?"
@@ -82073,6 +85909,9 @@
     "64384": {
       "title": "History of decorated Paroches - curtain on the Aron Kodesh"
     },
+    "64395": {
+      "title": "When did shuckling begin?"
+    },
     "64397": {
       "title": "Was the tribe of Shimon part of the Kingdom of Israel or Judah?",
       "tags": [
@@ -82273,6 +86112,9 @@
         "Exod"
       ]
     },
+    "65065": {
+      "title": "How can one serve G-d with Simcha when one is painfully aware of flaws, sins, and other bad habits?"
+    },
     "65112": {
       "title": "Is a gentile living in Eretz Yisrael obliged to be circumcised?"
     },
@@ -82433,13 +86275,6 @@
     },
     "65551": {
       "title": "Why is the Bible not a work of theology?"
-    },
-    "65562": {
-      "title": "Seeking an explanation of Rashi to Ⅱ Chronicles 6:19",
-      "tags": [
-        "1Chr",
-        "2Chr"
-      ]
     },
     "65565": {
       "title": "Do \"blind\" and \"housebound\" define death?",
@@ -83357,6 +87192,9 @@
     "69333": {
       "title": "Where can I find the first edition of the Stone Chumash?"
     },
+    "69349": {
+      "title": "If the corner of a tallis rips in a square shape can it be reattached with the tzitzis still on it?"
+    },
     "69350": {
       "title": "PTIJ: For whom should I vote? (US Presidential Elections 2016)"
     },
@@ -83482,9 +87320,6 @@
       "tags": [
         "Gen"
       ]
-    },
-    "69841": {
-      "title": "How do you do teshuva for saying lashon hara about someone that already passed away?"
     },
     "69847": {
       "title": "Different Pesach offerings"
@@ -83734,6 +87569,9 @@
     "70922": {
       "title": "Is bitul zman (wasting one's time) a formal prohibition?"
     },
+    "70934": {
+      "title": "Meaning of Kibbud and Oneg Shabbat"
+    },
     "70960": {
       "title": "Shaved or Trimmed",
       "tags": [
@@ -83796,9 +87634,6 @@
     },
     "71241": {
       "title": "Which prohibition does one commit when viewing pornography?"
-    },
-    "71252": {
-      "title": "Is God Praiseworthy?"
     },
     "71257": {
       "title": "Why Shavuos on Sunday"
@@ -83868,6 +87703,9 @@
     },
     "71421": {
       "title": "live music and eating a meal?"
+    },
+    "71425": {
+      "title": "Is one suppose to engaged or married eighteen years old?"
     },
     "71441": {
       "title": "It seems Noah was keeping Sabbath. Do the sages address this?",
@@ -84267,6 +88105,9 @@
         "Gen"
       ]
     },
+    "73765": {
+      "title": "Harchakot while grieving, ch\"v"
+    },
     "73804": {
       "title": "In the time of the Second Temple, did the high priest still dress in the tent of meeting?"
     },
@@ -84396,12 +88237,6 @@
     },
     "75196": {
       "title": "Is there any Haftarah that has all the te'amim/trope symbols?"
-    },
-    "75203": {
-      "title": "Deuteronomy 32:8-9 issues",
-      "tags": [
-        "Deut"
-      ]
     },
     "75204": {
       "title": "Failed Prophecy of Elisha?",
@@ -84540,11 +88375,8 @@
     "75794": {
       "title": "Is there lunar drift in the fixed Hebrew calendar?"
     },
-    "75805": {
-      "title": "Does Psalm 20:6 prove that Jesus is not the Messiah?",
-      "tags": [
-        "Ps"
-      ]
+    "75808": {
+      "title": "Lashon Hara to pay a compliment"
     },
     "75812": {
       "title": "Does the Torah Address the Issue of Circumcision on the Sabbath?"
@@ -84567,9 +88399,6 @@
     "75866": {
       "title": "Examples and method of adducing counter-commandments to serve idols from Torah commandments"
     },
-    "75870": {
-      "title": "From the Jewish point of view, can the spirit of God take over to complete a prophet's task?"
-    },
     "75891": {
       "title": "Does Jewish Scripture/Tradition predict that Jews will be persecuted?"
     },
@@ -84584,6 +88413,534 @@
     },
     "75912": {
       "title": "In the prayer \"Al Ken Nekaveh Lecha\", are we hoping that all humanity will convert to Judaism?"
+    },
+    "76051": {
+      "title": "Yocheved is the daughter of who?"
+    },
+    "76062": {
+      "title": "Why no bracha on the Torah commandment of watching matzah?"
+    },
+    "76067": {
+      "title": "Supporting a son-in-law in kollel"
+    },
+    "76092": {
+      "title": "Which prophecy in specific did Jesus not fulfill?"
+    },
+    "76100": {
+      "title": "Gather all Jews back to the Land of Israel?",
+      "tags": [
+        "Isa"
+      ]
+    },
+    "76105": {
+      "title": "The changeability though prayer?"
+    },
+    "76119": {
+      "title": "If Psalm 27 was said during Mincha, should it be repeated?"
+    },
+    "76124": {
+      "title": "G-d willing to give Manna/Quail, but is angered the second time?",
+      "tags": [
+        "Exod",
+        "Num"
+      ]
+    },
+    "76127": {
+      "title": "Source for tzitzit according to Sefer HaChinuch"
+    },
+    "76133": {
+      "title": "Why are the names of the Hebrew calendar months named after the Babylonian deities?"
+    },
+    "76142": {
+      "title": "Why do the Jews not live strictly by Moses' law?"
+    },
+    "76184": {
+      "title": "Can you convert without a rabbi?"
+    },
+    "76189": {
+      "title": "Is everything in the universe a metahaphors for a spiritual world?"
+    },
+    "76194": {
+      "title": "Can one rely on rounded irrational numbers?"
+    },
+    "76207": {
+      "title": "How should we understand the Torah’s comparison of a tree to a “man”? What message is the Torah trying to convey?",
+      "tags": [
+        "Deut"
+      ]
+    },
+    "76220": {
+      "title": "Prohibition of marrying a Non-Jew"
+    },
+    "76221": {
+      "title": "Native American Traditions and Mass Revelations"
+    },
+    "76233": {
+      "title": "Since Pinchas was a Cohen why was he allowed to kill Zimri and Cozbi?",
+      "tags": [
+        "Num"
+      ]
+    },
+    "76237": {
+      "title": "the difference between the wise and the clever"
+    },
+    "76268": {
+      "title": "You set a table before me in the presence of my adversaries; You anointed my head with oil; my cup overflows.?",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "76300": {
+      "title": "How long must tzitzis be?"
+    },
+    "76310": {
+      "title": "So what happens to Judaism if Moshiach doesn't come by the year 6000?"
+    },
+    "76336": {
+      "title": "What is \"Pannag\"?",
+      "tags": [
+        "Ezek"
+      ]
+    },
+    "76340": {
+      "title": "May a builder skip \"13\" when numbering floors on a building or rooms on a floor"
+    },
+    "76378": {
+      "title": "How can Gentile that kept Shabbat repent?"
+    },
+    "76428": {
+      "title": "Where does the custom of the \"tossing of the sandal\" in Ruth come from? Why/How does it come to symbolize a successful business transaction?",
+      "tags": [
+        "Ruth"
+      ]
+    },
+    "76436": {
+      "title": "Is Mt. Horeb the same as Mt Sinai?"
+    },
+    "76438": {
+      "title": "What are the roots for the Qere reading of the last word of Psalm 123?",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "76446": {
+      "title": "Shiva and Cremation"
+    },
+    "76447": {
+      "title": "Tehilim and blessing others",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "76452": {
+      "title": "Is the concept of Hell or Gehenna detailed in Rabbinic literature?"
+    },
+    "76460": {
+      "title": "Is there a source in Judaism that uses the word \"Mesora\" to refer to the masoretic tradition?"
+    },
+    "76477": {
+      "title": "What type of doctor is referred to in Breishit 50:2?",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "76510": {
+      "title": "Why did Esther fast for 3 days?",
+      "tags": [
+        "Esth"
+      ]
+    },
+    "76540": {
+      "title": "Prophecy Issue Concerning Egyptian Invastion of Babylon"
+    },
+    "76545": {
+      "title": "Why are there times of prayer"
+    },
+    "76550": {
+      "title": "Are all prayers a replacement of offering?"
+    },
+    "76566": {
+      "title": "Is a woman allowed to break her hymen by herself?"
+    },
+    "76583": {
+      "title": "What other occasions cause forgiveness?"
+    },
+    "76592": {
+      "title": "Egypt's sin in Isaiah 19",
+      "tags": [
+        "Isa"
+      ]
+    },
+    "76626": {
+      "title": "Psalm 34:9 Taste or perceive?",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "76629": {
+      "title": "Tehillim 16:2 what does it say?",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "76632": {
+      "title": "Where are all the places in the torah with extra dots over the words?",
+      "tags": [
+        "Deut"
+      ]
+    },
+    "76645": {
+      "title": "Does the Torah prohibition to not add or subtract from the mitzvot also apply to the Oral Torah?"
+    },
+    "76673": {
+      "title": "Why do Jewish hebrew bibles have a different number of chapters in Joel and Malachi, who changed it and Why?"
+    },
+    "76685": {
+      "title": "What was the ultimate fate of Rabbi Elisa ben Abuyah (Acher)?"
+    },
+    "76697": {
+      "title": "How many women were remembered on Rosh Hashanah?"
+    },
+    "76705": {
+      "title": "Were there multiple Isaiahs?",
+      "tags": [
+        "Isa"
+      ]
+    },
+    "76715": {
+      "title": "Why repeat the formula for how much flour?",
+      "tags": [
+        "Num"
+      ]
+    },
+    "76736": {
+      "title": "Why did Miriam become leprous?",
+      "tags": [
+        "Num"
+      ]
+    },
+    "76770": {
+      "title": "Did Maimonides consider Esther the most important book in the Tanakh other than the Torah?",
+      "tags": [
+        "Esth"
+      ]
+    },
+    "76780": {
+      "title": "Does the term \"G-d\" (i.e Elokim) include the concept of ruler?"
+    },
+    "76784": {
+      "title": "Contradiction between Shemos 9:6 and 9:20-21?",
+      "tags": [
+        "Exod",
+        "Gen"
+      ]
+    },
+    "76795": {
+      "title": "\"Bring back your captivity\"?",
+      "tags": [
+        "Deut"
+      ]
+    },
+    "76823": {
+      "title": "Unusual Qadmas in Daniel 4",
+      "tags": [
+        "Dan"
+      ]
+    },
+    "76829": {
+      "title": "Resurrection of the Dead in the \"Torah\""
+    },
+    "76832": {
+      "title": "Why doesn't the Torah allow all of mankind to be Resurrected From The Dead And Live Forever?"
+    },
+    "76874": {
+      "title": "Source for Italy coming from a staff in the sea"
+    },
+    "76900": {
+      "title": "When a man rape a virgin, how much shall he pay?"
+    },
+    "76903": {
+      "title": "To atone or to cover ?"
+    },
+    "76914": {
+      "title": "Economics of Yeshivas"
+    },
+    "76917": {
+      "title": "Why the masoretes wrote the tetragrammaton this way?"
+    },
+    "76927": {
+      "title": "The afflicted, poor and humble a reference to the command to afflict oneself on Yom Kippur",
+      "tags": [
+        "Num"
+      ]
+    },
+    "76949": {
+      "title": "Difference father and mother jew who would like to circumcise a son"
+    },
+    "76950": {
+      "title": "Hell or something else: גהנום/ גהנם and שאול what are these?"
+    },
+    "76956": {
+      "title": "Hoshana rabbah, is it really the second Yom Kippur?"
+    },
+    "76958": {
+      "title": "Evil spirits from HaShem",
+      "tags": [
+        "1Sam",
+        "2Sam"
+      ]
+    },
+    "76963": {
+      "title": "What time of the day did the trumpet sound?"
+    },
+    "76977": {
+      "title": "What's the difference in the terms עָוֺן פֶּשַׁע חַטָּאָה in Exodus 34:6-7",
+      "tags": [
+        "Exod"
+      ]
+    },
+    "76997": {
+      "title": "Did 'Rationalist' Rishonim naturalize miracles? If so, why?"
+    },
+    "77003": {
+      "title": "Can one charge coffee to one's room on Shabbos?"
+    },
+    "77055": {
+      "title": "Are there any teachings about \"tough love?\""
+    },
+    "77058": {
+      "title": "Was Psalm 40:7 specific to David or is there a more general application?",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "77070": {
+      "title": "In what sense is fear of God alone wisdom?"
+    },
+    "77072": {
+      "title": "I'm reading the book of Ezra. Would the Kohanim have gone on to marry Jewish women?",
+      "tags": [
+        "Ezra",
+        "Neh"
+      ]
+    },
+    "77103": {
+      "title": "Indirect murder"
+    },
+    "77118": {
+      "title": "What was in the Holy Incense of the ancient Hebrews of Exodus 30:34–38?"
+    },
+    "77119": {
+      "title": "In what way was Lemech foolish?",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77167": {
+      "title": "Why the שם אדנות in \"אתה גבור\"?"
+    },
+    "77179": {
+      "title": "What is the meaning of the name Lemech?"
+    },
+    "77187": {
+      "title": "What was Jacob's nisayon (and where do we find this in the midrash)?"
+    },
+    "77225": {
+      "title": "Would Adam and Eve have lived forever if they didn't eat from the tree of the knowledge of good and evil?"
+    },
+    "77231": {
+      "title": "What are the 10 utterances in Pirkei Avot 5:1",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77268": {
+      "title": "Why aren't non-Jews commonly called \"Ivrim\"?"
+    },
+    "77303": {
+      "title": "Question with regard to dual meanings in the Hebrew words “Erev” and “Boker” in Genesis 1",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77307": {
+      "title": "I would like to find all the psalms that include my name",
+      "tags": [
+        "Ps"
+      ]
+    },
+    "77320": {
+      "title": "Is the Oral Law from Sinai considered d'oraisa or d'rabbanan?"
+    },
+    "77325": {
+      "title": "Why is a patach chet at the end of the word pronounced \"sdrawkcab\" (backwards)?"
+    },
+    "77328": {
+      "title": "Did Hevel slaughter his sacrifice?",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77334": {
+      "title": "Yetzer machshevot libo",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77347": {
+      "title": "Can the Rabbinic council and tradition hold the authority to overrule God's words and scriptures?"
+    },
+    "77379": {
+      "title": "Why does אבות cite Gen. 9, not Gen. 1, for נברא בצלם?",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77389": {
+      "title": "Rashi's explanation of B'etzem Hayom Hazeh"
+    },
+    "77489": {
+      "title": "What Biblical prophecies appear to have been fulfilled already?"
+    },
+    "77492": {
+      "title": "Are these statements about the Babylonian Talmud true?"
+    },
+    "77506": {
+      "title": "תְּחִלָה vs. בְּרֵאשִׁית",
+      "tags": [
+        "Gen",
+        "Judg"
+      ]
+    },
+    "77535": {
+      "title": "The anger of HaShem, Satan or David Himself? - 2 Samuel 24:1 v.s. 1 Chronicles 21:1",
+      "tags": [
+        "1Chr",
+        "1Sam",
+        "2Chr",
+        "2Sam"
+      ]
+    },
+    "77537": {
+      "title": "Reconciling Young Earth Creationism With Racial Diversity"
+    },
+    "77556": {
+      "title": "Use of the tetragrammaton in other names"
+    },
+    "77559": {
+      "title": "Koach hasabal or Koach hasevel"
+    },
+    "77600": {
+      "title": "Why is there a change in the compass directions between Abraham and Jacob?",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77655": {
+      "title": "How long did King David reign in Jerusalem before he brought the Ark there?",
+      "tags": [
+        "1Sam",
+        "2Sam"
+      ]
+    },
+    "77666": {
+      "title": "Where are we commanded to wrap ourselves in Tzitzit?"
+    },
+    "77701": {
+      "title": "What specific acts with a nidah constitute karet"
+    },
+    "77710": {
+      "title": "Why does God Tell Abimelech that he is innocent?"
+    },
+    "77713": {
+      "title": "Adding פחות משוה פרוטה"
+    },
+    "77727": {
+      "title": "Creating things with the Sefer Yetzira?"
+    },
+    "77745": {
+      "title": "What's the real reason that asking departed tzadikim to pray for us is not considered \"beseeching the dead\"?"
+    },
+    "77782": {
+      "title": "What did Daniel see in his vision in Daniel 7",
+      "tags": [
+        "Dan"
+      ]
+    },
+    "77787": {
+      "title": "What is the fate of non-Jews in the afterlife?"
+    },
+    "77812": {
+      "title": "Why was the snake punished?",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "77817": {
+      "title": "Going to a Shiur without paying tuition"
+    },
+    "77870": {
+      "title": "Negel vasser after touching shoes"
+    },
+    "77886": {
+      "title": "What does נמר in Torah literature mean"
+    },
+    "77888": {
+      "title": "There is a principle in Shas, \"Chachamim decree only in normal cases.\" Is there the same/similar principle for Torah commands/safeguards?"
+    },
+    "77890": {
+      "title": "Mishnah Berurah on Torah Study"
+    },
+    "77894": {
+      "title": "Numbers 31 - questions",
+      "tags": [
+        "Num"
+      ]
+    },
+    "77905": {
+      "title": "Did Jews at the time of the Bavli refer to God as *allah*? A question on Berakhot 56b"
+    },
+    "77925": {
+      "title": "Mathematical books of the Ibn Ezra"
+    },
+    "77930": {
+      "title": "\"People who recite Ashrei many times\": a question on Tosafot"
+    },
+    "77973": {
+      "title": "What do jews think about some 4 reasons why some do not believe oral torah?"
+    },
+    "77988": {
+      "title": "A piyut refers to the converts: Keni, Na'aman, Ovadiah, Rachav, Na'amah and Ruth. How come?"
+    },
+    "78006": {
+      "title": "The \"Galil\" in the times of Chazal"
+    },
+    "78009": {
+      "title": "Why do we use the masculine form in a Shabbat greeting?"
+    },
+    "78028": {
+      "title": "Source for Teshuva, Repentance"
+    },
+    "78046": {
+      "title": "Source for Expression: \"There is No Prophet For His Own Town\""
+    },
+    "78052": {
+      "title": "Visiting a sick parent who doesn't want visitors"
+    },
+    "78058": {
+      "title": "May one join a holiday choir that sings \"neutral\" songs?"
+    },
+    "78075": {
+      "title": "Arba'im Ushlosh Meyot - mi yodeya?"
+    },
+    "78082": {
+      "title": "Unusual format of plural fem. 2nd person pronoun in Gen. 31:6",
+      "tags": [
+        "Gen"
+      ]
+    },
+    "78090": {
+      "title": "Is there anything wrong with buying German products?"
     }
   }
 }

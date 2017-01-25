@@ -5111,20 +5111,6 @@
       ]
     },
     {
-      "id": 14320,
-      "type": "a",
-      "parent": 12328,
-      "refs": [
-        {
-          "osis": "Col.2.1-Col.2.23",
-          "book": "Col",
-          "start": 30,
-          "end": 52,
-          "count": 2
-        }
-      ]
-    },
-    {
       "id": 14378,
       "type": "a",
       "parent": 1244,
@@ -7578,20 +7564,6 @@
           "book": "Ps",
           "start": 19,
           "end": 26,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 20560,
-      "type": "a",
-      "parent": 1368,
-      "refs": [
-        {
-          "osis": "Song.1.1-Song.1.17",
-          "book": "Song",
-          "start": 1,
-          "end": 17,
           "count": 1
         }
       ]
@@ -11330,32 +11302,6 @@
       ]
     },
     {
-      "id": 33099,
-      "type": "a",
-      "parent": 32766,
-      "refs": [
-        {
-          "osis": "Gen.11.26",
-          "book": "Gen",
-          "start": 293,
-          "count": 1
-        },
-        {
-          "osis": "Gen.17.5",
-          "book": "Gen",
-          "start": 403,
-          "count": 1
-        },
-        {
-          "osis": "Gen.17.6-Gen.17.8",
-          "book": "Gen",
-          "start": 404,
-          "end": 406,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 33131,
       "type": "a",
       "parent": 33110,
@@ -11600,20 +11546,6 @@
       ]
     },
     {
-      "id": 35003,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Isa.57.1-Isa.57.21",
-          "book": "Isa",
-          "start": 1112,
-          "end": 1132,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 35005,
       "type": "a",
       "parent": 28918,
@@ -11645,6 +11577,542 @@
           "start": 80,
           "end": 85,
           "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35159,
+      "type": "a",
+      "parent": 35144,
+      "refs": [
+        {
+          "osis": "Isa.6.1-Isa.6.13",
+          "book": "Isa",
+          "start": 116,
+          "end": 128,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35190,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Song.1.1-Song.1.17",
+          "book": "Song",
+          "start": 1,
+          "end": 17,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35340,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35356,
+      "type": "a",
+      "parent": 35354,
+      "refs": [
+        {
+          "osis": "Isa.1.6",
+          "book": "Isa",
+          "start": 6,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35459,
+      "type": "a",
+      "parent": 35424,
+      "refs": [
+        {
+          "osis": "Isa.1.7",
+          "book": "Isa",
+          "start": 7,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35463,
+      "type": "a",
+      "parent": 35462,
+      "refs": [
+        {
+          "osis": "Isa.16.1-Isa.16.14",
+          "book": "Isa",
+          "start": 316,
+          "end": 329,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35464,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Josh.6.20",
+          "book": "Josh",
+          "start": 118,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 35480,
+      "type": "a",
+      "parent": 35334,
+      "refs": [
+        {
+          "osis": "Judg.16.30",
+          "book": "Judg",
+          "start": 470,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35629,
+      "type": "a",
+      "parent": 35624,
+      "refs": [
+        {
+          "osis": "Isa.42.1",
+          "book": "Isa",
+          "start": 827,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35651,
+      "type": "a",
+      "parent": 35464,
+      "refs": [
+        {
+          "osis": "Josh.6.1-Josh.6.27",
+          "book": "Josh",
+          "start": 99,
+          "end": 125,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35678,
+      "type": "a",
+      "parent": 35677,
+      "refs": [
+        {
+          "osis": "Isa.25.1-Isa.25.12",
+          "book": "Isa",
+          "start": 465,
+          "end": 476,
+          "count": 1
+        },
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        },
+        {
+          "osis": "Isa.9.1-Isa.9.21",
+          "book": "Isa",
+          "start": 176,
+          "end": 196,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35679,
+      "type": "a",
+      "parent": 35677,
+      "refs": [
+        {
+          "osis": "Isa.25.1-Isa.25.12",
+          "book": "Isa",
+          "start": 465,
+          "end": 476,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35695,
+      "type": "a",
+      "parent": 22722,
+      "refs": [
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35703,
+      "type": "a",
+      "parent": 35700,
+      "refs": [
+        {
+          "osis": "Isa.44.25",
+          "book": "Isa",
+          "start": 904,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35706,
+      "type": "a",
+      "parent": 35700,
+      "refs": [
+        {
+          "osis": "1Sam.17.4",
+          "book": "1Sam",
+          "start": 410,
+          "count": 1
+        },
+        {
+          "osis": "Deut.8.6",
+          "book": "Deut",
+          "start": 251,
+          "count": 1
+        },
+        {
+          "osis": "Ps.145.1-Ps.145.21",
+          "book": "Ps",
+          "start": 2382,
+          "end": 2402,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35818,
+      "type": "a",
+      "parent": 35791,
+      "refs": [
+        {
+          "osis": "Isa.5.1-Isa.5.30",
+          "book": "Isa",
+          "start": 86,
+          "end": 115,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35865,
+      "type": "a",
+      "parent": 5049,
+      "refs": [
+        {
+          "osis": "Song.3.1-Song.3.11",
+          "book": "Song",
+          "start": 35,
+          "end": 45,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35900,
+      "type": "a",
+      "parent": 35888,
+      "refs": [
+        {
+          "osis": "Isa.30.1-Isa.30.33",
+          "book": "Isa",
+          "start": 564,
+          "end": 596,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35927,
+      "type": "q",
+      "title": [
+        0
+      ],
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 35932,
+      "type": "a",
+      "parent": 35927,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": 35935,
+      "type": "a",
+      "parent": 35927,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": 35938,
+      "type": "a",
+      "parent": 35927,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 35940,
+      "type": "a",
+      "parent": 35927,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 35965,
+      "type": "a",
+      "parent": 35963,
+      "refs": [
+        {
+          "osis": "Num.1.0",
+          "book": "Num",
+          "start": 0,
+          "count": 1
+        },
+        {
+          "osis": "Num.2.0",
+          "book": "Num",
+          "start": 54,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36002,
+      "type": "a",
+      "parent": 35990,
+      "refs": [
+        {
+          "osis": "Rev.1.1-Rev.1.20",
+          "book": "Rev",
+          "start": 1,
+          "end": 20,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 36100,
+      "type": "a",
+      "parent": 10966,
+      "refs": [
+        {
+          "osis": "Isa.1.2",
+          "book": "Isa",
+          "start": 2,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36134,
+      "type": "a",
+      "parent": 34984,
+      "refs": [
+        {
+          "osis": "Mark.7.1-Mark.7.37",
+          "book": "Mark",
+          "start": 249,
+          "end": 285,
+          "count": 1
+        },
+        {
+          "osis": "Num.6.1-Num.6.27",
+          "book": "Num",
+          "start": 220,
+          "end": 246,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36136,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.37.0",
+          "book": "Isa",
+          "start": 698,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36159,
+      "type": "a",
+      "parent": 36158,
+      "refs": [
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36179,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.20.1-Isa.20.6",
+          "book": "Isa",
+          "start": 376,
+          "end": 381,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36210,
+      "type": "a",
+      "parent": 36170,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36212,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.55.1-Isa.55.13",
+          "book": "Isa",
+          "start": 1087,
+          "end": 1099,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36213,
+      "type": "a",
+      "parent": 36212,
+      "refs": [
+        {
+          "osis": "Isa.55.1-Isa.55.13",
+          "book": "Isa",
+          "start": 1087,
+          "end": 1099,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 36225,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 36226,
+      "type": "a",
+      "parent": 36225,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 36242,
+      "type": "a",
+      "parent": 36239,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 6
         }
       ]
     }
@@ -11715,9 +12183,6 @@
     },
     "1367": {
       "title": "Does circumcision lead to a net increase in quality of life?"
-    },
-    "1368": {
-      "title": "On 9/11, was Building 7 destroyed in a controlled explosion?"
     },
     "1374": {
       "title": "Does changing your pH balance change your mood?"
@@ -12012,6 +12477,9 @@
     },
     "5034": {
       "title": "Was the opposition of the Catholic Church to contraception based on the Homunculi theory?"
+    },
+    "5049": {
+      "title": "Did Lee Harvey Oswald kill John F. Kennedy?"
     },
     "5101": {
       "title": "Does the production of a home PV solar panel provide a net benefit to the environment?"
@@ -12519,6 +12987,10 @@
     },
     "10954": {
       "title": "Does the DNA of one sperm contain 37.5 MB of information?"
+    },
+    "10966": {
+      "title": "Did Muhammad exist?",
+      "general_tag": 1
     },
     "11018": {
       "title": "Do hares chew cud?",
@@ -13111,6 +13583,9 @@
     "22692": {
       "title": "Do video games improve reflexes & reaction time?"
     },
+    "22722": {
+      "title": "Has the average Somalian's quality of life improved under anarchy?"
+    },
     "22730": {
       "title": "Was Aeroflot SU2074 intended target in MH17 shooting?"
     },
@@ -13500,14 +13975,10 @@
       "title": "Are black Americans responsible for more than 50% of homicides?"
     },
     "32695": {
-      "title": "Are five million Muslims attempting to move to Europe?"
+      "title": "Are five million Muslims marching on to Europe?"
     },
     "32706": {
       "title": "Are 30% of all putative fathers who take paternity tests not the biological father of their children?"
-    },
-    "32766": {
-      "title": "How old is Judaism?",
-      "general_tag": 1
     },
     "32779": {
       "title": "\"One year without beef saves 3432 trees\""
@@ -13559,11 +14030,83 @@
     "34784": {
       "title": "Are one-third of human deaths from \"poverty-related causes\"?"
     },
-    "35003": {
-      "title": "What is the actual reason behind intestinal gas?"
+    "34984": {
+      "title": "Does homework improve student performance?"
     },
     "35060": {
-      "title": "Have more vets taken their own life in the last six years than died in Iraq and Afghanistan?"
+      "title": "Have more US veterans taken their own life in the last six years than died in Iraq and Afghanistan?"
+    },
+    "35144": {
+      "title": "Does every major pipeline in the US cut through Native American lands?"
+    },
+    "35190": {
+      "title": "Is Mexico building a southern border wall that the United States is helping to pay for?"
+    },
+    "35334": {
+      "title": "Did Christian soldiers commit the first recorded suicide bombing?",
+      "general_tag": 1
+    },
+    "35340": {
+      "title": "Is the hand in this video of feeding hummingbirds an actual human hand?"
+    },
+    "35354": {
+      "title": "What percentage of white people owned black slaves in the US?"
+    },
+    "35424": {
+      "title": "Are the chances of contracting HIV from an infected person this low?"
+    },
+    "35462": {
+      "title": "Is there correlation between vaccination rates and autism diagnosis?"
+    },
+    "35464": {
+      "title": "Did the walls of Jericho fall outward?",
+      "general_tag": 1
+    },
+    "35624": {
+      "title": "Is the name \"Ahmad\" mentioned in the dead sea scrolls?"
+    },
+    "35677": {
+      "title": "Are Muslims 25 times more likely to commit terrorist attacks within the United States than non-Muslims?"
+    },
+    "35700": {
+      "title": "Are there textual deviations between the Dead Sea Scrolls and the Old Testament?",
+      "general_tag": 1
+    },
+    "35791": {
+      "title": "Are forced marriages allowed in Iran?"
+    },
+    "35888": {
+      "title": "Does the 'super-moon' have a measurable effect on probability and magnitude of earthquakes?"
+    },
+    "35927": {
+      "title": "Are we in a low CO2 period, compared to the last 590 million years?"
+    },
+    "35963": {
+      "title": "Is half of the climate change in the past 110 years due to natural variation in the Sun's output?"
+    },
+    "35990": {
+      "title": "Can \"Seismic Blasting\" from a ship induce massive earthquakes?"
+    },
+    "36136": {
+      "title": "Is the average temperature of a healthy human adult 98.6F/37C?"
+    },
+    "36158": {
+      "title": "Does the the US Department of the State regularly send out Passport Surveys to random people?"
+    },
+    "36170": {
+      "title": "Are white people who believe Obama is Muslim largely Trump sympathisers?"
+    },
+    "36179": {
+      "title": "Does gender integration leads to less illicit sexual relationships in the military?"
+    },
+    "36212": {
+      "title": "Does memory and learning decline with age?"
+    },
+    "36225": {
+      "title": "Is global warming impossible because of CO₂'s dilution?"
+    },
+    "36239": {
+      "title": "Is water vapor responsible for 95% of the greenhouse effect?"
     }
   }
 }

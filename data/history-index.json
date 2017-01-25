@@ -1055,20 +1055,6 @@
       ]
     },
     {
-      "id": 8405,
-      "type": "a",
-      "parent": 8389,
-      "refs": [
-        {
-          "osis": "Tob.4.1-Tob.4.21",
-          "book": "Tob",
-          "start": 54,
-          "end": 74,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 8517,
       "type": "a",
       "parent": 8516,
@@ -1776,19 +1762,6 @@
       ]
     },
     {
-      "id": 10415,
-      "type": "a",
-      "parent": 10409,
-      "refs": [
-        {
-          "osis": "Rom.2.13",
-          "book": "Rom",
-          "start": 45,
-          "count": 2
-        }
-      ]
-    },
-    {
       "id": 10556,
       "type": "a",
       "parent": 10406,
@@ -2338,20 +2311,6 @@
           "book": "Isa",
           "start": 1,
           "end": 31,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 15105,
-      "type": "q",
-      "title": [],
-      "refs": [
-        {
-          "osis": "Gen.10.1-Gen.10.32",
-          "book": "Gen",
-          "start": 236,
-          "end": 267,
           "count": 1
         }
       ]
@@ -4266,6 +4225,20 @@
       ]
     },
     {
+      "id": 30297,
+      "type": "a",
+      "parent": 30288,
+      "refs": [
+        {
+          "osis": "Song.1.1-Song.1.17",
+          "book": "Song",
+          "start": 1,
+          "end": 17,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 30648,
       "type": "a",
       "parent": 30625,
@@ -4427,6 +4400,321 @@
           "book": "Num",
           "start": 708,
           "end": 736,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32670,
+      "type": "a",
+      "parent": 32661,
+      "refs": [
+        {
+          "osis": "Eccl.1.9",
+          "book": "Eccl",
+          "start": 9,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32740,
+      "type": "a",
+      "parent": 32722,
+      "refs": [
+        {
+          "osis": "Isa.2.1-Isa.2.22",
+          "book": "Isa",
+          "start": 32,
+          "end": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 32892,
+      "type": "a",
+      "parent": 32891,
+      "refs": [
+        {
+          "osis": "Amos.9.7",
+          "book": "Amos",
+          "start": 138,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33072,
+      "type": "a",
+      "parent": 27898,
+      "refs": [
+        {
+          "osis": "Eph.3.1",
+          "book": "Eph",
+          "start": 46,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33095,
+      "type": "a",
+      "parent": 33094,
+      "refs": [
+        {
+          "osis": "Isa.23.1-Isa.23.18",
+          "book": "Isa",
+          "start": 424,
+          "end": 441,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33099,
+      "type": "a",
+      "parent": 33093,
+      "refs": [
+        {
+          "osis": "Isa.19.18",
+          "book": "Isa",
+          "start": 368,
+          "count": 1
+        },
+        {
+          "osis": "Isa.19.19",
+          "book": "Isa",
+          "start": 369,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33103,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.1.5",
+          "book": "Isa",
+          "start": 5,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33183,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Judg.7.1-Judg.7.8",
+          "book": "Judg",
+          "start": 186,
+          "end": 193,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33258,
+      "type": "a",
+      "parent": 33255,
+      "refs": [
+        {
+          "osis": "Num.2.1-Num.2.34",
+          "book": "Num",
+          "start": 55,
+          "end": 88,
+          "count": 1
+        },
+        {
+          "osis": "Num.7.1-Num.7.89",
+          "book": "Num",
+          "start": 247,
+          "end": 335,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33276,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.32.1-Isa.32.20",
+          "book": "Isa",
+          "start": 606,
+          "end": 625,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33392,
+      "type": "a",
+      "parent": 33242,
+      "refs": [
+        {
+          "osis": "Mic.5.1-Mic.5.15",
+          "book": "Mic",
+          "start": 55,
+          "end": 69,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33398,
+      "type": "a",
+      "parent": 33396,
+      "refs": [
+        {
+          "osis": "Num.6.5",
+          "book": "Num",
+          "start": 224,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33490,
+      "type": "a",
+      "parent": 33481,
+      "refs": [
+        {
+          "osis": "Mic.1.1-Mic.1.16",
+          "book": "Mic",
+          "start": 1,
+          "end": 16,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33516,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Isa.16.1-Isa.16.14",
+          "book": "Isa",
+          "start": 316,
+          "end": 329,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33617,
+      "type": "a",
+      "parent": 33608,
+      "refs": [
+        {
+          "osis": "Isa.1.1-Isa.1.31",
+          "book": "Isa",
+          "start": 1,
+          "end": 31,
+          "count": 1
+        },
+        {
+          "osis": "Isa.10.1-Isa.10.34",
+          "book": "Isa",
+          "start": 197,
+          "end": 230,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33675,
+      "type": "a",
+      "parent": 33674,
+      "refs": [
+        {
+          "osis": "Isa.50.1-Isa.50.11",
+          "book": "Isa",
+          "start": 1009,
+          "end": 1019,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33722,
+      "type": "a",
+      "parent": 33708,
+      "refs": [
+        {
+          "osis": "Num.25.1-Num.25.18",
+          "book": "Num",
+          "start": 868,
+          "end": 885,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33723,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33728,
+      "type": "a",
+      "parent": 33723,
+      "refs": [
+        {
+          "osis": "Col.2.1-Col.2.23",
+          "book": "Col",
+          "start": 30,
+          "end": 52,
+          "count": 1
+        },
+        {
+          "osis": "Isa.24.1-Isa.24.23",
+          "book": "Isa",
+          "start": 442,
+          "end": 464,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33771,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Acts.3.1-Acts.3.26",
+          "book": "Acts",
+          "start": 74,
+          "end": 99,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 34207,
+      "type": "a",
+      "parent": 34199,
+      "refs": [
+        {
+          "osis": "2Sam.8.1-2Sam.8.18",
+          "book": "2Sam",
+          "start": 188,
+          "end": 205,
           "count": 1
         }
       ]
@@ -4647,9 +4935,6 @@
     "8369": {
       "title": "When did retailers stop wrapping purchases in paper and twine?"
     },
-    "8389": {
-      "title": "Why did the scutum fall out of use?"
-    },
     "8415": {
       "title": "Why was China not colonized by any country?"
     },
@@ -4704,7 +4989,7 @@
       "title": "Why was the 1944 surrender of 20,000 Germans on the Western Front remarkable?"
     },
     "9440": {
-      "title": "Do there exist busts/statues of all the roman emperors until the fall of the West?"
+      "title": "Do busts or statues exist for all the Roman emperors until the fall of the West?"
     },
     "9456": {
       "title": "Were Puritans Prudes or Progressive?",
@@ -4726,7 +5011,7 @@
       "title": "Why have major sporting events been held every 4 years?"
     },
     "9732": {
-      "title": "Ancient Christianity",
+      "title": "Why was ancient Christianity more successful than the Roman pantheon and Judaism in gaining followers?",
       "general_tag": 1
     },
     "9789": {
@@ -4783,10 +5068,6 @@
     },
     "10406": {
       "title": "How did the Catholic Pope manage to become more powerful than Kings in old Europe?",
-      "general_tag": 1
-    },
-    "10409": {
-      "title": "What strategic value did Christianity hold for Constantine that made him convert to Christianity?",
       "general_tag": 1
     },
     "10557": {
@@ -4884,10 +5165,6 @@
     },
     "14976": {
       "title": "What is the origin of the Flower of Life symbol?"
-    },
-    "15105": {
-      "title": "What is the history of the anthropological \"Negroid, Mongoloid, Caucasoid\" distinction of the races?",
-      "general_tag": 1
     },
     "15144": {
       "title": "What were the causes of decline of Babylonian numeric system?"
@@ -5105,6 +5382,9 @@
       "title": "Is there any relationship between 666 and Roman numerals?",
       "general_tag": 1
     },
+    "27898": {
+      "title": "Polite forms of address in Ancient Rome"
+    },
     "27921": {
       "title": "Which calendar to use in English for non-European countries?"
     },
@@ -5134,6 +5414,9 @@
     },
     "30249": {
       "title": "Why does clock time start in the middle of the night?"
+    },
+    "30288": {
+      "title": "Were women directly involved in national state affairs in Indian kingdoms?"
     },
     "30300": {
       "title": "What were China's thoughts on the possibility of a nuclear exchange, during the Cold War?"
@@ -5168,6 +5451,65 @@
     },
     "32557": {
       "title": "Why does the Uruk King List say Antiochus I Soter ruled for 22 years?"
+    },
+    "32661": {
+      "title": "Which ancient text claims that everything has been said before?"
+    },
+    "32722": {
+      "title": "Why did the Soviet Union have multiple airplane manufacturers?"
+    },
+    "32891": {
+      "title": "Is the Christian Bible's Exodus narrative unique?",
+      "general_tag": 1
+    },
+    "33093": {
+      "title": "Where was the Temple of Onias located?"
+    },
+    "33094": {
+      "title": "What is the largest mutiny in human history?"
+    },
+    "33103": {
+      "title": "Were slings used for throwing hand grenades? If not, why?"
+    },
+    "33183": {
+      "title": "Was there an ancient cult of worshiping one's own reflection?",
+      "general_tag": 1
+    },
+    "33242": {
+      "title": "Are there any misunderstandings in history that were resolved in the 20th century?"
+    },
+    "33255": {
+      "title": "Why are so many metros underground? Isn't that more expensive than an elevated system?"
+    },
+    "33276": {
+      "title": "Why America was not discovered from the left land at Bering strait?"
+    },
+    "33396": {
+      "title": "Was Roosevelt the \"biggest slave trader in recorded history\"?"
+    },
+    "33481": {
+      "title": "Why were Navajo code talkers used during WW2?"
+    },
+    "33516": {
+      "title": "What is this sword?"
+    },
+    "33608": {
+      "title": "Is Chicago the most regularly laid-out city that has ever existed?"
+    },
+    "33674": {
+      "title": "was communism a weaponized idea deployed against Imperial Russia?"
+    },
+    "33708": {
+      "title": "On 1941 Dec 7, could Japan have destroyed the Panama Canal instead of Pearl Harbor in a surprise attack?"
+    },
+    "33723": {
+      "title": "In WW2, how long could a submarine stay submerged if it wasn't moving?"
+    },
+    "33771": {
+      "title": "What was the medieval attitude to wartime rape?"
+    },
+    "34199": {
+      "title": "Historical tax revenue as a proportion of GDP"
     }
   }
 }

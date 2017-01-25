@@ -1356,6 +1356,25 @@
           "count": 1
         }
       ]
+    },
+    {
+      "id": 2077,
+      "type": "q",
+      "title": [],
+      "refs": [
+        {
+          "osis": "Gen.46.13",
+          "book": "Gen",
+          "start": 1400,
+          "count": 1
+        },
+        {
+          "osis": "Num.26.24",
+          "book": "Num",
+          "start": 909,
+          "count": 1
+        }
+      ]
     }
   ],
   "questions": {
@@ -1443,10 +1462,7 @@
       "general_tag": 1
     },
     "1173": {
-      "title": "How did the importance attached to the number seven originate?",
-      "tags": [
-        "Num"
-      ]
+      "title": "How did the importance attached to the number seven originate?"
     },
     "1204": {
       "title": "How were the Furies (Erinyies) born?"
@@ -1500,6 +1516,10 @@
     },
     "1948": {
       "title": "What was Jesus's original name?",
+      "general_tag": 1
+    },
+    "2077": {
+      "title": "Is there a god called Iob/Job/Yov?",
       "general_tag": 1
     }
   }
