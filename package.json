@@ -21,7 +21,7 @@
     "lodash": "^4.13.0",
     "raw-body": "^2.1.7",
     "reversify": "^1.1.0",
-    "uglify-js": "^2.6.3",
+    "uglify-js": "^3.0.0",
     "xml-flow": "^1.0.1"
   }
 }
