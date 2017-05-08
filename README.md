@@ -1,5 +1,7 @@
 # Stack Verse Mapper
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alerque/stack-verse-mapper.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/alerque/stack-verse-mapper.svg?branch=master)](https://travis-ci.org/alerque/stack-verse-mapper) [![Dependency Status](https://david-dm.org/alerque/stack-verse-mapper.svg)](https://david-dm.org/alerque/stack-verse-mapper)
 
 Index any and all references to Bible verses in Stack Exchange sites using the
